@@ -3,18 +3,30 @@
     "id": "joongna",
     "name": "Joongna",
     "currency": "KRW",
-    "status": "success",
-    "count": 100,
-    "error": "",
-    "dataFile": "data/joongna.json"
+    "status": "skipped",
+    "count": 0,
+    "error": "Waiting for selector `a[href*=\"/product/\"]` failed",
+    "dataFile": "data/joongna.json",
+    "crawl": {
+      "keyword": "realforce",
+      "sort": "newest",
+      "limit": 200,
+      "crawledAt": "2026-06-15T10:15:04.144Z"
+    }
   },
   {
     "id": "mercari",
     "name": "Mercari",
     "currency": "JPY",
     "status": "success",
-    "count": 78,
+    "count": 67,
     "error": "",
-    "dataFile": "data/mercari.json"
+    "dataFile": "data/mercari.json",
+    "crawl": {
+      "keyword": "realforce",
+      "sort": "newest",
+      "limit": 200,
+      "crawledAt": "2026-06-15T10:17:02.341Z"
+    }
   }
 ]
