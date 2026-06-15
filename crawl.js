@@ -60,6 +60,11 @@ async function crawl() {
   const statuses = Object.keys(adapters).map((marketId) => statusByMarket.get(marketId)).filter(Boolean);
   await writeJson("data/markets.json", statuses);
   console.log(`Saved market manifest to ${path.resolve("data/markets.json")}`);
+
+  const selectedStatuses = options.markets.map((marketId) => statusByMarket.get(marketId)).filter(Boolean);
+  if (selectedStatuses.length > 0 && selectedStatuses.every((status) => status.status !== "success")) {
+    throw new Error("All selected markets failed");
+  }
 }
 
 crawl().catch((error) => {
