@@ -8,6 +8,7 @@
     "crawl:all": "node crawl.js --markets=joongna,mercari",
     "crawl:joongna": "node crawl.js --markets=joongna",
     "crawl:mercari": "node crawl.js --markets=mercari",
+    "build": "node scripts/build-static.js",
     "serve": "node --env-file-if-exists=.env server.js",
     "test": "node --test"
   },

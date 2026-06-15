@@ -1,5 +1,5 @@
 server.js
-scripts/
+scripts/verify-retro-viewer.js
 test/
 docs/
 .env
