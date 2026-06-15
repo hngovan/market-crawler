@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-Market Crawling</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/css/lightgallery-bundle.min.css" />
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Courier New", monospace;
+        color: #301547;
+        background: #ffd4e5;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      header {
+        max-width: 1460px;
+        margin: 24px auto 0;
+        padding: 28px;
+        border: 4px solid #301547;
+        color: #301547;
+        background: #6de0de;
+        box-shadow: 10px 10px 0 #ff548a;
+      }
+      h1 { margin: 0 0 8px; font-size: clamp(28px, 5vw, 48px); }
+      header p { margin: 5px 0 0; font-weight: 700; text-transform: uppercase; }
+      main { max-width: 1500px; margin: 0 auto; padding: 30px 20px 60px; }
+      .status { margin-bottom: 16px; font-weight: 700; }
+      .crawl-panel {
+        margin-bottom: 24px;
+        padding: 18px;
+        border: 4px solid #301547;
+        background: #fff0a6;
+        box-shadow: 7px 7px 0 #301547;
+      }
+      .crawl-panel h2 { margin-top: 0; }
+      .crawl-form { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+      .crawl-field { display: flex; flex-direction: column; gap: 5px; font-weight: 800; text-transform: uppercase; }
+      .crawl-input {
+        min-width: 0;
+        padding: 9px;
+        border: 3px solid #301547;
+        color: #301547;
+        background: white;
+        font: inherit;
+      }
+      .crawl-market-options { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+      .crawl-submit {
+        align-self: end;
+        padding: 10px 14px;
+        border: 3px solid #301547;
+        color: white;
+        background: #ff548a;
+        box-shadow: 4px 4px 0 #301547;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .crawl-submit:disabled { cursor: wait; opacity: .55; }
+      .crawl-log { margin: 14px 0 0; white-space: pre-wrap; font-weight: 700; }
+      .filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
+      .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 24px; }
+      .page-size-label { display: flex; align-items: center; gap: 8px; font-weight: 800; text-transform: uppercase; }
+      .page-size {
+        padding: 8px 12px;
+        border: 3px solid #301547;
+        color: #301547;
+        background: #fff0a6;
+        box-shadow: 3px 3px 0 #301547;
+        font: inherit;
+        font-weight: 800;
+      }
+      .market-filter {
+        padding: 9px 15px;
+        border: 3px solid #301547;
+        color: #301547;
+        background: white;
+        box-shadow: 4px 4px 0 #301547;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+      .market-filter.active { color: white; background: #ff548a; transform: translate(2px, 2px); box-shadow: 2px 2px 0 #301547; }
+      .markets {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
+        gap: 28px;
+        align-items: start;
+      }
+      .market {
+        padding: 18px;
+        border: 4px solid #301547;
+        background: #fff6fa;
+        box-shadow: 8px 8px 0 #ff548a;
+      }
+      .markets.single-market { grid-template-columns: 1fr; }
+      .market-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+      .market-header h2 { margin: 0; text-transform: uppercase; }
+      .market-status {
+        padding: 5px 9px;
+        border: 2px solid #301547;
+        color: #301547;
+        background: #fff0a6;
+        font-size: 13px;
+      }
+      .market-status.skipped { color: #8b2f2f; background: #f3d6d6; }
+      .market-error { color: #8b2f2f; }
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        gap: 16px;
+      }
+      .card {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        border: 3px solid #301547;
+        background: white;
+        box-shadow: 5px 5px 0 #ff548a;
+      }
+      .card img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        background: #e8ece8;
+      }
+      .image-button {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0;
+        border: 0;
+        cursor: zoom-in;
+        background: transparent;
+      }
+      .image-badge {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+        padding: 5px 9px;
+        border: 3px solid #301547;
+        border-radius: 0;
+        color: #301547;
+        background: #6de0de;
+        box-shadow: 4px 4px 0 #ff548a;
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .content { display: flex; flex: 1; flex-direction: column; padding: 16px; }
+      .name-wrap { position: relative; }
+      .name {
+        display: -webkit-box;
+        overflow: hidden;
+        min-height: 71px;
+        margin: 0 0 10px;
+        font-size: 17px;
+        line-height: 1.4;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+      }
+      .name-tooltip {
+        position: absolute;
+        z-index: 20;
+        top: calc(100% + 4px);
+        left: 0;
+        width: min(300px, 90vw);
+        padding: 12px;
+        border: 3px solid #301547;
+        background: #fff0a6;
+        box-shadow: 5px 5px 0 #301547;
+        font-size: 13px;
+        line-height: 1.5;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-4px);
+        transition: opacity .12s, transform .12s;
+      }
+      .name-wrap:hover .name-tooltip,
+      .name-wrap:focus-within .name-tooltip { opacity: 1; transform: translateY(0); }
+      .price { margin: 12px 0 16px; color: #ff3678; font-size: 20px; font-weight: 800; }
+      .link {
+        display: block;
+        margin-top: auto;
+        padding: 11px 14px;
+        border: 3px solid #301547;
+        color: #301547;
+        background: #6de0de;
+        box-shadow: 3px 3px 0 #301547;
+        font-weight: 800;
+        text-align: center;
+        text-decoration: none;
+      }
+      .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 22px;
+      }
+      .page-button {
+        padding: 7px 11px;
+        border: 3px solid #301547;
+        color: #301547;
+        background: #6de0de;
+        box-shadow: 3px 3px 0 #301547;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+      }
+      .page-button:disabled { cursor: not-allowed; opacity: .45; box-shadow: none; }
+      .page-info { font-weight: 800; }
+      .error { color: #a52323; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Multi-Market Crawling</h1>
+      <p>Từ khóa: realforce</p>
+      <p>Tìm kiếm theo giá: từ thấp đến cao</p>
+    </header>
+    <main>
+      <section class="crawl-panel">
+        <h2>Chạy crawler</h2>
+        <form id="crawl-form" class="crawl-form">
+          <label class="crawl-field">Secret
+            <input id="crawl-secret" class="crawl-input" type="password" required autocomplete="off">
+          </label>
+          <label class="crawl-field">Từ khóa
+            <input id="crawl-keyword" class="crawl-input" value="realforce" required>
+          </label>
+          <label class="crawl-field">Sắp xếp
+            <select id="crawl-sort" class="crawl-input">
+              <option value="price-asc">Giá thấp đến cao</option>
+              <option value="price-desc">Giá cao đến thấp</option>
+              <option value="newest">Mới nhất</option>
+            </select>
+          </label>
+          <label class="crawl-field">Limit mỗi chợ
+            <input id="crawl-limit" class="crawl-input" type="number" min="1" value="100" required>
+          </label>
+          <fieldset class="crawl-field">
+            <legend>Chợ</legend>
+            <div class="crawl-market-options">
+              <label><input name="crawl-market" type="checkbox" value="joongna" checked> Joongna</label>
+              <label><input name="crawl-market" type="checkbox" value="mercari" checked> Mercari</label>
+            </div>
+          </fieldset>
+          <button id="crawl-submit" class="crawl-submit" type="submit">Chạy crawl</button>
+        </form>
+        <p id="crawl-log" class="crawl-log">Chưa chạy crawler từ UI.</p>
+      </section>
+      <div id="status" class="status">Đang tải dữ liệu...</div>
+      <div class="toolbar">
+        <nav id="filters" class="filters" aria-label="Lọc theo chợ"></nav>
+        <label class="page-size-label">Số sản phẩm
+          <select id="page-size" class="page-size">
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="all">All</option>
+          </select>
+        </label>
+      </div>
+      <section id="markets" class="markets"></section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/lightgallery.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/zoom/lg-zoom.umd.js"></script>
+    <script>
+      const marketsElement = document.querySelector("#markets");
+      const filtersElement = document.querySelector("#filters");
+      const pageSizeElement = document.querySelector("#page-size");
+      const statusElement = document.querySelector("#status");
+      const crawlForm = document.querySelector("#crawl-form");
+      const crawlLog = document.querySelector("#crawl-log");
+      const crawlSubmit = document.querySelector("#crawl-submit");
+      const marketState = new Map();
+      let pageSize = 20;
+      const currencyConfig = {
+        KRW: { locale: "ko-KR", symbol: "원" },
+        CNY: { locale: "zh-CN", symbol: "¥", prefix: true },
+        JPY: { locale: "ja-JP", symbol: "¥", prefix: true },
+      };
+
+      function formatPrice(product) {
+        const config = currencyConfig[product.currency] || { locale: "en-US", symbol: product.currency };
+        const value = new Intl.NumberFormat(config.locale).format(product.price);
+        return config.prefix ? `${config.symbol}${value}` : `${value}${config.symbol}`;
+      }
+
+      function renderProduct(product) {
+        const article = document.createElement("article");
+        article.className = "card";
+        const images = product.images?.length ? product.images : [product.image].filter(Boolean);
+
+        const imageButton = document.createElement("button");
+        imageButton.className = "image-button";
+        imageButton.type = "button";
+        imageButton.setAttribute("aria-label", `Xem ảnh ${product.name}`);
+        imageButton.addEventListener("click", () => {
+          const gallery = lightGallery(document.createElement("div"), {
+            dynamic: true,
+            dynamicEl: images.map((src) => ({
+              src,
+              thumb: src,
+            })),
+            plugins: [lgThumbnail, lgZoom],
+            licenseKey: "0000-0000-000-0000",
+            speed: 400,
+          });
+          gallery.openGallery(0);
+        });
+
+        const image = document.createElement("img");
+        image.src = product.image || "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Crect width='100%25' height='100%25' fill='%23e8ece8'/%3E%3C/svg%3E";
+        image.alt = product.name;
+        image.loading = "lazy";
+        imageButton.append(image);
+
+        if (images.length > 1) {
+          const badge = document.createElement("span");
+          badge.className = "image-badge";
+          badge.textContent = `${images.length} ảnh`;
+          imageButton.append(badge);
+        }
+
+        const content = document.createElement("div");
+        content.className = "content";
+        const nameWrap = document.createElement("div");
+        nameWrap.className = "name-wrap";
+        const name = document.createElement("h2");
+        name.className = "name";
+        name.textContent = product.name;
+        nameWrap.tabIndex = 0;
+        const tooltip = document.createElement("span");
+        tooltip.className = "name-tooltip";
+        tooltip.textContent = product.name;
+        nameWrap.append(name, tooltip);
+        const price = document.createElement("p");
+        price.className = "price";
+        price.textContent = formatPrice(product);
+        const link = document.createElement("a");
+        link.className = "link";
+        link.href = product.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = `Xem trên ${product.marketName}`;
+
+        content.append(nameWrap, price, link);
+        article.append(imageButton, content);
+        return article;
+      }
+
+      function applyMarketFilter(marketId) {
+        document.querySelectorAll(".market-filter").forEach((button) => {
+          button.classList.toggle("active", button.dataset.marketFilter === marketId);
+        });
+        document.querySelectorAll(".market").forEach((market) => {
+          market.hidden = marketId !== "all" && market.dataset.market !== marketId;
+        });
+        marketsElement.classList.toggle("single-market", marketId !== "all");
+      }
+
+      function renderFilters(markets) {
+        const choices = [{ id: "all", name: "Tất cả" }, ...markets];
+        filtersElement.replaceChildren(...choices.map((market) => {
+          const button = document.createElement("button");
+          button.className = "market-filter";
+          button.type = "button";
+          button.dataset.marketFilter = market.id;
+          button.textContent = market.name;
+          button.addEventListener("click", () => applyMarketFilter(market.id));
+          return button;
+        }));
+        applyMarketFilter("all");
+      }
+
+      function renderMarket(market, products) {
+        const state = marketState.get(market.id) ?? { page: 1, products };
+        state.products = products;
+        marketState.set(market.id, state);
+        const totalPages = pageSize === "all" ? 1 : Math.max(1, Math.ceil(products.length / pageSize));
+        state.page = Math.min(state.page, totalPages);
+        const start = pageSize === "all" ? 0 : (state.page - 1) * pageSize;
+        const end = pageSize === "all" ? products.length : Math.min(start + pageSize, products.length);
+        const visibleProducts = products.slice(start, end);
+        const section = document.createElement("section");
+        section.className = "market";
+        section.dataset.market = market.id;
+        const header = document.createElement("div");
+        header.className = "market-header";
+        const title = document.createElement("h2");
+        title.textContent = market.name;
+        const status = document.createElement("span");
+        status.className = `market-status ${market.status}`;
+        status.textContent = market.status === "success"
+          ? `Đang xem ${products.length ? start + 1 : 0}–${end} / ${products.length} sản phẩm`
+          : "Đã bỏ qua";
+        header.append(title, status);
+
+        const grid = document.createElement("div");
+        grid.className = "product-grid";
+        grid.append(...visibleProducts.map(renderProduct));
+        section.append(header);
+
+        if (market.error) {
+          const error = document.createElement("p");
+          error.className = "market-error";
+          error.textContent = market.error;
+          section.append(error);
+        }
+        section.append(grid);
+        const pagination = document.createElement("div");
+        pagination.className = "pagination";
+        pagination.hidden = pageSize === "all";
+        const previous = document.createElement("button");
+        previous.className = "page-button page-previous";
+        previous.type = "button";
+        previous.textContent = "Trước";
+        previous.disabled = state.page <= 1;
+        previous.addEventListener("click", () => {
+          state.page -= 1;
+          rerenderMarkets();
+        });
+        const pageInfo = document.createElement("span");
+        pageInfo.className = "page-info";
+        pageInfo.textContent = `Trang ${state.page} / ${totalPages}`;
+        const next = document.createElement("button");
+        next.className = "page-button page-next";
+        next.type = "button";
+        next.textContent = "Sau";
+        next.disabled = state.page >= totalPages;
+        next.addEventListener("click", () => {
+          state.page += 1;
+          rerenderMarkets();
+        });
+        pagination.append(previous, pageInfo, next);
+        section.append(pagination);
+        return section;
+      }
+
+      let loadedMarkets = [];
+      function rerenderMarkets() {
+        marketsElement.replaceChildren(...loadedMarkets.map((market) =>
+          renderMarket(market, marketState.get(market.id).products),
+        ));
+        const activeFilter = document.querySelector(".market-filter.active")?.dataset.marketFilter ?? "all";
+        applyMarketFilter(activeFilter);
+      }
+
+      function setPageSize(value) {
+        pageSize = value === "all" ? "all" : Number(value);
+        marketState.forEach((state) => {
+          state.page = 1;
+        });
+        rerenderMarkets();
+      }
+
+      pageSizeElement.addEventListener("change", () => setPageSize(pageSizeElement.value));
+      window.__setPageSizeForTest = setPageSize;
+
+      fetch("./data/markets.json", { cache: "no-store" })
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then(async (markets) => {
+          const productLists = await Promise.all(markets.map((market) =>
+            fetch(`./${market.dataFile}`, { cache: "no-store" })
+              .then((response) => response.ok ? response.json() : []),
+          ));
+          loadedMarkets = markets;
+          markets.forEach((market, index) => {
+            marketState.set(market.id, {
+              page: 1,
+              products: productLists[index],
+            });
+          });
+          rerenderMarkets();
+          renderFilters(markets);
+          statusElement.textContent = `${markets.length} chợ`;
+        })
+        .catch((error) => {
+          statusElement.className = "status error";
+          statusElement.textContent = `Không thể tải dữ liệu: ${error.message}`;
+        });
+
+      async function pollCrawlStatus(secret, requestId) {
+        const response = await fetch(`/api/crawl-status?request_id=${encodeURIComponent(requestId)}`, {
+          headers: { "x-crawl-secret": secret },
+          cache: "no-store",
+        });
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+        crawlLog.textContent = result.log || `Trạng thái: ${result.status}`;
+        if (result.url) {
+          crawlLog.append(document.createTextNode("\n"));
+          const link = document.createElement("a");
+          link.href = result.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = "Mở GitHub Actions";
+          crawlLog.append(link);
+        }
+        if (["queued", "in_progress", "pending"].includes(result.status)) {
+          setTimeout(() => pollCrawlStatus(secret, requestId).catch(showCrawlError), 5000);
+        } else {
+          crawlSubmit.disabled = false;
+        }
+      }
+
+      function showCrawlError(error) {
+        crawlLog.textContent = `Lỗi: ${error.message}`;
+        crawlSubmit.disabled = false;
+      }
+
+      crawlForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const secret = document.querySelector("#crawl-secret").value;
+        const markets = [...document.querySelectorAll('[name="crawl-market"]:checked')].map((input) => input.value);
+        if (markets.length === 0) return showCrawlError(new Error("Chọn ít nhất một chợ"));
+        crawlSubmit.disabled = true;
+        crawlLog.textContent = "Đang gửi yêu cầu crawl...";
+        try {
+          const response = await fetch("/api/crawl", {
+            method: "POST",
+            headers: { "content-type": "application/json", "x-crawl-secret": secret },
+            body: JSON.stringify({
+              keyword: document.querySelector("#crawl-keyword").value,
+              markets,
+              sort: document.querySelector("#crawl-sort").value,
+              limit: Number(document.querySelector("#crawl-limit").value),
+            }),
+          });
+          const result = await response.json();
+          if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+          crawlLog.textContent = "Đã gửi yêu cầu crawl...";
+          pollCrawlStatus(secret, result.requestId).catch(showCrawlError);
+        } catch (error) {
+          showCrawlError(error);
+        }
+      });
+    </script>
+  </body>
+</html>

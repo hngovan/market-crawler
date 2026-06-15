@@ -1,0 +1,20 @@
+[
+  {
+    "id": "joongna",
+    "name": "Joongna",
+    "currency": "KRW",
+    "status": "success",
+    "count": 51,
+    "error": "",
+    "dataFile": "data/joongna.json"
+  },
+  {
+    "id": "mercari",
+    "name": "Mercari",
+    "currency": "JPY",
+    "status": "success",
+    "count": 35,
+    "error": "",
+    "dataFile": "data/mercari.json"
+  }
+]

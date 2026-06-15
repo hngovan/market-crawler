@@ -1,0 +1,18 @@
+{
+  "name": "market-korea-crawl",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "node crawl.js",
+    "crawl:all": "node crawl.js --markets=joongna,mercari",
+    "crawl:joongna": "node crawl.js --markets=joongna",
+    "crawl:mercari": "node crawl.js --markets=mercari",
+    "serve": "node --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "lightgallery": "^2.9.0",
+    "puppeteer": "^24.10.2"
+  }
+}

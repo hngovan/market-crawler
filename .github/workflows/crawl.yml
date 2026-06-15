@@ -1,0 +1,62 @@
+name: Crawl markets
+run-name: Crawl ${{ inputs.request_id || 'scheduled' }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: Request ID from the web UI
+        required: false
+        default: manual
+      keyword:
+        description: Search keyword
+        required: true
+        default: realforce
+      markets:
+        description: Comma-separated markets
+        required: true
+        default: joongna,mercari
+      sort:
+        description: Sort order
+        required: true
+        type: choice
+        options:
+          - price-asc
+          - price-desc
+          - newest
+        default: price-asc
+      limit:
+        description: Product limit per market
+        required: true
+        default: "100"
+  schedule:
+    - cron: "0 23 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    env:
+      KEYWORD: ${{ inputs.keyword || 'realforce' }}
+      MARKETS: ${{ inputs.markets || 'joongna,mercari' }}
+      SORT: ${{ inputs.sort || 'price-asc' }}
+      LIMIT: ${{ inputs.limit || '100' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Crawl products
+        run: node crawl.js --keyword="$KEYWORD" --markets="$MARKETS" --sort="$SORT" --limit="$LIMIT"
+      - name: Commit updated product data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update crawled products"
+          git push
