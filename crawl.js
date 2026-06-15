@@ -49,7 +49,12 @@ async function crawl() {
     }
 
     await writeJson(`data/${marketId}.json`, products);
-    statusByMarket.set(marketId, createMarketStatus(adapter.market, products, error));
+    statusByMarket.set(marketId, createMarketStatus(adapter.market, products, error, {
+      keyword: options.keyword,
+      sort: options.sort,
+      limit: options.limit,
+      crawledAt: new Date().toISOString(),
+    }));
   }
 
   const statuses = Object.keys(adapters).map((marketId) => statusByMarket.get(marketId)).filter(Boolean);

@@ -85,7 +85,7 @@ await browser.close();
 if (
   initial.title !== "Multi-Market Crawling" ||
   !initial.headerText.toLowerCase().includes("từ khóa: realforce") ||
-  !initial.headerText.toLowerCase().includes("tìm kiếm theo giá: từ thấp đến cao") ||
+  !initial.headerText.toLowerCase().includes("sắp xếp:") ||
   initial.filterCount !== 3 ||
   initial.visibleMarkets !== 2 ||
   initial.contentDisplay !== "flex" ||

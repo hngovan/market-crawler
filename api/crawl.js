@@ -1,6 +1,13 @@
 import { randomUUID } from "node:crypto";
 
-import { authorize, getGitHubConfig, githubRequest, sendError, validateCrawlRequest } from "./_shared.js";
+import {
+  authorize,
+  getGitHubConfig,
+  githubError,
+  githubRequest,
+  sendError,
+  validateCrawlRequest,
+} from "./_shared.js";
 
 export default async function handler(request, response) {
   try {
@@ -8,7 +15,7 @@ export default async function handler(request, response) {
     authorize(request);
     const options = validateCrawlRequest(request.body);
     const runsResponse = await githubRequest("/actions/workflows/crawl.yml/runs?event=workflow_dispatch&per_page=20");
-    if (!runsResponse.ok) throw new Error(`GitHub status request failed: ${runsResponse.status}`);
+    if (!runsResponse.ok) throw await githubError(runsResponse, "Không thể đọc GitHub Actions");
     const runs = await runsResponse.json();
     const activeRun = runs.workflow_runs?.find((run) => ["queued", "in_progress"].includes(run.status));
     if (activeRun) {
@@ -38,7 +45,7 @@ export default async function handler(request, response) {
         },
       }),
     });
-    if (!githubResponse.ok) throw new Error(`GitHub dispatch failed: ${githubResponse.status}`);
+    if (!githubResponse.ok) throw await githubError(githubResponse, "Không thể chạy GitHub Actions");
     response.status(202).json({ requestId, status: "queued" });
   } catch (error) {
     sendError(response, error);

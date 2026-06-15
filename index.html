@@ -246,8 +246,8 @@
   <body>
     <header>
       <h1>Multi-Market Crawling</h1>
-      <p>Từ khóa: realforce</p>
-      <p>Tìm kiếm theo giá: từ thấp đến cao</p>
+      <p id="header-keyword">Từ khóa: realforce</p>
+      <p id="header-sort">Sắp xếp: giá từ thấp đến cao</p>
     </header>
     <main>
       <section class="crawl-panel">
@@ -306,6 +306,8 @@
       const crawlForm = document.querySelector("#crawl-form");
       const crawlLog = document.querySelector("#crawl-log");
       const crawlSubmit = document.querySelector("#crawl-submit");
+      const headerKeyword = document.querySelector("#header-keyword");
+      const headerSort = document.querySelector("#header-sort");
       const crawlSessionKey = "market-crawl-active-job";
       const marketState = new Map();
       let pageSize = 20;
@@ -313,6 +315,11 @@
         KRW: { locale: "ko-KR", symbol: "원" },
         CNY: { locale: "zh-CN", symbol: "¥", prefix: true },
         JPY: { locale: "ja-JP", symbol: "¥", prefix: true },
+      };
+      const sortLabels = {
+        "price-asc": "giá từ thấp đến cao",
+        "price-desc": "giá từ cao đến thấp",
+        newest: "bài đăng mới nhất",
       };
 
       function formatPrice(product) {
@@ -406,6 +413,13 @@
           return button;
         }));
         applyMarketFilter("all");
+      }
+
+      function renderCrawlMetadata(markets) {
+        const keywords = [...new Set(markets.map((market) => market.crawl?.keyword).filter(Boolean))];
+        const sorts = [...new Set(markets.map((market) => market.crawl?.sort).filter(Boolean))];
+        headerKeyword.textContent = `Từ khóa: ${keywords.length === 1 ? keywords[0] : keywords.length ? "nhiều từ khóa" : "realforce"}`;
+        headerSort.textContent = `Sắp xếp: ${sorts.length === 1 ? sortLabels[sorts[0]] : sorts.length ? "nhiều kiểu sắp xếp" : sortLabels["price-asc"]}`;
       }
 
       function renderMarket(market, products) {
@@ -511,6 +525,7 @@
           });
           rerenderMarkets();
           renderFilters(markets);
+          renderCrawlMetadata(markets);
           statusElement.textContent = `${markets.length} chợ`;
         })
         .catch((error) => {

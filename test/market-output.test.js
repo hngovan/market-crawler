@@ -31,6 +31,13 @@ test("creates skipped market status with an error", () => {
       count: 0,
       error: "Blocked",
       dataFile: "data/mercari.json",
+      crawl: {},
     },
   );
+});
+
+test("adds crawl metadata to market status", () => {
+  const crawl = { keyword: "realforce", sort: "newest", limit: 20 };
+  const status = createMarketStatus({ id: "joongna", name: "Joongna", currency: "KRW" }, [], "", crawl);
+  assert.deepEqual(status.crawl, crawl);
 });

@@ -7,7 +7,7 @@ export function addMarketMetadata(products, market) {
   }));
 }
 
-export function createMarketStatus(market, products, error = "") {
+export function createMarketStatus(market, products, error = "", crawl = {}) {
   return {
     id: market.id,
     name: market.name,
@@ -16,6 +16,6 @@ export function createMarketStatus(market, products, error = "") {
     count: products.length,
     error,
     dataFile: `data/${market.id}.json`,
+    crawl,
   };
 }
-

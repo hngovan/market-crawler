@@ -36,4 +36,15 @@ export function sendError(response, error) {
   response.status(error.statusCode || 400).json({ error: error.message });
 }
 
+export async function githubError(response, action) {
+  let detail = "";
+  try {
+    const payload = await response.json();
+    detail = payload.message || JSON.stringify(payload);
+  } catch {
+    detail = await response.text();
+  }
+  return new Error(`${action}: GitHub HTTP ${response.status}${detail ? ` - ${detail}` : ""}`);
+}
+
 export { validateCrawlRequest };
