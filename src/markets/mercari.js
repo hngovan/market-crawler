@@ -1,5 +1,4 @@
-import puppeteer from "puppeteer";
-
+import { launchBrowser } from "./browser.js";
 import { extractMercariCard, normalizeMercariImages } from "./mercari-products.js";
 import { buildMercariSearchUrl, findMercariNextUrl } from "./page-navigation.js";
 
@@ -59,7 +58,7 @@ async function enrichDetailImages(browser, products, concurrency = 4) {
 export async function crawlMercari({ keyword, limit, sort }) {
   console.log(`Crawling Mercari (limit: ${limit}, sort: ${sort})`);
 
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await launchBrowser();
   try {
     const page = await browser.newPage();
     await page.setViewport({ width: 1440, height: 1200 });

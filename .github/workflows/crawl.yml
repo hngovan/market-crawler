@@ -40,18 +40,15 @@ jobs:
       MARKETS: ${{ inputs.markets || 'joongna,mercari' }}
       SORT: ${{ inputs.sort || 'price-asc' }}
       LIMIT: ${{ inputs.limit || '100' }}
+      PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: npm
-      - uses: actions/cache@v4
-        with:
-          path: ~/.cache/puppeteer
-          key: puppeteer-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
       - run: npm ci
-      - name: Install Chrome for Puppeteer
-        run: npx puppeteer browsers install chrome
+      - name: Verify runner Chrome
+        run: google-chrome --version
       - name: Crawl products
         run: node crawl.js --keyword="$KEYWORD" --markets="$MARKETS" --sort="$SORT" --limit="$LIMIT"
