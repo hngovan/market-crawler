@@ -9,9 +9,9 @@
     "dataFile": "data/joongna.json",
     "crawl": {
       "keyword": "realforce",
-      "sort": "newest",
+      "sort": "price-asc",
       "limit": 200,
-      "crawledAt": "2026-06-15T10:15:04.144Z"
+      "crawledAt": "2026-06-15T10:28:02.120Z"
     }
   },
   {
@@ -19,14 +19,14 @@
     "name": "Mercari",
     "currency": "JPY",
     "status": "success",
-    "count": 67,
+    "count": 76,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
-      "sort": "newest",
+      "sort": "price-asc",
       "limit": 200,
-      "crawledAt": "2026-06-15T10:17:02.341Z"
+      "crawledAt": "2026-06-15T10:30:45.687Z"
     }
   }
 ]
