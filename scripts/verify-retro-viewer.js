@@ -20,6 +20,7 @@ const initial = await page.evaluate(() => {
   return {
     title: document.querySelector("h1")?.textContent,
     headerText: document.querySelector("header")?.innerText,
+    crawledAtText: document.querySelector("#header-crawled-at")?.textContent,
     filterCount: document.querySelectorAll(".market-filter").length,
     visibleMarkets: document.querySelectorAll(".market:not([hidden])").length,
     cardBorder: cardStyle.borderTopWidth,
@@ -86,6 +87,7 @@ if (
   initial.title !== "Multi-Market Crawling" ||
   !initial.headerText.toLowerCase().includes("từ khóa: realforce") ||
   !initial.headerText.toLowerCase().includes("sắp xếp:") ||
+  !initial.crawledAtText.toLowerCase().includes("crawl thành công lần cuối:") ||
   initial.filterCount !== 3 ||
   initial.visibleMarkets !== 2 ||
   initial.contentDisplay !== "flex" ||
