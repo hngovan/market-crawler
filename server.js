@@ -11,6 +11,7 @@ const root = process.cwd();
 const port = Number(process.env.PORT) || 3000;
 const crawlSecret = process.env.CRAWL_TRIGGER_SECRET || "local";
 const crawlJobs = new Map();
+let activeCrawlId = "";
 const contentTypes = {
   ".html": "text/html; charset=utf-8",
   ".json": "application/json; charset=utf-8",
@@ -37,10 +38,19 @@ async function handleApi(request, response, url) {
   if (!authorize(request)) return sendJson(response, 401, { error: "Unauthorized" });
 
   if (url.pathname === "/api/crawl" && request.method === "POST") {
+    const activeJob = crawlJobs.get(activeCrawlId);
+    if (activeJob && ["queued", "in_progress"].includes(activeJob.status)) {
+      return sendJson(response, 409, {
+        error: "Một crawler khác đang chạy",
+        requestId: activeCrawlId,
+        status: activeJob.status,
+      });
+    }
     const options = validateCrawlRequest(await readJson(request));
     const requestId = randomUUID();
     const job = { status: "queued", log: "Crawler đang khởi động..." };
     crawlJobs.set(requestId, job);
+    activeCrawlId = requestId;
     const child = spawn(process.execPath, ["crawl.js", ...toCrawlArguments(options)], {
       cwd: root,
       windowsHide: true,
@@ -54,6 +64,7 @@ async function handleApi(request, response, url) {
     child.on("close", (code) => {
       job.status = code === 0 ? "success" : "failure";
       job.log = `${job.log}\nCrawler kết thúc với mã ${code}.`.trim();
+      if (activeCrawlId === requestId) activeCrawlId = "";
     });
     return sendJson(response, 202, { requestId, status: "queued" });
   }

@@ -1,0 +1,6 @@
+server.js
+scripts/
+test/
+docs/
+.env
+.env.local

@@ -82,6 +82,11 @@ npm run serve
 File `.env` đã được gitignore và không được commit. Khi chạy local,
 `npm run serve` tự động đọc file này.
 
+Khi reload trang trong lúc crawler đang chạy, UI tự kết nối lại job và tiếp tục
+hiển thị log bằng dữ liệu trong `sessionStorage`. Hệ thống chỉ cho phép một job
+crawl chạy tại một thời điểm; bấm crawl lần nữa sẽ nối lại job hiện tại thay vì
+tạo thêm process ghi đè dữ liệu.
+
 Trang HTML đọc `data/markets.json` và hiển thị mỗi chợ trong một cột riêng.
 
 Click vào ảnh sản phẩm để mở preview bằng LightGallery. Badge số lượng ảnh chỉ
@@ -103,8 +108,11 @@ npm run serve
 
 ## Deploy Vercel Hobby
 
-Vercel chỉ host giao diện và API nhẹ. Puppeteer chạy bằng GitHub Actions, sau đó
-workflow commit JSON mới vào repo để Vercel tự deploy lại.
+Vercel chỉ host giao diện và API nhẹ. Puppeteer chạy bằng GitHub Actions.
+Các file JSON trong `data/` được gitignore và workflow không commit dữ liệu crawl.
+Vì vậy dữ liệu crawl từ GitHub Actions hiện chỉ tồn tại trong thời gian job chạy,
+không tự cập nhật lên giao diện Vercel. Muốn lưu dữ liệu trên Vercel cần bổ sung
+database hoặc object storage bên ngoài.
 
 Khai báo các environment variable trên Vercel:
 

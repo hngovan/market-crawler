@@ -4,7 +4,7 @@
     "name": "Joongna",
     "currency": "KRW",
     "status": "success",
-    "count": 51,
+    "count": 100,
     "error": "",
     "dataFile": "data/joongna.json"
   },
@@ -13,7 +13,7 @@
     "name": "Mercari",
     "currency": "JPY",
     "status": "success",
-    "count": 35,
+    "count": 78,
     "error": "",
     "dataFile": "data/mercari.json"
   }
