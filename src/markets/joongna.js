@@ -27,6 +27,28 @@ async function collectVisibleProducts(page) {
   });
 }
 
+async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      await page.goto(searchUrl, { waitUntil: "networkidle2", timeout: 60000 });
+      await page.waitForSelector('a[href*="/product/"]', { timeout: 45000 });
+      return;
+    } catch (error) {
+      lastError = error;
+      const diagnostic = await page.evaluate(() => ({
+        title: document.title,
+        url: location.href,
+        text: document.body?.innerText?.slice(0, 300) || "",
+      })).catch(() => ({ title: "", url: page.url(), text: "" }));
+      console.warn(`Joongna page ${pageNumber} attempt ${attempt}/${attempts} failed: ${error.message}`);
+      console.warn(`Joongna diagnostic: ${JSON.stringify(diagnostic)}`);
+      if (attempt < attempts) await new Promise((resolve) => setTimeout(resolve, attempt * 3000));
+    }
+  }
+  throw lastError;
+}
+
 async function enrichDetailImages(browser, products, concurrency = 4) {
   const enriched = [...products];
   let nextIndex = 0;
@@ -81,8 +103,7 @@ export async function crawlJoongna({ keyword, limit, sort }) {
       const previousCount = products.length;
       const searchUrl = buildJoongnaSearchUrl(keyword, sort, pageNumber);
       console.log(`Joongna search page ${pageNumber}: ${searchUrl}`);
-      await page.goto(searchUrl, { waitUntil: "networkidle2", timeout: 60000 });
-      await page.waitForSelector('a[href*="/product/"]', { timeout: 30000 });
+      await loadSearchPage(page, searchUrl, pageNumber);
       await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
       await new Promise((resolve) => setTimeout(resolve, 1500));
       const visibleProducts = (await collectVisibleProducts(page)).map(extractCardProduct);

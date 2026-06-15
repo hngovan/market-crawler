@@ -25,6 +25,14 @@ async function readExistingStatuses() {
   }
 }
 
+async function readExistingProducts(marketId) {
+  try {
+    return JSON.parse(await readFile(path.resolve(`data/${marketId}.json`), "utf8"));
+  } catch {
+    return [];
+  }
+}
+
 async function crawl() {
   const options = parseOptions(process.argv.slice(2));
   await mkdir("data", { recursive: true });
@@ -43,12 +51,14 @@ async function crawl() {
       products = addMarketMetadata(await adapter.crawl(options), adapter.market);
       console.log(`\n${adapter.market.name} products (${products.length}):`);
       products.forEach((product, index) => console.log(formatProductLog(product, index)));
+      await writeJson(`data/${marketId}.json`, products);
     } catch (crawlError) {
       error = crawlError.message;
+      products = await readExistingProducts(marketId);
       console.warn(`${adapter.market.name} skipped: ${error}`);
+      console.warn(`${adapter.market.name}: keeping ${products.length} products from the previous successful crawl`);
     }
 
-    await writeJson(`data/${marketId}.json`, products);
     statusByMarket.set(marketId, createMarketStatus(adapter.market, products, error, {
       keyword: options.keyword,
       sort: options.sort,
