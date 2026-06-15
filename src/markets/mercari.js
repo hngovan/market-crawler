@@ -1,6 +1,7 @@
 import { launchBrowser } from "./browser.js";
 import { extractMercariCard, normalizeMercariImages } from "./mercari-products.js";
 import { buildMercariSearchUrl, findMercariNextUrl } from "./page-navigation.js";
+import { extractMercariPostedAt } from "./product-date.js";
 
 export const mercariMarket = {
   id: "mercari",
@@ -35,11 +36,17 @@ async function enrichDetailImages(browser, products, concurrency = 4) {
         const product = products[index];
         try {
           await page.goto(product.url, { waitUntil: "networkidle2", timeout: 60000 });
-          const imageUrls = await page.evaluate(() =>
-            [...document.images].map((image) => image.currentSrc || image.src),
-          );
-          const images = normalizeMercariImages(imageUrls);
-          enriched[index] = { ...product, images: images.length > 0 ? images : [product.image].filter(Boolean) };
+          const detail = await page.evaluate(() => ({
+            imageUrls: [...document.images].map((image) => image.currentSrc || image.src),
+            text: document.body.innerText,
+          }));
+          const images = normalizeMercariImages(detail.imageUrls);
+          const posted = extractMercariPostedAt(detail.text);
+          enriched[index] = {
+            ...product,
+            ...posted,
+            images: images.length > 0 ? images : [product.image].filter(Boolean),
+          };
           console.log(`Mercari images [${index + 1}/${products.length}]: ${enriched[index].images.length}`);
         } catch (error) {
           enriched[index] = { ...product, images: [product.image].filter(Boolean) };

@@ -209,6 +209,7 @@
       .name-wrap:hover .name-tooltip,
       .name-wrap:focus-within .name-tooltip { opacity: 1; transform: translateY(0); }
       .price { margin: 12px 0 16px; color: #ff3678; font-size: 20px; font-weight: 800; }
+      .posted-at { margin: 0 0 14px; font-size: 13px; font-weight: 700; }
       .link {
         display: block;
         margin-top: auto;
@@ -330,6 +331,15 @@
         return config.prefix ? `${config.symbol}${value}` : `${value}${config.symbol}`;
       }
 
+      function formatPostedAt(product) {
+        if (!product.postedAt) return product.postedAtText || "Không rõ";
+        return new Intl.DateTimeFormat("vi-VN", {
+          dateStyle: "medium",
+          timeStyle: "short",
+          timeZone: "Asia/Ho_Chi_Minh",
+        }).format(new Date(product.postedAt));
+      }
+
       function renderProduct(product) {
         const article = document.createElement("article");
         article.className = "card";
@@ -381,6 +391,9 @@
         const price = document.createElement("p");
         price.className = "price";
         price.textContent = formatPrice(product);
+        const postedAt = document.createElement("p");
+        postedAt.className = "posted-at";
+        postedAt.textContent = `Ngày đăng: ${formatPostedAt(product)}`;
         const link = document.createElement("a");
         link.className = "link";
         link.href = product.url;
@@ -388,7 +401,7 @@
         link.rel = "noopener noreferrer";
         link.textContent = `Xem trên ${product.marketName}`;
 
-        content.append(nameWrap, price, link);
+        content.append(nameWrap, price, postedAt, link);
         article.append(imageButton, content);
         return article;
       }

@@ -109,10 +109,12 @@ npm run serve
 ## Deploy Vercel Hobby
 
 Vercel chỉ host giao diện và API nhẹ. Puppeteer chạy bằng GitHub Actions.
-Các file JSON trong `data/` được gitignore và workflow không commit dữ liệu crawl.
-Vì vậy dữ liệu crawl từ GitHub Actions hiện chỉ tồn tại trong thời gian job chạy,
-không tự cập nhật lên giao diện Vercel. Muốn lưu dữ liệu trên Vercel cần bổ sung
-database hoặc object storage bên ngoài.
+Sau khi crawl thành công, workflow commit các file JSON trong `data/` lên branch
+`main`. Commit này kích hoạt Vercel deploy lại để giao diện nhận sản phẩm,
+kiểu sắp xếp và thời gian crawl mới nhất.
+
+GitHub Actions cần `Workflow permissions: Read and write permissions`. Sau khi
+workflow hoàn tất, chờ deployment Vercel mới chuyển sang `Ready` rồi reload web.
 
 Khai báo các environment variable trên Vercel:
 

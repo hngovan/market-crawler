@@ -1,6 +1,7 @@
 import { enrichProductImages, extractCardProduct, normalizeProducts } from "../products.js";
 import { launchBrowser } from "./browser.js";
 import { buildJoongnaSearchUrl } from "./page-navigation.js";
+import { extractJoongnaPostedAt } from "./product-date.js";
 
 export const joongnaMarket = {
   id: "joongna",
@@ -38,14 +39,20 @@ async function enrichDetailImages(browser, products, concurrency = 4) {
         const product = products[index];
         try {
           await page.goto(product.url, { waitUntil: "networkidle2", timeout: 60000 });
-          const images = await page.evaluate(
-            (productName) => [...document.querySelectorAll(".swiper-slide img")]
-              .filter((image) => image.alt === `${productName} 이미지`)
-              .map((image) => image.currentSrc || image.src)
-              .filter(Boolean),
+          const detail = await page.evaluate(
+            (productName) => ({
+              images: [...document.querySelectorAll(".swiper-slide img")]
+                .filter((image) => image.alt === `${productName} 이미지`)
+                .map((image) => image.currentSrc || image.src)
+                .filter(Boolean),
+              scripts: [...document.scripts].map((script) => script.textContent),
+            }),
             product.name,
           );
-          enriched[index] = enrichProductImages(product, images);
+          enriched[index] = {
+            ...enrichProductImages(product, detail.images),
+            postedAt: extractJoongnaPostedAt(detail.scripts),
+          };
           console.log(`Joongna images [${index + 1}/${products.length}]: ${enriched[index].images.length}`);
         } catch (error) {
           enriched[index] = enrichProductImages(product, []);
