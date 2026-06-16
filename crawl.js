@@ -94,7 +94,7 @@ async function crawl() {
 
     statusByMarket.set(marketId, createMarketStatus(adapter.market, products, error, {
       keyword: options.keyword,
-      keywords: extractProductKeywords(products),
+      keywords: [...new Set([...options.keywords, ...extractProductKeywords(products)])],
       sort: options.sort,
       limit: options.limit,
       crawledAt: new Date().toISOString(),

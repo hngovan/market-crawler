@@ -21,7 +21,34 @@ async function collectVisibleProducts(page) {
   );
 }
 
-async function enrichDetailImages(browser, products, concurrency = 4) {
+async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const response = await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+      const status = response?.status() ?? 0;
+      if ([403, 429, 503].includes(status)) {
+        const text = await page.evaluate(() => document.body?.innerText?.slice(0, 500) || "").catch(() => "");
+        throw new Error(`Mercari blocked or unavailable: HTTP ${status}${text ? ` - ${text}` : ""}`);
+      }
+      await page.waitForSelector('a[data-testid="thumbnail-link"][href*="/item/"]', { timeout: 75000 });
+      return;
+    } catch (error) {
+      lastError = error;
+      const diagnostic = await page.evaluate(() => ({
+        title: document.title,
+        url: location.href,
+        text: document.body?.innerText?.slice(0, 300) || "",
+      })).catch(() => ({ title: "", url: page.url(), text: "" }));
+      console.warn(`Mercari page ${pageNumber} attempt ${attempt}/${attempts} failed: ${error.message}`);
+      console.warn(`Mercari diagnostic: ${JSON.stringify(diagnostic)}`);
+      if (attempt < attempts) await new Promise((resolve) => setTimeout(resolve, attempt * 4000));
+    }
+  }
+  throw lastError;
+}
+
+async function enrichDetailImages(browser, products, concurrency = 2) {
   const enriched = [...products];
   let nextIndex = 0;
 
@@ -32,7 +59,8 @@ async function enrichDetailImages(browser, products, concurrency = 4) {
         const index = nextIndex++;
         const product = products[index];
         try {
-          await page.goto(product.url, { waitUntil: "networkidle2", timeout: 60000 });
+          await page.goto(product.url, { waitUntil: "domcontentloaded", timeout: 90000 });
+          await new Promise((resolve) => setTimeout(resolve, 1200));
           const detail = await page.evaluate(() => ({
             imageUrls: [...document.images].map((image) => image.currentSrc || image.src),
             text: document.body.innerText,
@@ -66,16 +94,19 @@ export async function crawlMercari({ keyword, limit, sort }) {
   try {
     const page = await browser.newPage();
     await page.setViewport({ width: 1440, height: 1200 });
+    await page.goto("https://jp.mercari.com/", { waitUntil: "domcontentloaded", timeout: 90000 }).catch((error) => {
+      console.warn(`Mercari homepage warmup skipped: ${error.message}`);
+    });
+    await new Promise((resolve) => setTimeout(resolve, 1500));
     const uniqueProducts = new Map();
     let searchUrl = buildMercariSearchUrl(keyword, sort);
     let pageNumber = 1;
     while (uniqueProducts.size < limit && searchUrl) {
       const previousCount = uniqueProducts.size;
       console.log(`Mercari search page ${pageNumber}: ${searchUrl}`);
-      await page.goto(searchUrl, { waitUntil: "networkidle2", timeout: 60000 });
-      await page.waitForSelector('a[data-testid="thumbnail-link"][href*="/item/"]', { timeout: 30000 });
+      await loadSearchPage(page, searchUrl, pageNumber);
       await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      await new Promise((resolve) => setTimeout(resolve, 2500));
       for (const card of await collectVisibleProducts(page)) {
         const product = extractMercariCard(card);
         if (product.name && product.price !== null && !uniqueProducts.has(product.url)) {

@@ -1202,14 +1202,21 @@
         );
       }
 
-      function renderKeywordFilter(productLists) {
+      function renderKeywordFilter(markets, productLists) {
         const keywords = [
           ...new Set(
-            productLists.flatMap((products) =>
-              products.flatMap((product) =>
-                product.keywords?.length ? product.keywords : [],
+            [
+              ...markets.flatMap((market) =>
+                market.crawl?.keywords?.length
+                  ? market.crawl.keywords
+                  : [market.crawl?.keyword].filter(Boolean),
               ),
-            ),
+              ...productLists.flatMap((products) =>
+                products.flatMap((product) =>
+                  product.keywords?.length ? product.keywords : [],
+                ),
+              ),
+            ].filter(Boolean),
           ),
         ].sort((a, b) => a.localeCompare(b));
         keywordFilterElement.replaceChildren(
@@ -1414,7 +1421,7 @@
               products: productLists[index],
             });
           });
-          renderKeywordFilter(productLists);
+          renderKeywordFilter(markets, productLists);
           rerenderMarkets();
           renderCrawlMetadata(markets);
           statusElement.textContent = `${markets.length} chợ`;

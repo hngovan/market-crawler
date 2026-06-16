@@ -1,7 +1,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { addMarketMetadata, createMarketStatus, mergeProductsByUrl } from "../src/market-output.js";
+import {
+  addMarketMetadata,
+  createMarketStatus,
+  extractProductKeywords,
+  mergeProductsByUrl,
+} from "../src/market-output.js";
 
 test("adds native market metadata to products", () => {
   assert.deepEqual(
@@ -96,5 +101,20 @@ test("merges products from previous and current keyword crawls", () => {
         keywords: ["realforce 101"],
       },
     ],
+  );
+});
+
+test("extracts unique product keywords for crawl metadata", () => {
+  assert.deepEqual(
+    [
+      ...new Set([
+        "realforce 101",
+        ...extractProductKeywords([
+          { keywords: ["realforce"] },
+          { keywords: ["realforce", "realforce 101"] },
+        ]),
+      ]),
+    ],
+    ["realforce 101", "realforce"],
   );
 });
