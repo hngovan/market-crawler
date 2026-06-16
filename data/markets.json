@@ -11,14 +11,14 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "리얼포스 R2",
+      "keyword": "realforce",
       "keywords": [
         "realforce",
         "리얼포스 R2"
       ],
       "sort": "newest",
-      "limit": 100,
-      "crawledAt": "2026-06-16T06:57:51.351Z"
+      "limit": 50,
+      "crawledAt": "2026-06-16T08:22:19.971Z"
     }
   },
   {
@@ -33,14 +33,14 @@
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "리얼포스 R2",
+      "keyword": "realforce",
       "keywords": [
         "realforce",
         "리얼포스 R2"
       ],
       "sort": "newest",
-      "limit": 100,
-      "crawledAt": "2026-06-16T06:58:19.472Z"
+      "limit": 50,
+      "crawledAt": "2026-06-16T08:22:31.843Z"
     }
   },
   {
@@ -60,8 +60,8 @@
         "realforce"
       ],
       "sort": "newest",
-      "limit": 200,
-      "crawledAt": "2026-06-16T03:54:56.996Z"
+      "limit": 50,
+      "crawledAt": "2026-06-16T08:23:10.764Z"
     }
   }
 ]
