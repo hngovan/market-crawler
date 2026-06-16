@@ -868,21 +868,20 @@
           <select id="keyword-filter" class="filter-select"></select>
         </label>
         <label class="filter-label"
-          >Ngày đăng
-          <select id="date-filter" class="filter-select">
-            <option value="all">Tất cả ngày</option>
-            <option value="today">Hôm nay</option>
-            <option value="last3">3 ngày gần đây</option>
-            <option value="last7">7 ngày gần đây</option>
-          </select>
-        </label>
-        <label class="filter-label"
           >Khu vực
           <select id="region-filters" class="filter-select"></select>
         </label>
         <label class="filter-label"
           >Chợ
           <select id="filters" class="filter-select"></select>
+        </label>
+        <label class="filter-label"
+          >Sắp xếp
+          <select id="display-sort" class="filter-select">
+            <option value="newest" selected>Mới nhất</option>
+            <option value="price-asc">Giá thấp đến cao</option>
+            <option value="price-desc">Giá cao đến thấp</option>
+          </select>
         </label>
         <label class="filter-label"
           >Số sản phẩm
@@ -907,7 +906,7 @@
       const filtersElement = document.querySelector("#filters");
       const regionFiltersElement = document.querySelector("#region-filters");
       const keywordFilterElement = document.querySelector("#keyword-filter");
-      const dateFilterElement = document.querySelector("#date-filter");
+      const displaySortElement = document.querySelector("#display-sort");
       const pageSizeElement = document.querySelector("#page-size");
       const statusElement = document.querySelector("#status");
       const crawlForm = document.querySelector("#crawl-form");
@@ -925,7 +924,7 @@
         market: "all",
         region: "all",
         keyword: "all",
-        date: "all",
+        sort: "newest",
       };
       let pageSize = 20;
       const currencyConfig = {
@@ -1020,43 +1019,26 @@
           .filter(Boolean);
       }
 
-      function getVietnamDateKey(date) {
-        return new Intl.DateTimeFormat("en-CA", {
-          timeZone: "Asia/Ho_Chi_Minh",
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-        }).format(date);
-      }
-
-      function matchesDateFilter(product) {
-        if (filterState.date === "all") return true;
-        if (!product.postedAt) return false;
-        const postedAt = new Date(product.postedAt);
-        if (Number.isNaN(postedAt.getTime()))
-          return false;
-        const now = new Date();
-        if (filterState.date === "today")
-          return getVietnamDateKey(postedAt) === getVietnamDateKey(now);
-        const days =
-          filterState.date === "last3"
-            ? 3
-            : filterState.date === "last7"
-              ? 7
-              : 0;
-        if (!days) return false;
-        const start = new Date(now);
-        start.setDate(start.getDate() - days);
-        return postedAt >= start && postedAt <= now;
-      }
-
       function productMatchesFilters(product) {
         const keywords = product.keywords?.length ? product.keywords : [];
         return (
-          (filterState.keyword === "all" ||
-            keywords.includes(filterState.keyword)) &&
-          matchesDateFilter(product)
+          filterState.keyword === "all" ||
+          keywords.includes(filterState.keyword)
         );
+      }
+
+      function sortProductsForDisplay(products) {
+        return [...products].sort((a, b) => {
+          if (filterState.sort === "price-asc") return a.price - b.price;
+          if (filterState.sort === "price-desc") return b.price - a.price;
+
+          const aTime = a.postedAt ? new Date(a.postedAt).getTime() : 0;
+          const bTime = b.postedAt ? new Date(b.postedAt).getTime() : 0;
+          return (
+            (Number.isNaN(bTime) ? 0 : bTime) -
+            (Number.isNaN(aTime) ? 0 : aTime)
+          );
+        });
       }
 
       function renderProduct(product) {
@@ -1365,7 +1347,8 @@
             const products = (
               marketState.get(market.id)?.allProducts ?? []
             ).filter(productMatchesFilters);
-            return renderMarket(market, products);
+            const sortedProducts = sortProductsForDisplay(products);
+            return renderMarket(market, sortedProducts);
           }),
         );
         marketsElement.classList.toggle(
@@ -1390,8 +1373,8 @@
         resetPages();
         rerenderMarkets();
       });
-      dateFilterElement.addEventListener("change", () => {
-        filterState.date = dateFilterElement.value;
+      displaySortElement.addEventListener("change", () => {
+        filterState.sort = displaySortElement.value;
         resetPages();
         rerenderMarkets();
       });
