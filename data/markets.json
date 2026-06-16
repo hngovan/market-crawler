@@ -11,7 +11,7 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce 101",
       "keywords": [
         "realforce",
         "리얼포스 R2",
@@ -19,7 +19,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-16T08:46:45.212Z"
+      "crawledAt": "2026-06-16T08:49:55.155Z"
     }
   },
   {
@@ -30,11 +30,11 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 63,
+    "count": 71,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce 101",
       "keywords": [
         "realforce",
         "realforce 101",
@@ -42,7 +42,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-16T08:46:57.172Z"
+      "crawledAt": "2026-06-16T08:50:19.876Z"
     }
   },
   {
@@ -57,13 +57,13 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce 101",
       "keywords": [
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-16T08:47:17.069Z"
+      "crawledAt": "2026-06-16T08:50:36.144Z"
     }
   }
 ]
