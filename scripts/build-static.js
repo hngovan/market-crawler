@@ -1,7 +1,9 @@
 import { cp, mkdir, readFile, writeFile } from "node:fs/promises";
 
 await mkdir("public/data", { recursive: true });
+await mkdir("public/src", { recursive: true });
 await cp("index.html", "public/index.html");
+await cp("src/ui-products.js", "public/src/ui-products.js");
 
 try {
   const markets = JSON.parse(await readFile("data/markets.json", "utf8"));
