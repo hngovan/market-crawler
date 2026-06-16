@@ -10,8 +10,8 @@
     "crawl": {
       "keyword": "realforce",
       "sort": "price-asc",
-      "limit": 200,
-      "crawledAt": "2026-06-15T10:28:02.120Z"
+      "limit": 100,
+      "crawledAt": "2026-06-16T00:32:18.328Z"
     }
   },
   {
@@ -19,14 +19,14 @@
     "name": "Mercari",
     "currency": "JPY",
     "status": "success",
-    "count": 76,
+    "count": 75,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
       "sort": "price-asc",
-      "limit": 200,
-      "crawledAt": "2026-06-15T10:30:45.687Z"
+      "limit": 100,
+      "crawledAt": "2026-06-16T00:34:25.161Z"
     }
   }
 ]
