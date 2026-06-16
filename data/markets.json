@@ -2,31 +2,66 @@
   {
     "id": "joongna",
     "name": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "skipped",
-    "count": 0,
-    "error": "Waiting for selector `a[href*=\"/product/\"]` failed",
+    "status": "success",
+    "count": 191,
+    "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
-      "sort": "price-asc",
+      "keyword": "리얼포스 R2",
+      "keywords": [
+        "realforce",
+        "리얼포스 R2"
+      ],
+      "sort": "newest",
       "limit": 100,
-      "crawledAt": "2026-06-16T00:32:18.328Z"
+      "crawledAt": "2026-06-16T06:57:51.351Z"
+    }
+  },
+  {
+    "id": "bunjang",
+    "name": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "status": "success",
+    "count": 39,
+    "error": "",
+    "dataFile": "data/bunjang.json",
+    "crawl": {
+      "keyword": "리얼포스 R2",
+      "keywords": [
+        "realforce",
+        "리얼포스 R2"
+      ],
+      "sort": "newest",
+      "limit": 100,
+      "crawledAt": "2026-06-16T06:58:19.472Z"
     }
   },
   {
     "id": "mercari",
     "name": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 75,
+    "count": 77,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
-      "sort": "price-asc",
-      "limit": 100,
-      "crawledAt": "2026-06-16T00:34:25.161Z"
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 200,
+      "crawledAt": "2026-06-16T03:54:56.996Z"
     }
   }
 ]

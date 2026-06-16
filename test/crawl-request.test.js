@@ -7,13 +7,29 @@ test("validates an arbitrary positive crawl limit and newest sort", () => {
   assert.deepEqual(validateCrawlRequest({
     keyword: " realforce ",
     limit: 375,
-    markets: ["joongna", "mercari"],
+    markets: ["joongna", "bunjang", "mercari"],
     sort: "newest",
   }), {
     keyword: "realforce",
+    keywords: ["realforce"],
     limit: 375,
-    markets: ["joongna", "mercari"],
+    markets: ["joongna", "bunjang", "mercari"],
     sort: "newest",
+  });
+});
+
+test("validates multiple crawl keywords", () => {
+  assert.deepEqual(validateCrawlRequest({
+    keywords: [" realforce ", "hhkb", "realforce"],
+    limit: 50,
+    markets: ["bunjang"],
+    sort: "price-asc",
+  }), {
+    keyword: "realforce",
+    keywords: ["realforce", "hhkb"],
+    limit: 50,
+    markets: ["bunjang"],
+    sort: "price-asc",
   });
 });
 
@@ -28,14 +44,14 @@ test("rejects unsupported markets", () => {
 
 test("builds crawl CLI arguments", () => {
   assert.deepEqual(toCrawlArguments({
-    keyword: "realforce",
+    keywords: ["realforce", "hhkb"],
     limit: 100,
-    markets: ["joongna"],
+    markets: ["joongna", "bunjang"],
     sort: "price-desc",
   }), [
-    "--keyword=realforce",
+    "--keywords=realforce,hhkb",
     "--limit=100",
-    "--markets=joongna",
+    "--markets=joongna,bunjang",
     "--sort=price-desc",
   ]);
 });

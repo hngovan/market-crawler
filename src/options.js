@@ -1,9 +1,12 @@
+import { defaultMarkets, normalizeKeywords, supportedSorts } from "./markets/registry.js";
+
 export function parseOptions(args) {
   const options = {
     keyword: "realforce",
-    limit: 20,
-    markets: ["joongna", "mercari"],
-    sort: "price-asc",
+    keywords: ["realforce"],
+    limit: 50,
+    markets: [...defaultMarkets],
+    sort: "newest",
   };
 
   for (const arg of args) {
@@ -13,6 +16,16 @@ export function parseOptions(args) {
         throw new Error("Keyword must not be empty");
       }
       options.keyword = keyword;
+      options.keywords = [keyword];
+    }
+
+    if (arg.startsWith("--keywords=")) {
+      const keywords = normalizeKeywords(arg.slice("--keywords=".length));
+      if (keywords.length === 0) {
+        throw new Error("Keyword must not be empty");
+      }
+      options.keywords = keywords;
+      options.keyword = keywords[0];
     }
 
     if (arg.startsWith("--limit=")) {
@@ -33,7 +46,7 @@ export function parseOptions(args) {
 
     if (arg.startsWith("--sort=")) {
       const sort = arg.slice("--sort=".length);
-      if (!["price-asc", "price-desc", "newest"].includes(sort)) {
+      if (!supportedSorts.includes(sort)) {
         throw new Error(`Unsupported sort: ${sort}`);
       }
       options.sort = sort;

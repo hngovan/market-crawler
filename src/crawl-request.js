@@ -1,8 +1,10 @@
-export const supportedMarkets = ["joongna", "mercari"];
-export const supportedSorts = ["price-asc", "price-desc", "newest"];
+import { normalizeKeywords, supportedMarkets, supportedSorts } from "./markets/registry.js";
+
+export { supportedMarkets, supportedSorts };
 
 export function validateCrawlRequest(input = {}) {
-  const keyword = String(input.keyword ?? "").trim();
+  const keywords = normalizeKeywords(input.keywords ?? input.keyword);
+  const keyword = keywords[0] ?? "";
   const limit = Number(input.limit);
   const markets = Array.isArray(input.markets) ? [...new Set(input.markets)] : [];
   const sort = String(input.sort ?? "");
@@ -14,12 +16,13 @@ export function validateCrawlRequest(input = {}) {
   }
   if (!supportedSorts.includes(sort)) throw new Error(`Unsupported sort: ${sort}`);
 
-  return { keyword, limit, markets, sort };
+  return { keyword, keywords, limit, markets, sort };
 }
 
 export function toCrawlArguments(options) {
+  const keywords = normalizeKeywords(options.keywords ?? options.keyword);
   return [
-    `--keyword=${options.keyword}`,
+    `--keywords=${keywords.join(",")}`,
     `--limit=${options.limit}`,
     `--markets=${options.markets.join(",")}`,
     `--sort=${options.sort}`,

@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "crawl": "node crawl.js",
-    "crawl:all": "node crawl.js --markets=joongna,mercari",
+    "crawl:all": "node crawl.js --markets=joongna,bunjang,mercari",
     "crawl:joongna": "node crawl.js --markets=joongna",
+    "crawl:bunjang": "node crawl.js --markets=bunjang",
     "crawl:mercari": "node crawl.js --markets=mercari",
     "build": "node scripts/build-static.js",
     "serve": "node --env-file-if-exists=.env server.js",

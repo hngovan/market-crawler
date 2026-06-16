@@ -2,12 +2,9 @@ import { enrichProductImages, extractCardProduct, normalizeProducts } from "../p
 import { launchBrowser } from "./browser.js";
 import { buildJoongnaSearchUrl } from "./page-navigation.js";
 import { extractJoongnaPostedAt } from "./product-date.js";
+import { marketDefinitions } from "./registry.js";
 
-export const joongnaMarket = {
-  id: "joongna",
-  name: "Joongna",
-  currency: "KRW",
-};
+export const joongnaMarket = marketDefinitions.joongna;
 
 async function collectVisibleProducts(page) {
   return page.evaluate(() => {
@@ -31,7 +28,12 @@ async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
-      await page.goto(searchUrl, { waitUntil: "networkidle2", timeout: 60000 });
+      const response = await page.goto(searchUrl, { waitUntil: "networkidle2", timeout: 60000 });
+      const status = response?.status() ?? 0;
+      if ([403, 429].includes(status)) {
+        const text = await page.evaluate(() => document.body?.innerText?.slice(0, 500) || "").catch(() => "");
+        throw new Error(`Joongna blocked by CloudFront/WAF: HTTP ${status}${text ? ` - ${text}` : ""}`);
+      }
       await page.waitForSelector('a[href*="/product/"]', { timeout: 45000 });
       return;
     } catch (error) {
@@ -49,7 +51,7 @@ async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
   throw lastError;
 }
 
-async function enrichDetailImages(browser, products, concurrency = 4) {
+async function enrichDetailImages(browser, products, concurrency = 2) {
   const enriched = [...products];
   let nextIndex = 0;
 
@@ -97,6 +99,10 @@ export async function crawlJoongna({ keyword, limit, sort }) {
   try {
     const page = await browser.newPage();
     await page.setViewport({ width: 1440, height: 1200 });
+    await page.goto("https://web.joongna.com/", { waitUntil: "networkidle2", timeout: 60000 }).catch((error) => {
+      console.warn(`Joongna homepage warmup skipped: ${error.message}`);
+    });
+    await new Promise((resolve) => setTimeout(resolve, 1200));
     let products = [];
     let pageNumber = 1;
     while (products.length < limit) {

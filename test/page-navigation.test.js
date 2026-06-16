@@ -2,6 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 
 import {
+  buildBunjangSearchUrl,
   buildJoongnaSearchUrl,
   buildMercariSearchUrl,
   findMercariNextUrl,
@@ -29,6 +30,21 @@ test("builds newest Joongna and Mercari URLs", () => {
   assert.equal(
     buildMercariSearchUrl("realforce", "newest"),
     "https://jp.mercari.com/search?keyword=realforce&sort=created_time&order=desc",
+  );
+});
+
+test("builds Bunjang search URLs with JSON sort values", () => {
+  assert.equal(
+    buildBunjangSearchUrl("realforce", "newest"),
+    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22latest%22%5D",
+  );
+  assert.equal(
+    buildBunjangSearchUrl("realforce", "price-asc"),
+    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22price_asc%22%5D",
+  );
+  assert.equal(
+    buildBunjangSearchUrl("realforce", "price-desc"),
+    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22price_desc%22%5D",
   );
 });
 

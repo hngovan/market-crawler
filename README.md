@@ -1,6 +1,6 @@
 # Multi-Market Product Crawler
 
-Crawl sản phẩm từ Joongna và Mercari không đăng nhập, lưu kết quả
+Crawl sản phẩm từ Joongna, Bunjang và Mercari không đăng nhập, lưu kết quả
 theo từng chợ và hiển thị trên trang web local.
 
 ## Yêu cầu
@@ -16,7 +16,7 @@ npm install
 
 ## Crawl sản phẩm
 
-Crawl tất cả chợ, giới hạn mặc định 20 sản phẩm cho mỗi chợ:
+Crawl tất cả chợ, giới hạn mặc định 50 sản phẩm mới nhất cho mỗi chợ:
 
 ```powershell
 npm run crawl:all
@@ -26,13 +26,14 @@ Chạy riêng từng chợ:
 
 ```powershell
 npm run crawl:joongna -- --keyword=realforce --limit=20
+npm run crawl -- --markets=bunjang --keyword=realforce --limit=20
 npm run crawl:mercari -- --keyword=realforce --limit=20
 ```
 
-Truyền từ khóa và số lượng:
+Truyền nhiều từ khóa và số lượng:
 
 ```powershell
-npm run crawl:all -- --keyword=realforce --limit=100 --sort=newest
+npm run crawl:all -- --keywords=realforce,hhkb --limit=50 --sort=newest
 ```
 
 Crawler sẽ:
@@ -42,8 +43,9 @@ Crawler sẽ:
 - Đi qua `?page=2...` của Joongna và `page_token` của Mercari cho đến khi đủ limit.
 - Loại bỏ sản phẩm trùng URL hoặc thiếu dữ liệu cần thiết.
 - Hiển thị tên, giá và URL của từng sản phẩm trên terminal.
-- Mở tối đa 4 trang chi tiết cùng lúc để lấy toàn bộ ảnh sản phẩm.
-- Lưu kết quả vào `data/joongna.json`, `data/mercari.json`.
+- Gắn metadata khu vực, chợ và keyword để UI lọc lại sau khi crawl nhiều từ khóa.
+- Mở trang chi tiết để lấy toàn bộ ảnh sản phẩm.
+- Lưu kết quả vào `data/joongna.json`, `data/bunjang.json`, `data/mercari.json`.
 - Lưu trạng thái các chợ vào `data/markets.json`.
 
 Mercari chạy headless không cần đăng nhập và sử dụng giá gốc JPY.
@@ -92,8 +94,9 @@ Trang HTML đọc `data/markets.json` và hiển thị mỗi chợ trong một c
 Click vào ảnh sản phẩm để mở preview bằng LightGallery. Badge số lượng ảnh chỉ
 hiển thị khi sản phẩm có nhiều hơn một ảnh.
 
-Giao diện sử dụng theme Retro Arcade. Có thể chọn hiển thị tất cả chợ hoặc chỉ
-Joongna/Mercari. Tên sản phẩm được giới hạn ba dòng và hiện tên đầy đủ khi hover.
+Giao diện sử dụng theme Retro Arcade. Có thể lọc theo khu vực, chợ, keyword crawl
+và ngày đăng như hôm nay, 3 ngày gần đây hoặc 7 ngày gần đây. Tên sản phẩm được
+giới hạn ba dòng và hiện tên đầy đủ khi hover.
 
 Dropdown số sản phẩm hỗ trợ `20`, `50`, `100`, `200` và `All`, mặc định là `20`.
 Mỗi chợ có phân trang `Trước`/`Sau` độc lập. Chọn `All` hiển thị toàn bộ sản
@@ -136,9 +139,10 @@ vercel env add GITHUB_BRANCH
 vercel env pull .env.local
 ```
 
-Workflow `.github/workflows/crawl.yml` cũng tự crawl hai chợ mỗi ngày lúc
-`06:00` giờ Việt Nam (`23:00 UTC`), mặc định từ khóa `realforce`, sort giá tăng
-dần và limit `100` mỗi chợ. Form UI cho phép nhập limit dương bất kỳ.
+Workflow `.github/workflows/crawl.yml` tự crawl mỗi ngày lúc `06:00`, `12:00`
+và `19:00` giờ Việt Nam (`23:00`, `05:00`, `12:00` UTC), mặc định từ khóa
+`realforce`, sort mới nhất và limit `50` mỗi chợ. Form UI cho phép nhập nhiều
+keyword cách nhau bằng dấu phẩy và limit dương bất kỳ.
 
 ## Cấu trúc JSON
 
@@ -148,6 +152,9 @@ dần và limit `100` mỗi chợ. Form UI cho phép nhập limit dương bất 
     "name": "Realforce 87U",
     "market": "joongna",
     "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "keywords": ["realforce"],
     "currency": "KRW",
     "price": 200000,
     "url": "https://web.joongna.com/product/228127782",
@@ -180,6 +187,7 @@ website không phụ thuộc vào file này khi chạy bình thường.
 |-- index.html               # Giao diện danh sách sản phẩm
 |-- data/markets.json        # Trạng thái crawl từng chợ
 |-- data/joongna.json        # Kết quả Joongna
+|-- data/bunjang.json        # Kết quả Bunjang
 |-- data/mercari.json        # Kết quả Mercari
 |-- src/markets/             # Adapter crawler từng chợ
 |-- src/options.js           # Xử lý tham số dòng lệnh
@@ -189,6 +197,6 @@ website không phụ thuộc vào file này khi chạy bình thường.
 
 ## Lưu ý
 
-Joongna có thể thay đổi cấu trúc HTML. Nếu crawler báo không tìm thấy sản phẩm,
-selector trong `crawl.js` và logic đọc card trong `src/products.js` có thể cần
-được cập nhật.
+Các chợ có thể thay đổi cấu trúc HTML hoặc chặn IP datacenter. Nếu crawler báo
+không tìm thấy sản phẩm hoặc bị CloudFront/WAF 403, cần kiểm tra log HTTP/status
+trước khi chỉnh selector.

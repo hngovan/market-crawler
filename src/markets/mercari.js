@@ -2,12 +2,9 @@ import { launchBrowser } from "./browser.js";
 import { extractMercariCard, normalizeMercariImages } from "./mercari-products.js";
 import { buildMercariSearchUrl, findMercariNextUrl } from "./page-navigation.js";
 import { extractMercariPostedAt } from "./product-date.js";
+import { marketDefinitions } from "./registry.js";
 
-export const mercariMarket = {
-  id: "mercari",
-  name: "Mercari",
-  currency: "JPY",
-};
+export const mercariMarket = marketDefinitions.mercari;
 
 async function collectVisibleProducts(page) {
   return page.evaluate(() =>

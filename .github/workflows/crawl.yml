@@ -12,10 +12,14 @@ on:
         description: Search keyword
         required: true
         default: realforce
+      keywords:
+        description: Comma-separated search keywords
+        required: false
+        default: realforce
       markets:
         description: Comma-separated markets
         required: true
-        default: joongna,mercari
+        default: joongna,bunjang,mercari
       sort:
         description: Sort order
         required: true
@@ -24,13 +28,13 @@ on:
           - price-asc
           - price-desc
           - newest
-        default: price-asc
+        default: newest
       limit:
         description: Product limit per market
         required: true
-        default: "100"
+        default: "50"
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 5,12,23 * * *"
 
 permissions:
   contents: write
@@ -44,9 +48,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       KEYWORD: ${{ inputs.keyword || 'realforce' }}
-      MARKETS: ${{ inputs.markets || 'joongna,mercari' }}
-      SORT: ${{ inputs.sort || 'price-asc' }}
-      LIMIT: ${{ inputs.limit || '100' }}
+      KEYWORDS: ${{ inputs.keywords || inputs.keyword || 'realforce' }}
+      MARKETS: ${{ inputs.markets || 'joongna,bunjang,mercari' }}
+      SORT: ${{ inputs.sort || 'newest' }}
+      LIMIT: ${{ inputs.limit || '50' }}
       PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
     steps:
       - uses: actions/checkout@v5
@@ -58,7 +63,7 @@ jobs:
       - name: Verify runner Chrome
         run: google-chrome --version
       - name: Crawl products
-        run: node crawl.js --keyword="$KEYWORD" --markets="$MARKETS" --sort="$SORT" --limit="$LIMIT"
+        run: node crawl.js --keywords="$KEYWORDS" --markets="$MARKETS" --sort="$SORT" --limit="$LIMIT"
       - name: Commit crawled data
         run: |
           git config user.name "github-actions[bot]"

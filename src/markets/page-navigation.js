@@ -18,6 +18,17 @@ export function buildMercariSearchUrl(keyword, sort) {
   return url.href;
 }
 
+export function buildBunjangSearchUrl(keyword, sort) {
+  const url = new URL(`/keywords/${encodeURIComponent(keyword)}`, "https://m.bunjang.co.kr");
+  const sortValue = {
+    "price-asc": "price_asc",
+    "price-desc": "price_desc",
+    newest: "latest",
+  }[sort];
+  url.searchParams.set("sort", JSON.stringify([sortValue]));
+  return url.href;
+}
+
 export function findMercariNextUrl(urls) {
   return urls.find((url) => {
     try {

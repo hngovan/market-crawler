@@ -21,3 +21,19 @@ export function extractMercariPostedAt(text, now = new Date()) {
 
   return { postedAt: date.toISOString(), postedAtText: match[0] };
 }
+
+export function extractKoreanRelativePostedAt(text, now = new Date()) {
+  const match = String(text).match(/(\d+)\s*(분 전|시간 전|일 전|개월 전|년 전)/);
+  if (!match) return { postedAt: "", postedAtText: "" };
+
+  const value = Number(match[1]);
+  const date = new Date(now);
+  const unit = match[2];
+  if (unit === "분 전") date.setMinutes(date.getMinutes() - value);
+  if (unit === "시간 전") date.setHours(date.getHours() - value);
+  if (unit === "일 전") date.setDate(date.getDate() - value);
+  if (unit === "개월 전") date.setMonth(date.getMonth() - value);
+  if (unit === "년 전") date.setFullYear(date.getFullYear() - value);
+
+  return { postedAt: date.toISOString(), postedAtText: match[0] };
+}

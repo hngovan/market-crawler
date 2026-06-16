@@ -39,6 +39,7 @@ export default async function handler(request, response) {
         inputs: {
           request_id: requestId,
           keyword: options.keyword,
+          keywords: options.keywords.join(","),
           limit: String(options.limit),
           markets: options.markets.join(","),
           sort: options.sort,
