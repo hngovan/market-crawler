@@ -7,13 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 194,
+    "count": 231,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "660c",
+      "keyword": "leopold fC660",
       "keywords": [
-        "660c",
+        "leopold fC660",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
@@ -21,7 +21,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-17T12:29:37.050Z"
+      "crawledAt": "2026-06-17T12:33:27.081Z"
     }
   },
   {
@@ -32,22 +32,23 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 137,
+    "count": 169,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "660c",
+      "keyword": "leopold fC660",
       "keywords": [
-        "660c",
+        "leopold fC660",
         "realforce",
         "realforce 101",
         "realforce 87",
         "realforce 86",
-        "리얼포스 R2"
+        "리얼포스 R2",
+        "660c"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-17T12:30:09.768Z"
+      "crawledAt": "2026-06-17T12:33:51.992Z"
     }
   },
   {
@@ -58,18 +59,19 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 141,
+    "count": 175,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "660c",
+      "keyword": "leopold fC660",
       "keywords": [
-        "660c",
-        "realforce"
+        "leopold fC660",
+        "realforce",
+        "660c"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-17T12:30:36.405Z"
+      "crawledAt": "2026-06-17T12:34:29.210Z"
     }
   }
 ]
