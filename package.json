@@ -10,11 +10,15 @@
     "crawl:bunjang": "node crawl.js --markets=bunjang",
     "crawl:mercari": "node crawl.js --markets=mercari",
     "build": "node scripts/build-static.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "serve": "node --env-file-if-exists=.env server.js",
     "test": "node --test"
   },
   "dependencies": {
-    "lightgallery": "^2.9.0",
     "puppeteer": "^24.10.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.4"
   }
 }

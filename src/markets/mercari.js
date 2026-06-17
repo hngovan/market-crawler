@@ -8,16 +8,18 @@ export const mercariMarket = marketDefinitions.mercari;
 
 async function collectVisibleProducts(page) {
   return page.evaluate(() =>
-    [...document.querySelectorAll('a[data-testid="thumbnail-link"][href*="/item/"]')].map((anchor) => {
-      const image = anchor.querySelector("img");
-      const labelledElement = anchor.querySelector('[aria-label*="円"]') ?? anchor;
-      return {
-        ariaLabel: labelledElement.getAttribute("aria-label") || "",
-        imageAlt: image?.alt || "",
-        url: anchor.href,
-        image: image?.currentSrc || image?.src || "",
-      };
-    }),
+    [...document.querySelectorAll('a[data-testid="thumbnail-link"][href*="/item/"]')].map(
+      (anchor) => {
+        const image = anchor.querySelector("img");
+        const labelledElement = anchor.querySelector('[aria-label*="円"]') ?? anchor;
+        return {
+          ariaLabel: labelledElement.getAttribute("aria-label") || "",
+          imageAlt: image?.alt || "",
+          url: anchor.href,
+          image: image?.currentSrc || image?.src || "",
+        };
+      },
+    ),
   );
 }
 
@@ -25,22 +27,35 @@ async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
-      const response = await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 90000 });
+      const response = await page.goto(searchUrl, {
+        waitUntil: "domcontentloaded",
+        timeout: 90000,
+      });
       const status = response?.status() ?? 0;
       if ([403, 429, 503].includes(status)) {
-        const text = await page.evaluate(() => document.body?.innerText?.slice(0, 500) || "").catch(() => "");
-        throw new Error(`Mercari blocked or unavailable: HTTP ${status}${text ? ` - ${text}` : ""}`);
+        const text = await page
+          .evaluate(() => document.body?.innerText?.slice(0, 500) || "")
+          .catch(() => "");
+        throw new Error(
+          `Mercari blocked or unavailable: HTTP ${status}${text ? ` - ${text}` : ""}`,
+        );
       }
-      await page.waitForSelector('a[data-testid="thumbnail-link"][href*="/item/"]', { timeout: 75000 });
+      await page.waitForSelector('a[data-testid="thumbnail-link"][href*="/item/"]', {
+        timeout: 75000,
+      });
       return;
     } catch (error) {
       lastError = error;
-      const diagnostic = await page.evaluate(() => ({
-        title: document.title,
-        url: location.href,
-        text: document.body?.innerText?.slice(0, 300) || "",
-      })).catch(() => ({ title: "", url: page.url(), text: "" }));
-      console.warn(`Mercari page ${pageNumber} attempt ${attempt}/${attempts} failed: ${error.message}`);
+      const diagnostic = await page
+        .evaluate(() => ({
+          title: document.title,
+          url: location.href,
+          text: document.body?.innerText?.slice(0, 300) || "",
+        }))
+        .catch(() => ({ title: "", url: page.url(), text: "" }));
+      console.warn(
+        `Mercari page ${pageNumber} attempt ${attempt}/${attempts} failed: ${error.message}`,
+      );
       console.warn(`Mercari diagnostic: ${JSON.stringify(diagnostic)}`);
       if (attempt < attempts) await new Promise((resolve) => setTimeout(resolve, attempt * 4000));
     }
@@ -72,10 +87,14 @@ async function enrichDetailImages(browser, products, concurrency = 2) {
             ...posted,
             images: images.length > 0 ? images : [product.image].filter(Boolean),
           };
-          console.log(`Mercari images [${index + 1}/${products.length}]: ${enriched[index].images.length}`);
+          console.log(
+            `Mercari images [${index + 1}/${products.length}]: ${enriched[index].images.length}`,
+          );
         } catch (error) {
           enriched[index] = { ...product, images: [product.image].filter(Boolean) };
-          console.warn(`Mercari images [${index + 1}/${products.length}] fallback: ${error.message}`);
+          console.warn(
+            `Mercari images [${index + 1}/${products.length}] fallback: ${error.message}`,
+          );
         }
       }
     } finally {
@@ -94,9 +113,11 @@ export async function crawlMercari({ keyword, limit, sort }) {
   try {
     const page = await browser.newPage();
     await page.setViewport({ width: 1440, height: 1200 });
-    await page.goto("https://jp.mercari.com/", { waitUntil: "domcontentloaded", timeout: 90000 }).catch((error) => {
-      console.warn(`Mercari homepage warmup skipped: ${error.message}`);
-    });
+    await page
+      .goto("https://jp.mercari.com/", { waitUntil: "domcontentloaded", timeout: 90000 })
+      .catch((error) => {
+        console.warn(`Mercari homepage warmup skipped: ${error.message}`);
+      });
     await new Promise((resolve) => setTimeout(resolve, 1500));
     const uniqueProducts = new Map();
     let searchUrl = buildMercariSearchUrl(keyword, sort);
@@ -114,16 +135,21 @@ export async function crawlMercari({ keyword, limit, sort }) {
         }
       }
       if (uniqueProducts.size === previousCount) break;
-      const links = await page.evaluate(() => [...document.querySelectorAll("a[href]")].map((anchor) => anchor.href));
+      const links = await page.evaluate(() =>
+        [...document.querySelectorAll("a[href]")].map((anchor) => anchor.href),
+      );
       searchUrl = findMercariNextUrl(links);
       pageNumber += 1;
     }
 
     const collectedProducts = [...uniqueProducts.values()];
-    const products = (sort === "newest"
-      ? collectedProducts
-      : collectedProducts.sort((a, b) => sort === "price-desc" ? b.price - a.price : a.price - b.price))
-      .slice(0, limit);
+    const products = (
+      sort === "newest"
+        ? collectedProducts
+        : collectedProducts.sort((a, b) =>
+            sort === "price-desc" ? b.price - a.price : a.price - b.price,
+          )
+    ).slice(0, limit);
     if (products.length === 0) throw new Error("No valid Mercari products found");
     return await enrichDetailImages(browser, products);
   } finally {

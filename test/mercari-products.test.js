@@ -30,4 +30,3 @@ test("normalizes unique Mercari original detail images", () => {
     ["https://static.mercdn.net/item/detail/orig/photos/m1_1.jpg"],
   );
 });
-

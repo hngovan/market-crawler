@@ -20,7 +20,10 @@ const contentTypes = {
 };
 
 function sendJson(response, statusCode, body) {
-  response.writeHead(statusCode, { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-store" });
+  response.writeHead(statusCode, {
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-store",
+  });
   response.end(JSON.stringify(body));
 }
 
@@ -71,7 +74,11 @@ async function handleApi(request, response, url) {
 
   if (url.pathname === "/api/crawl-status" && request.method === "GET") {
     const job = crawlJobs.get(url.searchParams.get("request_id"));
-    return sendJson(response, 200, job || { status: "pending", log: "Không tìm thấy job trong server hiện tại." });
+    return sendJson(
+      response,
+      200,
+      job || { status: "pending", log: "Không tìm thấy job trong server hiện tại." },
+    );
   }
 
   return sendJson(response, 404, { error: "Not found" });
@@ -107,5 +114,7 @@ const server = createServer(async (request, response) => {
 
 server.listen(port, () => {
   console.log(`Product viewer: http://localhost:${port}`);
-  console.log(`Local crawl UI secret: ${crawlSecret === "local" ? "local" : "CRAWL_TRIGGER_SECRET"}`);
+  console.log(
+    `Local crawl UI secret: ${crawlSecret === "local" ? "local" : "CRAWL_TRIGGER_SECRET"}`,
+  );
 });

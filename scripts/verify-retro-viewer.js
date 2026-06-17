@@ -2,11 +2,14 @@ import puppeteer from "puppeteer";
 import { readFile } from "node:fs/promises";
 
 const joongnaTotal = JSON.parse(await readFile("data/joongna.json", "utf8")).length;
+const bunjangTotal = JSON.parse(await readFile("data/bunjang.json", "utf8")).length;
 const mercariTotal = JSON.parse(await readFile("data/mercari.json", "utf8")).length;
+const marketTotal = [joongnaTotal, bunjangTotal, mercariTotal].filter((total) => total > 0).length;
+const viewerUrl = process.env.VIEWER_URL || "http://localhost:3000";
 
 const browser = await puppeteer.launch({ headless: true });
 const page = await browser.newPage();
-await page.goto("http://localhost:3000", { waitUntil: "networkidle2", timeout: 30000 });
+await page.goto(viewerUrl, { waitUntil: "networkidle2", timeout: 30000 });
 await page.waitForSelector(".market");
 
 const initial = await page.evaluate(() => {
@@ -21,15 +24,19 @@ const initial = await page.evaluate(() => {
     title: document.querySelector("h1")?.textContent,
     headerText: document.querySelector("header")?.innerText,
     crawledAtText: document.querySelector("#header-crawled-at")?.textContent,
-    filterCount: document.querySelectorAll(".market-filter").length,
+    filterCount: document.querySelectorAll("#filters option").length,
     visibleMarkets: document.querySelectorAll(".market:not([hidden])").length,
     cardBorder: cardStyle.borderTopWidth,
     contentDisplay: contentStyle.display,
-    linkBottomGap: Math.round(card.getBoundingClientRect().bottom - link.getBoundingClientRect().bottom),
+    linkBottomGap: Math.round(
+      card.getBoundingClientRect().bottom - link.getBoundingClientRect().bottom,
+    ),
     nameClamp: nameStyle.webkitLineClamp,
     moreButtons: document.querySelectorAll(".name-more").length,
     tooltipCount: document.querySelectorAll(".name-tooltip").length,
-    crawlSortOptions: [...document.querySelectorAll("#crawl-sort option")].map((option) => option.value),
+    crawlSortOptions: [...document.querySelectorAll("#crawl-sort option")].map(
+      (option) => option.value,
+    ),
     pageSize: document.querySelector("#page-size")?.value,
     paginationCount: document.querySelectorAll(".pagination").length,
     joongnaCards: document.querySelectorAll('[data-market="joongna"] .card').length,
@@ -58,7 +65,7 @@ const independentPage = await page.evaluate(() => ({
   mercariCards: document.querySelectorAll('[data-market="mercari"] .card').length,
 }));
 
-await page.click('[data-market-filter="mercari"]');
+await page.select("#filters", "mercari");
 const filtered = await page.evaluate(() => ({
   visibleMarkets: document.querySelectorAll(".market:not([hidden])").length,
   visibleName: document.querySelector(".market:not([hidden]) .market-header h2")?.textContent,
@@ -66,21 +73,34 @@ const filtered = await page.evaluate(() => ({
 
 await page.hover(".market:not([hidden]) .name-wrap");
 await new Promise((resolve) => setTimeout(resolve, 200));
-const tooltipVisible = await page.$eval(".market:not([hidden]) .name-tooltip", (element) =>
-  Number(getComputedStyle(element).opacity) === 1 && element.textContent.length > 0,
+const tooltipVisible = await page.$eval(
+  ".market:not([hidden]) .name-tooltip",
+  (element) => Number(getComputedStyle(element).opacity) === 1 && element.textContent.length > 0,
 );
+await page.select("#filters", "all");
 await page.select("#page-size", "all");
 const allMode = await page.evaluate(() => ({
   visiblePagination: document.querySelectorAll(".pagination:not([hidden])").length,
   joongnaCards: document.querySelectorAll('[data-market="joongna"] .card').length,
+  bunjangCards: document.querySelectorAll('[data-market="bunjang"] .card').length,
   mercariCards: document.querySelectorAll('[data-market="mercari"] .card').length,
 }));
 await page.click(".market:not([hidden]) .image-button");
 await page.waitForSelector(".lg-container.lg-show", { timeout: 10000 });
 const galleryOpened = true;
-const retroDemoRemoved = (await fetch("http://localhost:3000/retro-demo.html")).status === 404;
+const retroDemoRemoved = (await fetch(new URL("/retro-demo.html", viewerUrl))).status === 404;
 
-console.log(JSON.stringify({ initial, independentPage, filtered, tooltipVisible, allMode, galleryOpened, retroDemoRemoved }));
+console.log(
+  JSON.stringify({
+    initial,
+    independentPage,
+    filtered,
+    tooltipVisible,
+    allMode,
+    galleryOpened,
+    retroDemoRemoved,
+  }),
+);
 await browser.close();
 
 if (
@@ -88,8 +108,8 @@ if (
   !initial.headerText.toLowerCase().includes("từ khóa: realforce") ||
   !initial.headerText.toLowerCase().includes("sắp xếp:") ||
   !initial.crawledAtText.toLowerCase().includes("crawl thành công lần cuối:") ||
-  initial.filterCount !== 3 ||
-  initial.visibleMarkets !== 2 ||
+  initial.filterCount !== marketTotal + 1 ||
+  initial.visibleMarkets !== marketTotal ||
   initial.contentDisplay !== "flex" ||
   initial.linkBottomGap > 20 ||
   initial.nameClamp !== "3" ||
@@ -97,7 +117,7 @@ if (
   initial.tooltipCount < 1 ||
   initial.crawlSortOptions.join(",") !== "price-asc,price-desc,newest" ||
   initial.pageSize !== "20" ||
-  initial.paginationCount !== 2 ||
+  initial.paginationCount !== marketTotal ||
   initial.badgeStyle.background !== "rgb(109, 224, 222)" ||
   initial.badgeStyle.color !== "rgb(48, 21, 71)" ||
   initial.badgeStyle.border !== "3px" ||
@@ -111,6 +131,7 @@ if (
   !tooltipVisible ||
   allMode.visiblePagination !== 0 ||
   allMode.joongnaCards !== joongnaTotal ||
+  allMode.bunjangCards !== bunjangTotal ||
   allMode.mercariCards !== mercariTotal ||
   !galleryOpened ||
   !retroDemoRemoved

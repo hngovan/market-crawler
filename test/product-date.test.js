@@ -1,7 +1,11 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { extractJoongnaPostedAt, extractKoreanRelativePostedAt, extractMercariPostedAt } from "../src/markets/product-date.js";
+import {
+  extractJoongnaPostedAt,
+  extractKoreanRelativePostedAt,
+  extractMercariPostedAt,
+} from "../src/markets/product-date.js";
 
 test("extracts Joongna sort date as an ISO timestamp", () => {
   assert.equal(

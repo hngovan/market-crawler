@@ -544,10 +544,7 @@
       .error {
         color: #a52323;
       }
-      @media (max-width: 1280px) {
-      }
-      @media (max-width: 720px) {
-        /* NGĂN CUỘN NGANG */
+      @media (max-width: 900px) {
         body {
           overflow-x: hidden;
         }
@@ -560,7 +557,6 @@
         body.crawl-drawer-open {
           overflow: hidden;
         }
-        /* XẾP DỌC CÁC CHECKBOX CHỢ */
         .crawl-market-options {
           grid-template-columns: 1fr;
           gap: 10px;
@@ -569,7 +565,6 @@
           white-space: normal;
           justify-content: flex-start;
         }
-        /* CỠ CHỮ VÀ KHOẢNG CÁCH CHO MOBILE */
         body,
         button,
         input,
@@ -600,7 +595,6 @@
         .crawl-log {
           font-size: 12px;
         }
-        /* BỘ LỌC */
         .filter-label {
           min-width: 140px;
         }
@@ -612,7 +606,6 @@
           grid-template-columns: repeat(2, minmax(0, 1fr));
           margin-bottom: 16px;
         }
-        /* THÔNG TIN MARKET */
         .market-header {
           flex-direction: row;
           align-items: flex-start;
@@ -636,7 +629,6 @@
         .market-status.success .status-short {
           display: inline;
         }
-        /* SẢN PHẨM */
         .product-grid {
           grid-template-columns: 1fr;
         }
@@ -693,7 +685,6 @@
           max-width: 96px;
           padding: 3px 5px;
         }
-        /* HEADER */
         header {
           width: calc(100% - 24px);
           margin-top: 12px;
@@ -719,6 +710,24 @@
           font-size: 22px;
           box-shadow: 2px 2px 0 #301547;
         }
+        .market {
+          display: inline-block;
+          max-width: 100%;
+          width: 100%;
+          margin: 0 0 12px;
+          padding: 12px;
+          box-shadow: 3px 3px 0 #ff548a;
+        }
+        .card {
+          box-shadow: 3px 3px 0 #ff548a;
+        }
+      }
+      @media (min-width: 641px) and (max-width: 900px) {
+        .product-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 560px) {
         .markets {
           display: flex;
           gap: 14px;
@@ -738,13 +747,7 @@
           flex: 0 0 min(88vw, 420px);
           max-width: calc(100vw - 32px);
           width: auto;
-          margin: 0 0 12px;
-          padding: 12px;
-          box-shadow: 3px 3px 0 #ff548a;
           scroll-snap-align: start;
-        }
-        .card {
-          box-shadow: 3px 3px 0 #ff548a;
         }
       }
       @media (max-width: 460px) {
@@ -796,12 +799,7 @@
             </label>
             <label class="crawl-field"
               >Từ khóa
-              <input
-                id="crawl-keywords"
-                class="crawl-input"
-                value="realforce"
-                required
-              />
+              <input id="crawl-keywords" class="crawl-input" value="realforce" required />
             </label>
             <label class="crawl-field"
               >Sắp xếp
@@ -827,37 +825,20 @@
               <legend>Chợ</legend>
               <div class="crawl-market-options">
                 <label class="crawl-market-option"
-                  ><input
-                    name="crawl-market"
-                    type="checkbox"
-                    value="joongna"
-                    checked
-                  />
-                  🇰🇷 Joongna</label
+                  ><input name="crawl-market" type="checkbox" value="joongna" checked /> 🇰🇷
+                  Joongna</label
                 >
                 <label class="crawl-market-option"
-                  ><input
-                    name="crawl-market"
-                    type="checkbox"
-                    value="bunjang"
-                    checked
-                  />
-                  🇰🇷 Bunjang</label
+                  ><input name="crawl-market" type="checkbox" value="bunjang" checked /> 🇰🇷
+                  Bunjang</label
                 >
                 <label class="crawl-market-option"
-                  ><input
-                    name="crawl-market"
-                    type="checkbox"
-                    value="mercari"
-                    checked
-                  />
-                  🇯🇵 Mercari</label
+                  ><input name="crawl-market" type="checkbox" value="mercari" checked /> 🇯🇵
+                  Mercari</label
                 >
               </div>
             </fieldset>
-            <button id="crawl-submit" class="crawl-submit" type="submit">
-              Chạy crawl
-            </button>
+            <button id="crawl-submit" class="crawl-submit" type="submit">Chạy crawl</button>
           </form>
         </div>
       </section>
@@ -951,9 +932,7 @@
       }
 
       crawlToggle.addEventListener("click", () => {
-        setCrawlDrawerOpen(
-          !document.body.classList.contains("crawl-drawer-open"),
-        );
+        setCrawlDrawerOpen(!document.body.classList.contains("crawl-drawer-open"));
       });
 
       crawlBackdrop.addEventListener("click", () => setCrawlDrawerOpen(false));
@@ -965,12 +944,8 @@
       updateCrawlToggleLabel();
 
       function updateScrollTopButton() {
-        const nearBottom =
-          window.innerHeight + window.scrollY >= document.body.scrollHeight - 80;
-        scrollTopButton.classList.toggle(
-          "is-visible",
-          window.scrollY > 480 || nearBottom,
-        );
+        const nearBottom = window.innerHeight + window.scrollY >= document.body.scrollHeight - 80;
+        scrollTopButton.classList.toggle("is-visible", window.scrollY > 480 || nearBottom);
       }
 
       scrollTopButton.addEventListener("click", () => {
@@ -986,12 +961,8 @@
           locale: "en-US",
           symbol: product.currency,
         };
-        const value = new Intl.NumberFormat(config.locale).format(
-          product.price,
-        );
-        return config.prefix
-          ? `${config.symbol}${value}`
-          : `${value}${config.symbol}`;
+        const value = new Intl.NumberFormat(config.locale).format(product.price);
+        return config.prefix ? `${config.symbol}${value}` : `${value}${config.symbol}`;
       }
 
       function formatPostedAt(product) {
@@ -1021,10 +992,7 @@
 
       function productMatchesFilters(product) {
         const keywords = product.keywords?.length ? product.keywords : [];
-        return (
-          filterState.keyword === "all" ||
-          keywords.includes(filterState.keyword)
-        );
+        return filterState.keyword === "all" || keywords.includes(filterState.keyword);
       }
 
       function sortProductsForDisplay(products) {
@@ -1034,19 +1002,14 @@
 
           const aTime = a.postedAt ? new Date(a.postedAt).getTime() : 0;
           const bTime = b.postedAt ? new Date(b.postedAt).getTime() : 0;
-          return (
-            (Number.isNaN(bTime) ? 0 : bTime) -
-            (Number.isNaN(aTime) ? 0 : aTime)
-          );
+          return (Number.isNaN(bTime) ? 0 : bTime) - (Number.isNaN(aTime) ? 0 : aTime);
         });
       }
 
       function renderProduct(product) {
         const article = document.createElement("article");
         article.className = "card";
-        const images = product.images?.length
-          ? product.images
-          : [product.image].filter(Boolean);
+        const images = product.images?.length ? product.images : [product.image].filter(Boolean);
 
         const imageButton = document.createElement("button");
         imageButton.className = "image-button";
@@ -1127,12 +1090,7 @@
         return article;
       }
 
-      function renderSelectFilter(
-        element,
-        choices,
-        activeValue,
-        onSelect,
-      ) {
+      function renderSelectFilter(element, choices, activeValue, onSelect) {
         element.replaceChildren(
           ...choices.map((choice) => {
             const option = new Option(choice.name, choice.id);
@@ -1140,24 +1098,17 @@
             return option;
           }),
         );
-        element.value = choices.some((choice) => choice.id === activeValue)
-          ? activeValue
-          : "all";
+        element.value = choices.some((choice) => choice.id === activeValue) ? activeValue : "all";
         element.onchange = () => onSelect(element.value);
       }
 
       function renderMarketFilters(markets) {
         const choices = [{ id: "all", name: "Tất cả" }, ...markets];
-        renderSelectFilter(
-          filtersElement,
-          choices,
-          filterState.market,
-          (marketId) => {
-            filterState.market = marketId;
-            resetPages();
-            rerenderMarkets();
-          },
-        );
+        renderSelectFilter(filtersElement, choices, filterState.market, (marketId) => {
+          filterState.market = marketId;
+          resetPages();
+          rerenderMarkets();
+        });
       }
 
       function renderRegionFilters(markets) {
@@ -1194,9 +1145,7 @@
                   : [market.crawl?.keyword].filter(Boolean),
               ),
               ...productLists.flatMap((products) =>
-                products.flatMap((product) =>
-                  product.keywords?.length ? product.keywords : [],
-                ),
+                products.flatMap((product) => (product.keywords?.length ? product.keywords : [])),
               ),
             ].filter(Boolean),
           ),
@@ -1209,15 +1158,9 @@
       }
 
       function renderCrawlMetadata(markets) {
-        const sorts = [
-          ...new Set(
-            markets.map((market) => market.crawl?.sort).filter(Boolean),
-          ),
-        ];
+        const sorts = [...new Set(markets.map((market) => market.crawl?.sort).filter(Boolean))];
         const successfulCrawlTimes = markets
-          .filter(
-            (market) => market.status === "success" && market.crawl?.crawledAt,
-          )
+          .filter((market) => market.status === "success" && market.crawl?.crawledAt)
           .map((market) => new Date(market.crawl.crawledAt))
           .filter((date) => !Number.isNaN(date.getTime()));
         const latestCrawl = successfulCrawlTimes.sort((a, b) => b - a)[0];
@@ -1238,15 +1181,11 @@
         state.products = products;
         marketState.set(market.id, state);
         const totalPages =
-          pageSize === "all"
-            ? 1
-            : Math.max(1, Math.ceil(products.length / pageSize));
+          pageSize === "all" ? 1 : Math.max(1, Math.ceil(products.length / pageSize));
         state.page = Math.min(state.page, totalPages);
         const start = pageSize === "all" ? 0 : (state.page - 1) * pageSize;
         const end =
-          pageSize === "all"
-            ? products.length
-            : Math.min(start + pageSize, products.length);
+          pageSize === "all" ? products.length : Math.min(start + pageSize, products.length);
         const visibleProducts = products.slice(start, end);
         const section = document.createElement("section");
         section.className = "market";
@@ -1328,8 +1267,7 @@
       let loadedMarkets = [];
       function marketMatchesFilters(market) {
         return (
-          (filterState.region === "all" ||
-            (market.region || "unknown") === filterState.region) &&
+          (filterState.region === "all" || (market.region || "unknown") === filterState.region) &&
           (filterState.market === "all" || market.id === filterState.market)
         );
       }
@@ -1344,17 +1282,14 @@
         const visibleMarkets = loadedMarkets.filter(marketMatchesFilters);
         marketsElement.replaceChildren(
           ...visibleMarkets.map((market) => {
-            const products = (
-              marketState.get(market.id)?.allProducts ?? []
-            ).filter(productMatchesFilters);
+            const products = (marketState.get(market.id)?.allProducts ?? []).filter(
+              productMatchesFilters,
+            );
             const sortedProducts = sortProductsForDisplay(products);
             return renderMarket(market, sortedProducts);
           }),
         );
-        marketsElement.classList.toggle(
-          "single-market",
-          visibleMarkets.length === 1,
-        );
+        marketsElement.classList.toggle("single-market", visibleMarkets.length === 1);
         renderMarketFilters(loadedMarkets);
         renderRegionFilters(loadedMarkets);
       }
@@ -1365,9 +1300,7 @@
         rerenderMarkets();
       }
 
-      pageSizeElement.addEventListener("change", () =>
-        setPageSize(pageSizeElement.value),
-      );
+      pageSizeElement.addEventListener("change", () => setPageSize(pageSizeElement.value));
       keywordFilterElement.addEventListener("change", () => {
         filterState.keyword = keywordFilterElement.value;
         resetPages();
@@ -1388,8 +1321,8 @@
         .then(async (markets) => {
           const rawProductLists = await Promise.all(
             markets.map((market) =>
-              fetch(`./${market.dataFile}`, { cache: "no-store" }).then(
-                (response) => (response.ok ? response.json() : []),
+              fetch(`./${market.dataFile}`, { cache: "no-store" }).then((response) =>
+                response.ok ? response.json() : [],
               ),
             ),
           );
@@ -1423,8 +1356,7 @@
           },
         );
         const result = await response.json();
-        if (!response.ok)
-          throw new Error(result.error || `HTTP ${response.status}`);
+        if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
         crawlLog.textContent = result.log || `Trạng thái: ${result.status}`;
         if (result.url) {
           crawlLog.append(document.createTextNode("\n"));
@@ -1437,22 +1369,14 @@
         }
         crawlLog.scrollTop = crawlLog.scrollHeight;
         if (["queued", "in_progress", "pending"].includes(result.status)) {
-          sessionStorage.setItem(
-            crawlSessionKey,
-            JSON.stringify({ secret, requestId }),
-          );
+          sessionStorage.setItem(crawlSessionKey, JSON.stringify({ secret, requestId }));
           setCrawlLoading(true);
-          setTimeout(
-            () => pollCrawlStatus(secret, requestId).catch(showCrawlError),
-            5000,
-          );
+          setTimeout(() => pollCrawlStatus(secret, requestId).catch(showCrawlError), 5000);
         } else {
           sessionStorage.removeItem(crawlSessionKey);
           setCrawlLoading(false);
           if (result.status === "success") {
-            alert(
-              "Crawling thành công. Trang sẽ tải lại để hiển thị sản phẩm mới.",
-            );
+            alert("Crawling thành công. Trang sẽ tải lại để hiển thị sản phẩm mới.");
             window.location.reload();
           }
         }
@@ -1477,9 +1401,7 @@
           document.querySelector("#crawl-secret").value = session.secret;
           setCrawlLoading(true);
           crawlLog.textContent = "Đang kết nối lại phiên crawl trước...";
-          pollCrawlStatus(session.secret, session.requestId).catch(
-            showCrawlError,
-          );
+          pollCrawlStatus(session.secret, session.requestId).catch(showCrawlError);
         } catch {
           sessionStorage.removeItem(crawlSessionKey);
         }
@@ -1488,17 +1410,14 @@
       crawlForm.addEventListener("submit", async (event) => {
         event.preventDefault();
         const secret = document.querySelector("#crawl-secret").value;
-        const markets = [
-          ...document.querySelectorAll('[name="crawl-market"]:checked'),
-        ].map((input) => input.value);
-        if (markets.length === 0)
-          return showCrawlError(new Error("Chọn ít nhất một chợ"));
+        const markets = [...document.querySelectorAll('[name="crawl-market"]:checked')].map(
+          (input) => input.value,
+        );
+        if (markets.length === 0) return showCrawlError(new Error("Chọn ít nhất một chợ"));
         setCrawlLoading(true);
         crawlLog.textContent = "Đang gửi yêu cầu crawl...";
         try {
-          const keywords = normalizeKeywords(
-            document.querySelector("#crawl-keywords").value,
-          );
+          const keywords = normalizeKeywords(document.querySelector("#crawl-keywords").value);
           const response = await fetch("/api/crawl", {
             method: "POST",
             headers: {
@@ -1519,14 +1438,10 @@
               crawlSessionKey,
               JSON.stringify({ secret, requestId: result.requestId }),
             );
-            crawlLog.textContent =
-              "Một crawler đang chạy. Đang kết nối lại phiên đó...";
-            return pollCrawlStatus(secret, result.requestId).catch(
-              showCrawlError,
-            );
+            crawlLog.textContent = "Một crawler đang chạy. Đang kết nối lại phiên đó...";
+            return pollCrawlStatus(secret, result.requestId).catch(showCrawlError);
           }
-          if (!response.ok)
-            throw new Error(result.error || `HTTP ${response.status}`);
+          if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
           sessionStorage.setItem(
             crawlSessionKey,
             JSON.stringify({ secret, requestId: result.requestId }),

@@ -30,4 +30,3 @@ The existing two-column viewer renders Joongna and Mercari. JPY prices use the
 
 Tests cover Mercari card parsing, original image normalization, and JPY log
 formatting. Real crawls verify sorted Mercari results and multi-image galleries.
-

@@ -31,19 +31,27 @@ async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
       const response = await page.goto(searchUrl, { waitUntil: "networkidle2", timeout: 60000 });
       const status = response?.status() ?? 0;
       if ([403, 429].includes(status)) {
-        const text = await page.evaluate(() => document.body?.innerText?.slice(0, 500) || "").catch(() => "");
-        throw new Error(`Joongna blocked by CloudFront/WAF: HTTP ${status}${text ? ` - ${text}` : ""}`);
+        const text = await page
+          .evaluate(() => document.body?.innerText?.slice(0, 500) || "")
+          .catch(() => "");
+        throw new Error(
+          `Joongna blocked by CloudFront/WAF: HTTP ${status}${text ? ` - ${text}` : ""}`,
+        );
       }
       await page.waitForSelector('a[href*="/product/"]', { timeout: 45000 });
       return;
     } catch (error) {
       lastError = error;
-      const diagnostic = await page.evaluate(() => ({
-        title: document.title,
-        url: location.href,
-        text: document.body?.innerText?.slice(0, 300) || "",
-      })).catch(() => ({ title: "", url: page.url(), text: "" }));
-      console.warn(`Joongna page ${pageNumber} attempt ${attempt}/${attempts} failed: ${error.message}`);
+      const diagnostic = await page
+        .evaluate(() => ({
+          title: document.title,
+          url: location.href,
+          text: document.body?.innerText?.slice(0, 300) || "",
+        }))
+        .catch(() => ({ title: "", url: page.url(), text: "" }));
+      console.warn(
+        `Joongna page ${pageNumber} attempt ${attempt}/${attempts} failed: ${error.message}`,
+      );
       console.warn(`Joongna diagnostic: ${JSON.stringify(diagnostic)}`);
       if (attempt < attempts) await new Promise((resolve) => setTimeout(resolve, attempt * 3000));
     }
@@ -77,10 +85,14 @@ async function enrichDetailImages(browser, products, concurrency = 2) {
             ...enrichProductImages(product, detail.images),
             postedAt: extractJoongnaPostedAt(detail.scripts),
           };
-          console.log(`Joongna images [${index + 1}/${products.length}]: ${enriched[index].images.length}`);
+          console.log(
+            `Joongna images [${index + 1}/${products.length}]: ${enriched[index].images.length}`,
+          );
         } catch (error) {
           enriched[index] = enrichProductImages(product, []);
-          console.warn(`Joongna images [${index + 1}/${products.length}] fallback: ${error.message}`);
+          console.warn(
+            `Joongna images [${index + 1}/${products.length}] fallback: ${error.message}`,
+          );
         }
       }
     } finally {
@@ -99,9 +111,11 @@ export async function crawlJoongna({ keyword, limit, sort }) {
   try {
     const page = await browser.newPage();
     await page.setViewport({ width: 1440, height: 1200 });
-    await page.goto("https://web.joongna.com/", { waitUntil: "networkidle2", timeout: 60000 }).catch((error) => {
-      console.warn(`Joongna homepage warmup skipped: ${error.message}`);
-    });
+    await page
+      .goto("https://web.joongna.com/", { waitUntil: "networkidle2", timeout: 60000 })
+      .catch((error) => {
+        console.warn(`Joongna homepage warmup skipped: ${error.message}`);
+      });
     await new Promise((resolve) => setTimeout(resolve, 1200));
     let products = [];
     let pageNumber = 1;
@@ -113,14 +127,17 @@ export async function crawlJoongna({ keyword, limit, sort }) {
       await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
       await new Promise((resolve) => setTimeout(resolve, 1500));
       const visibleProducts = (await collectVisibleProducts(page)).map(extractCardProduct);
-      products = normalizeProducts([...products, ...visibleProducts], { sortByPrice: sort !== "newest" });
+      products = normalizeProducts([...products, ...visibleProducts], {
+        sortByPrice: sort !== "newest",
+      });
       if (products.length === previousCount) break;
       pageNumber += 1;
     }
 
-    const sorted = sort === "newest"
-      ? products
-      : products.sort((a, b) => sort === "price-desc" ? b.price - a.price : a.price - b.price);
+    const sorted =
+      sort === "newest"
+        ? products
+        : products.sort((a, b) => (sort === "price-desc" ? b.price - a.price : a.price - b.price));
     return await enrichDetailImages(browser, sorted.slice(0, limit));
   } finally {
     await browser.close();

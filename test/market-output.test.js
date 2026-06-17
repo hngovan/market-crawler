@@ -10,25 +10,31 @@ import {
 
 test("adds native market metadata to products", () => {
   assert.deepEqual(
-    addMarketMetadata([{ name: "Realforce", price: 100 }], {
-      id: "mercari",
-      name: "Mercari",
-      region: "japan",
-      regionName: "Nhật Bản",
-      regionFlag: "🇯🇵",
-      currency: "JPY",
-    }, "realforce"),
-    [{
-      market: "mercari",
-      marketName: "Mercari",
-      region: "japan",
-      regionName: "Nhật Bản",
-      regionFlag: "🇯🇵",
-      currency: "JPY",
-      keywords: ["realforce"],
-      name: "Realforce",
-      price: 100,
-    }],
+    addMarketMetadata(
+      [{ name: "Realforce", price: 100 }],
+      {
+        id: "mercari",
+        name: "Mercari",
+        region: "japan",
+        regionName: "Nhật Bản",
+        regionFlag: "🇯🇵",
+        currency: "JPY",
+      },
+      "realforce",
+    ),
+    [
+      {
+        market: "mercari",
+        marketName: "Mercari",
+        region: "japan",
+        regionName: "Nhật Bản",
+        regionFlag: "🇯🇵",
+        currency: "JPY",
+        keywords: ["realforce"],
+        name: "Realforce",
+        price: 100,
+      },
+    ],
   );
 });
 
@@ -53,14 +59,19 @@ test("creates skipped market status with an error", () => {
 
 test("adds crawl metadata to market status", () => {
   const crawl = { keyword: "realforce", sort: "newest", limit: 20 };
-  const status = createMarketStatus({
-    id: "joongna",
-    name: "Joongna",
-    region: "korea",
-    regionName: "Hàn Quốc",
-    regionFlag: "🇰🇷",
-    currency: "KRW",
-  }, [], "", crawl);
+  const status = createMarketStatus(
+    {
+      id: "joongna",
+      name: "Joongna",
+      region: "korea",
+      regionName: "Hàn Quốc",
+      regionFlag: "🇰🇷",
+      currency: "KRW",
+    },
+    [],
+    "",
+    crawl,
+  );
   assert.deepEqual(status.crawl, crawl);
   assert.equal(status.region, "korea");
 });

@@ -6,12 +6,17 @@ export function parsePrice(value) {
 }
 
 export function extractCardProduct({ text, imageAlt, url, image }) {
-  const lines = String(text ?? "").split("\n").map((line) => line.trim()).filter(Boolean);
+  const lines = String(text ?? "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
   const wonIndex = lines.findIndex((line) => line === "원");
   const price = wonIndex > 0 ? lines[wonIndex - 1] : "";
 
   return {
-    name: String(imageAlt ?? lines[0] ?? "").replace(/\s*이미지$/, "").trim(),
+    name: String(imageAlt ?? lines[0] ?? "")
+      .replace(/\s*이미지$/, "")
+      .trim(),
     price,
     url,
     image,
@@ -19,9 +24,10 @@ export function extractCardProduct({ text, imageAlt, url, image }) {
 }
 
 export function formatProductLog(product, index) {
-  const formattedPrice = product.currency === "JPY" || product.currency === "CNY"
-    ? `¥${product.price.toLocaleString("en-US")}`
-    : `${product.price.toLocaleString("en-US")}원`;
+  const formattedPrice =
+    product.currency === "JPY" || product.currency === "CNY"
+      ? `¥${product.price.toLocaleString("en-US")}`
+      : `${product.price.toLocaleString("en-US")}원`;
   return `[${index + 1}] ${product.name} | ${formattedPrice} | ${product.url}`;
 }
 
@@ -37,11 +43,17 @@ function absoluteUrl(value, origin = JOONGNA_ORIGIN) {
 }
 
 export function enrichProductImages(product, detailImages) {
-  const images = [...new Set(detailImages.map((image) => {
-    const url = absoluteUrl(image);
-    if (!/^https:\/\/img\d*\.joongna\.com\/.+/i.test(url)) return "";
-    return url.split("?")[0];
-  }).filter(Boolean))];
+  const images = [
+    ...new Set(
+      detailImages
+        .map((image) => {
+          const url = absoluteUrl(image);
+          if (!/^https:\/\/img\d*\.joongna\.com\/.+/i.test(url)) return "";
+          return url.split("?")[0];
+        })
+        .filter(Boolean),
+    ),
+  ];
 
   return {
     ...product,

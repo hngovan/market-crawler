@@ -55,7 +55,9 @@ function hydrateMarketStatus(status, market) {
 async function crawl() {
   const options = parseOptions(process.argv.slice(2));
   await mkdir("data", { recursive: true });
-  const statusByMarket = new Map((await readExistingStatuses()).map((status) => [status.id, status]));
+  const statusByMarket = new Map(
+    (await readExistingStatuses()).map((status) => [status.id, status]),
+  );
 
   for (const marketId of options.markets) {
     const adapter = adapters[marketId];
@@ -80,7 +82,7 @@ async function crawl() {
       }
     }
 
-    products = mergeProductsByUrl([...await readExistingProducts(marketId), ...products]);
+    products = mergeProductsByUrl([...(await readExistingProducts(marketId)), ...products]);
     let error = products.length === 0 ? errors.join(" | ") : "";
     if (products.length > 0) {
       console.log(`\n${adapter.market.name} products (${products.length}):`);
@@ -89,16 +91,21 @@ async function crawl() {
     } else {
       products = await readExistingProducts(marketId);
       console.warn(`${adapter.market.name} skipped: ${error}`);
-      console.warn(`${adapter.market.name}: keeping ${products.length} products from the previous successful crawl`);
+      console.warn(
+        `${adapter.market.name}: keeping ${products.length} products from the previous successful crawl`,
+      );
     }
 
-    statusByMarket.set(marketId, createMarketStatus(adapter.market, products, error, {
-      keyword: options.keyword,
-      keywords: [...new Set([...options.keywords, ...extractProductKeywords(products)])],
-      sort: options.sort,
-      limit: options.limit,
-      crawledAt: new Date().toISOString(),
-    }));
+    statusByMarket.set(
+      marketId,
+      createMarketStatus(adapter.market, products, error, {
+        keyword: options.keyword,
+        keywords: [...new Set([...options.keywords, ...extractProductKeywords(products)])],
+        sort: options.sort,
+        limit: options.limit,
+        crawledAt: new Date().toISOString(),
+      }),
+    );
   }
 
   const statuses = Object.keys(adapters)
@@ -107,8 +114,13 @@ async function crawl() {
   await writeJson("data/markets.json", statuses);
   console.log(`Saved market manifest to ${path.resolve("data/markets.json")}`);
 
-  const selectedStatuses = options.markets.map((marketId) => statusByMarket.get(marketId)).filter(Boolean);
-  if (selectedStatuses.length > 0 && selectedStatuses.every((status) => status.status !== "success")) {
+  const selectedStatuses = options.markets
+    .map((marketId) => statusByMarket.get(marketId))
+    .filter(Boolean);
+  if (
+    selectedStatuses.length > 0 &&
+    selectedStatuses.every((status) => status.status !== "success")
+  ) {
     throw new Error("All selected markets failed");
   }
 }

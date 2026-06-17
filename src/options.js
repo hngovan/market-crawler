@@ -37,7 +37,11 @@ export function parseOptions(args) {
     }
 
     if (arg.startsWith("--markets=")) {
-      const markets = arg.slice("--markets=".length).split(",").map((market) => market.trim()).filter(Boolean);
+      const markets = arg
+        .slice("--markets=".length)
+        .split(",")
+        .map((market) => market.trim())
+        .filter(Boolean);
       if (markets.length === 0) {
         throw new Error("At least one market is required");
       }

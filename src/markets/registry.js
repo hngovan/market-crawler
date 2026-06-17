@@ -36,8 +36,6 @@ export const supportedMarkets = Object.keys(marketDefinitions);
 export const supportedSorts = ["price-asc", "price-desc", "newest"];
 
 export function normalizeKeywords(value) {
-  const rawKeywords = Array.isArray(value)
-    ? value
-    : String(value ?? "").split(",");
+  const rawKeywords = Array.isArray(value) ? value : String(value ?? "").split(",");
   return [...new Set(rawKeywords.map((keyword) => String(keyword).trim()).filter(Boolean))];
 }

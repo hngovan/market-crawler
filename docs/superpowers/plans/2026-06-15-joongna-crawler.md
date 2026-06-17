@@ -13,6 +13,7 @@
 ### Task 1: Project Setup And Tested Data Logic
 
 **Files:**
+
 - Create: `package.json`
 - Create: `test/options.test.js`
 - Create: `test/products.test.js`
@@ -27,6 +28,7 @@
 ### Task 2: Puppeteer Crawler
 
 **Files:**
+
 - Create: `crawl.js`
 - Create: `data/products.json`
 
@@ -38,6 +40,7 @@
 ### Task 3: Local Viewer
 
 **Files:**
+
 - Create: `server.js`
 - Create: `index.html`
 
@@ -51,4 +54,3 @@
 - [ ] Run `npm run crawl -- --keyword=realforce --limit=5`.
 - [ ] Confirm JSON fields, item count, unique URLs, and ascending prices.
 - [ ] Start `npm run serve` and confirm HTTP responses for HTML and JSON.
-

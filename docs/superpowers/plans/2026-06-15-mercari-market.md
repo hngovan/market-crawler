@@ -13,6 +13,7 @@
 ### Task 1: Mercari Parsing Contracts
 
 **Files:**
+
 - Create: `src/markets/mercari-products.js`
 - Create: `test/mercari-products.test.js`
 - Modify: `src/products.js`
@@ -25,6 +26,7 @@
 ### Task 2: Mercari Adapter
 
 **Files:**
+
 - Create: `src/markets/mercari.js`
 - Delete: `src/markets/goofish.js`
 - Modify: `crawl.js`
@@ -38,6 +40,7 @@
 ### Task 3: Viewer And Documentation
 
 **Files:**
+
 - Modify: `index.html`
 - Modify: `README.md`
 - Delete: `data/goofish.json`
@@ -52,4 +55,3 @@
 - [ ] Run Mercari-only crawl and verify sorted JPY results.
 - [ ] Run all-market crawl and verify Joongna plus Mercari.
 - [ ] Verify both columns and LightGallery in the browser.
-

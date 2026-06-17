@@ -13,6 +13,7 @@
 ### Task 1: Options And Page Navigation
 
 **Files:**
+
 - Modify: `src/options.js`
 - Modify: `test/options.test.js`
 - Create: `src/markets/page-navigation.js`
@@ -28,6 +29,7 @@
 ### Task 2: Viewer Controls
 
 **Files:**
+
 - Modify: `index.html`
 - Modify: `scripts/verify-retro-viewer.js`
 
@@ -39,6 +41,7 @@
 ### Task 3: Vercel And GitHub Actions
 
 **Files:**
+
 - Create: `api/crawl.js`
 - Create: `api/crawl-status.js`
 - Create: `.github/workflows/crawl.yml`
@@ -53,8 +56,8 @@
 ### Task 4: Documentation And Verification
 
 **Files:**
+
 - Modify: `README.md`
 
 - [ ] Document local commands, Vercel variables, GitHub token permissions, and cron defaults.
 - [ ] Run unit tests, browser verification, API checks, and multi-page crawl samples.
-

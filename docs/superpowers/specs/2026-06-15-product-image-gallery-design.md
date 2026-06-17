@@ -29,4 +29,3 @@ one image still open a preview but do not display a badge.
 Automated tests cover image normalization and fallback behavior. An actual
 crawl verifies that multiple detail images are saved, and a browser check
 verifies LightGallery initialization and badge behavior.
-

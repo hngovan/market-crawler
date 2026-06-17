@@ -61,33 +61,31 @@ test("formats Mercari products with JPY", () => {
 
 test("enriches a product with unique original detail images", () => {
   assert.deepEqual(
-    enrichProductImages(
-      { image: "https://img.joongna.com/thumb.jpg?impolicy=thumb&size=150" },
-      [
-        "https://img.joongna.com/original-1.jpg?impolicy=resize&format=webp",
-        "https://img.joongna.com/original-1.jpg",
-        "//img.joongna.com/original-2.jpg",
-        "/assets/icon.svg",
-      ],
-    ).images,
-    [
+    enrichProductImages({ image: "https://img.joongna.com/thumb.jpg?impolicy=thumb&size=150" }, [
+      "https://img.joongna.com/original-1.jpg?impolicy=resize&format=webp",
       "https://img.joongna.com/original-1.jpg",
-      "https://img.joongna.com/original-2.jpg",
-    ],
+      "//img.joongna.com/original-2.jpg",
+      "/assets/icon.svg",
+    ]).images,
+    ["https://img.joongna.com/original-1.jpg", "https://img.joongna.com/original-2.jpg"],
   );
 });
 
 test("falls back to the product thumbnail when detail images are unavailable", () => {
-  assert.deepEqual(
-    enrichProductImages({ image: "https://img.joongna.com/thumb.jpg" }, []).images,
-    ["https://img.joongna.com/thumb.jpg"],
-  );
+  assert.deepEqual(enrichProductImages({ image: "https://img.joongna.com/thumb.jpg" }, []).images, [
+    "https://img.joongna.com/thumb.jpg",
+  ]);
 });
 
 test("normalizes, removes duplicate URLs, and sorts ascending", () => {
   const products = normalizeProducts([
     { name: " Expensive ", price: "3,000원", url: "/product/2", image: "//img/2.jpg" },
-    { name: "Cheap", price: "1,000원", url: "https://web.joongna.com/product/1", image: "https://img/1.jpg" },
+    {
+      name: "Cheap",
+      price: "1,000원",
+      url: "https://web.joongna.com/product/1",
+      image: "https://img/1.jpg",
+    },
     { name: "Duplicate", price: "2,000원", url: "/product/1", image: "" },
     { name: "Invalid", price: "가격없음", url: "/product/3", image: "" },
   ]);
@@ -109,10 +107,16 @@ test("normalizes, removes duplicate URLs, and sorts ascending", () => {
 });
 
 test("can preserve source order while normalizing products", () => {
-  const products = normalizeProducts([
-    { name: "Newest", price: "2000", url: "/product/2" },
-    { name: "Older", price: "1000", url: "/product/1" },
-  ], { sortByPrice: false });
+  const products = normalizeProducts(
+    [
+      { name: "Newest", price: "2000", url: "/product/2" },
+      { name: "Older", price: "1000", url: "/product/1" },
+    ],
+    { sortByPrice: false },
+  );
 
-  assert.deepEqual(products.map((product) => product.name), ["Newest", "Older"]);
+  assert.deepEqual(
+    products.map((product) => product.name),
+    ["Newest", "Older"],
+  );
 });

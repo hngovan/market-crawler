@@ -28,4 +28,3 @@ pixel shadow, and square corners to match the Retro Arcade theme.
 Browser verification covers default page size, per-market card counts,
 independent next-page behavior, page-size changes, All mode, filter
 preservation, and badge computed styles.
-

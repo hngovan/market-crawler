@@ -13,6 +13,7 @@
 ### Task 1: Browser Behavior Test
 
 **Files:**
+
 - Create: `scripts/verify-retro-viewer.js`
 
 - [ ] Test header content and Retro Arcade styles.
@@ -23,6 +24,7 @@
 ### Task 2: Retro Arcade Theme And Filters
 
 **Files:**
+
 - Modify: `index.html`
 
 - [ ] Replace the visual theme and header copy.
@@ -32,6 +34,7 @@
 ### Task 3: Product Card Behavior
 
 **Files:**
+
 - Modify: `index.html`
 
 - [ ] Make cards and content flex columns with bottom-aligned links.
@@ -42,10 +45,10 @@
 ### Task 4: Documentation And Verification
 
 **Files:**
+
 - Modify: `README.md`
 - Delete: `retro-demo.html`
 
 - [ ] Document filters and product-name popovers.
 - [ ] Run automated tests and browser verification.
 - [ ] Remove the temporary demo file.
-

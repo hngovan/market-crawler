@@ -28,22 +28,26 @@ export function normalizeBunjangDetailImages(productUrl, imageUrls) {
   const productId = String(productUrl ?? "").match(/\/products\/(\d+)/)?.[1];
   if (!productId) return [];
 
-  return [...new Set(imageUrls.map(normalizeBunjangImage).filter(Boolean))]
-    .filter((image) => {
-      try {
-        const url = new URL(image);
-        return url.hostname === "media.bunjang.co.kr"
-          && url.pathname.startsWith(`/product/${productId}_`)
-          && !url.pathname.includes("%7Bcnt%7D")
-          && !url.pathname.includes("{cnt}");
-      } catch {
-        return false;
-      }
-    });
+  return [...new Set(imageUrls.map(normalizeBunjangImage).filter(Boolean))].filter((image) => {
+    try {
+      const url = new URL(image);
+      return (
+        url.hostname === "media.bunjang.co.kr" &&
+        url.pathname.startsWith(`/product/${productId}_`) &&
+        !url.pathname.includes("%7Bcnt%7D") &&
+        !url.pathname.includes("{cnt}")
+      );
+    } catch {
+      return false;
+    }
+  });
 }
 
 function extractBunjangCard(card) {
-  const lines = String(card.text ?? "").split("\n").map((line) => line.trim()).filter(Boolean);
+  const lines = String(card.text ?? "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
   const priceLine = lines.find((line) => /원/.test(line) && parsePrice(line) !== null) ?? "";
   const price = parsePrice(priceLine);
   const name = String(card.imageAlt || lines.find((line) => line !== priceLine) || "").trim();
@@ -99,10 +103,14 @@ async function enrichDetailImages(browser, products, concurrency = 2) {
             ...extractKoreanRelativePostedAt(detail.text),
             images: images.length > 0 ? images : [product.image].filter(Boolean),
           };
-          console.log(`Bunjang images [${index + 1}/${products.length}]: ${enriched[index].images.length}`);
+          console.log(
+            `Bunjang images [${index + 1}/${products.length}]: ${enriched[index].images.length}`,
+          );
         } catch (error) {
           enriched[index] = { ...product, images: [product.image].filter(Boolean) };
-          console.warn(`Bunjang images [${index + 1}/${products.length}] fallback: ${error.message}`);
+          console.warn(
+            `Bunjang images [${index + 1}/${products.length}] fallback: ${error.message}`,
+          );
         }
       }
     } finally {
@@ -136,10 +144,11 @@ export async function crawlBunjang({ keyword, limit, sort }) {
     }
 
     const collected = [...uniqueProducts.values()];
-    const products = (sort === "newest"
-      ? collected
-      : collected.sort((a, b) => sort === "price-desc" ? b.price - a.price : a.price - b.price))
-      .slice(0, limit);
+    const products = (
+      sort === "newest"
+        ? collected
+        : collected.sort((a, b) => (sort === "price-desc" ? b.price - a.price : a.price - b.price))
+    ).slice(0, limit);
     if (products.length === 0) throw new Error("No valid Bunjang products found");
     return await enrichDetailImages(browser, products);
   } finally {

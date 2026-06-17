@@ -36,4 +36,3 @@ badges remain unchanged.
 
 A Puppeteer browser test verifies header copy, Retro Arcade styles, filters,
 three-line clamping, popover behavior, and bottom-aligned external links.
-

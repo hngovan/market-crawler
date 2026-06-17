@@ -13,6 +13,7 @@
 ### Task 1: Image Data Logic
 
 **Files:**
+
 - Modify: `test/products.test.js`
 - Modify: `src/products.js`
 
@@ -24,6 +25,7 @@
 ### Task 2: Detail Page Crawling
 
 **Files:**
+
 - Modify: `crawl.js`
 
 - [ ] Inspect one current Joongna detail page to identify product gallery images.
@@ -34,6 +36,7 @@
 ### Task 3: LightGallery Viewer
 
 **Files:**
+
 - Modify: `package.json`
 - Modify: `index.html`
 - Modify: `README.md`
@@ -50,4 +53,3 @@
 - [ ] Crawl current Joongna products and verify unique image arrays.
 - [ ] Verify HTML and LightGallery assets return HTTP 200.
 - [ ] Verify a multi-image product has a badge and a single-image product does not.
-

@@ -11,13 +11,18 @@ import {
 
 export default async function handler(request, response) {
   try {
-    if (request.method !== "POST") return response.status(405).json({ error: "Method not allowed" });
+    if (request.method !== "POST")
+      return response.status(405).json({ error: "Method not allowed" });
     authorize(request);
     const options = validateCrawlRequest(request.body);
-    const runsResponse = await githubRequest("/actions/workflows/crawl.yml/runs?event=workflow_dispatch&per_page=20");
+    const runsResponse = await githubRequest(
+      "/actions/workflows/crawl.yml/runs?event=workflow_dispatch&per_page=20",
+    );
     if (!runsResponse.ok) throw await githubError(runsResponse, "Không thể đọc GitHub Actions");
     const runs = await runsResponse.json();
-    const activeRun = runs.workflow_runs?.find((run) => ["queued", "in_progress"].includes(run.status));
+    const activeRun = runs.workflow_runs?.find((run) =>
+      ["queued", "in_progress"].includes(run.status),
+    );
     if (activeRun) {
       const existingRequestId = activeRun.display_title?.match(
         /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/i,
@@ -46,7 +51,8 @@ export default async function handler(request, response) {
         },
       }),
     });
-    if (!githubResponse.ok) throw await githubError(githubResponse, "Không thể chạy GitHub Actions");
+    if (!githubResponse.ok)
+      throw await githubError(githubResponse, "Không thể chạy GitHub Actions");
     response.status(202).json({ requestId, status: "queued" });
   } catch (error) {
     sendError(response, error);

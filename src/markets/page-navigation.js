@@ -30,11 +30,13 @@ export function buildBunjangSearchUrl(keyword, sort) {
 }
 
 export function findMercariNextUrl(urls) {
-  return urls.find((url) => {
-    try {
-      return new URL(url).searchParams.has("page_token");
-    } catch {
-      return false;
-    }
-  }) ?? "";
+  return (
+    urls.find((url) => {
+      try {
+        return new URL(url).searchParams.has("page_token");
+      } catch {
+        return false;
+      }
+    }) ?? ""
+  );
 }

@@ -13,6 +13,7 @@
 ### Task 1: Shared Market Contracts
 
 **Files:**
+
 - Modify: `src/options.js`
 - Create: `src/market-output.js`
 - Modify: `test/options.test.js`
@@ -25,6 +26,7 @@
 ### Task 2: Joongna Adapter And Orchestrator
 
 **Files:**
+
 - Create: `src/markets/joongna.js`
 - Modify: `crawl.js`
 - Modify: `package.json`
@@ -37,6 +39,7 @@
 ### Task 3: Mercari Adapter
 
 **Files:**
+
 - Create: `src/markets/mercari.js`
 
 - [ ] Crawl Mercari without login and identify product data.
@@ -47,6 +50,7 @@
 ### Task 4: Multi-Market Viewer
 
 **Files:**
+
 - Modify: `index.html`
 - Modify: `README.md`
 
