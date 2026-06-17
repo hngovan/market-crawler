@@ -1084,7 +1084,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "realforce"
+      "realforce",
+      "topre"
     ]
   },
   {
@@ -1109,7 +1110,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "realforce"
+      "realforce",
+      "topre"
     ]
   },
   {
@@ -5039,6 +5041,88 @@
     "currency": "KRW",
     "keywords": [
       "leopold fC660"
+    ]
+  },
+  {
+    "name": "터치페널 TOPRE0700WD",
+    "price": 80000,
+    "url": "https://web.joongna.com/product/226227242",
+    "image": "https://img2.joongna.com/media/original/2026/03/12/1773314622664g53_5mwuk.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/03/12/1773314622664g53_5mwuk.jpg",
+      "https://img2.joongna.com/media/original/2026/03/12/17733146228255t3_eDofN.jpg",
+      "https://img2.joongna.com/media/original/2026/03/12/1773314622927cWw_NcU98.jpg"
+    ],
+    "postedAt": "2026-06-06T05:39:39.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "topre"
+    ]
+  },
+  {
+    "name": "M2I TOPRE0400WD",
+    "price": 110000,
+    "url": "https://web.joongna.com/product/229254772",
+    "image": "https://img2.joongna.com/media/original/2026/06/03/1780440964735w6t_6Futq.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/03/1780440964735w6t_6Futq.jpg",
+      "https://img2.joongna.com/media/original/2026/06/03/1780440964848iJa_ohfDs.jpg"
+    ],
+    "postedAt": "2026-06-02T22:56:04.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "topre"
+    ]
+  },
+  {
+    "name": "엠투아이 터치 TOPRE0700WD NE 2대",
+    "price": 240000,
+    "url": "https://web.joongna.com/product/226202919",
+    "image": "https://img2.joongna.com/media/original/2026/03/12/1773276939965Cui_yGGNx.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/03/12/1773276939965Cui_yGGNx.jpg",
+      "https://img2.joongna.com/media/original/2026/03/12/1773276940234IoO_i1fhx.jpg",
+      "https://img2.joongna.com/media/original/2026/03/12/1773276940343yIg_y6Bh1.jpg"
+    ],
+    "postedAt": "2026-04-21T05:24:17.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "topre"
+    ]
+  },
+  {
+    "name": "[삽니다] 해피해킹 키보드 HHKB 토프레 topre 무접점",
+    "price": 99999,
+    "url": "https://web.joongna.com/product/222529342",
+    "image": "https://img2.joongna.com/media/original/2025/12/03/1764696901326YjI_sIvum.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2025/12/03/1764696901326YjI_sIvum.jpg",
+      "https://img2.joongna.com/media/original/2025/12/03/1764696901463JCL_B49XW.jpg"
+    ],
+    "postedAt": "2025-12-02T17:35:01.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "topre"
     ]
   }
 ]

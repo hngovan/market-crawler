@@ -7,21 +7,22 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 231,
+    "count": 235,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "leopold fC660",
+      "keyword": "topre",
       "keywords": [
-        "leopold fC660",
+        "topre",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
-        "realforce 101"
+        "realforce 101",
+        "leopold fC660"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-17T12:33:27.081Z"
+      "crawledAt": "2026-06-17T12:39:39.823Z"
     }
   },
   {
@@ -32,23 +33,24 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 169,
+    "count": 219,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "leopold fC660",
+      "keyword": "topre",
       "keywords": [
-        "leopold fC660",
+        "topre",
         "realforce",
         "realforce 101",
         "realforce 87",
         "realforce 86",
         "리얼포스 R2",
-        "660c"
+        "660c",
+        "leopold fC660"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-17T12:33:51.992Z"
+      "crawledAt": "2026-06-17T12:40:30.009Z"
     }
   },
   {
@@ -59,19 +61,20 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 175,
+    "count": 209,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "leopold fC660",
+      "keyword": "topre",
       "keywords": [
-        "leopold fC660",
+        "topre",
         "realforce",
-        "660c"
+        "660c",
+        "leopold fC660"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-17T12:34:29.210Z"
+      "crawledAt": "2026-06-17T12:41:31.979Z"
     }
   }
 ]
