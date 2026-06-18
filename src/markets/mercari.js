@@ -1,5 +1,9 @@
 import { launchBrowser } from "./browser.js";
-import { extractMercariCard, normalizeMercariImages } from "./mercari-products.js";
+import {
+  extractMercariCard,
+  isMercariSoldCard,
+  normalizeMercariImages,
+} from "./mercari-products.js";
 import { buildMercariSearchUrl, findMercariNextUrl } from "./page-navigation.js";
 import { extractMercariPostedAt } from "./product-date.js";
 import { marketDefinitions } from "./registry.js";
@@ -12,11 +16,14 @@ async function collectVisibleProducts(page) {
       (anchor) => {
         const image = anchor.querySelector("img");
         const labelledElement = anchor.querySelector('[aria-label*="円"]') ?? anchor;
+        const soldSticker = anchor.querySelector('[data-testid="thumbnail-sticker"][aria-label]');
         return {
           ariaLabel: labelledElement.getAttribute("aria-label") || "",
           imageAlt: image?.alt || "",
           url: anchor.href,
           image: image?.currentSrc || image?.src || "",
+          stickerLabel: soldSticker?.getAttribute("aria-label") || "",
+          stickerTestId: soldSticker?.getAttribute("data-testid") || "",
         };
       },
     ),
@@ -77,7 +84,9 @@ async function enrichDetailImages(browser, products, concurrency = 2) {
           await page.goto(product.url, { waitUntil: "domcontentloaded", timeout: 90000 });
           await new Promise((resolve) => setTimeout(resolve, 1200));
           const detail = await page.evaluate(() => ({
-            imageUrls: [...document.images].map((image) => image.currentSrc || image.src),
+            imageUrls: [...document.querySelectorAll(".slick-list img")].map(
+              (image) => image.currentSrc || image.src,
+            ),
             text: document.body.innerText,
           }));
           const images = normalizeMercariImages(detail.imageUrls);
@@ -129,6 +138,7 @@ export async function crawlMercari({ keyword, limit, sort }) {
       await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
       await new Promise((resolve) => setTimeout(resolve, 2500));
       for (const card of await collectVisibleProducts(page)) {
+        if (isMercariSoldCard(card)) continue;
         const product = extractMercariCard(card);
         if (product.name && product.price !== null && !uniqueProducts.has(product.url)) {
           uniqueProducts.set(product.url, product);

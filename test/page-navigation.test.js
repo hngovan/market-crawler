@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   buildBunjangSearchUrl,
+  buildGuheyoSearchUrl,
   buildJoongnaSearchUrl,
   buildMercariSearchUrl,
   findMercariNextUrl,
@@ -45,6 +46,13 @@ test("builds Bunjang search URLs with JSON sort values", () => {
   assert.equal(
     buildBunjangSearchUrl("realforce", "price-desc"),
     "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22price_desc%22%5D",
+  );
+});
+
+test("builds Guheyo search URLs", () => {
+  assert.equal(
+    buildGuheyoSearchUrl("realforce", "newest"),
+    "https://guheyo.com/search/sell?q=realforce",
   );
 });
 

@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "crawl": "node crawl.js",
-    "crawl:all": "node crawl.js --markets=joongna,bunjang,mercari",
+    "crawl:all": "node crawl.js --markets=joongna,bunjang,guheyo,mercari",
     "crawl:joongna": "node crawl.js --markets=joongna",
     "crawl:bunjang": "node crawl.js --markets=bunjang",
+    "crawl:guheyo": "node crawl.js --markets=guheyo",
     "crawl:mercari": "node crawl.js --markets=mercari",
     "build": "node scripts/build-static.js",
     "format": "prettier --write .",

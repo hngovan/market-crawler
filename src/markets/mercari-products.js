@@ -12,6 +12,10 @@ export function extractMercariCard({ ariaLabel, imageAlt, url, image }) {
   };
 }
 
+export function isMercariSoldCard({ stickerLabel, stickerTestId, isSold } = {}) {
+  return Boolean(isSold || (stickerTestId === "thumbnail-sticker" && stickerLabel === "売り切れ"));
+}
+
 export function normalizeMercariImages(images) {
   return [
     ...new Set(

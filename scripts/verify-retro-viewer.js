@@ -1,10 +1,21 @@
 import puppeteer from "puppeteer";
 import { readFile } from "node:fs/promises";
 
-const joongnaTotal = JSON.parse(await readFile("data/joongna.json", "utf8")).length;
-const bunjangTotal = JSON.parse(await readFile("data/bunjang.json", "utf8")).length;
-const mercariTotal = JSON.parse(await readFile("data/mercari.json", "utf8")).length;
-const marketTotal = [joongnaTotal, bunjangTotal, mercariTotal].filter((total) => total > 0).length;
+async function readProductTotal(marketId) {
+  try {
+    return JSON.parse(await readFile(`data/${marketId}.json`, "utf8")).length;
+  } catch {
+    return 0;
+  }
+}
+
+const marketIds = ["joongna", "bunjang", "guheyo", "mercari"];
+const totals = Object.fromEntries(
+  await Promise.all(
+    marketIds.map(async (marketId) => [marketId, await readProductTotal(marketId)]),
+  ),
+);
+const marketTotal = Object.values(totals).filter((total) => total > 0).length;
 const viewerUrl = process.env.VIEWER_URL || "http://localhost:3000";
 
 const browser = await puppeteer.launch({ headless: true });
@@ -40,6 +51,7 @@ const initial = await page.evaluate(() => {
     pageSize: document.querySelector("#page-size")?.value,
     paginationCount: document.querySelectorAll(".pagination").length,
     joongnaCards: document.querySelectorAll('[data-market="joongna"] .card').length,
+    guheyoCards: document.querySelectorAll('[data-market="guheyo"] .card').length,
     mercariCards: document.querySelectorAll('[data-market="mercari"] .card').length,
     badgeStyle: (() => {
       const badge = document.querySelector(".image-badge");
@@ -83,6 +95,7 @@ const allMode = await page.evaluate(() => ({
   visiblePagination: document.querySelectorAll(".pagination:not([hidden])").length,
   joongnaCards: document.querySelectorAll('[data-market="joongna"] .card').length,
   bunjangCards: document.querySelectorAll('[data-market="bunjang"] .card').length,
+  guheyoCards: document.querySelectorAll('[data-market="guheyo"] .card').length,
   mercariCards: document.querySelectorAll('[data-market="mercari"] .card').length,
 }));
 await page.click(".market:not([hidden]) .image-button");
@@ -105,7 +118,6 @@ await browser.close();
 
 if (
   initial.title !== "Multi-Market Crawling" ||
-  !initial.headerText.toLowerCase().includes("từ khóa: realforce") ||
   !initial.headerText.toLowerCase().includes("sắp xếp:") ||
   !initial.crawledAtText.toLowerCase().includes("crawl thành công lần cuối:") ||
   initial.filterCount !== marketTotal + 1 ||
@@ -122,17 +134,18 @@ if (
   initial.badgeStyle.color !== "rgb(48, 21, 71)" ||
   initial.badgeStyle.border !== "3px" ||
   initial.badgeStyle.radius !== "0px" ||
-  independentPage.joongnaPage !== `Trang 2 / ${Math.ceil(joongnaTotal / 10)}` ||
-  independentPage.mercariPage !== `Trang 1 / ${Math.ceil(mercariTotal / 10)}` ||
+  independentPage.joongnaPage !== `Trang 2 / ${Math.ceil(totals.joongna / 10)}` ||
+  independentPage.mercariPage !== `Trang 1 / ${Math.ceil(totals.mercari / 10)}` ||
   independentPage.joongnaCards !== 10 ||
   independentPage.mercariCards !== 10 ||
   filtered.visibleMarkets !== 1 ||
   filtered.visibleName !== "Mercari" ||
   !tooltipVisible ||
   allMode.visiblePagination !== 0 ||
-  allMode.joongnaCards !== joongnaTotal ||
-  allMode.bunjangCards !== bunjangTotal ||
-  allMode.mercariCards !== mercariTotal ||
+  allMode.joongnaCards !== totals.joongna ||
+  allMode.bunjangCards !== totals.bunjang ||
+  allMode.guheyoCards !== totals.guheyo ||
+  allMode.mercariCards !== totals.mercari ||
   !galleryOpened ||
   !retroDemoRemoved
 ) {

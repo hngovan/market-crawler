@@ -70,7 +70,7 @@
       "https://img2.joongna.com/media/original/2026/05/27/1779845938465A2R_wuoVU.jpg",
       "https://img2.joongna.com/media/original/2026/05/27/1779845938630ry0_yHBJb.jpg"
     ],
-    "postedAt": "2026-06-17T07:02:41.000Z",
+    "postedAt": "2026-06-18T01:34:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -156,7 +156,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/15/1781482849000AAy_NcMtd.jpg"
     ],
-    "postedAt": "2026-06-17T10:03:53.000Z",
+    "postedAt": "2026-06-18T01:18:05.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5187,6 +5187,51 @@
       "https://img2.joongna.com/media/original/2026/06/18/1781708740636zsg_SSWfh.jpg"
     ],
     "postedAt": "2026-06-17T15:05:40.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ]
+  },
+  {
+    "name": "리얼포스 r4 45g 키보드",
+    "price": 350000,
+    "url": "https://web.joongna.com/product/229760129",
+    "image": "https://img2.joongna.com/media/original/2026/06/18/17817493808962d2_fwjL5.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/18/17817493808962d2_fwjL5.jpg",
+      "https://img2.joongna.com/media/original/2026/06/18/1781749381083FxQ_ml1ED.jpg",
+      "https://img2.joongna.com/media/original/2026/06/18/17817493811856Cu_aBOEN.jpg",
+      "https://img2.joongna.com/media/original/2026/06/18/17817493814048Wb_8nRmO.jpg"
+    ],
+    "postedAt": "2026-06-18T02:23:01.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ]
+  },
+  {
+    "name": "리얼포스 키캡",
+    "price": 360000,
+    "url": "https://web.joongna.com/product/229760008",
+    "image": "https://img2.joongna.com/media/original/2026/06/18/178174917641507h_Hnzdd.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/18/178174917641507h_Hnzdd.jpg",
+      "https://img2.joongna.com/media/original/2026/06/18/1781749176620b5H_ttVWM.jpg",
+      "https://img2.joongna.com/media/original/2026/06/18/17817491767575UE_ta9tJ.jpg",
+      "https://img2.joongna.com/media/original/2026/06/18/1781749176947liG_ByiyW.jpg",
+      "https://img2.joongna.com/cafe-article-data/live/2025/03/18/1099338299/1742229815395_000_J63wJ_main.jpg"
+    ],
+    "postedAt": "2026-06-18T02:19:37.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",

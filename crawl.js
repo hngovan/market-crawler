@@ -9,6 +9,7 @@ import {
   mergeProductsByUrl,
 } from "./src/market-output.js";
 import { crawlBunjang, bunjangMarket } from "./src/markets/bunjang.js";
+import { crawlGuheyo, guheyoMarket } from "./src/markets/guheyo.js";
 import { crawlJoongna, joongnaMarket } from "./src/markets/joongna.js";
 import { crawlMercari, mercariMarket } from "./src/markets/mercari.js";
 import { parseOptions } from "./src/options.js";
@@ -17,6 +18,7 @@ import { formatProductLog } from "./src/products.js";
 const adapters = {
   joongna: { market: joongnaMarket, crawl: crawlJoongna },
   bunjang: { market: bunjangMarket, crawl: crawlBunjang },
+  guheyo: { market: guheyoMarket, crawl: crawlGuheyo },
   mercari: { market: mercariMarket, crawl: crawlMercari },
 };
 

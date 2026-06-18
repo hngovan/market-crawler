@@ -21,6 +21,14 @@ export const marketDefinitions = {
     regionFlag: regions.korea.flag,
     currency: "KRW",
   },
+  guheyo: {
+    id: "guheyo",
+    name: "Guheyo",
+    region: regions.korea.id,
+    regionName: regions.korea.name,
+    regionFlag: regions.korea.flag,
+    currency: "KRW",
+  },
   mercari: {
     id: "mercari",
     name: "Mercari",
@@ -31,7 +39,7 @@ export const marketDefinitions = {
   },
 };
 
-export const defaultMarkets = ["joongna", "bunjang", "mercari"];
+export const defaultMarkets = ["joongna", "bunjang", "guheyo", "mercari"];
 export const supportedMarkets = Object.keys(marketDefinitions);
 export const supportedSorts = ["price-asc", "price-desc", "newest"];
 

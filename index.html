@@ -396,9 +396,8 @@
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
         gap: 6px;
-        overflow: hidden;
       }
       .image-badge {
         padding: 5px 9px;
@@ -475,34 +474,6 @@
         font-weight: 700;
         line-height: 1.2;
         text-align: right;
-      }
-      .keyword-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-        margin: 0;
-      }
-      .keyword-tag {
-        max-width: 100%;
-        padding: 4px 7px;
-        border: 2px solid #301547;
-        background: #fff0a6;
-        box-shadow: 2px 2px 0 #6de0de;
-        font-size: 12px;
-        font-weight: 800;
-        overflow-wrap: anywhere;
-      }
-      .image-top-tags .keyword-tags {
-        min-width: 0;
-        margin-right: auto;
-        flex-wrap: nowrap;
-        overflow: hidden;
-      }
-      .image-top-tags .keyword-tag {
-        max-width: 118px;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
       }
       .link {
         display: block;
@@ -646,8 +617,7 @@
         .link,
         .page-button,
         .image-badge,
-        .posted-at,
-        .keyword-tag {
+        .posted-at {
           box-shadow: 2px 2px 0 #301547;
         }
         .crawl-field {
@@ -664,12 +634,6 @@
         .posted-at {
           box-shadow: 2px 2px 0 #ff548a;
         }
-        .keyword-tag {
-          box-shadow: 2px 2px 0 #6de0de;
-        }
-        .keyword-tag {
-          font-size: 10px;
-        }
         .image-top-tags {
           right: 8px;
           bottom: 8px;
@@ -677,8 +641,7 @@
           gap: 4px;
         }
         .image-badge,
-        .posted-at,
-        .image-top-tags .keyword-tag {
+        .posted-at {
           font-size: 10px;
         }
         .posted-at {
@@ -725,6 +688,19 @@
       @media (min-width: 641px) and (max-width: 900px) {
         .product-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (min-width: 901px) {
+        .markets {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
+          gap: 28px;
+          columns: auto;
+          align-items: start;
+        }
+        .market {
+          display: block;
+          margin: 0;
         }
       }
       @media (max-width: 560px) {
@@ -833,6 +809,10 @@
                   Bunjang</label
                 >
                 <label class="crawl-market-option"
+                  ><input name="crawl-market" type="checkbox" value="guheyo" checked /> 🇰🇷
+                  Guheyo</label
+                >
+                <label class="crawl-market-option"
                   ><input name="crawl-market" type="checkbox" value="mercari" checked /> 🇯🇵
                   Mercari</label
                 >
@@ -881,7 +861,7 @@
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/thumbnail/lg-thumbnail.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/zoom/lg-zoom.umd.js"></script>
     <script type="module">
-      import { formatKeywordTags, hydrateProducts } from "./src/ui-products.js";
+      import { hydrateProducts } from "./src/ui-products.js";
 
       const marketsElement = document.querySelector("#markets");
       const filtersElement = document.querySelector("#filters");
@@ -1064,17 +1044,6 @@
         const postedAt = document.createElement("p");
         postedAt.className = "posted-at";
         postedAt.textContent = formatPostedAt(product);
-        const keywordTags = document.createElement("div");
-        keywordTags.className = "keyword-tags";
-        keywordTags.append(
-          ...formatKeywordTags(product.keywords).map((keyword) => {
-            const tag = document.createElement("span");
-            tag.className = "keyword-tag";
-            tag.textContent = keyword;
-            return tag;
-          }),
-        );
-        if (keywordTags.childElementCount) imageTopTags.append(keywordTags);
         if (badge) imageTopTags.append(badge);
         if (imageTopTags.childElementCount) imageButton.append(imageTopTags);
         imageButton.append(postedAt);

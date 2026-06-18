@@ -8,14 +8,14 @@ test("validates an arbitrary positive crawl limit and newest sort", () => {
     validateCrawlRequest({
       keyword: " realforce ",
       limit: 375,
-      markets: ["joongna", "bunjang", "mercari"],
+      markets: ["joongna", "bunjang", "guheyo", "mercari"],
       sort: "newest",
     }),
     {
       keyword: "realforce",
       keywords: ["realforce"],
       limit: 375,
-      markets: ["joongna", "bunjang", "mercari"],
+      markets: ["joongna", "bunjang", "guheyo", "mercari"],
       sort: "newest",
     },
   );

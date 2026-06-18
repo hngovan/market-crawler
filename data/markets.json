@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 238,
+    "count": 240,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -22,7 +22,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-18T00:08:23.053Z"
+      "crawledAt": "2026-06-18T03:05:10.814Z"
     }
   },
   {
@@ -50,7 +50,28 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-18T00:08:34.713Z"
+      "crawledAt": "2026-06-18T03:05:29.851Z"
+    }
+  },
+  {
+    "id": "guheyo",
+    "name": "Guheyo",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "status": "success",
+    "count": 2,
+    "error": "",
+    "dataFile": "data/guheyo.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 2,
+      "crawledAt": "2026-06-18T04:38:27.895Z"
     }
   },
   {
@@ -61,7 +82,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 239,
+    "count": 242,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -75,7 +96,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-18T00:10:58.265Z"
+      "crawledAt": "2026-06-18T03:06:21.257Z"
     }
   }
 ]

@@ -89,3 +89,72 @@ test("720px viewport keeps markets full-width and uses two product columns", asy
     `markets overflowed horizontally: ${layout.scrollWidth} > ${layout.clientWidth}`,
   );
 });
+
+test("desktop region filter fills both market columns", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1440, height: 900, deviceScaleFactor: 1 });
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".market", { timeout: 10000 });
+  assert.equal(
+    await page.$$eval(".keyword-tags, .keyword-tag, .keyword-overflow", (tags) => tags.length),
+    0,
+  );
+  const badgePosition = await page.$eval(".image-button:has(.image-badge)", (button) => {
+    const buttonRect = button.getBoundingClientRect();
+    const badgeRect = button.querySelector(".image-badge").getBoundingClientRect();
+    return {
+      buttonRight: Math.round(buttonRect.right),
+      badgeRight: Math.round(badgeRect.right),
+      badgeLeft: Math.round(badgeRect.left),
+      buttonLeft: Math.round(buttonRect.left),
+    };
+  });
+  assert.ok(
+    badgePosition.buttonRight - badgePosition.badgeRight <= 18,
+    `image badge should sit in the right corner: ${JSON.stringify(badgePosition)}`,
+  );
+  assert.ok(
+    badgePosition.badgeLeft - badgePosition.buttonLeft > 40,
+    `image badge should not sit in the left corner: ${JSON.stringify(badgePosition)}`,
+  );
+  await page.select("#region-filters", "korea");
+  await page.waitForFunction(() => document.querySelectorAll(".market").length === 3);
+
+  const layout = await page.$$eval(".market", (markets) =>
+    markets.map((market) => {
+      const rect = market.getBoundingClientRect();
+      return {
+        name: market.querySelector(".market-header h2")?.textContent,
+        top: Math.round(rect.top),
+        left: Math.round(rect.left),
+      };
+    }),
+  );
+
+  assert.deepEqual(
+    layout.map((market) => market.name),
+    ["Joongna", "Bunjang", "Guheyo"],
+  );
+  assert.ok(
+    Math.abs(layout[0].top - layout[1].top) <= 4,
+    `filtered markets should start on the same row: ${JSON.stringify(layout)}`,
+  );
+  assert.ok(
+    layout[1].left > layout[0].left,
+    `second filtered market should fill the right column: ${JSON.stringify(layout)}`,
+  );
+  assert.ok(
+    layout[2].top > layout[0].top,
+    `third filtered market should wrap after the filled first row: ${JSON.stringify(layout)}`,
+  );
+});

@@ -1,7 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { extractMercariCard, normalizeMercariImages } from "../src/markets/mercari-products.js";
+import {
+  extractMercariCard,
+  isMercariSoldCard,
+  normalizeMercariImages,
+} from "../src/markets/mercari-products.js";
 
 test("extracts Mercari card data with the original JPY price", () => {
   assert.deepEqual(
@@ -29,4 +33,15 @@ test("normalizes unique Mercari original detail images", () => {
     ]),
     ["https://static.mercdn.net/item/detail/orig/photos/m1_1.jpg"],
   );
+});
+
+test("detects sold Mercari cards from the thumbnail sticker", () => {
+  assert.equal(
+    isMercariSoldCard({
+      stickerLabel: "売り切れ",
+      stickerTestId: "thumbnail-sticker",
+    }),
+    true,
+  );
+  assert.equal(isMercariSoldCard({ stickerLabel: "出品中" }), false);
 });

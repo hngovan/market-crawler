@@ -1,6 +1,6 @@
 # Multi-Market Product Crawler
 
-Crawl sản phẩm từ Joongna, Bunjang và Mercari không đăng nhập, lưu kết quả
+Crawl sản phẩm từ Joongna, Bunjang, Guheyo và Mercari không đăng nhập, lưu kết quả
 theo từng chợ và hiển thị trên trang web local.
 
 ## Yêu cầu
@@ -27,6 +27,7 @@ Chạy riêng từng chợ:
 ```powershell
 npm run crawl:joongna -- --keyword=realforce --limit=20
 npm run crawl -- --markets=bunjang --keyword=realforce --limit=20
+npm run crawl:guheyo -- --keyword=realforce --limit=20
 npm run crawl:mercari -- --keyword=realforce --limit=20
 ```
 
@@ -41,11 +42,12 @@ Crawler sẽ:
 - Chạy adapter riêng cho từng chợ.
 - Hỗ trợ `--sort=price-asc`, `--sort=price-desc` và `--sort=newest`.
 - Đi qua `?page=2...` của Joongna và `page_token` của Mercari cho đến khi đủ limit.
+- Guheyo hiện crawl trang search đầu tiên rồi sort nội bộ vì chưa xác định được API phân trang ổn định.
 - Loại bỏ sản phẩm trùng URL hoặc thiếu dữ liệu cần thiết.
 - Hiển thị tên, giá và URL của từng sản phẩm trên terminal.
 - Gắn metadata khu vực, chợ và keyword để UI lọc lại sau khi crawl nhiều từ khóa.
 - Mở trang chi tiết để lấy toàn bộ ảnh sản phẩm.
-- Lưu kết quả vào `data/joongna.json`, `data/bunjang.json`, `data/mercari.json`.
+- Lưu kết quả vào `data/joongna.json`, `data/bunjang.json`, `data/guheyo.json`, `data/mercari.json`.
 - Lưu trạng thái các chợ vào `data/markets.json`.
 
 Mercari chạy headless không cần đăng nhập và sử dụng giá gốc JPY.
@@ -188,6 +190,7 @@ website không phụ thuộc vào file này khi chạy bình thường.
 |-- data/markets.json        # Trạng thái crawl từng chợ
 |-- data/joongna.json        # Kết quả Joongna
 |-- data/bunjang.json        # Kết quả Bunjang
+|-- data/guheyo.json         # Kết quả Guheyo
 |-- data/mercari.json        # Kết quả Mercari
 |-- src/markets/             # Adapter crawler từng chợ
 |-- src/options.js           # Xử lý tham số dòng lệnh

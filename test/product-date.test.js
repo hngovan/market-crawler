@@ -28,3 +28,15 @@ test("converts Korean relative posted time to an approximate ISO timestamp", () 
     postedAtText: "2시간 전",
   });
 });
+
+test("converts Korean worded relative posted time", () => {
+  const now = new Date("2026-06-16T03:00:00.000Z");
+  assert.deepEqual(extractKoreanRelativePostedAt("하루 전", now), {
+    postedAt: "2026-06-15T03:00:00.000Z",
+    postedAtText: "하루 전",
+  });
+  assert.deepEqual(extractKoreanRelativePostedAt("한 달 전", now), {
+    postedAt: "2026-05-16T03:00:00.000Z",
+    postedAtText: "한 달 전",
+  });
+});

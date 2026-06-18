@@ -29,6 +29,12 @@ export function buildBunjangSearchUrl(keyword, sort) {
   return url.href;
 }
 
+export function buildGuheyoSearchUrl(keyword) {
+  const url = new URL("/search/sell", "https://guheyo.com");
+  url.searchParams.set("q", keyword);
+  return url.href;
+}
+
 export function findMercariNextUrl(urls) {
   return (
     urls.find((url) => {
