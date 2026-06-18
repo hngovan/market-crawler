@@ -117,6 +117,77 @@
         padding: 7px 10px;
         min-width: 88px;
       }
+      .exchange-panel {
+        position: fixed;
+        top: 58px;
+        right: 12px;
+        z-index: 75;
+        width: min(280px, calc(100vw - 24px));
+        text-align: right;
+      }
+      .exchange-switch {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 8px;
+        border: 3px solid #301547;
+        color: #301547;
+        background: #fff0a6;
+        box-shadow: 4px 4px 0 #301547;
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .exchange-switch input {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        cursor: pointer;
+        opacity: 0;
+      }
+      .exchange-track {
+        position: relative;
+        width: 42px;
+        height: 22px;
+        border: 3px solid #301547;
+        background: white;
+        box-shadow: 2px 2px 0 #ff548a;
+      }
+      .exchange-thumb {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 12px;
+        height: 12px;
+        border: 2px solid #301547;
+        background: #ff548a;
+        transition: transform 0.14s ease-out;
+      }
+      .exchange-switch input:checked + .exchange-track {
+        background: #6de0de;
+      }
+      .exchange-switch input:checked + .exchange-track .exchange-thumb {
+        transform: translateX(18px);
+      }
+      .exchange-rate-note {
+        margin-top: 7px;
+        padding: 6px 7px;
+        border: 2px solid #301547;
+        color: #301547;
+        background: #ffd4e5;
+        box-shadow: 3px 3px 0 #301547;
+        font-size: 11px;
+        font-weight: 800;
+        line-height: 1.35;
+      }
+      .exchange-rate-note:empty {
+        display: none;
+      }
       .scroll-top {
         position: fixed;
         right: 14px;
@@ -247,7 +318,7 @@
       }
       .toolbar {
         display: grid;
-        grid-template-columns: repeat(5, minmax(140px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
         align-items: end;
         gap: 12px;
         margin: 18px 0 24px;
@@ -454,7 +525,7 @@
         transform: translateY(0);
       }
       .price {
-        margin: 8px 0 10px;
+        margin: 8px 0 4px;
         color: #ff3678;
         font-size: 20px;
         font-weight: 800;
@@ -749,6 +820,14 @@
     >
       Ẩn
     </button>
+    <div class="exchange-panel">
+      <label class="exchange-switch" title="Quy đổi giá sang VND">
+        <input id="vnd-toggle" type="checkbox" />
+        <span class="exchange-track" aria-hidden="true"><span class="exchange-thumb"></span></span>
+        <span class="exchange-switch-text">VND</span>
+      </label>
+      <div id="exchange-rate-note" class="exchange-rate-note" aria-live="polite"></div>
+    </div>
     <button
       id="scroll-top"
       class="scroll-top"
@@ -861,6 +940,13 @@
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/thumbnail/lg-thumbnail.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/plugins/zoom/lg-zoom.umd.js"></script>
     <script type="module">
+      import {
+        EXCHANGE_RATE_CACHE_KEY,
+        convertProductPriceToVnd,
+        formatExchangeRateNote,
+        formatOriginalToVndRate,
+        formatVndPrice,
+      } from "./src/exchange-rates.js";
       import { hydrateProducts } from "./src/ui-products.js";
 
       const marketsElement = document.querySelector("#markets");
@@ -869,6 +955,8 @@
       const keywordFilterElement = document.querySelector("#keyword-filter");
       const displaySortElement = document.querySelector("#display-sort");
       const pageSizeElement = document.querySelector("#page-size");
+      const vndToggleElement = document.querySelector("#vnd-toggle");
+      const exchangeRateNoteElement = document.querySelector("#exchange-rate-note");
       const statusElement = document.querySelector("#status");
       const crawlForm = document.querySelector("#crawl-form");
       const crawlLog = document.querySelector("#crawl-log");
@@ -888,6 +976,13 @@
         sort: "newest",
       };
       let pageSize = 20;
+      const exchangeState = {
+        enabled: false,
+        loading: false,
+        cached: false,
+        error: "",
+        rates: null,
+      };
       const currencyConfig = {
         KRW: { locale: "ko-KR", symbol: "원" },
         CNY: { locale: "zh-CN", symbol: "¥", prefix: true },
@@ -945,6 +1040,89 @@
         return config.prefix ? `${config.symbol}${value}` : `${value}${config.symbol}`;
       }
 
+      function readCachedExchangeRates() {
+        try {
+          const cached = JSON.parse(localStorage.getItem(EXCHANGE_RATE_CACHE_KEY) || "null");
+          return cached?.rates?.vndPerCurrency ? cached : null;
+        } catch {
+          return null;
+        }
+      }
+
+      function writeCachedExchangeRates(rates) {
+        try {
+          localStorage.setItem(
+            EXCHANGE_RATE_CACHE_KEY,
+            JSON.stringify({
+              cachedAt: new Date().toISOString(),
+              rates,
+            }),
+          );
+        } catch {
+          // localStorage can be unavailable in private or restricted contexts.
+        }
+      }
+
+      function getAnyCachedExchangeRates() {
+        return readCachedExchangeRates()?.rates ?? null;
+      }
+
+      function renderExchangeRateNote() {
+        if (!exchangeState.enabled) {
+          exchangeRateNoteElement.textContent = "";
+          return;
+        }
+        if (exchangeState.loading) {
+          exchangeRateNoteElement.textContent = "Đang lấy tỉ giá VND...";
+          return;
+        }
+        if (!exchangeState.rates) {
+          exchangeRateNoteElement.textContent =
+            exchangeState.error || "Không lấy được tỉ giá quy đổi.";
+          return;
+        }
+
+        const rateNotes = ["KRW", "JPY"]
+          .map((currency) => formatOriginalToVndRate(currency, exchangeState.rates))
+          .filter(Boolean);
+        exchangeRateNoteElement.textContent = [
+          ...rateNotes,
+          formatExchangeRateNote(exchangeState.rates, { cached: exchangeState.cached }),
+          "Nguồn: ExchangeRate-API",
+        ]
+          .filter(Boolean)
+          .join(" · ");
+      }
+
+      async function loadExchangeRates() {
+        exchangeState.loading = true;
+        exchangeState.error = "";
+        renderExchangeRateNote();
+        try {
+          const response = await fetch("/api/exchange-rates", { cache: "no-store" });
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const rates = await response.json();
+          exchangeState.rates = rates;
+          exchangeState.cached = false;
+          exchangeState.error = "";
+          writeCachedExchangeRates(rates);
+        } catch (error) {
+          const cached = getAnyCachedExchangeRates();
+          exchangeState.rates = cached;
+          exchangeState.cached = Boolean(cached);
+          exchangeState.error = cached ? "" : `Không lấy được tỉ giá realtime (${error.message}).`;
+        } finally {
+          exchangeState.loading = false;
+          renderExchangeRateNote();
+          rerenderMarkets();
+        }
+      }
+
+      function comparablePrice(product) {
+        if (!exchangeState.enabled || !exchangeState.rates) return product.price;
+        return convertProductPriceToVnd(product, exchangeState.rates) ?? product.price;
+      }
+
       function formatPostedAt(product) {
         if (!product.postedAt) return product.postedAtText || "Không rõ";
         const parts = Object.fromEntries(
@@ -977,8 +1155,8 @@
 
       function sortProductsForDisplay(products) {
         return [...products].sort((a, b) => {
-          if (filterState.sort === "price-asc") return a.price - b.price;
-          if (filterState.sort === "price-desc") return b.price - a.price;
+          if (filterState.sort === "price-asc") return comparablePrice(a) - comparablePrice(b);
+          if (filterState.sort === "price-desc") return comparablePrice(b) - comparablePrice(a);
 
           const aTime = a.postedAt ? new Date(a.postedAt).getTime() : 0;
           const bTime = b.postedAt ? new Date(b.postedAt).getTime() : 0;
@@ -1040,7 +1218,12 @@
         nameWrap.append(name, tooltip);
         const price = document.createElement("p");
         price.className = "price";
-        price.textContent = formatPrice(product);
+        const originalPrice = formatPrice(product);
+        const convertedVnd = exchangeState.enabled
+          ? convertProductPriceToVnd(product, exchangeState.rates)
+          : null;
+        price.textContent = convertedVnd !== null ? formatVndPrice(convertedVnd) : originalPrice;
+        if (convertedVnd !== null) price.title = `Giá gốc: ${originalPrice}`;
         const postedAt = document.createElement("p");
         postedAt.className = "posted-at";
         postedAt.textContent = formatPostedAt(product);
@@ -1279,6 +1462,17 @@
         filterState.sort = displaySortElement.value;
         resetPages();
         rerenderMarkets();
+      });
+      vndToggleElement.addEventListener("change", () => {
+        exchangeState.enabled = vndToggleElement.checked;
+        resetPages();
+        if (exchangeState.enabled) {
+          loadExchangeRates();
+        } else {
+          exchangeState.loading = false;
+          renderExchangeRateNote();
+          rerenderMarkets();
+        }
       });
       window.__setPageSizeForTest = setPageSize;
 

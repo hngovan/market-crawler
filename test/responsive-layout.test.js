@@ -158,3 +158,114 @@ test("desktop region filter fills both market columns", async (t) => {
     `third filtered market should wrap after the filled first row: ${JSON.stringify(layout)}`,
   );
 });
+
+test("VND conversion toggle shows converted prices and update note", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+
+  const page = await browser.newPage();
+  await page.setRequestInterception(true);
+  page.on("request", (request) => {
+    if (request.url().endsWith("/api/exchange-rates")) {
+      request.respond({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({
+          updatedAt: "2026-06-18T00:00:00.000Z",
+          fetchedAt: "2026-06-18T00:01:00.000Z",
+          vndPerCurrency: { KRW: 18.5, JPY: 172.25 },
+        }),
+      });
+      return;
+    }
+    request.continue();
+  });
+
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".market", { timeout: 10000 });
+  const originalPrice = await page.$eval(".price", (element) => element.textContent);
+  await page.click("#vnd-toggle");
+  await page.waitForFunction(() =>
+    /^~[\d.]+đ$/.test(document.querySelector(".price")?.textContent || ""),
+  );
+
+  const conversion = await page.evaluate(() => ({
+    checked: document.querySelector("#vnd-toggle")?.checked,
+    priceText: document.querySelector(".price")?.textContent,
+    priceTitle: document.querySelector(".price")?.getAttribute("title"),
+    noteText: document.querySelector("#exchange-rate-note")?.textContent,
+    convertedPriceCount: document.querySelectorAll(".converted-price").length,
+  }));
+
+  assert.equal(conversion.checked, true);
+  assert.notEqual(conversion.priceText, originalPrice);
+  assert.match(conversion.priceText, /^~[\d.]+đ$/);
+  assert.equal(conversion.priceTitle, `Giá gốc: ${originalPrice}`);
+  assert.equal(conversion.convertedPriceCount, 0);
+  assert.match(conversion.noteText, /Cập nhật lúc:/);
+  assert.match(conversion.noteText, /1 KRW = 18,50đ/);
+});
+
+test("VND conversion toggle falls back to cached rates when API fails", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+
+  const page = await browser.newPage();
+  await page.setRequestInterception(true);
+  page.on("request", (request) => {
+    if (request.url().endsWith("/api/exchange-rates")) {
+      request.respond({
+        status: 503,
+        contentType: "application/json",
+        body: JSON.stringify({ error: "unavailable" }),
+      });
+      return;
+    }
+    request.continue();
+  });
+
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".market", { timeout: 10000 });
+  await page.evaluate(() => {
+    localStorage.setItem(
+      "market-crawler:vnd-exchange-rates",
+      JSON.stringify({
+        cachedAt: "2026-06-18T00:02:00.000Z",
+        rates: {
+          updatedAt: "2026-06-18T00:00:00.000Z",
+          fetchedAt: "2026-06-18T00:01:00.000Z",
+          vndPerCurrency: { KRW: 19, JPY: 173 },
+        },
+      }),
+    );
+  });
+  await page.click("#vnd-toggle");
+  await page.waitForFunction(() =>
+    /^~[\d.]+đ$/.test(document.querySelector(".price")?.textContent || ""),
+  );
+
+  const conversion = await page.evaluate(() => ({
+    priceText: document.querySelector(".price")?.textContent,
+    noteText: document.querySelector("#exchange-rate-note")?.textContent,
+    convertedPriceCount: document.querySelectorAll(".converted-price").length,
+  }));
+
+  assert.match(conversion.priceText, /^~[\d.]+đ$/);
+  assert.equal(conversion.convertedPriceCount, 0);
+  assert.match(conversion.noteText, /Đang dùng tỉ giá cache:/);
+  assert.match(conversion.noteText, /1 KRW = 19,00đ/);
+});

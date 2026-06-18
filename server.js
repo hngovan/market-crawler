@@ -6,6 +6,7 @@ import { randomUUID } from "node:crypto";
 import path from "node:path";
 
 import { toCrawlArguments, validateCrawlRequest } from "./src/crawl-request.js";
+import { fetchVndExchangeRates } from "./src/exchange-rates-api.js";
 
 const root = process.cwd();
 const port = Number(process.env.PORT) || 3000;
@@ -38,6 +39,10 @@ function authorize(request) {
 }
 
 async function handleApi(request, response, url) {
+  if (url.pathname === "/api/exchange-rates" && request.method === "GET") {
+    return sendJson(response, 200, await fetchVndExchangeRates());
+  }
+
   if (!authorize(request)) return sendJson(response, 401, { error: "Unauthorized" });
 
   if (url.pathname === "/api/crawl" && request.method === "POST") {

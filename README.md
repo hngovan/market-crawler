@@ -96,6 +96,10 @@ Trang HTML đọc `data/markets.json` và hiển thị mỗi chợ trong một c
 Click vào ảnh sản phẩm để mở preview bằng LightGallery. Badge số lượng ảnh chỉ
 hiển thị khi sản phẩm có nhiều hơn một ảnh.
 
+Switch `VND` dưới nút `Crawler` gọi `/api/exchange-rates` để lấy tỉ giá realtime
+từ ExchangeRate-API Open Access, hiển thị giá gốc và giá Việt Nam đã quy đổi.
+Nếu API lỗi, UI dùng cache gần nhất trong trình duyệt và ghi rõ thời điểm cập nhật.
+
 Giao diện sử dụng theme Retro Arcade. Có thể lọc theo khu vực, chợ, keyword crawl
 và ngày đăng như hôm nay, 3 ngày gần đây hoặc 7 ngày gần đây. Tên sản phẩm được
 giới hạn ba dòng và hiện tên đầy đủ khi hover.
