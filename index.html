@@ -122,8 +122,10 @@
         top: 58px;
         right: 12px;
         z-index: 75;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         width: min(280px, calc(100vw - 24px));
-        text-align: right;
       }
       .exchange-switch {
         position: relative;
@@ -175,15 +177,18 @@
         transform: translateX(18px);
       }
       .exchange-rate-note {
+        align-self: stretch;
         margin-top: 7px;
-        padding: 6px 7px;
-        border: 2px solid #301547;
+        padding: 8px 9px;
+        border: 3px solid #301547;
         color: #301547;
-        background: #ffd4e5;
+        background: #fffdf6;
         box-shadow: 3px 3px 0 #301547;
         font-size: 11px;
         font-weight: 800;
         line-height: 1.35;
+        text-align: left;
+        overflow-wrap: anywhere;
       }
       .exchange-rate-note:empty {
         display: none;

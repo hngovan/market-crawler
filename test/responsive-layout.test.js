@@ -201,6 +201,8 @@ test("VND conversion toggle shows converted prices and update note", async (t) =
     priceText: document.querySelector(".price")?.textContent,
     priceTitle: document.querySelector(".price")?.getAttribute("title"),
     noteText: document.querySelector("#exchange-rate-note")?.textContent,
+    noteAlign: getComputedStyle(document.querySelector("#exchange-rate-note")).textAlign,
+    noteBackground: getComputedStyle(document.querySelector("#exchange-rate-note")).backgroundColor,
     convertedPriceCount: document.querySelectorAll(".converted-price").length,
   }));
 
@@ -209,6 +211,8 @@ test("VND conversion toggle shows converted prices and update note", async (t) =
   assert.match(conversion.priceText, /^~[\d.]+đ$/);
   assert.equal(conversion.priceTitle, `Giá gốc: ${originalPrice}`);
   assert.equal(conversion.convertedPriceCount, 0);
+  assert.equal(conversion.noteAlign, "left");
+  assert.notEqual(conversion.noteBackground, "rgb(255, 212, 229)");
   assert.match(conversion.noteText, /Cập nhật lúc:/);
   assert.match(conversion.noteText, /1 KRW = 18,50đ/);
 });
