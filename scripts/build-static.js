@@ -4,6 +4,7 @@ await mkdir("public/data", { recursive: true });
 await mkdir("public/src", { recursive: true });
 await cp("index.html", "public/index.html");
 await cp("favicon.svg", "public/favicon.svg");
+await cp("src/exchange-rates.js", "public/src/exchange-rates.js");
 await cp("src/ui-products.js", "public/src/ui-products.js");
 
 try {
