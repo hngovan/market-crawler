@@ -73,7 +73,7 @@
       "https://img2.joongna.com/media/original/2026/05/27/1779845938465A2R_wuoVU.jpg",
       "https://img2.joongna.com/media/original/2026/05/27/1779845938630ry0_yHBJb.jpg"
     ],
-    "postedAt": "2026-06-18T01:34:32.000Z",
+    "postedAt": "2026-06-19T02:50:36.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -253,7 +253,7 @@
       "https://img2.joongna.com/media/original/2026/06/14/1781437564372dPo_ApIkk.jpg",
       "https://img2.joongna.com/media/original/2026/06/14/17814375644764tX_8lbEG.jpg"
     ],
-    "postedAt": "2026-06-18T10:44:16.000Z",
+    "postedAt": "2026-06-19T11:01:25.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4365,7 +4365,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/17/1781687356360qbM_uj1sd.jpg"
     ],
-    "postedAt": "2026-06-18T07:06:23.000Z",
+    "postedAt": "2026-06-19T04:45:43.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5493,7 +5493,7 @@
       "https://img2.joongna.com/media/original/2026/06/18/17817887829313dU_QGo65.jpg",
       "https://img2.joongna.com/media/original/2026/06/18/178178878307024b_abfLM.jpg"
     ],
-    "postedAt": "2026-06-18T14:00:33.000Z",
+    "postedAt": "2026-06-19T11:01:30.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5507,7 +5507,7 @@
   },
   {
     "name": "(공방윤활) 리얼포스 R3 TKL 45g 균등 블루투스",
-    "price": 189000,
+    "price": 195000,
     "url": "https://web.joongna.com/product/229783243",
     "image": "https://img2.joongna.com/media/original/2026/06/18/1781791058514Orq_GE7jO.jpg?impolicy=thumb&size=150",
     "images": [
@@ -5626,5 +5626,68 @@
       "realforce"
     ],
     "crawledAt": "2026-06-19T09:24:47.807Z"
+  },
+  {
+    "name": "(미개봉) 리얼포스 R3 TLS 그레이블루 45g",
+    "price": 250000,
+    "url": "https://web.joongna.com/product/229808024",
+    "image": "https://img2.joongna.com/media/original/2026/06/19/1781863448649Gqu_BYS53.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/19/1781863448649Gqu_BYS53.jpg"
+    ],
+    "postedAt": "2026-06-19T10:04:08.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-19T14:42:55.627Z"
+  },
+  {
+    "name": "(미개봉) 리얼포스 R4 텐키리스 블투 저소음 apc 30g",
+    "price": 340000,
+    "url": "https://web.joongna.com/product/229807997",
+    "image": "https://img2.joongna.com/media/original/2026/06/19/1781863415548kP7_aiVYQ.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/19/1781863415548kP7_aiVYQ.jpg"
+    ],
+    "postedAt": "2026-06-19T10:03:35.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-19T14:42:55.627Z"
+  },
+  {
+    "name": "리얼포스 R2 PFU 리미티드 에디션 키보드 Realforce R2 PFU Limited Edition",
+    "price": 290000,
+    "url": "https://web.joongna.com/product/229797123",
+    "image": "https://img2.joongna.com/media/original/2026/06/19/178184372438135o_r0uH9.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/19/178184372438135o_r0uH9.jpg",
+      "https://img2.joongna.com/media/original/2026/06/19/1781843724480sEk_DOmR8.jpg",
+      "https://img2.joongna.com/media/original/2026/06/19/1781843724566sT3_p4tO7.jpg",
+      "https://img2.joongna.com/media/original/2026/06/19/1781843724669use_Dch80.jpg"
+    ],
+    "postedAt": "2026-06-19T04:35:24.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-19T14:42:55.627Z"
   }
 ]
