@@ -510,14 +510,13 @@
   },
   {
     "name": "REALFORCE 108UB-A 112-JP4-BK 本体",
-    "price": 9800,
+    "price": 9300,
     "url": "https://jp.mercari.com/item/m98238181771",
     "image": "https://static.mercdn.net/thumb/item/webp/m98238181771_1.jpg?1781505469",
-    "postedAt": "2026-06-15T14:53:42.626Z",
-    "postedAtText": "13時間前",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://static.mercdn.net/item/detail/orig/photos/m98238181771_1.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m98238181771_2.jpg"
+      "https://static.mercdn.net/thumb/item/webp/m98238181771_1.jpg?1781505469"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -4241,7 +4240,8 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "keywords": [
-      "topre"
+      "topre",
+      "realforce"
     ],
     "crawledAt": "2026-06-19T03:50:47.540Z"
   },
@@ -5025,7 +5025,7 @@
   },
   {
     "name": "REALFORCE R3S テンキーレス キーボード *",
-    "price": 17900,
+    "price": 17500,
     "url": "https://jp.mercari.com/item/m77037839531",
     "image": "https://static.mercdn.net/thumb/item/webp/m77037839531_1.jpg?1772883006",
     "postedAt": "",
@@ -5529,7 +5529,7 @@
   },
   {
     "name": "REALFORCE R3Sキーボード 本体 30g",
-    "price": 19500,
+    "price": 16600,
     "url": "https://jp.mercari.com/item/m28748091958",
     "image": "https://static.mercdn.net/thumb/item/webp/m28748091958_1.jpg?1781790194",
     "postedAt": "",
@@ -5799,5 +5799,47 @@
       "realforce"
     ],
     "crawledAt": "2026-06-19T03:50:47.540Z"
+  },
+  {
+    "name": "91UBK REALFORCE リアルフォース キーボード 使用感あり",
+    "price": 6500,
+    "url": "https://jp.mercari.com/item/m37461970799",
+    "image": "https://static.mercdn.net/thumb/item/webp/m37461970799_1.jpg?1781830109",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m37461970799_1.jpg?1781830109"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-19T09:24:47.807Z"
+  },
+  {
+    "name": "東プレ キャパシティブ・コンパクトキーボード DG03C (MD01B0)",
+    "price": 17400,
+    "url": "https://jp.mercari.com/item/m45313102070",
+    "image": "https://static.mercdn.net/thumb/item/webp/m45313102070_1.jpg?1771479082",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m45313102070_1.jpg?1771479082"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-19T09:24:47.807Z"
   }
 ]

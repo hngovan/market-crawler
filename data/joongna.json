@@ -32,7 +32,7 @@
       "https://img2.joongna.com/media/original/2026/06/15/1781484456604wTH_vnhTa.JPG",
       "https://img2.joongna.com/media/original/2026/06/15/1781484456605ntK_BZoeX.JPG"
     ],
-    "postedAt": "2026-06-16T03:00:38.000Z",
+    "postedAt": "2026-06-19T07:02:45.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1242,7 +1242,7 @@
   },
   {
     "name": "갖다드림 풀윤활 풀박스 리얼포스 RGB 커스텀 키보드 게이밍",
-    "price": 183000,
+    "price": 173000,
     "url": "https://web.joongna.com/product/229055944",
     "image": "https://img2.joongna.com/media/original/2026/05/28/1779929837064e4b_o7czr.jpg?impolicy=thumb&size=150",
     "images": [
@@ -5534,7 +5534,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/18/1781778904866i1T_1DzUH.jpg"
     ],
-    "postedAt": "2026-06-18T10:35:04.000Z",
+    "postedAt": "2026-06-19T06:51:10.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5554,7 +5554,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/18/1781778901703bQa_Qb2U0.jpg"
     ],
-    "postedAt": "2026-06-18T10:35:01.000Z",
+    "postedAt": "2026-06-19T06:52:44.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5574,7 +5574,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/18/1781778897790tK0_jbQLJ.jpg"
     ],
-    "postedAt": "2026-06-18T10:34:57.000Z",
+    "postedAt": "2026-06-19T06:52:21.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5585,5 +5585,46 @@
       "realforce"
     ],
     "crawledAt": "2026-06-19T03:50:47.540Z"
+  },
+  {
+    "name": "리얼포스R3 저소음 균등 45g 팝니다",
+    "price": 180000,
+    "url": "https://web.joongna.com/product/229790382",
+    "image": "https://img2.joongna.com/media/original/2026/06/19/1781829452470zHP_yDqXY.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/19/1781829452470zHP_yDqXY.jpg",
+      "https://img2.joongna.com/media/original/2026/06/19/1781829452665BIn_LfOaJ.jpg"
+    ],
+    "postedAt": "2026-06-19T07:39:08.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-19T09:24:47.807Z"
+  },
+  {
+    "name": "리얼포스 r3 for mac 맥용 키보드 판매합니다",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/229790065",
+    "image": "https://img2.joongna.com/media/original/2026/06/19/1781828557660mXe_YzVTw.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/19/1781828557660mXe_YzVTw.jpg"
+    ],
+    "postedAt": "2026-06-19T00:22:37.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-19T09:24:47.807Z"
   }
 ]
