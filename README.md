@@ -46,6 +46,7 @@ Crawler sẽ:
 - Loại bỏ sản phẩm trùng URL hoặc thiếu dữ liệu cần thiết.
 - Hiển thị tên, giá và URL của từng sản phẩm trên terminal.
 - Gắn metadata khu vực, chợ và keyword để UI lọc lại sau khi crawl nhiều từ khóa.
+- Gắn `crawledAt` cho từng sản phẩm để job cleanup biết thời điểm dữ liệu được crawl về.
 - Mở trang chi tiết để lấy toàn bộ ảnh sản phẩm.
 - Lưu kết quả vào `data/joongna.json`, `data/bunjang.json`, `data/guheyo.json`, `data/mercari.json`.
 - Lưu trạng thái các chợ vào `data/markets.json`.
@@ -150,6 +151,10 @@ và `19:00` giờ Việt Nam (`23:00`, `05:00`, `12:00` UTC), mặc định từ
 `realforce`, sort mới nhất và limit `50` mỗi chợ. Form UI cho phép nhập nhiều
 keyword cách nhau bằng dấu phẩy và limit dương bất kỳ.
 
+Workflow `.github/workflows/cleanup-old-data.yml` tự cleanup dữ liệu 2 tuần/lần,
+bắt đầu từ thứ Hai `2026-06-22` lúc `02:00` giờ Việt Nam. Job này xoá sản phẩm
+có `crawledAt` cũ hơn 14 ngày, commit lại `data/*.json` nếu có thay đổi.
+
 ## Cấu trúc JSON
 
 ```json
@@ -161,6 +166,7 @@ keyword cách nhau bằng dấu phẩy và limit dương bất kỳ.
     "region": "korea",
     "regionName": "Hàn Quốc",
     "keywords": ["realforce"],
+    "crawledAt": "2026-06-18T12:00:00.000Z",
     "currency": "KRW",
     "price": 200000,
     "url": "https://web.joongna.com/product/228127782",

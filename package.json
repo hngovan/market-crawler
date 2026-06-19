@@ -10,6 +10,7 @@
     "crawl:bunjang": "node crawl.js --markets=bunjang",
     "crawl:guheyo": "node crawl.js --markets=guheyo",
     "crawl:mercari": "node crawl.js --markets=mercari",
+    "cleanup:data": "node scripts/cleanup-old-data.js --retention-days=14",
     "build": "node scripts/build-static.js",
     "format": "prettier --write .",
     "format:check": "prettier --check .",

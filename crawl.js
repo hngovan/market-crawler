@@ -4,6 +4,7 @@ import process from "node:process";
 
 import {
   addMarketMetadata,
+  backfillProductCrawledAt,
   createMarketStatus,
   extractProductKeywords,
   mergeProductsByUrl,
@@ -56,6 +57,7 @@ function hydrateMarketStatus(status, market) {
 
 async function crawl() {
   const options = parseOptions(process.argv.slice(2));
+  const crawledAt = new Date().toISOString();
   await mkdir("data", { recursive: true });
   const statusByMarket = new Map(
     (await readExistingStatuses()).map((status) => [status.id, status]),
@@ -76,6 +78,7 @@ async function crawl() {
           await adapter.crawl({ ...options, keyword }),
           adapter.market,
           keyword,
+          crawledAt,
         );
         products.push(...keywordProducts);
       } catch (crawlError) {
@@ -84,7 +87,10 @@ async function crawl() {
       }
     }
 
-    products = mergeProductsByUrl([...(await readExistingProducts(marketId)), ...products]);
+    products = backfillProductCrawledAt(
+      mergeProductsByUrl([...(await readExistingProducts(marketId)), ...products]),
+      crawledAt,
+    );
     let error = products.length === 0 ? errors.join(" | ") : "";
     if (products.length > 0) {
       console.log(`\n${adapter.market.name} products (${products.length}):`);
@@ -105,7 +111,7 @@ async function crawl() {
         keywords: [...new Set([...options.keywords, ...extractProductKeywords(products)])],
         sort: options.sort,
         limit: options.limit,
-        crawledAt: new Date().toISOString(),
+        crawledAt,
       }),
     );
   }

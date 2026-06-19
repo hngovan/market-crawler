@@ -1,4 +1,4 @@
-export function addMarketMetadata(products, market, keyword = "") {
+export function addMarketMetadata(products, market, keyword = "", crawledAt = "") {
   return products.map((product) => ({
     ...product,
     market: market.id,
@@ -8,7 +8,12 @@ export function addMarketMetadata(products, market, keyword = "") {
     regionFlag: market.regionFlag ?? "",
     currency: market.currency,
     keywords: [...new Set([...(product.keywords ?? []), keyword].filter(Boolean))],
+    ...(crawledAt ? { crawledAt } : {}),
   }));
+}
+
+export function backfillProductCrawledAt(products, crawledAt) {
+  return products.map((product) => (product.crawledAt ? product : { ...product, crawledAt }));
 }
 
 export function mergeProductsByUrl(products) {
@@ -24,6 +29,7 @@ export function mergeProductsByUrl(products) {
       ...product,
       keywords: [...new Set([...(existing.keywords ?? []), ...(product.keywords ?? [])])],
       images: product.images?.length ? product.images : existing.images,
+      crawledAt: existing.crawledAt ?? product.crawledAt,
     });
   }
   return [...byUrl.values()];

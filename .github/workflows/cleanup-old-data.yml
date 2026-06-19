@@ -1,0 +1,60 @@
+name: Cleanup old crawled data
+run-name: Cleanup old crawled data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 19 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cleanup-old-crawled-data
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Check biweekly cadence
+        id: cadence
+        shell: bash
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual cleanup will run immediately."
+            exit 0
+          fi
+          ANCHOR_SECONDS="$(date -u -d '2026-06-21 19:00:00Z' '+%s')"
+          NOW_SECONDS="$(date -u '+%s')"
+          if [ "$NOW_SECONDS" -lt "$ANCHOR_SECONDS" ]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Cleanup skipped before cadence anchor."
+            exit 0
+          fi
+          WEEKS_SINCE_ANCHOR="$(( (NOW_SECONDS - ANCHOR_SECONDS) / 604800 ))"
+          if [ "$(( WEEKS_SINCE_ANCHOR % 2 ))" -eq 0 ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Cleanup will run for this biweekly window."
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Cleanup skipped for off week."
+          fi
+      - name: Cleanup data older than two weeks
+        if: steps.cadence.outputs.should_run == 'true'
+        run: npm run cleanup:data
+      - name: Commit cleaned data
+        if: steps.cadence.outputs.should_run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --cached --quiet && exit 0
+          CLEANED_AT="$(TZ=Asia/Ho_Chi_Minh date '+%Y-%m-%d %H:%M:%S %Z')"
+          git commit -m "chore: cleanup old crawled data - ${CLEANED_AT}"
+          git push

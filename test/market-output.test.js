@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   addMarketMetadata,
+  backfillProductCrawledAt,
   createMarketStatus,
   extractProductKeywords,
   mergeProductsByUrl,
@@ -33,6 +34,55 @@ test("adds native market metadata to products", () => {
         keywords: ["realforce"],
         name: "Realforce",
         price: 100,
+      },
+    ],
+  );
+});
+
+test("adds crawl timestamp metadata to new products", () => {
+  assert.deepEqual(
+    addMarketMetadata(
+      [{ name: "Realforce", price: 100 }],
+      { id: "joongna", name: "Joongna", currency: "KRW" },
+      "realforce",
+      "2026-06-18T12:00:00.000Z",
+    ),
+    [
+      {
+        market: "joongna",
+        marketName: "Joongna",
+        region: "",
+        regionName: "",
+        regionFlag: "",
+        currency: "KRW",
+        keywords: ["realforce"],
+        crawledAt: "2026-06-18T12:00:00.000Z",
+        name: "Realforce",
+        price: 100,
+      },
+    ],
+  );
+});
+
+test("backfills crawl timestamp only for legacy products missing it", () => {
+  assert.deepEqual(
+    backfillProductCrawledAt(
+      [
+        { name: "legacy", url: "https://example.com/1" },
+        {
+          name: "already stamped",
+          url: "https://example.com/2",
+          crawledAt: "2026-06-01T00:00:00.000Z",
+        },
+      ],
+      "2026-06-18T12:00:00.000Z",
+    ),
+    [
+      { name: "legacy", url: "https://example.com/1", crawledAt: "2026-06-18T12:00:00.000Z" },
+      {
+        name: "already stamped",
+        url: "https://example.com/2",
+        crawledAt: "2026-06-01T00:00:00.000Z",
       },
     ],
   );
@@ -84,18 +134,21 @@ test("merges products from previous and current keyword crawls", () => {
         url: "https://web.joongna.com/product/1",
         images: ["old.jpg"],
         keywords: ["realforce"],
+        crawledAt: "2026-06-01T00:00:00.000Z",
       },
       {
         name: "Realforce 101",
         url: "https://web.joongna.com/product/2",
         images: ["new.jpg"],
         keywords: ["realforce 101"],
+        crawledAt: "2026-06-18T00:00:00.000Z",
       },
       {
         name: "Realforce renamed",
         url: "https://web.joongna.com/product/1",
         images: ["fresh.jpg"],
         keywords: ["realforce 101"],
+        crawledAt: "2026-06-18T00:00:00.000Z",
       },
     ]),
     [
@@ -104,12 +157,14 @@ test("merges products from previous and current keyword crawls", () => {
         url: "https://web.joongna.com/product/1",
         images: ["fresh.jpg"],
         keywords: ["realforce", "realforce 101"],
+        crawledAt: "2026-06-01T00:00:00.000Z",
       },
       {
         name: "Realforce 101",
         url: "https://web.joongna.com/product/2",
         images: ["new.jpg"],
         keywords: ["realforce 101"],
+        crawledAt: "2026-06-18T00:00:00.000Z",
       },
     ],
   );
