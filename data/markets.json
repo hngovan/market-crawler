@@ -7,23 +7,23 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 260,
+    "count": 261,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "rule",
+      "keyword": "realforce",
       "keywords": [
-        "rule",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
         "realforce 101",
         "topre",
-        "leopold fC660"
+        "leopold fC660",
+        "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-20T08:43:28.192Z"
+      "crawledAt": "2026-06-20T13:27:19.972Z"
     }
   },
   {
@@ -38,9 +38,8 @@
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "rule",
+      "keyword": "realforce",
       "keywords": [
-        "rule",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -48,11 +47,12 @@
         "리얼포스 R2",
         "660c",
         "leopold fC660",
-        "topre"
+        "topre",
+        "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-20T08:43:28.192Z"
+      "crawledAt": "2026-06-20T13:27:19.972Z"
     }
   },
   {
@@ -67,14 +67,14 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "rule",
+      "keyword": "realforce",
       "keywords": [
-        "rule",
-        "realforce"
+        "realforce",
+        "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-20T08:43:28.192Z"
+      "crawledAt": "2026-06-20T13:27:19.972Z"
     }
   },
   {
@@ -85,22 +85,22 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 339,
+    "count": 343,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "rule",
+      "keyword": "realforce",
       "keywords": [
-        "rule",
         "realforce",
         "topre",
         "660c",
         "leopold fC660",
-        "realforce 101"
+        "realforce 101",
+        "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-20T08:43:28.192Z"
+      "crawledAt": "2026-06-20T13:27:19.972Z"
     }
   }
 ]

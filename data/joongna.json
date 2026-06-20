@@ -253,7 +253,7 @@
       "https://img2.joongna.com/media/original/2026/06/14/1781437564372dPo_ApIkk.jpg",
       "https://img2.joongna.com/media/original/2026/06/14/17814375644764tX_8lbEG.jpg"
     ],
-    "postedAt": "2026-06-19T11:01:25.000Z",
+    "postedAt": "2026-06-20T12:41:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5595,7 +5595,7 @@
       "https://img2.joongna.com/media/original/2026/06/19/1781829452470zHP_yDqXY.jpg",
       "https://img2.joongna.com/media/original/2026/06/19/1781829452665BIn_LfOaJ.jpg"
     ],
-    "postedAt": "2026-06-19T07:39:08.000Z",
+    "postedAt": "2026-06-20T08:46:24.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5905,5 +5905,25 @@
       "rule"
     ],
     "crawledAt": "2026-06-20T08:43:28.192Z"
+  },
+  {
+    "name": "(미개봉) 리얼포스 R3 TLS 그레이블루 45g",
+    "price": 250000,
+    "url": "https://web.joongna.com/product/229837630",
+    "image": "https://img2.joongna.com/media/original/2026/06/20/1781946778946KAg_bQaSX.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/20/1781946778946KAg_bQaSX.jpg"
+    ],
+    "postedAt": "2026-06-20T09:12:58.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-20T13:27:19.972Z"
   }
 ]
