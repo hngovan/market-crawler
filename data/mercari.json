@@ -839,7 +839,7 @@
   },
   {
     "name": "ガンダム REALFORCE コラボ クリアファイル　逆シャア",
-    "price": 900,
+    "price": 800,
     "url": "https://jp.mercari.com/item/m15788346947",
     "image": "https://static.mercdn.net/thumb/item/webp/m15788346947_1.jpg?1781070660",
     "postedAt": "",
@@ -2528,7 +2528,7 @@
   },
   {
     "name": "REALFORCE RC1 英語 キーキャップセット M1324U ダークモーブ",
-    "price": 2650,
+    "price": 2600,
     "url": "https://jp.mercari.com/item/m40801430773",
     "image": "https://static.mercdn.net/thumb/item/webp/m40801430773_1.jpg?1781168195",
     "postedAt": "",
@@ -2698,7 +2698,7 @@
   },
   {
     "name": "REALFORCE R3HC23 キーボード本体 ホワイト",
-    "price": 18500,
+    "price": 17400,
     "url": "https://jp.mercari.com/item/m34946733858",
     "image": "https://static.mercdn.net/thumb/item/webp/m34946733858_1.jpg?1780884474",
     "postedAt": "",
@@ -4824,7 +4824,7 @@
   },
   {
     "name": "REALFORCE GX1 (X1UC21) 日本語45g 白",
-    "price": 15000,
+    "price": 14000,
     "url": "https://jp.mercari.com/item/m52143130036",
     "image": "https://static.mercdn.net/thumb/item/webp/m52143130036_1.jpg?1781707493",
     "postedAt": "",
@@ -5013,7 +5013,7 @@
   },
   {
     "name": "REALFORCE RGB 英語配列 テンキーあり （静音化済み）",
-    "price": 14800,
+    "price": 13800,
     "url": "https://jp.mercari.com/item/m28393705777",
     "image": "https://static.mercdn.net/thumb/item/webp/m28393705777_1.jpg?1781413169",
     "postedAt": "",
@@ -5181,7 +5181,7 @@
   },
   {
     "name": "パームレスト　REALFORCEフルサイズ対応　キーボード アームレスト",
-    "price": 3350,
+    "price": 3250,
     "url": "https://jp.mercari.com/item/m64556929495",
     "image": "https://static.mercdn.net/thumb/item/webp/m64556929495_1.jpg?1766973042",
     "postedAt": "",
@@ -5202,7 +5202,7 @@
   },
   {
     "name": "パームレスト HHKB REALFORCEコンパクトサイズ 家紋 桔梗紋",
-    "price": 3300,
+    "price": 3200,
     "url": "https://jp.mercari.com/item/m21616306290",
     "image": "https://static.mercdn.net/thumb/item/webp/m21616306290_1.jpg?1770166799",
     "postedAt": "",
@@ -6188,14 +6188,14 @@
     "crawledAt": "2026-06-20T08:17:20.152Z"
   },
   {
-    "name": "REALFORCE RC1 C1HK23 ホワイト 英語配列 30g",
-    "price": 32000,
+    "name": "REALFORCE RC1 ホワイト 英語配列 キー荷重 30g C1HK23",
+    "price": 30000,
     "url": "https://jp.mercari.com/item/m44860468898",
-    "image": "https://static.mercdn.net/thumb/item/webp/m44860468898_1.jpg?1781930041",
+    "image": "https://static.mercdn.net/thumb/item/webp/m44860468898_1.jpg?1781993777",
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m44860468898_1.jpg?1781930041"
+      "https://static.mercdn.net/thumb/item/webp/m44860468898_1.jpg?1781993777"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -7362,5 +7362,110 @@
       "realforce"
     ],
     "crawledAt": "2026-06-20T13:27:19.972Z"
+  },
+  {
+    "name": "REALFORCE RC1 キースペーサーセット 英語配列用 C1AKSUSA",
+    "price": 980,
+    "url": "https://jp.mercari.com/item/m16621497538",
+    "image": "https://static.mercdn.net/thumb/item/webp/m16621497538_1.jpg?1776779322",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m16621497538_1.jpg?1776779322"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-20T23:58:59.670Z"
+  },
+  {
+    "name": "東プレ REALFORCE 【R3HI17】分割スペース",
+    "price": 31000,
+    "url": "https://jp.mercari.com/item/m53078854262",
+    "image": "https://static.mercdn.net/thumb/item/webp/m53078854262_1.jpg?1781966802",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m53078854262_1.jpg?1781966802"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-20T23:58:59.670Z"
+  },
+  {
+    "name": "REALFORCE RC1 KEYBOARD 本体 30g 英語配列",
+    "price": 29000,
+    "url": "https://jp.mercari.com/item/m90937290660",
+    "image": "https://static.mercdn.net/thumb/item/webp/m90937290660_1.jpg?1781966025",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m90937290660_1.jpg?1781966025"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-20T23:58:59.670Z"
+  },
+  {
+    "name": "REALFORCE R4 フルキーボード（型番: R4HA23）静音/30g",
+    "price": 32000,
+    "url": "https://jp.mercari.com/item/m58748637792",
+    "image": "https://static.mercdn.net/thumb/item/webp/m58748637792_1.jpg?1781962664",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m58748637792_1.jpg?1781962664"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-20T23:58:59.670Z"
+  },
+  {
+    "name": "REALforce MX ERGO S等　PC周辺機器 ケーブル類 セット",
+    "price": 30999,
+    "url": "https://jp.mercari.com/item/m72484266225",
+    "image": "https://static.mercdn.net/thumb/item/webp/m72484266225_1.jpg?1781946283",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m72484266225_1.jpg?1781946283"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-20T23:58:59.670Z"
   }
 ]
