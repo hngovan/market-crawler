@@ -25,13 +25,10 @@
     "price": 350000,
     "url": "https://m.bunjang.co.kr/products/414060240",
     "image": "https://media.bunjang.co.kr/product/414060240_1_1781403535_w480.jpg",
-    "postedAt": "2026-06-21T06:55:45.127Z",
-    "postedAtText": "2시간 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/414060240_1_1781403535_w900.jpg",
-      "https://media.bunjang.co.kr/product/414060240_2_1781403535_w900.jpg",
-      "https://media.bunjang.co.kr/product/414060240_3_1781403535_w900.jpg",
-      "https://media.bunjang.co.kr/product/414060240_4_1781403535_w900.jpg"
+      "https://media.bunjang.co.kr/product/414060240_1_1781403535_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -6366,5 +6363,26 @@
       "rule"
     ],
     "crawledAt": "2026-06-20T08:43:28.192Z"
+  },
+  {
+    "name": "REALFORCE 리얼포스 87U 키보드 SE170S 텐키리스 키보드",
+    "price": 80000,
+    "url": "https://m.bunjang.co.kr/products/415378315",
+    "image": "https://media.bunjang.co.kr/product/415378315_1_1782038588_w480.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/415378315_1_1782038588_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-21T13:48:09.748Z"
   }
 ]
