@@ -1262,7 +1262,7 @@
     "crawledAt": "2026-06-19T03:50:47.540Z"
   },
   {
-    "name": "【オーバーホール整備済み】Realforce 89 ND0100",
+    "name": "【動作確認・整備済み】Realforce 89 ND0100",
     "price": 29800,
     "url": "https://jp.mercari.com/item/m70541462301",
     "image": "https://static.mercdn.net/thumb/item/webp/m70541462301_1.jpg?1781172365",
@@ -2077,7 +2077,7 @@
   },
   {
     "name": "Realforce R3 英語配列　fn ホワイト　白",
-    "price": 600,
+    "price": 650,
     "url": "https://jp.mercari.com/item/m39049047253",
     "image": "https://static.mercdn.net/thumb/item/webp/m39049047253_1.jpg?1781362883",
     "postedAt": "",
@@ -5572,7 +5572,7 @@
   },
   {
     "name": "REALFORCE R3S キーボード、リストレスト、スペーサー、マウスパッド",
-    "price": 24000,
+    "price": 21500,
     "url": "https://jp.mercari.com/item/m26035221226",
     "image": "https://static.mercdn.net/thumb/item/webp/m26035221226_1.jpg?1781445794",
     "postedAt": "",
@@ -6181,7 +6181,7 @@
   },
   {
     "name": "REALFORCE RC1 ホワイト 英語配列 キー荷重 30g C1HK23",
-    "price": 30000,
+    "price": 29000,
     "url": "https://jp.mercari.com/item/m44860468898",
     "image": "https://static.mercdn.net/thumb/item/webp/m44860468898_1.jpg?1781993777",
     "postedAt": "",
@@ -7795,5 +7795,68 @@
       "realforce"
     ],
     "crawledAt": "2026-06-21T13:48:09.748Z"
+  },
+  {
+    "name": "REALFORCE GX1 30g キーボード 本体 X1UD13",
+    "price": 20000,
+    "url": "https://jp.mercari.com/item/m86207151230",
+    "image": "https://static.mercdn.net/thumb/item/webp/m86207151230_1.jpg?1782060061",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m86207151230_1.jpg?1782060061"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T00:03:34.932Z"
+  },
+  {
+    "name": "リアルフォースR4対応　トラックパッド合体　ウイング付パームレスト",
+    "price": 6000,
+    "url": "https://jp.mercari.com/item/m72146123988",
+    "image": "https://static.mercdn.net/thumb/item/webp/m72146123988_1.jpg?1782051025",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m72146123988_1.jpg?1782051025"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T00:03:34.932Z"
+  },
+  {
+    "name": "REALFORCE 91U",
+    "price": 10000,
+    "url": "https://jp.mercari.com/item/m64800341897",
+    "image": "https://static.mercdn.net/thumb/item/webp/m64800341897_1.jpg?1782049974",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m64800341897_1.jpg?1782049974"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T00:03:34.932Z"
   }
 ]

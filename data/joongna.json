@@ -1585,7 +1585,7 @@
   },
   {
     "name": "리얼포스 R3HB13 토프레 무접점 키보드 판매",
-    "price": 277000,
+    "price": 267000,
     "url": "https://web.joongna.com/product/227238090",
     "image": "https://img2.joongna.com/media/original/2026/04/07/1775560554283K3D_TZLD8.jpg?impolicy=thumb&size=150",
     "images": [
@@ -1593,7 +1593,7 @@
       "https://img2.joongna.com/media/original/2026/04/07/1775560554368VsU_8aaBd.jpg",
       "https://img2.joongna.com/media/original/2026/04/07/1775560554427ibb_9Rdt0.jpg"
     ],
-    "postedAt": "2026-06-16T13:31:04.000Z",
+    "postedAt": "2026-06-21T22:57:23.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6067,5 +6067,28 @@
       "realforce"
     ],
     "crawledAt": "2026-06-21T13:48:09.748Z"
+  },
+  {
+    "name": "리얼포스 R3 키보드 R3HB21 45g 화이트",
+    "price": 250000,
+    "url": "https://web.joongna.com/product/229882952",
+    "image": "https://img2.joongna.com/media/original/2026/06/22/1782083116966gyk_1OcR0.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/22/1782083116966gyk_1OcR0.jpg",
+      "https://img2.joongna.com/media/original/2026/06/22/1782083117288niZ_Xy6PI.jpg",
+      "https://img2.joongna.com/media/original/2026/06/22/1782083117498qqs_pSS9N.jpg",
+      "https://img2.joongna.com/media/original/2026/06/22/1782083117628BIp_7banv.jpg"
+    ],
+    "postedAt": "2026-06-21T23:05:17.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T00:03:34.932Z"
   }
 ]
