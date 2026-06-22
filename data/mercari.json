@@ -4920,7 +4920,7 @@
     "crawledAt": "2026-06-19T03:50:47.540Z"
   },
   {
-    "name": "REALFORCE R3S テンキーレス キーボード *",
+    "name": "REALFORCE R3S テンキーレス キーボード",
     "price": 17500,
     "url": "https://jp.mercari.com/item/m77037839531",
     "image": "https://static.mercdn.net/thumb/item/webp/m77037839531_1.jpg?1772883006",
@@ -5488,7 +5488,7 @@
   },
   {
     "name": "REALFORCE R3HH11 キーボード 本体",
-    "price": 21300,
+    "price": 21100,
     "url": "https://jp.mercari.com/item/m44863784564",
     "image": "https://static.mercdn.net/thumb/item/webp/m44863784564_1.jpg?1778598144",
     "postedAt": "",
@@ -5824,7 +5824,7 @@
   },
   {
     "name": "テンキー 東プレ REALFORCE 23UB WC01B0",
-    "price": 9000,
+    "price": 8500,
     "url": "https://jp.mercari.com/item/m96479110883",
     "image": "https://static.mercdn.net/thumb/item/webp/m96479110883_1.jpg?1781863720",
     "postedAt": "",
@@ -7942,5 +7942,110 @@
       "realforce"
     ],
     "crawledAt": "2026-06-22T10:32:25.736Z"
+  },
+  {
+    "name": "Topre REALFORCE 23UB WC01B0テンキー USB接続東プレ",
+    "price": 13000,
+    "url": "https://jp.mercari.com/item/m60486448140",
+    "image": "https://static.mercdn.net/thumb/item/webp/m60486448140_1.jpg?1782144430",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m60486448140_1.jpg?1782144430"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T16:28:25.843Z"
+  },
+  {
+    "name": "獅白ぼたん キーボード&マウスパッド&マウス セット",
+    "price": 49999,
+    "url": "https://jp.mercari.com/item/m25042942050",
+    "image": "https://static.mercdn.net/thumb/item/webp/m25042942050_1.jpg?1782143844",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m25042942050_1.jpg?1782143844"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T16:28:25.843Z"
+  },
+  {
+    "name": "REALFORCE R2 PFU Limited Edition 静音 TKL",
+    "price": 15000,
+    "url": "https://jp.mercari.com/item/m32873758982",
+    "image": "https://static.mercdn.net/thumb/item/webp/m32873758982_1.jpg?1782138876",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m32873758982_1.jpg?1782138876"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T16:28:25.843Z"
+  },
+  {
+    "name": "REALFORCE RC1 45g JIS 純正キーキャップ、スペーサー付",
+    "price": 33000,
+    "url": "https://jp.mercari.com/item/m69299504069",
+    "image": "https://static.mercdn.net/thumb/item/webp/m69299504069_1.jpg?1782137885",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m69299504069_1.jpg?1782137885"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T16:28:25.843Z"
+  },
+  {
+    "name": "REALFORCE R3S 英語配列 テンキーレス R3SD11",
+    "price": 15000,
+    "url": "https://jp.mercari.com/item/m52102458122",
+    "image": "https://static.mercdn.net/thumb/item/webp/m52102458122_1.jpg?1782128767",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m52102458122_1.jpg?1782128767"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-22T16:28:25.843Z"
   }
 ]
