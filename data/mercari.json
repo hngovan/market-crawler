@@ -5593,7 +5593,7 @@
   },
   {
     "name": "REALFORCE 機動戦士Zガンダム 百式 キーボード英語配列 X1PDH1",
-    "price": 60000,
+    "price": 58000,
     "url": "https://jp.mercari.com/item/m75635495406",
     "image": "https://static.mercdn.net/thumb/item/webp/m75635495406_1.jpg?1781442458",
     "postedAt": "",
@@ -7630,7 +7630,7 @@
   },
   {
     "name": "REALFORCE R3HC11",
-    "price": 17000,
+    "price": 17500,
     "url": "https://jp.mercari.com/item/m38019327120",
     "image": "https://static.mercdn.net/thumb/item/webp/m38019327120_1.jpg?1782049310",
     "postedAt": "",
@@ -7735,7 +7735,7 @@
   },
   {
     "name": "GoForty O51Go 自作キーボード オーソリニア 40%キーボード",
-    "price": 25000,
+    "price": 23500,
     "url": "https://jp.mercari.com/item/m16137789294",
     "image": "https://static.mercdn.net/thumb/item/webp/m16137789294_1.jpg?1782035045",
     "postedAt": "",
@@ -8092,7 +8092,7 @@
   },
   {
     "name": "新品未使用品　R3HC31 値下げ購入可能",
-    "price": 34999,
+    "price": 30000,
     "url": "https://jp.mercari.com/item/m73136330608",
     "image": "https://static.mercdn.net/thumb/item/webp/m73136330608_1.jpg?1782201238",
     "postedAt": "",
@@ -8134,7 +8134,7 @@
   },
   {
     "name": "REALFORCE RC1 英語配列(30g) ＋ アクセサリー",
-    "price": 28400,
+    "price": 27800,
     "url": "https://jp.mercari.com/item/m56916003015",
     "image": "https://static.mercdn.net/thumb/item/webp/m56916003015_1.jpg?1782195277",
     "images": [
@@ -8149,7 +8149,9 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-06-23T08:24:04.687Z"
+    "crawledAt": "2026-06-23T08:24:04.687Z",
+    "postedAt": "",
+    "postedAtText": ""
   },
   {
     "name": "REALFORCE GX1 初音ミク キーボード 本体",
@@ -8234,5 +8236,89 @@
       "realforce"
     ],
     "crawledAt": "2026-06-23T08:24:04.687Z"
+  },
+  {
+    "name": "REALFORCE R3S キーボード本体 R3SD13",
+    "price": 15000,
+    "url": "https://jp.mercari.com/item/m73459533486",
+    "image": "https://static.mercdn.net/thumb/item/webp/m73459533486_1.jpg?1782222203",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m73459533486_1.jpg?1782222203"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-23T14:27:30.200Z"
+  },
+  {
+    "name": "REALFORCE GX1 キーボード本体 X1UD11",
+    "price": 17000,
+    "url": "https://jp.mercari.com/item/m68009315611",
+    "image": "https://static.mercdn.net/thumb/item/webp/m68009315611_1.jpg?1782220775",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m68009315611_1.jpg?1782220775"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-23T14:27:30.200Z"
+  },
+  {
+    "name": "★おまけ付き！【REALFORCE RC1】ブラック 日本語 荷重 45g",
+    "price": 28500,
+    "url": "https://jp.mercari.com/item/m54993324318",
+    "image": "https://static.mercdn.net/thumb/item/webp/m54993324318_1.jpg?1782218589",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m54993324318_1.jpg?1782218589"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-23T14:27:30.200Z"
+  },
+  {
+    "name": "東プレ REALFORCE GX1 ゲーミングキーボード",
+    "price": 18888,
+    "url": "https://jp.mercari.com/item/m65703311885",
+    "image": "https://static.mercdn.net/thumb/item/webp/m65703311885_1.jpg?1782211231",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m65703311885_1.jpg?1782211231"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-23T14:27:30.200Z"
   }
 ]
