@@ -6096,8 +6096,8 @@
     "crawledAt": "2026-06-20T08:17:20.152Z"
   },
   {
-    "name": "REALFORCE RC1キートップ 　矢印、ESC、右Shift、Fn、F、J",
-    "price": 2300,
+    "name": "REALFORCE RC1キーキャップ　矢印、ESC、右Shift、Fn、F、J",
+    "price": 2200,
     "url": "https://jp.mercari.com/item/m34866909059",
     "image": "https://static.mercdn.net/thumb/item/webp/m34866909059_1.jpg?1781932336",
     "postedAt": "",
@@ -6139,7 +6139,7 @@
   },
   {
     "name": "REALFORCE RC1用 リストレスト兼キーボードカバー ホワイト",
-    "price": 3200,
+    "price": 3100,
     "url": "https://jp.mercari.com/item/m50360023210",
     "image": "https://static.mercdn.net/thumb/item/webp/m50360023210_1.jpg?1781930831",
     "postedAt": "",
@@ -6181,7 +6181,7 @@
   },
   {
     "name": "REALFORCE RC1 ホワイト 英語配列 キー荷重 30g C1HK23",
-    "price": 28500,
+    "price": 28000,
     "url": "https://jp.mercari.com/item/m44860468898",
     "image": "https://static.mercdn.net/thumb/item/webp/m44860468898_1.jpg?1781993777",
     "postedAt": "",
@@ -7630,7 +7630,7 @@
   },
   {
     "name": "REALFORCE R3HC11",
-    "price": 16800,
+    "price": 17000,
     "url": "https://jp.mercari.com/item/m38019327120",
     "image": "https://static.mercdn.net/thumb/item/webp/m38019327120_1.jpg?1782049310",
     "postedAt": "",
@@ -8047,5 +8047,26 @@
       "realforce"
     ],
     "crawledAt": "2026-06-22T16:28:25.843Z"
+  },
+  {
+    "name": "REALFORCE TKL R2TL-JPV-IV 本体",
+    "price": 15000,
+    "url": "https://jp.mercari.com/item/m57008217537",
+    "image": "https://static.mercdn.net/thumb/item/webp/m57008217537_1.jpg?1782147505",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m57008217537_1.jpg?1782147505"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-23T00:03:20.584Z"
   }
 ]

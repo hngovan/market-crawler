@@ -6255,7 +6255,7 @@
     "url": "https://web.joongna.com/product/229906597",
     "image": "https://img2.joongna.com/media/original/2026/06/22/1782127867589P59_jt8WF.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/06/22/1782127867589P59_jt8WF.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/06/22/1782127867589P59_jt8WF.jpg"
     ],
     "market": "joongna",
     "marketName": "Joongna",
@@ -6266,7 +6266,8 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-06-22T16:28:25.843Z"
+    "crawledAt": "2026-06-22T16:28:25.843Z",
+    "postedAt": "2026-06-22T11:31:07.000Z"
   },
   {
     "name": "(미개봉) 리얼포스 R3TL 블투 apc 30g",
