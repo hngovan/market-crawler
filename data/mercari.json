@@ -1,7 +1,7 @@
 [
   {
     "name": "REALFORCE GX1 ホワイト30g US配列",
-    "price": 16000,
+    "price": 15000,
     "url": "https://jp.mercari.com/item/m73238102597",
     "image": "https://static.mercdn.net/thumb/item/webp/m73238102597_1.jpg?1780912228",
     "postedAt": "",
@@ -223,7 +223,7 @@
   },
   {
     "name": "HHKB Professional HYBRID Type-S 日本語配列／雪",
-    "price": 29000,
+    "price": 28000,
     "url": "https://jp.mercari.com/item/m75855218628",
     "image": "https://static.mercdn.net/thumb/item/webp/m75855218628_1.jpg?1781580711",
     "postedAt": "",
@@ -1992,7 +1992,7 @@
   },
   {
     "name": "東プレ REALFORCE GX1 日本語配列 ラピトリ 45g",
-    "price": 19500,
+    "price": 17900,
     "url": "https://jp.mercari.com/item/m44072086063",
     "image": "https://static.mercdn.net/thumb/item/webp/m44072086063_1.jpg?1781587327",
     "postedAt": "",
@@ -2795,7 +2795,7 @@
   },
   {
     "name": "東プレ REALFORCE リアルフォース R3SC11",
-    "price": 16000,
+    "price": 15800,
     "url": "https://jp.mercari.com/item/m90233323898",
     "image": "https://static.mercdn.net/thumb/item/webp/m90233323898_1.jpg?1778908813",
     "postedAt": "",
@@ -4879,7 +4879,7 @@
   },
   {
     "name": "新品未開封　限定　ウマ娘 REALFORCE GX1 Keyboard",
-    "price": 55600,
+    "price": 55000,
     "url": "https://jp.mercari.com/item/m33860227645",
     "image": "https://static.mercdn.net/thumb/item/webp/m33860227645_1.jpg?1780664128",
     "postedAt": "",
@@ -5824,7 +5824,7 @@
   },
   {
     "name": "テンキー 東プレ REALFORCE 23UB WC01B0",
-    "price": 8500,
+    "price": 8000,
     "url": "https://jp.mercari.com/item/m96479110883",
     "image": "https://static.mercdn.net/thumb/item/webp/m96479110883_1.jpg?1781863720",
     "postedAt": "",
@@ -8302,7 +8302,7 @@
   },
   {
     "name": "東プレ REALFORCE GX1 ゲーミングキーボード",
-    "price": 18888,
+    "price": 16999,
     "url": "https://jp.mercari.com/item/m65703311885",
     "image": "https://static.mercdn.net/thumb/item/webp/m65703311885_1.jpg?1782211231",
     "postedAt": "",
@@ -8383,5 +8383,47 @@
       "realforce"
     ],
     "crawledAt": "2026-06-23T23:48:15.643Z"
+  },
+  {
+    "name": "無垢材パームレスト　キーボード アームレスト",
+    "price": 2500,
+    "url": "https://jp.mercari.com/item/m82863056599",
+    "image": "https://static.mercdn.net/thumb/item/webp/m82863056599_1.jpg?1773929325",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m82863056599_1.jpg?1773929325"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-24T08:17:56.504Z"
+  },
+  {
+    "name": "REALFORCE RC1 Limited Edition 45g 日本語配列",
+    "price": 32000,
+    "url": "https://jp.mercari.com/item/m31652885676",
+    "image": "https://static.mercdn.net/thumb/item/webp/m31652885676_1.jpg?1782262615",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m31652885676_1.jpg?1782262615"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-24T08:17:56.504Z"
   }
 ]
