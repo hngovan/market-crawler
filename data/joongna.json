@@ -6436,5 +6436,80 @@
     ],
     "crawledAt": "2026-06-23T14:27:30.200Z",
     "postedAt": "2026-06-24T01:52:26.000Z"
+  },
+  {
+    "name": "I7-6700k/16 gb ram/ 2060/물 공급이 있습니다 cooler masterSSD m2 512 gb M",
+    "price": 600000,
+    "url": "https://web.joongna.com/product/227034432",
+    "image": "https://img2.joongna.com/media/original/2026/04/02/1775107642294wKq_qvF5t.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/04/02/1775107642294wKq_qvF5t.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107642422SWo_yMk8R.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107642567bM3_lTA1E.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107642748CWn_mS1Yg.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107642880E4C_05Gna.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107643062kWt_7s0z2.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107643215jFv_Yl8p0.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107643353N6U_hLcTV.jpg",
+      "https://img2.joongna.com/media/original/2026/04/02/1775107643453JQM_9IRoO.jpg"
+    ],
+    "postedAt": "2026-05-15T04:08:26.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Cooler Master"
+    ],
+    "crawledAt": "2026-06-25T10:24:18.223Z"
+  },
+  {
+    "name": "쿨러마스터 라이트3/ Cooler Master Lite3",
+    "price": 30000,
+    "url": "https://web.joongna.com/product/224784107",
+    "image": "https://img2.joongna.com/media/original/2026/02/01/1769929438446coc_6eloR.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/02/01/1769929438446coc_6eloR.jpg",
+      "https://img2.joongna.com/media/original/2026/02/01/1769929438618UOQ_burlI.jpg",
+      "https://img2.joongna.com/media/original/2026/02/01/1769929438793yRS_r0NYj.jpg",
+      "https://img2.joongna.com/media/original/2026/02/01/1769929438961P09_Wzjfc.jpg",
+      "https://img2.joongna.com/media/original/2026/02/01/1769929439117Gbt_VlCTJ.jpg",
+      "https://img2.joongna.com/media/original/2026/02/01/1769929439299Ywc_9M17s.jpg",
+      "https://img2.joongna.com/media/original/2026/02/01/1769929439450YvR_anS69.jpg"
+    ],
+    "postedAt": "2026-03-01T06:12:04.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Cooler Master"
+    ],
+    "crawledAt": "2026-06-25T10:24:18.223Z"
+  },
+  {
+    "name": "Cooler Master CPU Cooler",
+    "price": 20000,
+    "url": "https://web.joongna.com/product/224712559",
+    "image": "https://img2.joongna.com/media/original/2026/01/30/1769758350132JGK_CYm5g.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/01/30/1769758350132JGK_CYm5g.jpg",
+      "https://img2.joongna.com/media/original/2026/01/30/1769758350234RH3_SuUai.jpg"
+    ],
+    "postedAt": "2026-01-30T07:32:30.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Cooler Master"
+    ],
+    "crawledAt": "2026-06-25T10:24:18.223Z"
   }
 ]

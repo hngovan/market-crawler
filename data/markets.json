@@ -7,12 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 284,
+    "count": 287,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Cooler Master",
       "keywords": [
+        "Cooler Master",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
@@ -23,7 +24,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T08:17:17.940Z"
+      "crawledAt": "2026-06-25T10:24:18.223Z"
     }
   },
   {
@@ -34,12 +35,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 290,
+    "count": 340,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Cooler Master",
       "keywords": [
+        "Cooler Master",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -52,7 +54,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T08:17:17.940Z"
+      "crawledAt": "2026-06-25T10:24:18.223Z"
     }
   },
   {
@@ -67,14 +69,15 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Cooler Master",
       "keywords": [
+        "Cooler Master",
         "realforce",
         "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T08:17:17.940Z"
+      "crawledAt": "2026-06-25T10:24:18.223Z"
     }
   },
   {
@@ -85,12 +88,13 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 406,
+    "count": 443,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Cooler Master",
       "keywords": [
+        "Cooler Master",
         "realforce",
         "topre",
         "660c",
@@ -100,7 +104,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T08:17:17.940Z"
+      "crawledAt": "2026-06-25T10:24:18.223Z"
     }
   }
 ]
