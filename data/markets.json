@@ -7,13 +7,12 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 287,
+    "count": 288,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "NovaTouch TKL",
+      "keyword": "realforce",
       "keywords": [
-        "NovaTouch TKL",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
@@ -25,7 +24,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:27:50.765Z"
+      "crawledAt": "2026-06-25T14:03:34.530Z"
     }
   },
   {
@@ -40,9 +39,8 @@
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "NovaTouch TKL",
+      "keyword": "realforce",
       "keywords": [
-        "NovaTouch TKL",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -52,11 +50,12 @@
         "leopold fC660",
         "topre",
         "rule",
-        "Cooler Master"
+        "Cooler Master",
+        "NovaTouch TKL"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:27:50.765Z"
+      "crawledAt": "2026-06-25T14:03:34.530Z"
     }
   },
   {
@@ -71,15 +70,14 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "NovaTouch TKL",
+      "keyword": "realforce",
       "keywords": [
-        "NovaTouch TKL",
         "realforce",
         "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:27:50.765Z"
+      "crawledAt": "2026-06-25T14:03:34.530Z"
     }
   },
   {
@@ -90,13 +88,12 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 443,
+    "count": 448,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "NovaTouch TKL",
+      "keyword": "realforce",
       "keywords": [
-        "NovaTouch TKL",
         "realforce",
         "topre",
         "660c",
@@ -107,7 +104,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:27:50.765Z"
+      "crawledAt": "2026-06-25T14:03:34.530Z"
     }
   }
 ]
