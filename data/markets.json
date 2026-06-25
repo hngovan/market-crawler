@@ -11,20 +11,21 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "Cooler Master",
+      "keyword": "NovaTouch TKL",
       "keywords": [
-        "Cooler Master",
+        "NovaTouch TKL",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
         "realforce 101",
         "topre",
         "leopold fC660",
-        "rule"
+        "rule",
+        "Cooler Master"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:24:18.223Z"
+      "crawledAt": "2026-06-25T10:27:50.765Z"
     }
   },
   {
@@ -35,13 +36,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 340,
+    "count": 370,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "Cooler Master",
+      "keyword": "NovaTouch TKL",
       "keywords": [
-        "Cooler Master",
+        "NovaTouch TKL",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -50,11 +51,12 @@
         "660c",
         "leopold fC660",
         "topre",
-        "rule"
+        "rule",
+        "Cooler Master"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:24:18.223Z"
+      "crawledAt": "2026-06-25T10:27:50.765Z"
     }
   },
   {
@@ -69,15 +71,15 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "Cooler Master",
+      "keyword": "NovaTouch TKL",
       "keywords": [
-        "Cooler Master",
+        "NovaTouch TKL",
         "realforce",
         "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:24:18.223Z"
+      "crawledAt": "2026-06-25T10:27:50.765Z"
     }
   },
   {
@@ -92,19 +94,20 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "Cooler Master",
+      "keyword": "NovaTouch TKL",
       "keywords": [
-        "Cooler Master",
+        "NovaTouch TKL",
         "realforce",
         "topre",
         "660c",
         "leopold fC660",
         "realforce 101",
-        "rule"
+        "rule",
+        "Cooler Master"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-25T10:24:18.223Z"
+      "crawledAt": "2026-06-25T10:27:50.765Z"
     }
   }
 ]
