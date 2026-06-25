@@ -2520,7 +2520,7 @@
   },
   {
     "name": "REALFORCE RC1 英語 キーキャップセット M1324U ダークモーブ",
-    "price": 2600,
+    "price": 2500,
     "url": "https://jp.mercari.com/item/m40801430773",
     "image": "https://static.mercdn.net/thumb/item/webp/m40801430773_1.jpg?1781168195",
     "postedAt": "",
@@ -5635,7 +5635,7 @@
   },
   {
     "name": "東プレReal Force キーボードSJ08BO",
-    "price": 7100,
+    "price": 7000,
     "url": "https://jp.mercari.com/item/m81142283775",
     "image": "https://static.mercdn.net/thumb/item/webp/m81142283775_1.jpg?1778423798",
     "postedAt": "",
@@ -6265,7 +6265,7 @@
   },
   {
     "name": "REALFORCE キーボード本体　RC1 KEYBORD C1HK13",
-    "price": 30000,
+    "price": 29000,
     "url": "https://jp.mercari.com/item/m32901361093",
     "image": "https://static.mercdn.net/thumb/item/webp/m32901361093_1.jpg?1781919668",
     "postedAt": "",
@@ -7672,7 +7672,7 @@
   },
   {
     "name": "REALFORCE X1UD13 (US配列 ゲーミングキーボード)",
-    "price": 13000,
+    "price": 10000,
     "url": "https://jp.mercari.com/item/m39736434711",
     "image": "https://static.mercdn.net/thumb/item/webp/m39736434711_1.jpg?1782039462",
     "postedAt": "",
@@ -8302,7 +8302,7 @@
   },
   {
     "name": "東プレ REALFORCE GX1 ゲーミングキーボード",
-    "price": 16999,
+    "price": 10100,
     "url": "https://jp.mercari.com/item/m65703311885",
     "image": "https://static.mercdn.net/thumb/item/webp/m65703311885_1.jpg?1782211231",
     "postedAt": "",
@@ -8535,11 +8535,11 @@
     "name": "【保証書付】REALFORCE RC1 US配列 45g+キースペーサー",
     "price": 31300,
     "url": "https://jp.mercari.com/item/m37795879224",
-    "image": "https://static.mercdn.net/thumb/item/webp/m37795879224_1.jpg?1782297728",
+    "image": "https://static.mercdn.net/thumb/item/webp/m37795879224_1.jpg?1782312178",
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m37795879224_1.jpg?1782297728"
+      "https://static.mercdn.net/thumb/item/webp/m37795879224_1.jpg?1782312178"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -8572,5 +8572,47 @@
       "realforce"
     ],
     "crawledAt": "2026-06-24T14:06:14.658Z"
+  },
+  {
+    "name": "REALFORCE RC1 C1HJ11 日本語配列 45g",
+    "price": 30800,
+    "url": "https://jp.mercari.com/item/m57119327401",
+    "image": "https://static.mercdn.net/thumb/item/webp/m57119327401_1.jpg?1782323048",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m57119327401_1.jpg?1782323048"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-24T23:58:35.162Z"
+  },
+  {
+    "name": "S60 V3 by Sho Costom for HHKB Silver Alu",
+    "price": 80000,
+    "url": "https://jp.mercari.com/item/m77734972123",
+    "image": "https://static.mercdn.net/thumb/item/webp/m77734972123_1.jpg?1782314142",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m77734972123_1.jpg?1782314142"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-24T23:58:35.162Z"
   }
 ]
