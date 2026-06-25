@@ -1757,7 +1757,7 @@
   },
   {
     "name": "【美品】リアルフォース REALFORCE RGB TKL",
-    "price": 11000,
+    "price": 10000,
     "url": "https://jp.mercari.com/item/m99529026564",
     "image": "https://static.mercdn.net/thumb/item/webp/m99529026564_1.jpg?1781626564",
     "postedAt": "",
@@ -8029,7 +8029,7 @@
   },
   {
     "name": "REALFORCE R3S 英語配列 テンキーレス R3SD11",
-    "price": 15000,
+    "price": 12500,
     "url": "https://jp.mercari.com/item/m52102458122",
     "image": "https://static.mercdn.net/thumb/item/webp/m52102458122_1.jpg?1782128767",
     "postedAt": "",
@@ -8197,7 +8197,7 @@
   },
   {
     "name": "REALFORCE R3 キーボード R3UC11 本体",
-    "price": 16800,
+    "price": 15500,
     "url": "https://jp.mercari.com/item/m62888969056",
     "image": "https://static.mercdn.net/thumb/item/webp/m62888969056_1.jpg?1782185383",
     "postedAt": "",
@@ -8365,7 +8365,7 @@
   },
   {
     "name": "26/3 購入 REALFORCE R3HA71",
-    "price": 25000,
+    "price": 23500,
     "url": "https://jp.mercari.com/item/m68827362907",
     "image": "https://static.mercdn.net/thumb/item/webp/m68827362907_1.jpg?1782219295",
     "postedAt": "",
@@ -8614,5 +8614,68 @@
       "realforce"
     ],
     "crawledAt": "2026-06-24T23:58:35.162Z"
+  },
+  {
+    "name": "REALFORCE R3SA21",
+    "price": 19999,
+    "url": "https://jp.mercari.com/item/m83714592693",
+    "image": "https://static.mercdn.net/thumb/item/webp/m83714592693_1.jpg?1782375341",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m83714592693_1.jpg?1782375341"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-25T08:17:17.940Z"
+  },
+  {
+    "name": "REALFORCE R2TL-JP4-BK キーボード本体",
+    "price": 10000,
+    "url": "https://jp.mercari.com/item/m32809302461",
+    "image": "https://static.mercdn.net/thumb/item/webp/m32809302461_1.jpg?1782355416",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m32809302461_1.jpg?1782355416"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-25T08:17:17.940Z"
+  },
+  {
+    "name": "東プレ PCキーボード　NG01B0 REALFORCE 91UBK",
+    "price": 5480,
+    "url": "https://jp.mercari.com/item/m29352624063",
+    "image": "https://static.mercdn.net/thumb/item/webp/m29352624063_1.jpg?1782347135",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m29352624063_1.jpg?1782347135"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-25T08:17:17.940Z"
   }
 ]
