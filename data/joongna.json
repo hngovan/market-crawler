@@ -6217,7 +6217,7 @@
       "https://img2.joongna.com/media/original/2026/06/22/1782134117286NZF_Ltj4w.jpg",
       "https://img2.joongna.com/media/original/2026/06/22/1782134117437LEb_9Zc9v.jpg"
     ],
-    "postedAt": "2026-06-25T12:48:39.000Z",
+    "postedAt": "2026-06-26T11:03:02.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6320,7 +6320,7 @@
       "https://img2.joongna.com/media/original/2026/06/23/1782221410982WtK_B7Emw.jpg",
       "https://img2.joongna.com/media/original/2026/06/23/1782221411112Utv_Kh7Um.jpg"
     ],
-    "postedAt": "2026-06-25T12:48:35.000Z",
+    "postedAt": "2026-06-26T11:02:57.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6342,7 +6342,7 @@
       "https://img2.joongna.com/media/original/2026/06/23/1782220916621Jeo_6Av43.jpg",
       "https://img2.joongna.com/media/original/2026/06/23/1782220916739Hk8_Nb6Fq.jpg"
     ],
-    "postedAt": "2026-06-24T09:15:45.000Z",
+    "postedAt": "2026-06-26T09:55:11.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6523,7 +6523,7 @@
       "https://img2.joongna.com/media/original/2026/06/25/1782391879353iHz_D7IpM.jpg",
       "https://img2.joongna.com/media/original/2026/06/25/17823918794957Ha_9hpZn.jpg"
     ],
-    "postedAt": "2026-06-25T12:51:19.000Z",
+    "postedAt": "2026-06-26T11:03:10.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6699,5 +6699,48 @@
       "realforce"
     ],
     "crawledAt": "2026-06-26T08:25:52.535Z"
+  },
+  {
+    "name": "리얼포스 r3sd31 키보드 블랙 45g",
+    "price": 130000,
+    "url": "https://web.joongna.com/product/230041336",
+    "image": "https://img2.joongna.com/media/original/2026/06/26/1782472337837Hsi_t75YY.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/26/1782472337837Hsi_t75YY.jpg",
+      "https://img2.joongna.com/media/original/2026/06/26/1782472337942zCt_qnHBw.jpg"
+    ],
+    "postedAt": "2026-06-26T11:12:18.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-26T14:03:07.757Z"
+  },
+  {
+    "name": "리얼포스 / REALFORCE PFU Limited Edition",
+    "price": 165000,
+    "url": "https://web.joongna.com/product/230040298",
+    "image": "https://img2.joongna.com/media/original/2026/06/26/1782469951245cFj_FmeVV.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/26/1782469951245cFj_FmeVV.jpg",
+      "https://img2.joongna.com/media/original/2026/06/26/1782469966710Xt1_2WyCq.jpg",
+      "https://img2.joongna.com/media/original/2026/06/26/1782469972316a8N_z254E.jpg"
+    ],
+    "postedAt": "2026-06-26T10:36:27.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-26T14:03:07.757Z"
   }
 ]
