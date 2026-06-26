@@ -6362,7 +6362,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/23/1782214403094Mmy_j1GRo.jpg"
     ],
-    "postedAt": "2026-06-25T11:10:23.000Z",
+    "postedAt": "2026-06-26T00:43:05.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6382,7 +6382,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/23/1782214398681YAx_EANHa.jpg"
     ],
-    "postedAt": "2026-06-25T11:10:21.000Z",
+    "postedAt": "2026-06-26T00:43:03.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6435,7 +6435,7 @@
       "realforce"
     ],
     "crawledAt": "2026-06-23T14:27:30.200Z",
-    "postedAt": "2026-06-25T11:10:16.000Z"
+    "postedAt": "2026-06-26T00:43:08.000Z"
   },
   {
     "name": "I7-6700k/16 gb ram/ 2060/물 공급이 있습니다 cooler masterSSD m2 512 gb M",
@@ -6679,5 +6679,25 @@
       "realforce"
     ],
     "crawledAt": "2026-06-26T00:03:57.759Z"
+  },
+  {
+    "name": "리얼포스 rc1 45g 판매합니다",
+    "price": 240000,
+    "url": "https://web.joongna.com/product/230032945",
+    "image": "https://img2.joongna.com/media/original/2026/06/26/1782456883190pxq_x6wfa.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/26/1782456883190pxq_x6wfa.jpg"
+    ],
+    "postedAt": "2026-06-26T06:54:43.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-26T08:25:52.535Z"
   }
 ]

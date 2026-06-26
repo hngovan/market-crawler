@@ -7,13 +7,12 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 294,
+    "count": 295,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "104UK Hi-Pro",
+      "keyword": "realforce",
       "keywords": [
-        "104UK Hi-Pro",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
@@ -25,7 +24,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T03:17:09.402Z"
+      "crawledAt": "2026-06-26T08:25:52.535Z"
     }
   },
   {
@@ -36,13 +35,12 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 426,
+    "count": 428,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "104UK Hi-Pro",
+      "keyword": "realforce",
       "keywords": [
-        "104UK Hi-Pro",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -51,6 +49,7 @@
         "660c",
         "leopold fC660",
         "topre",
+        "104UK Hi-Pro",
         "rule",
         "Cooler Master",
         "NovaTouch TKL",
@@ -58,7 +57,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T03:17:09.402Z"
+      "crawledAt": "2026-06-26T08:25:52.535Z"
     }
   },
   {
@@ -73,15 +72,14 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "104UK Hi-Pro",
+      "keyword": "realforce",
       "keywords": [
-        "104UK Hi-Pro",
         "realforce",
         "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T03:17:09.402Z"
+      "crawledAt": "2026-06-26T08:25:52.535Z"
     }
   },
   {
@@ -96,9 +94,8 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "104UK Hi-Pro",
+      "keyword": "realforce",
       "keywords": [
-        "104UK Hi-Pro",
         "realforce",
         "topre",
         "660c",
@@ -109,7 +106,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T03:17:09.402Z"
+      "crawledAt": "2026-06-26T08:25:52.535Z"
     }
   }
 ]
