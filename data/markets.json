@@ -11,9 +11,9 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "NovaTouch",
+      "keyword": "104UK Hi-Pro",
       "keywords": [
-        "NovaTouch",
+        "104UK Hi-Pro",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
@@ -25,7 +25,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:13:47.467Z"
+      "crawledAt": "2026-06-26T03:17:09.402Z"
     }
   },
   {
@@ -36,13 +36,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 397,
+    "count": 426,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "NovaTouch",
+      "keyword": "104UK Hi-Pro",
       "keywords": [
-        "NovaTouch",
+        "104UK Hi-Pro",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -53,11 +53,12 @@
         "topre",
         "rule",
         "Cooler Master",
-        "NovaTouch TKL"
+        "NovaTouch TKL",
+        "NovaTouch"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:13:47.467Z"
+      "crawledAt": "2026-06-26T03:17:09.402Z"
     }
   },
   {
@@ -72,15 +73,15 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "NovaTouch",
+      "keyword": "104UK Hi-Pro",
       "keywords": [
-        "NovaTouch",
+        "104UK Hi-Pro",
         "realforce",
         "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:13:47.467Z"
+      "crawledAt": "2026-06-26T03:17:09.402Z"
     }
   },
   {
@@ -95,9 +96,9 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "NovaTouch",
+      "keyword": "104UK Hi-Pro",
       "keywords": [
-        "NovaTouch",
+        "104UK Hi-Pro",
         "realforce",
         "topre",
         "660c",
@@ -108,7 +109,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:13:47.467Z"
+      "crawledAt": "2026-06-26T03:17:09.402Z"
     }
   }
 ]
