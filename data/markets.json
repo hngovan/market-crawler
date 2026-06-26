@@ -11,8 +11,9 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "NovaTouch",
       "keywords": [
+        "NovaTouch",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
@@ -24,7 +25,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:03:57.759Z"
+      "crawledAt": "2026-06-26T00:13:47.467Z"
     }
   },
   {
@@ -35,12 +36,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 370,
+    "count": 397,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "NovaTouch",
       "keywords": [
+        "NovaTouch",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -55,7 +57,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:03:57.759Z"
+      "crawledAt": "2026-06-26T00:13:47.467Z"
     }
   },
   {
@@ -70,14 +72,15 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "NovaTouch",
       "keywords": [
+        "NovaTouch",
         "realforce",
         "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:03:57.759Z"
+      "crawledAt": "2026-06-26T00:13:47.467Z"
     }
   },
   {
@@ -92,8 +95,9 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "NovaTouch",
       "keywords": [
+        "NovaTouch",
         "realforce",
         "topre",
         "660c",
@@ -104,7 +108,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-06-26T00:03:57.759Z"
+      "crawledAt": "2026-06-26T00:13:47.467Z"
     }
   }
 ]
