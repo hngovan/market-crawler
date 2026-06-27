@@ -876,7 +876,7 @@
       "https://img2.joongna.com/media/original/2026/04/13/17760462078482Pb_ANpp0.jpg",
       "https://img2.joongna.com/media/original/2026/04/13/1776046207959Cez_hn68f.jpg"
     ],
-    "postedAt": "2026-06-12T11:36:31.000Z",
+    "postedAt": "2026-06-27T11:03:54.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4343,7 +4343,8 @@
       "https://img2.joongna.com/media/original/2026/06/17/1781631633260mhi_0Eydl.jpg",
       "https://img2.joongna.com/media/original/2026/06/17/17816316333136U3_8fojS.jpg",
       "https://img2.joongna.com/media/original/2026/06/17/1781631633368jLy_C4NGo.jpg",
-      "https://img2.joongna.com/media/original/2026/06/17/1781631633418FUZ_BOG5h.jpg"
+      "https://img2.joongna.com/media/original/2026/06/17/1781631633418FUZ_BOG5h.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782563166988AYA_SOt2y.jpg"
     ],
     "postedAt": "2026-06-25T14:58:15.000Z",
     "market": "joongna",
@@ -5671,10 +5672,9 @@
     "name": "풀커스텀 리얼포스 R2 PFU Limited Edition",
     "price": 300000,
     "url": "https://web.joongna.com/product/229797123",
-    "image": "https://img2.joongna.com/media/original/2026/06/27/1782540423357UL5_8nOd2.jpg?impolicy=thumb&size=150",
+    "image": "https://img2.joongna.com/media/original/2026/06/27/178256220674340Z_GAJyA.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/06/27/1782540423357UL5_8nOd2.jpg",
-      "https://img2.joongna.com/media/original/2026/06/19/1781843724480sEk_DOmR8.jpg"
+      "https://img2.joongna.com/media/original/2026/06/27/178256220674340Z_GAJyA.jpg"
     ],
     "postedAt": "2026-06-27T06:07:36.000Z",
     "market": "joongna",
@@ -6761,5 +6761,57 @@
       "realforce"
     ],
     "crawledAt": "2026-06-27T07:43:25.302Z"
+  },
+  {
+    "name": "리얼포스 r3 BT 유/무선 토프레 저소음 45g 키보드 무접점 해피해킹",
+    "price": 270000,
+    "url": "https://web.joongna.com/product/230075833",
+    "image": "https://img2.joongna.com/media/original/2026/06/27/1782563166988AYA_SOt2y.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/27/1782563166988AYA_SOt2y.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782563167104uPR_oPb5u.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782563167165hua_ygkut.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782563167214qPw_RwV7e.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782563167265651_z3sRS.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782563167316seJ_51TG3.jpg",
+      "https://img2.joongna.com/media/original/2026/06/17/1781631632999Xi9_J1NYC.jpg"
+    ],
+    "postedAt": "2026-06-27T12:26:07.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-27T13:09:24.099Z"
+  },
+  {
+    "name": "(*풀윤활) 해피해킹 스튜디오 커스텀 키보드 핫스왑 ibm 토프레 리얼포스",
+    "price": 440000,
+    "url": "https://web.joongna.com/product/230074436",
+    "image": "https://img2.joongna.com/media/original/2026/06/27/1782560355602kFz_pyNiG.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/27/1782560355602kFz_pyNiG.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782560355726OZN_25CwG.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782560355830EjH_yMCwW.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782560355901f4i_5fKh0.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/17825603559603XR_SEyJA.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782560356031ZpO_DDFla.jpg",
+      "https://img2.joongna.com/media/original/2026/06/27/1782560356096R9M_vf2rL.jpg"
+    ],
+    "postedAt": "2026-06-27T11:39:16.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-27T13:09:24.099Z"
   }
 ]

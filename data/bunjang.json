@@ -5282,10 +5282,11 @@
     "price": 235000,
     "url": "https://m.bunjang.co.kr/products/415110725",
     "image": "https://media.bunjang.co.kr/product/415110725_1_1781935192_w480.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-06-20T13:11:01.759Z",
+    "postedAtText": "7일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/415110725_1_1781935192_w480.jpg"
+      "https://media.bunjang.co.kr/product/415110725_1_1781935192_w900.jpg",
+      "https://media.bunjang.co.kr/product/415110725_2_1781935192_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -6391,11 +6392,10 @@
     "price": 100000,
     "url": "https://m.bunjang.co.kr/products/416014141",
     "image": "https://media.bunjang.co.kr/product/416014141_1_1782470887_w480.jpg",
-    "postedAt": "2026-06-25T07:44:56.284Z",
-    "postedAtText": "2일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/416014141_1_1782470887_w900.jpg",
-      "https://media.bunjang.co.kr/product/416014141_2_1782470887_w900.jpg"
+      "https://media.bunjang.co.kr/product/416014141_1_1782470887_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
