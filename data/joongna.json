@@ -6403,7 +6403,7 @@
       "https://img2.joongna.com/media/original/2026/06/23/1782212560075RwS_aZU8K.jpg",
       "https://img2.joongna.com/media/original/2026/06/23/1782212560170xCC_qWt0I.jpg"
     ],
-    "postedAt": "2026-06-27T00:13:51.000Z",
+    "postedAt": "2026-06-27T21:46:46.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6704,8 +6704,7 @@
     "url": "https://web.joongna.com/product/230041336",
     "image": "https://img2.joongna.com/media/original/2026/06/26/1782472337837Hsi_t75YY.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/06/26/1782472337837Hsi_t75YY.jpg",
-      "https://img2.joongna.com/media/original/2026/06/26/1782472337942zCt_qnHBw.jpg"
+      "https://img2.joongna.com/media/original/2026/06/26/1782472337837Hsi_t75YY.jpg"
     ],
     "postedAt": "2026-06-26T11:12:18.000Z",
     "market": "joongna",
@@ -6802,7 +6801,7 @@
       "https://img2.joongna.com/media/original/2026/06/27/1782560356031ZpO_DDFla.jpg",
       "https://img2.joongna.com/media/original/2026/06/27/1782560356096R9M_vf2rL.jpg"
     ],
-    "postedAt": "2026-06-27T11:39:16.000Z",
+    "postedAt": "2026-06-27T15:13:30.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6813,5 +6812,28 @@
       "realforce"
     ],
     "crawledAt": "2026-06-27T13:09:24.099Z"
+  },
+  {
+    "name": "풀윤활 리얼포스R2 TKL 무접점 30g 블랙 키보드",
+    "price": 220000,
+    "url": "https://web.joongna.com/product/230083772",
+    "image": "https://img2.joongna.com/media/original/2026/06/28/1782602018143xdY_5ykKP.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/28/1782602018143xdY_5ykKP.jpg",
+      "https://img2.joongna.com/media/original/2026/06/28/1782602018297qH8_hRzQd.jpg",
+      "https://img2.joongna.com/media/original/2026/06/28/17826020185100EB_FGVGy.jpg",
+      "https://img2.joongna.com/media/original/2026/06/28/1782602018624b0L_R6EoB.jpg"
+    ],
+    "postedAt": "2026-06-27T23:13:38.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-27T23:54:33.885Z"
   }
 ]
