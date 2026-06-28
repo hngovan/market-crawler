@@ -222,15 +222,10 @@
     "price": 500000,
     "url": "https://m.bunjang.co.kr/products/380533478",
     "image": "https://media.bunjang.co.kr/product/380533478_1_1767660952_w480.jpg",
-    "postedAt": "2026-06-27T12:56:11.902Z",
-    "postedAtText": "11시간 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/380533478_1_1767660952_w900.jpg",
-      "https://media.bunjang.co.kr/product/380533478_2_1767660952_w900.jpg",
-      "https://media.bunjang.co.kr/product/380533478_3_1767660952_w900.jpg",
-      "https://media.bunjang.co.kr/product/380533478_4_1767660952_w900.jpg",
-      "https://media.bunjang.co.kr/product/380533478_5_1767660952_w900.jpg",
-      "https://media.bunjang.co.kr/product/380533478_6_1767660952_w900.jpg"
+      "https://media.bunjang.co.kr/product/380533478_1_1767660952_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -6396,11 +6391,10 @@
     "price": 100000,
     "url": "https://m.bunjang.co.kr/products/416014141",
     "image": "https://media.bunjang.co.kr/product/416014141_1_1782470887_w480.jpg",
-    "postedAt": "2026-06-24T23:56:06.934Z",
-    "postedAtText": "3일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/416014141_1_1782470887_w900.jpg",
-      "https://media.bunjang.co.kr/product/416014141_2_1782470887_w900.jpg"
+      "https://media.bunjang.co.kr/product/416014141_1_1782470887_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -9414,7 +9408,7 @@
   },
   {
     "name": "REALFORCE R2-US3-IV 키보드",
-    "price": 180000,
+    "price": 160000,
     "url": "https://m.bunjang.co.kr/products/416225289",
     "image": "https://media.bunjang.co.kr/product/416225289_1_1782434973_w480.jpg",
     "postedAt": "",

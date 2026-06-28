@@ -5676,7 +5676,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/27/178256220674340Z_GAJyA.jpg"
     ],
-    "postedAt": "2026-06-27T06:07:36.000Z",
+    "postedAt": "2026-06-28T03:06:52.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6099,7 +6099,7 @@
       "https://img2.joongna.com/media/original/2026/05/02/1777700507899KRF_7X4O3.jpg",
       "https://img2.joongna.com/media/original/2026/05/02/1777700507978eIX_ffbOU.jpg"
     ],
-    "postedAt": "2026-06-22T03:49:36.000Z",
+    "postedAt": "2026-06-28T07:02:53.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6166,7 +6166,7 @@
       "https://img2.joongna.com/media/original/2026/05/02/1777701061167TgD_HPZiu.jpg",
       "https://img2.joongna.com/media/original/2026/05/02/1777701061284qai_GIoSF.jpg"
     ],
-    "postedAt": "2026-06-22T03:48:38.000Z",
+    "postedAt": "2026-06-28T07:02:44.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6309,7 +6309,7 @@
   },
   {
     "name": "리얼포스R2 TKL 저소음 토프레 무접점 풀윤활 키보드 싸게 드려요",
-    "price": 210000,
+    "price": 190000,
     "url": "https://web.joongna.com/product/229945378",
     "image": "https://img2.joongna.com/media/original/2026/06/23/1782221410726QTU_2gNTu.jpg?impolicy=thumb&size=150",
     "images": [
@@ -6360,7 +6360,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/23/1782214403094Mmy_j1GRo.jpg"
     ],
-    "postedAt": "2026-06-27T00:48:24.000Z",
+    "postedAt": "2026-06-28T01:03:09.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6380,7 +6380,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/06/23/1782214398681YAx_EANHa.jpg"
     ],
-    "postedAt": "2026-06-27T00:48:23.000Z",
+    "postedAt": "2026-06-28T01:02:21.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6742,7 +6742,7 @@
   },
   {
     "name": "미개봉)리얼포스 45g 영문 텐키리스",
-    "price": 360000,
+    "price": 340000,
     "url": "https://web.joongna.com/product/230064319",
     "image": "https://img2.joongna.com/media/original/2026/06/27/1782541391655nhd_YJsW7.jpg?impolicy=thumb&size=150",
     "images": [
@@ -6835,5 +6835,25 @@
       "realforce"
     ],
     "crawledAt": "2026-06-27T23:54:33.885Z"
+  },
+  {
+    "name": "(미개봉) 리얼포스 R3TL 블투 apc 30g",
+    "price": 300000,
+    "url": "https://web.joongna.com/product/230085790",
+    "image": "https://img2.joongna.com/media/original/2026/06/28/17826084710694v9_xt3lk.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/28/17826084710694v9_xt3lk.jpg"
+    ],
+    "postedAt": "2026-06-28T01:01:11.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-28T08:15:58.479Z"
   }
 ]
