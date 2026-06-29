@@ -2259,7 +2259,7 @@
       "https://img2.joongna.com/media/original/2026/02/05/1770253505616XIJ_3cGEm.jpg",
       "https://img2.joongna.com/media/original/2026/02/05/177025350583966x_EXOkF.jpg"
     ],
-    "postedAt": "2026-04-22T00:51:44.000Z",
+    "postedAt": "2026-06-28T23:29:27.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6403,7 +6403,7 @@
       "https://img2.joongna.com/media/original/2026/06/23/1782212560075RwS_aZU8K.jpg",
       "https://img2.joongna.com/media/original/2026/06/23/1782212560170xCC_qWt0I.jpg"
     ],
-    "postedAt": "2026-06-27T21:46:46.000Z",
+    "postedAt": "2026-06-28T20:46:25.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6801,7 +6801,7 @@
       "https://img2.joongna.com/media/original/2026/06/27/1782560356031ZpO_DDFla.jpg",
       "https://img2.joongna.com/media/original/2026/06/27/1782560356096R9M_vf2rL.jpg"
     ],
-    "postedAt": "2026-06-27T15:13:30.000Z",
+    "postedAt": "2026-06-28T22:25:23.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -6935,5 +6935,48 @@
       "realforce"
     ],
     "crawledAt": "2026-06-28T13:15:53.565Z"
+  },
+  {
+    "name": "리얼포스 R3HD13 30g 팝니다.",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/230115693",
+    "image": "https://img2.joongna.com/media/original/2026/06/29/1782687559740K4w_aysa6.JPG?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/29/1782687559740K4w_aysa6.JPG",
+      "https://img2.joongna.com/media/original/2026/06/29/1782687559740AJb_dIGRC.JPG",
+      "https://img2.joongna.com/media/original/2026/06/29/1782687559739dE0_hTDL8.JPG",
+      "https://img2.joongna.com/media/original/2026/06/29/1782687559740LKG_MC4YN.JPG"
+    ],
+    "postedAt": "2026-06-28T23:00:55.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
+  },
+  {
+    "name": "리얼포스 r4판매합니다",
+    "price": 380000,
+    "url": "https://web.joongna.com/product/230109652",
+    "image": "https://img2.joongna.com/media/original/2026/06/28/1782653620545UnD_iV8Kb.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/28/1782653620545UnD_iV8Kb.jpg"
+    ],
+    "postedAt": "2026-06-28T13:33:40.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
   }
 ]

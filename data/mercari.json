@@ -2525,7 +2525,7 @@
   },
   {
     "name": "REALFORCE RC1 英語 キーキャップセット M1324U ダークモーブ",
-    "price": 2399,
+    "price": 2350,
     "url": "https://jp.mercari.com/item/m40801430773",
     "image": "https://static.mercdn.net/thumb/item/webp/m40801430773_1.jpg?1781168195",
     "postedAt": "",
@@ -5682,7 +5682,7 @@
   },
   {
     "name": "REALFORCE カラーキーキャップテンキーM0319T ダークブルー",
-    "price": 3300,
+    "price": 3100,
     "url": "https://jp.mercari.com/item/m64104000020",
     "image": "https://static.mercdn.net/thumb/item/webp/m64104000020_1.jpg?1780900343",
     "postedAt": "",
@@ -6207,7 +6207,7 @@
   },
   {
     "name": "REALFORCE RC1 英語 キーキャップ 錆青磁 C1AUSKCL22",
-    "price": 3300,
+    "price": 3200,
     "url": "https://jp.mercari.com/item/m84635368441",
     "image": "https://static.mercdn.net/thumb/item/webp/m84635368441_1.jpg?1781927780",
     "postedAt": "",
@@ -7383,7 +7383,7 @@
   },
   {
     "name": "東プレ REALFORCE 【R3HI17】分割スペース",
-    "price": 31000,
+    "price": 30500,
     "url": "https://jp.mercari.com/item/m53078854262",
     "image": "https://static.mercdn.net/thumb/item/webp/m53078854262_1.jpg?1781966802",
     "postedAt": "",
@@ -9493,11 +9493,10 @@
     "price": 1500,
     "url": "https://jp.mercari.com/item/m58538557380",
     "image": "https://static.mercdn.net/thumb/item/webp/m58538557380_1.jpg?1779976186",
-    "postedAt": "2026-06-25T13:06:52.664Z",
-    "postedAtText": "11時間前",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://static.mercdn.net/item/detail/orig/photos/m58538557380_1.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m58538557380_2.jpg"
+      "https://static.mercdn.net/thumb/item/webp/m58538557380_1.jpg?1779976186"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -10310,7 +10309,7 @@
   },
   {
     "name": "「新品・未使用」hololive ラプラス・ダークネス アクリルスタンド",
-    "price": 9999,
+    "price": 8999,
     "url": "https://jp.mercari.com/item/m59222858811",
     "image": "https://static.mercdn.net/thumb/item/webp/m59222858811_1.jpg?1782591272",
     "postedAt": "",
@@ -10562,7 +10561,7 @@
   },
   {
     "name": "未使用新品 REALFORCE アルミリストレスト TKL M070201",
-    "price": 6500,
+    "price": 6000,
     "url": "https://jp.mercari.com/item/m14403909888",
     "image": "https://static.mercdn.net/thumb/item/webp/m14403909888_1.jpg?1782649934",
     "postedAt": "",
@@ -10625,7 +10624,7 @@
   },
   {
     "name": "REALFORCE R2S-US3-IV AGBZ34 キーボード本体",
-    "price": 9800,
+    "price": 9900,
     "url": "https://jp.mercari.com/item/m19473964233",
     "image": "https://static.mercdn.net/thumb/item/webp/m19473964233_1.jpg?1782640979",
     "postedAt": "",
@@ -10688,7 +10687,7 @@
   },
   {
     "name": "REALFORCE GX1 45g荷重 日本語配列 X1UC11",
-    "price": 16800,
+    "price": 15800,
     "url": "https://jp.mercari.com/item/m51694319309",
     "image": "https://static.mercdn.net/thumb/item/webp/m51694319309_1.jpg?1782634721",
     "postedAt": "",
@@ -10706,5 +10705,131 @@
       "realforce"
     ],
     "crawledAt": "2026-06-28T13:15:53.565Z"
+  },
+  {
+    "name": "REALFORCE R2TLA-JP4-BK 日本語配列 カラーキートップ付き",
+    "price": 20000,
+    "url": "https://jp.mercari.com/item/m73252018849",
+    "image": "https://static.mercdn.net/thumb/item/webp/m73252018849_1.jpg?1782665835",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m73252018849_1.jpg?1782665835"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
+  },
+  {
+    "name": "REALFORCE R2S-US3-BK",
+    "price": 9999,
+    "url": "https://jp.mercari.com/item/m98591274672",
+    "image": "https://static.mercdn.net/thumb/item/webp/m98591274672_1.jpg?1782666886",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m98591274672_1.jpg?1782666886"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
+  },
+  {
+    "name": "REALFORCE　カラーキーキャップ　R3/R3S　イエロー　M0353J",
+    "price": 18500,
+    "url": "https://jp.mercari.com/item/m63053094834",
+    "image": "https://static.mercdn.net/thumb/item/webp/m63053094834_1.jpg?1769266703",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m63053094834_1.jpg?1769266703"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
+  },
+  {
+    "name": "REALFORCE　カラーキーキャップ　R3/R3S　ブルー　M0313J",
+    "price": 18500,
+    "url": "https://jp.mercari.com/item/m69056316889",
+    "image": "https://static.mercdn.net/thumb/item/webp/m69056316889_1.jpg?1769267193",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m69056316889_1.jpg?1769267193"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
+  },
+  {
+    "name": "REALFORCE　カラーキーキャップ　R3/R3S　ホワイト　M0373J",
+    "price": 18500,
+    "url": "https://jp.mercari.com/item/m84186398771",
+    "image": "https://static.mercdn.net/thumb/item/webp/m84186398771_1.jpg?1769266691",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m84186398771_1.jpg?1769266691"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
+  },
+  {
+    "name": "REALFORCE GX1初音ミクコラボモデル",
+    "price": 22000,
+    "url": "https://jp.mercari.com/item/m69961369401",
+    "image": "https://static.mercdn.net/thumb/item/webp/m69961369401_1.jpg?1782653189",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m69961369401_1.jpg?1782653189"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-29T00:00:40.154Z"
   }
 ]
