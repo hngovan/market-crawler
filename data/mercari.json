@@ -4905,7 +4905,7 @@
   },
   {
     "name": "★箱付★ 東プレ テンキー REALFORCE23UB USB WC01B0",
-    "price": 11700,
+    "price": 11400,
     "url": "https://jp.mercari.com/item/m81939546769",
     "image": "https://static.mercdn.net/thumb/item/webp/m81939546769_1.jpg?1768664068",
     "postedAt": "",
@@ -6270,7 +6270,7 @@
   },
   {
     "name": "REALFORCE キーボード本体　RC1 KEYBORD C1HK13",
-    "price": 28500,
+    "price": 27500,
     "url": "https://jp.mercari.com/item/m32901361093",
     "image": "https://static.mercdn.net/thumb/item/webp/m32901361093_1.jpg?1781919668",
     "postedAt": "",
@@ -8293,7 +8293,7 @@
   },
   {
     "name": "★おまけ付き！【REALFORCE RC1】ブラック 日本語 荷重 45g",
-    "price": 26900,
+    "price": 26500,
     "url": "https://jp.mercari.com/item/m54993324318",
     "image": "https://static.mercdn.net/thumb/item/webp/m54993324318_1.jpg?1782218589",
     "postedAt": "",
@@ -9952,7 +9952,7 @@
   },
   {
     "name": "REALFORCE RC1 英語配列(30g)",
-    "price": 25000,
+    "price": 24000,
     "url": "https://jp.mercari.com/item/m49241171168",
     "image": "https://static.mercdn.net/thumb/item/webp/m49241171168_1.jpg?1782544325",
     "postedAt": "",
@@ -10687,7 +10687,7 @@
   },
   {
     "name": "REALFORCE GX1 45g荷重 日本語配列 X1UC11",
-    "price": 15800,
+    "price": 14800,
     "url": "https://jp.mercari.com/item/m51694319309",
     "image": "https://static.mercdn.net/thumb/item/webp/m51694319309_1.jpg?1782634721",
     "postedAt": "",
@@ -10918,7 +10918,7 @@
   },
   {
     "name": "REALFORCE リアルフォース　AESX01 キーボード",
-    "price": 14980,
+    "price": 12980,
     "url": "https://jp.mercari.com/item/m25467990494",
     "image": "https://static.mercdn.net/thumb/item/webp/m25467990494_1.jpg?1782700054",
     "postedAt": "",
@@ -11293,5 +11293,26 @@
       "realforce"
     ],
     "crawledAt": "2026-06-30T08:24:20.197Z"
+  },
+  {
+    "name": "【REALFORCE 】キーボード:R3HC11",
+    "price": 20500,
+    "url": "https://jp.mercari.com/item/m66181270235",
+    "image": "https://static.mercdn.net/thumb/item/webp/m66181270235_1.jpg?1782825828",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m66181270235_1.jpg?1782825828"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-30T13:55:31.508Z"
   }
 ]
