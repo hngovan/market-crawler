@@ -10015,7 +10015,7 @@
   },
   {
     "name": "REALFORCE RC1本体 70% 日本語配列 キー荷重 30g専用ケース付",
-    "price": 29900,
+    "price": 29800,
     "url": "https://jp.mercari.com/item/m30894033617",
     "image": "https://static.mercdn.net/thumb/item/webp/m30894033617_1.jpg?1782538169",
     "postedAt": "",
@@ -10162,7 +10162,7 @@
   },
   {
     "name": "HHKB Professional HYBRID Type-S 日本語配列／白",
-    "price": 39800,
+    "price": 50000,
     "url": "https://jp.mercari.com/item/m74308070616",
     "image": "https://static.mercdn.net/thumb/item/webp/m74308070616_1.jpg?1782562048",
     "postedAt": "",
@@ -10351,7 +10351,7 @@
   },
   {
     "name": "獅白ぼたん REALFORCE ゲーミングキーボード 日本語配列",
-    "price": 45000,
+    "price": 40000,
     "url": "https://jp.mercari.com/item/m26661109279",
     "image": "https://static.mercdn.net/thumb/item/webp/m26661109279_1.jpg?1782568414",
     "postedAt": "",
@@ -10645,7 +10645,7 @@
   },
   {
     "name": "東プレREALFORCE キーボード R3HC22 日本語配列",
-    "price": 17500,
+    "price": 16500,
     "url": "https://jp.mercari.com/item/m65842878499",
     "image": "https://static.mercdn.net/thumb/item/webp/m65842878499_1.jpg?1774746965",
     "postedAt": "",
@@ -10855,7 +10855,7 @@
   },
   {
     "name": "リアルフォース　 RC1　キーボーキャップ　英語配列　新色カラー：灰青",
-    "price": 4980,
+    "price": 4080,
     "url": "https://jp.mercari.com/item/m83842386317",
     "image": "https://static.mercdn.net/thumb/item/webp/m83842386317_1.jpg?1782719198",
     "postedAt": "",
@@ -11065,7 +11065,7 @@
   },
   {
     "name": "REALFORCE R2 JP4 BK キーボード本体",
-    "price": 17000,
+    "price": 16000,
     "url": "https://jp.mercari.com/item/m64260940461",
     "image": "https://static.mercdn.net/thumb/item/webp/m64260940461_1.jpg?1782738313",
     "postedAt": "",
@@ -11314,5 +11314,68 @@
       "realforce"
     ],
     "crawledAt": "2026-06-30T13:55:31.508Z"
+  },
+  {
+    "name": "REALFORCE RC1 ホワイト 日本語配列 キー荷重 30g C1HJ23",
+    "price": 30000,
+    "url": "https://jp.mercari.com/item/m77241747314",
+    "image": "https://static.mercdn.net/thumb/item/webp/m77241747314_1.jpg?1782852125",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m77241747314_1.jpg?1782852125"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-30T23:58:28.453Z"
+  },
+  {
+    "name": "REALFORCE R3UC11 グリーンキーキャップセット",
+    "price": 20880,
+    "url": "https://jp.mercari.com/item/m94030978465",
+    "image": "https://static.mercdn.net/thumb/item/webp/m94030978465_1.jpg?1777910146",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m94030978465_1.jpg?1777910146"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-30T23:58:28.453Z"
+  },
+  {
+    "name": "メカニカルキーボード 本体 75%レイアウト",
+    "price": 8000,
+    "url": "https://jp.mercari.com/item/m14870743730",
+    "image": "https://static.mercdn.net/thumb/item/webp/m14870743730_1.jpg?1782833237",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m14870743730_1.jpg?1782833237"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-06-30T23:58:28.453Z"
   }
 ]
