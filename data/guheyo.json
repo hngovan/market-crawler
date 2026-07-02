@@ -272,7 +272,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "realforce"
+      "realforce",
+      "Realforce GX1"
     ],
     "crawledAt": "2026-06-19T03:50:47.540Z"
   },
@@ -2208,5 +2209,26 @@
       "realforce"
     ],
     "crawledAt": "2026-07-01T14:07:16.896Z"
+  },
+  {
+    "name": "리얼포스 x 하츠네 미쿠 Realforce GX1 X1UDM1",
+    "price": 410000,
+    "url": "https://guheyo.com/offer/%EB%A6%AC%EC%96%BC%ED%8F%AC%EC%8A%A4-x-%ED%95%98%EC%B8%A0%EB%84%A4-%EB%AF%B8%EC%BF%A0-Realforce-GX1-X1UDM1-V1-ZEYUqTzWLemZ3NDbVT",
+    "image": "https://image.guheyo.com/guheyo/offer/202406/1e24d98c-1fb8-4e60-b1a8-490315c9a8ab/20240512_132018.jpg",
+    "postedAt": "2024-07-02T16:25:04.068Z",
+    "postedAtText": "2년 전",
+    "images": [
+      "https://image.guheyo.com/guheyo/offer/202406/1e24d98c-1fb8-4e60-b1a8-490315c9a8ab/20240512_132018.jpg"
+    ],
+    "market": "guheyo",
+    "marketName": "Guheyo",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Realforce GX1"
+    ],
+    "crawledAt": "2026-07-02T16:24:02.476Z"
   }
 ]

@@ -11,8 +11,9 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Realforce GX1",
       "keywords": [
+        "Realforce GX1",
         "realforce",
         "리얼포스 R2",
         "realforce 87",
@@ -24,7 +25,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-02T13:29:45.970Z"
+      "crawledAt": "2026-07-02T16:24:02.476Z"
     }
   },
   {
@@ -35,12 +36,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 428,
+    "count": 447,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Realforce GX1",
       "keywords": [
+        "Realforce GX1",
         "realforce",
         "realforce 101",
         "realforce 87",
@@ -57,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-02T13:29:45.970Z"
+      "crawledAt": "2026-07-02T16:24:02.476Z"
     }
   },
   {
@@ -68,18 +70,19 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 96,
+    "count": 97,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Realforce GX1",
       "keywords": [
+        "Realforce GX1",
         "realforce",
         "rule"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-02T13:29:45.970Z"
+      "crawledAt": "2026-07-02T16:24:02.476Z"
     }
   },
   {
@@ -90,12 +93,13 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 571,
+    "count": 574,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Realforce GX1",
       "keywords": [
+        "Realforce GX1",
         "realforce",
         "topre",
         "660c",
@@ -106,7 +110,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-02T13:29:45.970Z"
+      "crawledAt": "2026-07-02T16:24:02.476Z"
     }
   }
 ]
