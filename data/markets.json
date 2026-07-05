@@ -7,24 +7,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 312,
+    "count": 45,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
         "realforce",
-        "리얼포스 R2",
-        "realforce 87",
-        "realforce 101",
-        "topre",
-        "leopold fC660",
-        "rule",
         "Cooler Master"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-05T13:07:48.410Z"
+      "crawledAt": "2026-07-05T23:56:48.401Z"
     }
   },
   {
@@ -35,30 +29,22 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 448,
+    "count": 171,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
         "realforce",
-        "realforce 101",
-        "realforce 87",
-        "realforce 86",
-        "리얼포스 R2",
-        "Realforce GX1",
-        "660c",
-        "leopold fC660",
-        "topre",
-        "104UK Hi-Pro",
-        "rule",
         "Cooler Master",
         "NovaTouch TKL",
-        "NovaTouch"
+        "NovaTouch",
+        "104UK Hi-Pro",
+        "Realforce GX1"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-05T13:07:48.410Z"
+      "crawledAt": "2026-07-05T23:56:48.401Z"
     }
   },
   {
@@ -69,19 +55,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 97,
+    "count": 61,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
         "realforce",
-        "Realforce GX1",
-        "rule"
+        "Realforce GX1"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-05T13:07:48.410Z"
+      "crawledAt": "2026-07-05T23:56:48.401Z"
     }
   },
   {
@@ -92,24 +77,19 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 580,
+    "count": 216,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
         "realforce",
-        "topre",
-        "Realforce GX1",
-        "660c",
-        "leopold fC660",
-        "realforce 101",
-        "rule",
-        "Cooler Master"
+        "Cooler Master",
+        "Realforce GX1"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-05T13:07:48.410Z"
+      "crawledAt": "2026-07-05T23:56:48.401Z"
     }
   }
 ]
