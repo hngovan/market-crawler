@@ -24,7 +24,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-04T23:53:13.659Z"
+      "crawledAt": "2026-07-05T07:52:00.225Z"
     }
   },
   {
@@ -35,7 +35,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 447,
+    "count": 448,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
@@ -58,7 +58,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-04T23:53:13.659Z"
+      "crawledAt": "2026-07-05T07:52:00.225Z"
     }
   },
   {
@@ -81,7 +81,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-04T23:53:13.659Z"
+      "crawledAt": "2026-07-05T07:52:00.225Z"
     }
   },
   {
@@ -109,7 +109,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-07-04T23:53:13.659Z"
+      "crawledAt": "2026-07-05T07:52:00.225Z"
     }
   }
 ]

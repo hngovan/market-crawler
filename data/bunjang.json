@@ -4,10 +4,11 @@
     "price": 215000,
     "url": "https://m.bunjang.co.kr/products/370283626",
     "image": "https://media.bunjang.co.kr/product/370283626_1_1781581907_w480.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-06-30T07:52:30.051Z",
+    "postedAtText": "5일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/370283626_1_1781581907_w480.jpg"
+      "https://media.bunjang.co.kr/product/370283626_1_1781581907_w900.jpg",
+      "https://media.bunjang.co.kr/product/370283626_2_1781581907_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -70,10 +71,11 @@
     "price": 300000,
     "url": "https://m.bunjang.co.kr/products/394969644",
     "image": "https://media.bunjang.co.kr/product/394969644_1_1773974875_w480.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-06-21T07:52:31.257Z",
+    "postedAtText": "14일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/394969644_1_1773974875_w480.jpg"
+      "https://media.bunjang.co.kr/product/394969644_1_1773974875_w900.jpg",
+      "https://media.bunjang.co.kr/product/394969644_2_1773974875_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -138,10 +140,11 @@
     "price": 350000,
     "url": "https://m.bunjang.co.kr/products/405484048",
     "image": "https://media.bunjang.co.kr/product/405484048_1_1778139557_w480.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-06-12T07:52:33.574Z",
+    "postedAtText": "23일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/405484048_1_1778139557_w480.jpg"
+      "https://media.bunjang.co.kr/product/405484048_1_1778139557_w900.jpg",
+      "https://media.bunjang.co.kr/product/405484048_2_1778139557_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -181,11 +184,10 @@
     "price": 330000,
     "url": "https://m.bunjang.co.kr/products/403984507",
     "image": "https://media.bunjang.co.kr/product/403984507_1_1777128370_w480.jpg",
-    "postedAt": "2026-06-29T23:53:47.705Z",
-    "postedAtText": "5일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/403984507_1_1777128370_w900.jpg",
-      "https://media.bunjang.co.kr/product/403984507_2_1777128370_w900.jpg"
+      "https://media.bunjang.co.kr/product/403984507_1_1777128370_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -9886,5 +9888,26 @@
       "Realforce GX1"
     ],
     "crawledAt": "2026-07-02T16:24:02.476Z"
+  },
+  {
+    "name": "리얼포스 블랙 R3 저소음 30G 판매합니다",
+    "price": 225000,
+    "url": "https://m.bunjang.co.kr/products/418062214",
+    "image": "https://media.bunjang.co.kr/product/418062214_1_1783224468_w480.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/418062214_1_1783224468_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-07-05T07:52:00.225Z"
   }
 ]
