@@ -3646,10 +3646,10 @@
     "price": 160000,
     "url": "https://m.bunjang.co.kr/products/374447312",
     "image": "https://media.bunjang.co.kr/product/374447312_1_1772974879_w480.jpg",
-    "postedAt": "2026-06-22T08:54:53.451Z",
-    "postedAtText": "14일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/374447312_1_1772974879_w900.jpg"
+      "https://media.bunjang.co.kr/product/374447312_1_1772974879_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
