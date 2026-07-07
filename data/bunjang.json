@@ -3499,10 +3499,12 @@
     "price": 225000,
     "url": "https://m.bunjang.co.kr/products/418062214",
     "image": "https://media.bunjang.co.kr/product/418062214_1_1783224468_w480.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-07-05T08:15:20.220Z",
+    "postedAtText": "2일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/418062214_1_1783224468_w480.jpg"
+      "https://media.bunjang.co.kr/product/418062214_1_1783224468_w900.jpg",
+      "https://media.bunjang.co.kr/product/418062214_2_1783224468_w900.jpg",
+      "https://media.bunjang.co.kr/product/418062214_3_1783224468_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3766,5 +3768,26 @@
       "realforce"
     ],
     "crawledAt": "2026-07-05T23:56:48.401Z"
+  },
+  {
+    "name": "Realforce GX1 라플라스 다크니스 키보드",
+    "price": 340000,
+    "url": "https://m.bunjang.co.kr/products/418470091",
+    "image": "https://media.bunjang.co.kr/product/418470091_1_1783404718_w480.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/418470091_1_1783404718_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-07-07T08:14:54.572Z"
   }
 ]
