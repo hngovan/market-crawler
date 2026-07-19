@@ -3003,12 +3003,10 @@
     "price": 238000,
     "url": "https://m.bunjang.co.kr/products/416236213",
     "image": "https://media.bunjang.co.kr/product/416236213_1_1782440541_w480.jpg",
-    "postedAt": "2026-06-29T07:22:49.025Z",
-    "postedAtText": "20일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/416236213_1_1782440541_w900.jpg",
-      "https://media.bunjang.co.kr/product/416236213_2_1782440541_w900.jpg",
-      "https://media.bunjang.co.kr/product/416236213_3_1782440541_w900.jpg"
+      "https://media.bunjang.co.kr/product/416236213_1_1782440541_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3774,12 +3772,9 @@
     "price": 280000,
     "url": "https://m.bunjang.co.kr/products/418470091",
     "image": "https://media.bunjang.co.kr/product/418470091_1_1784436666_w480.jpg",
-    "postedAt": "2026-07-07T07:22:48.043Z",
-    "postedAtText": "12일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/418470091_1_1784436666_w900.jpg",
-      "https://media.bunjang.co.kr/product/418470091_2_1784436666_w900.jpg",
-      "https://media.bunjang.co.kr/product/418470091_3_1784436666_w900.jpg",
       "https://media.bunjang.co.kr/product/418470091_1_1784436666_w480.jpg"
     ],
     "market": "bunjang",
@@ -3834,5 +3829,26 @@
       "realforce"
     ],
     "crawledAt": "2026-07-15T07:06:23.297Z"
+  },
+  {
+    "name": "리얼포스 REALFORCE 104UWS (XF01TS) 영문배열 / Topre 정전용량 무접점",
+    "price": 200000,
+    "url": "https://m.bunjang.co.kr/products/420901438",
+    "image": "https://media.bunjang.co.kr/product/420901438_1_1784463460_w480.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/420901438_1_1784463460_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-07-19T12:54:11.180Z"
   }
 ]
