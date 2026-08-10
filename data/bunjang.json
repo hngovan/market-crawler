@@ -4,8 +4,8 @@
     "price": 212000,
     "url": "https://m.bunjang.co.kr/products/418062214",
     "image": "https://media.bunjang.co.kr/product/418062214_1_1785921111_w160.jpg",
-    "postedAt": "2026-08-09T06:20:43.043Z",
-    "postedAtText": "17시간 전",
+    "postedAt": "2026-08-09T06:06:41.080Z",
+    "postedAtText": "1일 전",
     "images": [
       "https://media.bunjang.co.kr/product/418062214_1_1785921111_w900.jpg",
       "https://media.bunjang.co.kr/product/418062214_2_1785921111_w900.jpg",
@@ -77,8 +77,8 @@
     "price": 200000,
     "url": "https://m.bunjang.co.kr/products/422717620",
     "image": "https://media.bunjang.co.kr/product/422717620_1_1785632977_w160.jpg",
-    "postedAt": "2026-08-02T23:20:44.147Z",
-    "postedAtText": "7일 전",
+    "postedAt": "2026-08-02T06:06:42.062Z",
+    "postedAtText": "8일 전",
     "images": [
       "https://media.bunjang.co.kr/product/422717620_1_1785632977_w900.jpg",
       "https://media.bunjang.co.kr/product/422717620_2_1785632977_w900.jpg",
@@ -104,7 +104,7 @@
     "price": 195000,
     "url": "https://m.bunjang.co.kr/products/370283626",
     "image": "https://media.bunjang.co.kr/product/370283626_1_1785431595_w160.jpg",
-    "postedAt": "2026-07-22T23:20:44.926Z",
+    "postedAt": "2026-07-23T06:06:42.332Z",
     "postedAtText": "18일 전",
     "images": [
       "https://media.bunjang.co.kr/product/370283626_1_1785431595_w900.jpg",
@@ -126,10 +126,11 @@
     "price": 300000,
     "url": "https://m.bunjang.co.kr/products/394969644",
     "image": "https://media.bunjang.co.kr/product/394969644_1_1773974875_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-08-05T06:06:41.336Z",
+    "postedAtText": "5일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/394969644_1_1773974875_w160.jpg"
+      "https://media.bunjang.co.kr/product/394969644_1_1773974875_w900.jpg",
+      "https://media.bunjang.co.kr/product/394969644_2_1773974875_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -147,7 +148,7 @@
     "price": 200000,
     "url": "https://m.bunjang.co.kr/products/420901438",
     "image": "https://media.bunjang.co.kr/product/420901438_1_1784463460_w160.jpg",
-    "postedAt": "2026-07-19T23:20:46.352Z",
+    "postedAt": "2026-07-20T06:06:43.174Z",
     "postedAtText": "21일 전",
     "images": [
       "https://media.bunjang.co.kr/product/420901438_1_1784463460_w900.jpg",
@@ -193,8 +194,8 @@
     "price": 260500,
     "url": "https://m.bunjang.co.kr/products/260726909",
     "image": "https://media.bunjang.co.kr/product/260726909_1_1758013816_w160.jpg",
-    "postedAt": "2026-08-09T05:20:48.136Z",
-    "postedAtText": "18시간 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
       "https://media.bunjang.co.kr/product/260726909_1_1758013816_w900.jpg",
       "https://media.bunjang.co.kr/product/260726909_2_1758013816_w900.jpg",
@@ -217,8 +218,8 @@
     "price": 350000,
     "url": "https://m.bunjang.co.kr/products/405484048",
     "image": "https://media.bunjang.co.kr/product/405484048_1_1778139557_w160.jpg",
-    "postedAt": "2026-08-07T23:20:48.564Z",
-    "postedAtText": "2일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
       "https://media.bunjang.co.kr/product/405484048_1_1778139557_w900.jpg",
       "https://media.bunjang.co.kr/product/405484048_2_1778139557_w900.jpg"
@@ -264,8 +265,7 @@
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/377872514_1_1766798529_w900.jpg",
-      "https://media.bunjang.co.kr/product/377872514_2_1766798529_w900.jpg"
+      "https://media.bunjang.co.kr/product/377872514_1_1766798529_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -283,8 +283,8 @@
     "price": 500000,
     "url": "https://m.bunjang.co.kr/products/380533478",
     "image": "https://media.bunjang.co.kr/product/380533478_1_1767660952_w160.jpg",
-    "postedAt": "2026-08-08T23:20:51.331Z",
-    "postedAtText": "1일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
       "https://media.bunjang.co.kr/product/380533478_1_1767660952_w900.jpg",
       "https://media.bunjang.co.kr/product/380533478_2_1767660952_w900.jpg",
@@ -312,8 +312,7 @@
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/359663946_1_1759927915_w900.jpg",
-      "https://media.bunjang.co.kr/product/359663946_2_1759927915_w900.jpg"
+      "https://media.bunjang.co.kr/product/359663946_1_1759927915_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
