@@ -10,8 +10,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: cleanup-old-crawled-data
-  cancel-in-progress: false
+  group: market-data-writes
+  queue: max
 
 jobs:
   cleanup:

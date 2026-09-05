@@ -20,13 +20,14 @@ export default async function handler(request, response) {
         .json({ status: "pending", log: "Đang chờ GitHub Actions tạo job..." });
 
     const status = run.status === "completed" ? run.conclusion || "completed" : run.status;
+    const isClearOperation = run.display_title?.startsWith("Clear data ");
     response.status(200).json({
       status,
       url: run.html_url,
       log:
         run.status === "completed"
-          ? `Crawl đã hoàn tất: ${run.conclusion}`
-          : `GitHub Actions: ${run.status}`,
+          ? `${isClearOperation ? "Xoá dữ liệu" : "Crawl"} đã hoàn tất: ${run.conclusion}`
+          : `GitHub Actions (${isClearOperation ? "xoá dữ liệu" : "crawl"}): ${run.status}`,
     });
   } catch (error) {
     sendError(response, error);

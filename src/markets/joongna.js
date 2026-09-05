@@ -1,5 +1,5 @@
 import { enrichProductImages, extractCardProduct, normalizeProducts } from "../products.js";
-import { launchBrowser } from "./browser.js";
+import { createPreparedMarketPage, launchBrowser } from "./browser.js";
 import { buildJoongnaSearchUrl } from "./page-navigation.js";
 import { extractJoongnaPostedAt } from "./product-date.js";
 import { marketDefinitions } from "./registry.js";
@@ -64,7 +64,9 @@ async function enrichDetailImages(browser, products, concurrency = 2) {
   let nextIndex = 0;
 
   async function worker() {
-    const page = await browser.newPage();
+    const page = await createPreparedMarketPage(browser, {
+      language: "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+    });
     try {
       while (nextIndex < products.length) {
         const index = nextIndex++;
@@ -109,7 +111,9 @@ export async function crawlJoongna({ keyword, limit, sort }) {
 
   const browser = await launchBrowser();
   try {
-    const page = await browser.newPage();
+    const page = await createPreparedMarketPage(browser, {
+      language: "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+    });
     await page.setViewport({ width: 1440, height: 1200 });
     await page
       .goto("https://web.joongna.com/", { waitUntil: "networkidle2", timeout: 60000 })

@@ -2,6 +2,14 @@ export function formatKeywordTags(keywords = []) {
   return [...new Set(keywords.map((keyword) => String(keyword).trim()).filter(Boolean))];
 }
 
+export function formatMarketError(error = "") {
+  const message = String(error).trim();
+  if (/Joongna blocked by CloudFront\/WAF: HTTP 403/i.test(message)) {
+    return "Joongna đang chặn truy cập tự động (HTTP 403). Dữ liệu cũ được giữ lại; hãy thử lại sau.";
+  }
+  return message;
+}
+
 export function hydrateProducts(market, products) {
   const crawlKeywords = market.crawl?.keywords?.length
     ? market.crawl.keywords

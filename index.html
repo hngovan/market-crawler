@@ -807,6 +807,327 @@
           grid-template-columns: 1fr;
         }
       }
+
+      /* Modern light theme */
+      :root {
+        --page: #f4f7fb;
+        --surface: #ffffff;
+        --surface-soft: #f8fafc;
+        --line: #dbe3ef;
+        --line-strong: #c5d0df;
+        --ink: #172033;
+        --muted: #64748b;
+        --primary: #2563eb;
+        --primary-dark: #1d4ed8;
+        --primary-soft: #eff6ff;
+        --danger: #dc2626;
+        --danger-dark: #b91c1c;
+        --danger-soft: #fef2f2;
+        font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: var(--ink);
+        background: var(--page);
+      }
+      body {
+        min-height: 100vh;
+        color: var(--ink);
+        background:
+          radial-gradient(circle at top left, rgb(37 99 235 / 8%), transparent 30rem), var(--page);
+      }
+      header {
+        border: 1px solid rgb(255 255 255 / 12%);
+        border-radius: 20px;
+        color: white;
+        background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 58%, #2563eb 100%);
+        box-shadow: 0 18px 45px rgb(15 23 42 / 18%);
+      }
+      header p {
+        color: #dbeafe;
+        font-weight: 600;
+        text-transform: none;
+      }
+      .status {
+        color: var(--muted);
+      }
+      .crawl-panel {
+        border: 0;
+        border-left: 1px solid var(--line);
+        background: var(--surface);
+        box-shadow: -18px 0 50px rgb(15 23 42 / 18%);
+      }
+      .crawl-backdrop {
+        background: rgb(15 23 42 / 48%);
+        backdrop-filter: blur(2px);
+      }
+      .crawl-toggle,
+      .scroll-top {
+        border: 0;
+        border-radius: 12px;
+        color: white;
+        background: var(--primary);
+        box-shadow: 0 8px 20px rgb(37 99 235 / 28%);
+        text-transform: none;
+      }
+      .crawl-toggle:hover,
+      .scroll-top:hover {
+        background: var(--primary-dark);
+      }
+      .exchange-switch {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        color: var(--ink);
+        background: var(--surface);
+        box-shadow: 0 8px 22px rgb(15 23 42 / 12%);
+        text-transform: none;
+      }
+      .exchange-track {
+        height: 24px;
+        border: 0;
+        border-radius: 999px;
+        background: #cbd5e1;
+        box-shadow: none;
+      }
+      .exchange-thumb {
+        top: 3px;
+        left: 3px;
+        width: 18px;
+        height: 18px;
+        border: 0;
+        border-radius: 50%;
+        background: white;
+        box-shadow: 0 1px 4px rgb(15 23 42 / 30%);
+      }
+      .exchange-switch input:checked + .exchange-track {
+        background: var(--primary);
+      }
+      .exchange-switch input:checked + .exchange-track .exchange-thumb {
+        transform: translateX(18px);
+      }
+      .exchange-rate-note {
+        border: 1px solid #bfdbfe;
+        border-radius: 10px;
+        color: #1e3a8a;
+        background: var(--primary-soft);
+        box-shadow: 0 6px 18px rgb(15 23 42 / 10%);
+        font-weight: 600;
+      }
+      .crawl-panel h2,
+      .market-header h2 {
+        letter-spacing: -0.02em;
+        text-transform: none;
+      }
+      .crawl-field {
+        padding: 0;
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+        color: #334155;
+        font-weight: 650;
+        text-transform: none;
+      }
+      .crawl-input,
+      .filter-select,
+      .page-size {
+        border: 1px solid var(--line-strong);
+        border-radius: 10px;
+        color: var(--ink);
+        background: var(--surface);
+        box-shadow: none;
+        font-weight: 500;
+        outline: none;
+      }
+      .crawl-input:focus,
+      .filter-select:focus,
+      .page-size:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px rgb(37 99 235 / 14%);
+      }
+      .crawl-market-option {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: var(--surface-soft);
+        box-shadow: none;
+        font-weight: 500;
+      }
+      .crawl-submit,
+      .clear-data {
+        min-height: 44px;
+        padding: 10px 14px;
+        border: 0;
+        border-radius: 10px;
+        color: white;
+        box-shadow: none;
+        font: inherit;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .crawl-submit {
+        background: var(--primary);
+      }
+      .crawl-submit:hover {
+        background: var(--primary-dark);
+      }
+      .clear-data {
+        background: var(--danger);
+      }
+      .clear-data:hover {
+        background: var(--danger-dark);
+      }
+      .crawl-submit:disabled,
+      .clear-data:disabled {
+        cursor: wait;
+        opacity: 0.55;
+      }
+      .clear-data.loading::before {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        margin-right: 8px;
+        border: 3px solid currentColor;
+        border-right-color: transparent;
+        border-radius: 50%;
+        content: "";
+        vertical-align: -2px;
+        animation: crawl-spin 0.7s linear infinite;
+      }
+      .crawl-log {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        color: #334155;
+        background: var(--surface-soft);
+        box-shadow: none;
+        font-weight: 500;
+      }
+      .toolbar {
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: rgb(255 255 255 / 82%);
+        box-shadow: 0 8px 30px rgb(15 23 42 / 7%);
+        backdrop-filter: blur(10px);
+      }
+      .filter-label {
+        color: #475569;
+        font-weight: 650;
+        text-transform: none;
+      }
+      .market {
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--surface);
+        box-shadow: 0 12px 35px rgb(15 23 42 / 8%);
+      }
+      .market-region {
+        color: var(--muted);
+        font-weight: 600;
+        text-transform: none;
+      }
+      .market-status {
+        border: 1px solid #bfdbfe;
+        border-radius: 999px;
+        color: var(--primary-dark);
+        background: var(--primary-soft);
+        font-weight: 650;
+      }
+      .market-status.skipped {
+        border-color: #fecaca;
+        color: var(--danger-dark);
+        background: var(--danger-soft);
+      }
+      .market-error,
+      .error {
+        color: var(--danger-dark);
+      }
+      .market-empty {
+        border: 1px dashed var(--line-strong);
+        border-radius: 14px;
+        color: var(--muted);
+        background: var(--surface-soft);
+        box-shadow: none;
+        font-weight: 600;
+      }
+      .card {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--surface);
+        box-shadow: 0 6px 18px rgb(15 23 42 / 8%);
+        transition:
+          transform 0.16s ease,
+          box-shadow 0.16s ease;
+      }
+      .card:hover,
+      .card:focus-within {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 28px rgb(15 23 42 / 13%);
+      }
+      .card img,
+      .image-button {
+        border-radius: 13px 13px 0 0;
+      }
+      .image-badge,
+      .posted-at {
+        border: 1px solid rgb(255 255 255 / 70%);
+        border-radius: 999px;
+        color: white;
+        background: rgb(15 23 42 / 78%);
+        box-shadow: 0 4px 12px rgb(15 23 42 / 20%);
+        backdrop-filter: blur(6px);
+      }
+      .name {
+        color: var(--ink);
+      }
+      .name-tooltip {
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        color: var(--ink);
+        background: var(--surface);
+        box-shadow: 0 12px 28px rgb(15 23 42 / 16%);
+      }
+      .price {
+        color: var(--primary-dark);
+      }
+      .link,
+      .page-button {
+        border: 1px solid #bfdbfe;
+        border-radius: 10px;
+        color: var(--primary-dark);
+        background: var(--primary-soft);
+        box-shadow: none;
+        font-weight: 700;
+      }
+      .link:hover,
+      .page-button:hover:not(:disabled) {
+        border-color: #93c5fd;
+        background: #dbeafe;
+      }
+      .page-info {
+        color: #475569;
+        font-weight: 650;
+      }
+      button:focus-visible,
+      a:focus-visible,
+      input:focus-visible,
+      select:focus-visible {
+        outline: 3px solid rgb(37 99 235 / 28%);
+        outline-offset: 2px;
+      }
+      @media (max-width: 900px) {
+        header,
+        .market,
+        .card,
+        .crawl-field,
+        .crawl-log,
+        .filter-select,
+        .page-size,
+        .crawl-submit,
+        .clear-data,
+        .link,
+        .page-button,
+        .image-badge,
+        .posted-at,
+        .market-empty {
+          box-shadow: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -903,6 +1224,7 @@
               </div>
             </fieldset>
             <button id="crawl-submit" class="crawl-submit" type="submit">Chạy crawl</button>
+            <button id="clear-data" class="clear-data" type="button">Xoá toàn bộ dữ liệu</button>
           </form>
         </div>
       </section>
@@ -952,7 +1274,7 @@
         formatOriginalToVndRate,
         formatVndPrice,
       } from "./src/exchange-rates.js";
-      import { hydrateProducts } from "./src/ui-products.js";
+      import { formatMarketError, hydrateProducts } from "./src/ui-products.js";
 
       const marketsElement = document.querySelector("#markets");
       const filtersElement = document.querySelector("#filters");
@@ -966,6 +1288,7 @@
       const crawlForm = document.querySelector("#crawl-form");
       const crawlLog = document.querySelector("#crawl-log");
       const crawlSubmit = document.querySelector("#crawl-submit");
+      const clearDataButton = document.querySelector("#clear-data");
       const crawlPanel = document.querySelector("#crawl-panel");
       const crawlToggle = document.querySelector("#crawl-toggle");
       const crawlBackdrop = document.querySelector("#crawl-backdrop");
@@ -1380,7 +1703,7 @@
         if (market.error) {
           const error = document.createElement("p");
           error.className = "market-error";
-          error.textContent = market.error;
+          error.textContent = formatMarketError(market.error);
           section.append(error);
         }
         if (visibleProducts.length) {
@@ -1470,7 +1793,6 @@
       });
       vndToggleElement.addEventListener("change", () => {
         exchangeState.enabled = vndToggleElement.checked;
-        resetPages();
         if (exchangeState.enabled) {
           loadExchangeRates();
         } else {
@@ -1515,7 +1837,7 @@
           statusElement.textContent = `Không thể tải dữ liệu: ${error.message}`;
         });
 
-      async function pollCrawlStatus(secret, requestId) {
+      async function pollCrawlStatus(secret, requestId, operation = "crawl") {
         const response = await fetch(
           `/api/crawl-status?request_id=${encodeURIComponent(requestId)}`,
           {
@@ -1537,29 +1859,44 @@
         }
         crawlLog.scrollTop = crawlLog.scrollHeight;
         if (["queued", "in_progress", "pending"].includes(result.status)) {
-          sessionStorage.setItem(crawlSessionKey, JSON.stringify({ secret, requestId }));
-          setCrawlLoading(true);
-          setTimeout(() => pollCrawlStatus(secret, requestId).catch(showCrawlError), 5000);
+          sessionStorage.setItem(crawlSessionKey, JSON.stringify({ secret, requestId, operation }));
+          setActionLoading(true, operation);
+          setTimeout(
+            () => pollCrawlStatus(secret, requestId, operation).catch(showCrawlError),
+            5000,
+          );
         } else {
           sessionStorage.removeItem(crawlSessionKey);
-          setCrawlLoading(false);
+          setActionLoading(false);
           if (result.status === "success") {
+            if (operation === "clear") {
+              clearViewerProducts();
+              crawlLog.textContent =
+                "Đã xoá dữ liệu trên GitHub. Giao diện đã được làm trống; deployment đang cập nhật.";
+              alert("Đã xoá toàn bộ dữ liệu. Vercel đang cập nhật deployment mới.");
+              return;
+            }
             alert("Crawling thành công. Trang sẽ tải lại để hiển thị sản phẩm mới.");
             window.location.reload();
           }
         }
       }
 
-      function setCrawlLoading(isLoading) {
+      function setActionLoading(isLoading, operation = "crawl") {
         crawlSubmit.disabled = isLoading;
-        crawlSubmit.classList.toggle("loading", isLoading);
-        crawlSubmit.textContent = isLoading ? "Đang crawl..." : "Chạy crawl";
+        clearDataButton.disabled = isLoading;
+        crawlSubmit.classList.toggle("loading", isLoading && operation === "crawl");
+        clearDataButton.classList.toggle("loading", isLoading && operation === "clear");
+        crawlSubmit.textContent =
+          isLoading && operation === "crawl" ? "Đang crawl..." : "Chạy crawl";
+        clearDataButton.textContent =
+          isLoading && operation === "clear" ? "Đang xoá..." : "Xoá toàn bộ dữ liệu";
       }
 
       function showCrawlError(error) {
         crawlLog.textContent = `Lỗi: ${error.message}`;
         crawlLog.scrollTop = crawlLog.scrollHeight;
-        setCrawlLoading(false);
+        setActionLoading(false);
       }
 
       function restoreCrawlSession() {
@@ -1567,9 +1904,11 @@
           const session = JSON.parse(sessionStorage.getItem(crawlSessionKey));
           if (!session?.secret || !session?.requestId) return;
           document.querySelector("#crawl-secret").value = session.secret;
-          setCrawlLoading(true);
+          setActionLoading(true, session.operation || "crawl");
           crawlLog.textContent = "Đang kết nối lại phiên crawl trước...";
-          pollCrawlStatus(session.secret, session.requestId).catch(showCrawlError);
+          pollCrawlStatus(session.secret, session.requestId, session.operation || "crawl").catch(
+            showCrawlError,
+          );
         } catch {
           sessionStorage.removeItem(crawlSessionKey);
         }
@@ -1582,7 +1921,7 @@
           (input) => input.value,
         );
         if (markets.length === 0) return showCrawlError(new Error("Chọn ít nhất một chợ"));
-        setCrawlLoading(true);
+        setActionLoading(true, "crawl");
         crawlLog.textContent = "Đang gửi yêu cầu crawl...";
         try {
           const keywords = normalizeKeywords(document.querySelector("#crawl-keywords").value);
@@ -1616,6 +1955,65 @@
           );
           crawlLog.textContent = "Đã gửi yêu cầu crawl...";
           pollCrawlStatus(secret, result.requestId).catch(showCrawlError);
+        } catch (error) {
+          showCrawlError(error);
+        }
+      });
+
+      function clearViewerProducts(clearedProducts) {
+        loadedMarkets = loadedMarkets.map(({ crawl: _crawl, ...market }) => ({
+          ...market,
+          status: "success",
+          count: 0,
+          error: "",
+        }));
+        marketState.forEach((state) => {
+          state.page = 1;
+          state.products = [];
+          state.allProducts = [];
+        });
+        filterState.keyword = "all";
+        renderKeywordFilter(
+          loadedMarkets,
+          loadedMarkets.map(() => []),
+        );
+        rerenderMarkets();
+        renderCrawlMetadata(loadedMarkets);
+        crawlLog.textContent = Number.isFinite(clearedProducts)
+          ? `Đã xoá ${clearedProducts} sản phẩm.`
+          : "Đã xoá toàn bộ dữ liệu.";
+      }
+
+      clearDataButton.addEventListener("click", async () => {
+        const secretInput = document.querySelector("#crawl-secret");
+        const secret = secretInput.value;
+        if (!secret) {
+          secretInput.focus();
+          return showCrawlError(new Error("Nhập Secret trước khi xoá dữ liệu"));
+        }
+        if (!confirm("Xoá toàn bộ dữ liệu sản phẩm? Hành động này không thể hoàn tác.")) return;
+
+        setActionLoading(true, "clear");
+        crawlLog.textContent = "Đang gửi yêu cầu xoá dữ liệu...";
+        try {
+          const response = await fetch("/api/clear-data", {
+            method: "POST",
+            headers: { "x-crawl-secret": secret },
+          });
+          const result = await response.json();
+          if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+          if (result.status === "success") {
+            clearViewerProducts(result.clearedProducts || 0);
+            setActionLoading(false);
+            alert("Đã xoá toàn bộ dữ liệu.");
+            return;
+          }
+          sessionStorage.setItem(
+            crawlSessionKey,
+            JSON.stringify({ secret, requestId: result.requestId, operation: "clear" }),
+          );
+          crawlLog.textContent = "Đã gửi yêu cầu xoá dữ liệu...";
+          pollCrawlStatus(secret, result.requestId, "clear").catch(showCrawlError);
         } catch (error) {
           showCrawlError(error);
         }

@@ -11,9 +11,11 @@
     "crawl:guheyo": "node crawl.js --markets=guheyo",
     "crawl:mercari": "node crawl.js --markets=mercari",
     "cleanup:data": "node scripts/cleanup-old-data.js --retention-days=14",
+    "clear:data": "node scripts/clear-data.js",
     "build": "node scripts/build-static.js",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "verify:viewer": "node scripts/verify-viewer.js",
     "serve": "node --env-file-if-exists=.env server.js",
     "test": "node --test"
   },

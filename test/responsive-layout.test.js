@@ -217,6 +217,139 @@ test("VND conversion toggle shows converted prices and update note", async (t) =
   assert.match(conversion.noteText, /1 KRW = 18,50đ/);
 });
 
+test("VND conversion keeps every market on its current page", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+
+  const page = await browser.newPage();
+  await page.setRequestInterception(true);
+  page.on("request", (request) => {
+    if (request.url().endsWith("/api/exchange-rates")) {
+      request.respond({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({
+          updatedAt: "2026-09-05T00:00:00.000Z",
+          fetchedAt: "2026-09-05T00:01:00.000Z",
+          vndPerCurrency: { KRW: 18.5, JPY: 172.25 },
+        }),
+      });
+      return;
+    }
+    request.continue();
+  });
+
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector('[data-market="bunjang"] .page-next', { timeout: 10000 });
+  await page.click('[data-market="bunjang"] .page-next');
+  assert.match(
+    await page.$eval('[data-market="bunjang"] .page-info', (element) => element.textContent),
+    /^Trang 2 \/ /,
+  );
+
+  await page.click("#vnd-toggle");
+  await page.waitForFunction(() =>
+    /^~[\d.]+đ$/.test(document.querySelector('[data-market="bunjang"] .price')?.textContent || ""),
+  );
+
+  assert.match(
+    await page.$eval('[data-market="bunjang"] .page-info', (element) => element.textContent),
+    /^Trang 2 \/ /,
+  );
+});
+
+test("clear data button confirms the action, sends the secret, and empties the viewer", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+  const page = await browser.newPage();
+  let receivedSecret = "";
+  await page.setRequestInterception(true);
+  page.on("request", (request) => {
+    if (request.url().endsWith("/api/clear-data")) {
+      receivedSecret = request.headers()["x-crawl-secret"];
+      request.respond({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({ status: "success", clearedMarkets: 4, clearedProducts: 12 }),
+      });
+      return;
+    }
+    request.continue();
+  });
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".card", { timeout: 10000 });
+  await page.evaluate(() => {
+    window.confirm = () => true;
+    window.alert = () => {};
+  });
+  await page.click("#crawl-toggle");
+  await page.type("#crawl-secret", "my-secret");
+  await page.$eval("#clear-data", (element) => element.click());
+  await page.waitForFunction(() => document.querySelectorAll(".card").length === 0);
+
+  assert.equal(receivedSecret, "my-secret");
+  assert.match(await page.$eval("#crawl-log", (element) => element.textContent), /Đã xoá 12/);
+});
+
+test("queued clear keeps the viewer empty while Vercel deploy catches up", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+  const page = await browser.newPage();
+  await page.setRequestInterception(true);
+  page.on("request", (request) => {
+    if (request.url().endsWith("/api/clear-data")) {
+      request.respond({
+        status: 202,
+        contentType: "application/json",
+        body: JSON.stringify({ status: "queued", requestId: "clear-request" }),
+      });
+      return;
+    }
+    if (request.url().includes("/api/crawl-status?")) {
+      request.respond({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({ status: "success", log: "Clear action completed" }),
+      });
+      return;
+    }
+    request.continue();
+  });
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".card", { timeout: 10000 });
+  await page.evaluate(() => {
+    window.confirm = () => true;
+    window.alert = () => {};
+  });
+  await page.type("#crawl-secret", "my-secret");
+  await page.$eval("#clear-data", (element) => element.click());
+  await new Promise((resolve) => setTimeout(resolve, 1500));
+
+  assert.equal(await page.$$eval(".card", (cards) => cards.length), 0);
+  assert.match(await page.$eval("#crawl-log", (element) => element.textContent), /deployment/i);
+});
+
 test("VND conversion toggle falls back to cached rates when API fails", async (t) => {
   const port = await getFreePort();
   const server = await startServer(port);

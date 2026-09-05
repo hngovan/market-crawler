@@ -87,6 +87,16 @@ npm run serve
 File `.env` đã được gitignore và không được commit. Khi chạy local,
 `npm run serve` tự động đọc file này.
 
+Với secret mặc định `local`, server chỉ lắng nghe trên `127.0.0.1`. Nếu cần truy
+cập từ máy khác trong LAN, hãy đặt `CRAWL_TRIGGER_SECRET` riêng đủ mạnh và cấu
+hình thêm `HOST=0.0.0.0`.
+
+Trong bảng `Crawler`, nút `Xoá toàn bộ dữ liệu` dùng cùng Secret và yêu cầu xác
+nhận trước khi xoá. Ở local, dữ liệu được làm trống ngay trong `data/*.json`.
+Trên Vercel, yêu cầu được đưa vào hàng đợi GitHub Actions, commit dữ liệu trống
+rồi kích hoạt deployment mới. Giao diện hiện tại được làm trống ngay khi Action
+thành công; deployment có thể cần thêm một khoảng thời gian ngắn để cập nhật.
+
 Khi reload trang trong lúc crawler đang chạy, UI tự kết nối lại job và tiếp tục
 hiển thị log bằng dữ liệu trong `sessionStorage`. Hệ thống chỉ cho phép một job
 crawl chạy tại một thời điểm; bấm crawl lần nữa sẽ nối lại job hiện tại thay vì
@@ -101,7 +111,7 @@ Switch `VND` dưới nút `Crawler` gọi `/api/exchange-rates` để lấy tỉ
 từ ExchangeRate-API Open Access, hiển thị giá gốc và giá Việt Nam đã quy đổi.
 Nếu API lỗi, UI dùng cache gần nhất trong trình duyệt và ghi rõ thời điểm cập nhật.
 
-Giao diện sử dụng theme Retro Arcade. Có thể lọc theo khu vực, chợ, keyword crawl
+Giao diện sử dụng theme hiện đại sáng, tối ưu độ tương phản và khả năng đọc. Có thể lọc theo khu vực, chợ, keyword crawl
 và ngày đăng như hôm nay, 3 ngày gần đây hoặc 7 ngày gần đây. Tên sản phẩm được
 giới hạn ba dòng và hiện tên đầy đủ khi hover.
 
@@ -183,11 +193,11 @@ có `crawledAt` cũ hơn 14 ngày, commit lại `data/*.json` nếu có thay đ�
 
 ```powershell
 npm test
-node scripts/verify-retro-viewer.js
+node scripts/verify-viewer.js
 ```
 
 `server.js` là server local phục vụ HTML/JSON và chạy crawler từ form UI.
-`scripts/verify-retro-viewer.js` là browser regression test bằng Puppeteer;
+`scripts/verify-viewer.js` là browser regression test bằng Puppeteer;
 website không phụ thuộc vào file này khi chạy bình thường.
 
 ## Cấu trúc chính

@@ -1,9 +1,17 @@
 name: Crawl markets
-run-name: Crawl ${{ inputs.request_id || 'scheduled' }}
+run-name: ${{ inputs.operation == 'clear' && 'Clear data' || 'Crawl' }} ${{ inputs.request_id || 'scheduled' }}
 
 on:
   workflow_dispatch:
     inputs:
+      operation:
+        description: Operation to run
+        required: false
+        type: choice
+        options:
+          - crawl
+          - clear
+        default: crawl
       request_id:
         description: Request ID from the web UI
         required: false
@@ -40,8 +48,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: crawl-markets
-  cancel-in-progress: false
+  group: market-data-writes
+  queue: max
 
 jobs:
   crawl:
@@ -63,13 +71,17 @@ jobs:
       - name: Verify runner Chrome
         run: google-chrome --version
       - name: Crawl products
+        if: ${{ inputs.operation != 'clear' }}
         run: node crawl.js --keywords="$KEYWORDS" --markets="$MARKETS" --sort="$SORT" --limit="$LIMIT"
-      - name: Commit crawled data
+      - name: Clear product data
+        if: ${{ inputs.operation == 'clear' }}
+        run: node scripts/clear-data.js
+      - name: Commit market data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/*.json
           git diff --cached --quiet && exit 0
           CRAWLED_AT="$(TZ=Asia/Ho_Chi_Minh date '+%Y-%m-%d %H:%M:%S %Z')"
-          git commit -m "chore: update crawled product data - ${CRAWLED_AT}"
+          git commit -m "chore: update market data - ${CRAWLED_AT}"
           git push

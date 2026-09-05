@@ -6,12 +6,18 @@ import { randomUUID } from "node:crypto";
 import path from "node:path";
 
 import { toCrawlArguments, validateCrawlRequest } from "./src/crawl-request.js";
+import { clearMarketDataFiles } from "./src/data-reset.js";
 import { fetchVndExchangeRates } from "./src/exchange-rates-api.js";
+import { createOperationLock } from "./src/operation-lock.js";
+import { resolveServerHost } from "./src/server-config.js";
 
 const root = process.cwd();
 const port = Number(process.env.PORT) || 3000;
 const crawlSecret = process.env.CRAWL_TRIGGER_SECRET || "local";
+const host = resolveServerHost({ crawlSecret, configuredHost: process.env.HOST });
+const dataDir = process.env.DATA_DIR || path.join(root, "data");
 const crawlJobs = new Map();
+const operationLock = createOperationLock();
 let activeCrawlId = "";
 const contentTypes = {
   ".html": "text/html; charset=utf-8",
@@ -45,16 +51,37 @@ async function handleApi(request, response, url) {
 
   if (!authorize(request)) return sendJson(response, 401, { error: "Unauthorized" });
 
-  if (url.pathname === "/api/crawl" && request.method === "POST") {
-    const activeJob = crawlJobs.get(activeCrawlId);
-    if (activeJob && ["queued", "in_progress"].includes(activeJob.status)) {
+  if (url.pathname === "/api/clear-data" && request.method === "POST") {
+    if (!operationLock.start("clear")) {
       return sendJson(response, 409, {
-        error: "Một crawler khác đang chạy",
-        requestId: activeCrawlId,
-        status: activeJob.status,
+        error: `Không thể xoá dữ liệu khi tác vụ ${operationLock.current()} đang chạy`,
       });
     }
-    const options = validateCrawlRequest(await readJson(request));
+    try {
+      return sendJson(response, 200, {
+        status: "success",
+        ...(await clearMarketDataFiles({ dataDir })),
+      });
+    } finally {
+      operationLock.finish("clear");
+    }
+  }
+
+  if (url.pathname === "/api/crawl" && request.method === "POST") {
+    if (!operationLock.start("crawl")) {
+      return sendJson(response, 409, {
+        error: `Một tác vụ ${operationLock.current()} đang chạy`,
+        requestId: activeCrawlId,
+        status: "in_progress",
+      });
+    }
+    let options;
+    try {
+      options = validateCrawlRequest(await readJson(request));
+    } catch (error) {
+      operationLock.finish("crawl");
+      throw error;
+    }
     const requestId = randomUUID();
     const job = { status: "queued", log: "Crawler đang khởi động..." };
     crawlJobs.set(requestId, job);
@@ -73,6 +100,7 @@ async function handleApi(request, response, url) {
       job.status = code === 0 ? "success" : "failure";
       job.log = `${job.log}\nCrawler kết thúc với mã ${code}.`.trim();
       if (activeCrawlId === requestId) activeCrawlId = "";
+      operationLock.finish("crawl");
     });
     return sendJson(response, 202, { requestId, status: "queued" });
   }
@@ -117,7 +145,7 @@ const server = createServer(async (request, response) => {
   }
 });
 
-server.listen(port, () => {
+server.listen(port, host, () => {
   console.log(`Product viewer: http://localhost:${port}`);
   console.log(
     `Local crawl UI secret: ${crawlSecret === "local" ? "local" : "CRAWL_TRIGGER_SECRET"}`,

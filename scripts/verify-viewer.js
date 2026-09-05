@@ -15,7 +15,12 @@ const totals = Object.fromEntries(
     marketIds.map(async (marketId) => [marketId, await readProductTotal(marketId)]),
   ),
 );
-const marketTotal = Object.values(totals).filter((total) => total > 0).length;
+const marketManifest = JSON.parse(await readFile("data/markets.json", "utf8"));
+const marketTotal = marketManifest.length;
+const paginatedMarketId = marketIds.find((marketId) => totals[marketId] > 10);
+const comparisonMarketId = marketIds.find(
+  (marketId) => marketId !== paginatedMarketId && totals[marketId] > 0,
+);
 const viewerUrl = process.env.VIEWER_URL || "http://localhost:3000";
 
 const browser = await puppeteer.launch({ headless: true });
@@ -31,6 +36,7 @@ const initial = await page.evaluate(() => {
   const cardStyle = getComputedStyle(card);
   const contentStyle = getComputedStyle(content);
   const nameStyle = getComputedStyle(name);
+  const headerStyle = getComputedStyle(document.querySelector("header"));
   return {
     title: document.querySelector("h1")?.textContent,
     headerText: document.querySelector("header")?.innerText,
@@ -63,19 +69,29 @@ const initial = await page.evaluate(() => {
         radius: style.borderRadius,
       };
     })(),
+    bodyFont: getComputedStyle(document.body).fontFamily,
+    headerRadius: headerStyle.borderRadius,
   };
 });
 
 await page.evaluate(() => {
   window.__setPageSizeForTest(10);
 });
-await page.click('[data-market="joongna"] .page-next');
-const independentPage = await page.evaluate(() => ({
-  joongnaPage: document.querySelector('[data-market="joongna"] .page-info')?.textContent,
-  mercariPage: document.querySelector('[data-market="mercari"] .page-info')?.textContent,
-  joongnaCards: document.querySelectorAll('[data-market="joongna"] .card').length,
-  mercariCards: document.querySelectorAll('[data-market="mercari"] .card').length,
-}));
+if (paginatedMarketId) {
+  await page.click(`[data-market="${paginatedMarketId}"] .page-next`);
+}
+const independentPage = await page.evaluate(
+  ({ paginatedMarketId, comparisonMarketId }) => ({
+    activePage: document.querySelector(`[data-market="${paginatedMarketId}"] .page-info`)
+      ?.textContent,
+    comparisonPage: document.querySelector(`[data-market="${comparisonMarketId}"] .page-info`)
+      ?.textContent,
+    activeCards: document.querySelectorAll(`[data-market="${paginatedMarketId}"] .card`).length,
+    comparisonCards: document.querySelectorAll(`[data-market="${comparisonMarketId}"] .card`)
+      .length,
+  }),
+  { paginatedMarketId, comparisonMarketId },
+);
 
 await page.select("#filters", "mercari");
 const filtered = await page.evaluate(() => ({
@@ -101,7 +117,7 @@ const allMode = await page.evaluate(() => ({
 await page.click(".market:not([hidden]) .image-button");
 await page.waitForSelector(".lg-container.lg-show", { timeout: 10000 });
 const galleryOpened = true;
-const retroDemoRemoved = (await fetch(new URL("/retro-demo.html", viewerUrl))).status === 404;
+const legacyDemoRemoved = (await fetch(new URL("/retro-demo.html", viewerUrl))).status === 404;
 
 console.log(
   JSON.stringify({
@@ -111,7 +127,7 @@ console.log(
     tooltipVisible,
     allMode,
     galleryOpened,
-    retroDemoRemoved,
+    legacyDemoRemoved,
   }),
 );
 await browser.close();
@@ -130,14 +146,19 @@ if (
   initial.crawlSortOptions.join(",") !== "price-asc,price-desc,newest" ||
   initial.pageSize !== "20" ||
   initial.paginationCount !== marketTotal ||
-  initial.badgeStyle.background !== "rgb(109, 224, 222)" ||
-  initial.badgeStyle.color !== "rgb(48, 21, 71)" ||
-  initial.badgeStyle.border !== "3px" ||
-  initial.badgeStyle.radius !== "0px" ||
-  independentPage.joongnaPage !== `Trang 2 / ${Math.ceil(totals.joongna / 10)}` ||
-  independentPage.mercariPage !== `Trang 1 / ${Math.ceil(totals.mercari / 10)}` ||
-  independentPage.joongnaCards !== 10 ||
-  independentPage.mercariCards !== 10 ||
+  initial.badgeStyle.background !== "rgba(15, 23, 42, 0.78)" ||
+  initial.badgeStyle.color !== "rgb(255, 255, 255)" ||
+  initial.badgeStyle.border !== "1px" ||
+  initial.badgeStyle.radius === "0px" ||
+  !initial.bodyFont.includes("Inter") ||
+  initial.headerRadius === "0px" ||
+  (paginatedMarketId &&
+    independentPage.activePage !== `Trang 2 / ${Math.ceil(totals[paginatedMarketId] / 10)}`) ||
+  (comparisonMarketId &&
+    independentPage.comparisonPage !== `Trang 1 / ${Math.ceil(totals[comparisonMarketId] / 10)}`) ||
+  (paginatedMarketId && independentPage.activeCards !== 10) ||
+  (comparisonMarketId &&
+    independentPage.comparisonCards !== Math.min(10, totals[comparisonMarketId])) ||
   filtered.visibleMarkets !== 1 ||
   filtered.visibleName !== "Mercari" ||
   !tooltipVisible ||
@@ -147,7 +168,7 @@ if (
   allMode.guheyoCards !== totals.guheyo ||
   allMode.mercariCards !== totals.mercari ||
   !galleryOpened ||
-  !retroDemoRemoved
+  !legacyDemoRemoved
 ) {
   process.exitCode = 1;
 }
