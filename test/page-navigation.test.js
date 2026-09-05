@@ -19,7 +19,7 @@ test("builds numbered Joongna search URLs with sort direction", () => {
 test("builds sorted Mercari search URL", () => {
   assert.equal(
     buildMercariSearchUrl("realforce", "price-asc"),
-    "https://jp.mercari.com/search?keyword=realforce&sort=price&order=asc",
+    "https://jp.mercari.com/search?keyword=realforce&status=on_sale&sort=price&order=asc",
   );
 });
 
@@ -30,7 +30,7 @@ test("builds newest Joongna and Mercari URLs", () => {
   );
   assert.equal(
     buildMercariSearchUrl("realforce", "newest"),
-    "https://jp.mercari.com/search?keyword=realforce&sort=created_time&order=desc",
+    "https://jp.mercari.com/search?keyword=realforce&status=on_sale&sort=created_time&order=desc",
   );
 });
 
@@ -62,6 +62,15 @@ test("finds Mercari next page token URL", () => {
       "https://jp.mercari.com/item/m1",
       "https://jp.mercari.com/search?keyword=realforce&order=asc&page_token=v1%3A1&sort=price",
     ]),
-    "https://jp.mercari.com/search?keyword=realforce&order=asc&page_token=v1%3A1&sort=price",
+    "https://jp.mercari.com/search?keyword=realforce&order=asc&page_token=v1%3A1&sort=price&status=on_sale",
+  );
+});
+
+test("forces Mercari pagination URLs to use the on-sale status", () => {
+  assert.equal(
+    findMercariNextUrl([
+      "https://jp.mercari.com/search?keyword=realforce&page_token=v1%3A2&status=sold_out&status=trading",
+    ]),
+    "https://jp.mercari.com/search?keyword=realforce&page_token=v1%3A2&status=on_sale",
   );
 });
