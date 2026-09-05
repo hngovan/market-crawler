@@ -579,7 +579,7 @@
       "https://img2.joongna.com/media/original/2026/08/28/17879225914096gn_2gErT.jpg",
       "https://img2.joongna.com/media/original/2026/08/28/1787922591502NW5_rDXUR.jpg"
     ],
-    "postedAt": "2026-09-04T09:12:49.000Z",
+    "postedAt": "2026-09-05T11:51:17.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1232,5 +1232,91 @@
       "realforce"
     ],
     "crawledAt": "2026-09-05T08:42:22.759Z"
+  },
+  {
+    "name": "풀윤활 리얼포스R2 저소음 토프레 무접점 균등 45g 블루그레이 키보드 싸게 드려요",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/232174996",
+    "image": "https://img2.joongna.com/media/original/2026/09/05/1788617511728e3k_JxQN6.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/05/1788617511728e3k_JxQN6.jpg",
+      "https://img2.joongna.com/media/original/2026/09/05/1788617511842ZtG_722ar.jpg",
+      "https://img2.joongna.com/media/original/2026/09/05/1788617511965wCE_iBe31.jpg",
+      "https://img2.joongna.com/media/original/2026/09/05/1788617512070QYK_98SWW.jpg",
+      "https://img2.joongna.com/media/original/2026/09/05/1788617512209hqE_nNy5y.jpg",
+      "https://img2.joongna.com/media/original/2026/09/05/178861751236555P_ws6nf.jpg",
+      "https://img2.joongna.com/media/original/2026/09/05/1788617512464OSs_1hiXa.jpg"
+    ],
+    "postedAt": "2026-09-05T14:11:52.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-05T14:13:04.814Z"
+  },
+  {
+    "name": "[구매] 리얼포스 104ub dk",
+    "price": 222222,
+    "url": "https://web.joongna.com/product/232172759",
+    "image": "https://img2.joongna.com/media/original/2026/09/05/1788611842403OVp_XP8af.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/05/1788611842403OVp_XP8af.jpg"
+    ],
+    "postedAt": "2026-09-05T12:37:22.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-05T14:13:04.814Z"
+  },
+  {
+    "name": "[삽니다] 레오폴드 fc660c fc980c 토프레 무접점 키보드 리얼포스 해피해킹",
+    "price": 121314,
+    "url": "https://web.joongna.com/product/232167499",
+    "image": "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg"
+    ],
+    "postedAt": "2026-09-05T09:05:29.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-05T14:13:04.814Z"
+  },
+  {
+    "name": "[삽니다] 레오폴드 fc660c fc980c 토프레 무접점 키보드 리얼포스 해피해킹",
+    "price": 120000,
+    "url": "https://web.joongna.com/product/232167496",
+    "image": "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
+    ],
+    "postedAt": "2026-09-05T09:05:20.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-05T14:13:04.814Z"
   }
 ]
