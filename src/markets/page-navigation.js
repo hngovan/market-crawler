@@ -42,6 +42,8 @@ export function findMercariNextUrl(urls) {
       const url = new URL(candidate);
       if (!url.searchParams.has("page_token")) continue;
       url.searchParams.set("status", "on_sale");
+      url.searchParams.set("sort", "created_time");
+      url.searchParams.set("order", "desc");
       return url.href;
     } catch {
       // Ignore malformed links and keep looking for a valid pagination URL.

@@ -137,26 +137,85 @@ test("desktop region filter fills both market columns", async (t) => {
         name: market.querySelector(".market-header h2")?.textContent,
         top: Math.round(rect.top),
         left: Math.round(rect.left),
+        marginBottom: Number.parseFloat(getComputedStyle(market).marginBottom),
       };
     }),
   );
+
+  const marketSpacing = await page.$eval(".markets", (markets) => ({
+    columnGap: Number.parseFloat(getComputedStyle(markets).columnGap),
+  }));
 
   assert.deepEqual(
     layout.map((market) => market.name),
     ["Joongna", "Bunjang", "Guheyo"],
   );
   assert.ok(
-    Math.abs(layout[0].top - layout[1].top) <= 4,
-    `filtered markets should start on the same row: ${JSON.stringify(layout)}`,
+    Math.abs(layout[0].top - layout[2].top) <= 4,
+    `first market in each masonry column should align: ${JSON.stringify(layout)}`,
   );
   assert.ok(
-    layout[1].left > layout[0].left,
-    `second filtered market should fill the right column: ${JSON.stringify(layout)}`,
+    layout[2].left > layout[0].left,
+    `masonry columns should remain side by side: ${JSON.stringify(layout)}`,
   );
   assert.ok(
-    layout[2].top > layout[0].top,
-    `third filtered market should wrap after the filled first row: ${JSON.stringify(layout)}`,
+    marketSpacing.columnGap <= 16,
+    `market columns are too far apart: ${marketSpacing.columnGap}`,
   );
+  assert.ok(
+    layout.every((market) => market.marginBottom <= 16),
+    `market cards have too much vertical spacing: ${JSON.stringify(layout)}`,
+  );
+});
+
+test("web crawl form relies on the automatic newest sort", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+
+  const page = await browser.newPage();
+  await page.setRequestInterception(true);
+  let resolveCrawlBody;
+  const crawlBody = new Promise((resolve) => {
+    resolveCrawlBody = resolve;
+  });
+  page.on("request", (request) => {
+    const url = new URL(request.url());
+    if (url.pathname === "/api/crawl" && request.method() === "POST") {
+      resolveCrawlBody(JSON.parse(request.postData()));
+      request.respond({
+        status: 202,
+        contentType: "application/json",
+        body: JSON.stringify({ requestId: "test-request" }),
+      });
+      return;
+    }
+    if (url.pathname === "/api/crawl-status") {
+      request.respond({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({ status: "failed", log: "test complete" }),
+      });
+      return;
+    }
+    request.continue();
+  });
+
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  assert.equal(await page.$("#crawl-sort"), null);
+  assert.ok(await page.$("#display-sort"));
+  await page.type("#crawl-secret", "test-secret");
+  await page.$eval("#crawl-form", (form) => form.requestSubmit());
+
+  const body = await crawlBody;
+  assert.equal(Object.hasOwn(body, "sort"), false);
+  assert.equal(body.keyword, "realforce");
 });
 
 test("VND conversion toggle shows converted prices and update note", async (t) => {
@@ -247,20 +306,26 @@ test("VND conversion keeps every market on its current page", async (t) => {
   });
 
   await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
-  await page.waitForSelector('[data-market="bunjang"] .page-next', { timeout: 10000 });
-  await page.click('[data-market="bunjang"] .page-next');
+  await page.waitForSelector(".market", { timeout: 10000 });
+  await page.evaluate(() => window.__setPageSizeForTest(10));
+  const paginatedMarketId = await page.$eval(
+    ".market .page-next:not([disabled])",
+    (button) => button.closest(".market").dataset.market,
+  );
+  const paginatedMarketSelector = `[data-market="${paginatedMarketId}"]`;
+  await page.click(`${paginatedMarketSelector} .page-next`);
   assert.match(
-    await page.$eval('[data-market="bunjang"] .page-info', (element) => element.textContent),
+    await page.$eval(`${paginatedMarketSelector} .page-info`, (element) => element.textContent),
     /^Trang 2 \/ /,
   );
 
   await page.click("#vnd-toggle");
   await page.waitForFunction(() =>
-    /^~[\d.]+đ$/.test(document.querySelector('[data-market="bunjang"] .price')?.textContent || ""),
+    /^~[\d.]+đ$/.test(document.querySelector(".market:not([hidden]) .price")?.textContent || ""),
   );
 
   assert.match(
-    await page.$eval('[data-market="bunjang"] .page-info', (element) => element.textContent),
+    await page.$eval(`${paginatedMarketSelector} .page-info`, (element) => element.textContent),
     /^Trang 2 \/ /,
   );
 });

@@ -356,13 +356,13 @@
       }
       .markets {
         columns: 2 520px;
-        column-gap: 28px;
+        column-gap: 16px;
       }
       .market {
         display: inline-block;
         break-inside: avoid;
         width: 100%;
-        margin: 0 0 28px;
+        margin: 0 0 16px;
         padding: 18px;
         border: 4px solid #301547;
         background: #fff6fa;
@@ -768,15 +768,14 @@
       }
       @media (min-width: 901px) {
         .markets {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr));
-          gap: 28px;
-          columns: auto;
+          display: block;
+          columns: 2 520px;
+          column-gap: 16px;
           align-items: start;
         }
         .market {
-          display: block;
-          margin: 0;
+          display: inline-block;
+          margin: 0 0 16px;
         }
       }
       @media (max-width: 560px) {
@@ -1181,14 +1180,6 @@
             <label class="crawl-field"
               >Từ khóa
               <input id="crawl-keywords" class="crawl-input" value="realforce" required />
-            </label>
-            <label class="crawl-field"
-              >Sắp xếp
-              <select id="crawl-sort" class="crawl-input">
-                <option value="price-asc">Giá thấp đến cao</option>
-                <option value="price-desc">Giá cao đến thấp</option>
-                <option value="newest" selected>Mới nhất</option>
-              </select>
             </label>
             <label class="crawl-field"
               >Limit mỗi chợ
@@ -1935,7 +1926,6 @@
               keyword: keywords[0],
               keywords,
               markets,
-              sort: document.querySelector("#crawl-sort").value,
               limit: Number(document.querySelector("#crawl-limit").value),
             }),
           });

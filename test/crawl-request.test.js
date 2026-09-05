@@ -21,7 +21,24 @@ test("validates an arbitrary positive crawl limit and newest sort", () => {
   );
 });
 
-test("validates multiple crawl keywords", () => {
+test("defaults web crawl requests without a sort to newest", () => {
+  assert.deepEqual(
+    validateCrawlRequest({
+      keyword: "realforce",
+      limit: 50,
+      markets: ["joongna", "bunjang", "mercari"],
+    }),
+    {
+      keyword: "realforce",
+      keywords: ["realforce"],
+      limit: 50,
+      markets: ["joongna", "bunjang", "mercari"],
+      sort: "newest",
+    },
+  );
+});
+
+test("forces web crawl requests with an explicit price sort to newest", () => {
   assert.deepEqual(
     validateCrawlRequest({
       keywords: [" realforce ", "hhkb", "realforce"],
@@ -34,7 +51,7 @@ test("validates multiple crawl keywords", () => {
       keywords: ["realforce", "hhkb"],
       limit: 50,
       markets: ["bunjang"],
-      sort: "price-asc",
+      sort: "newest",
     },
   );
 });

@@ -51,9 +51,7 @@ const initial = await page.evaluate(() => {
     nameClamp: nameStyle.webkitLineClamp,
     moreButtons: document.querySelectorAll(".name-more").length,
     tooltipCount: document.querySelectorAll(".name-tooltip").length,
-    crawlSortOptions: [...document.querySelectorAll("#crawl-sort option")].map(
-      (option) => option.value,
-    ),
+    hasCrawlSort: Boolean(document.querySelector("#crawl-sort")),
     pageSize: document.querySelector("#page-size")?.value,
     paginationCount: document.querySelectorAll(".pagination").length,
     joongnaCards: document.querySelectorAll('[data-market="joongna"] .card').length,
@@ -143,7 +141,7 @@ if (
   initial.nameClamp !== "3" ||
   initial.moreButtons !== 0 ||
   initial.tooltipCount < 1 ||
-  initial.crawlSortOptions.join(",") !== "price-asc,price-desc,newest" ||
+  initial.hasCrawlSort ||
   initial.pageSize !== "20" ||
   initial.paginationCount !== marketTotal ||
   initial.badgeStyle.background !== "rgba(15, 23, 42, 0.78)" ||
