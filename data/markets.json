@@ -7,9 +7,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 0,
+    "count": 50,
     "error": "",
-    "dataFile": "data/joongna.json"
+    "dataFile": "data/joongna.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-05T04:56:22.752Z"
+    }
   },
   {
     "id": "bunjang",
@@ -19,9 +28,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 0,
+    "count": 12,
     "error": "",
-    "dataFile": "data/bunjang.json"
+    "dataFile": "data/bunjang.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-05T04:56:22.752Z"
+    }
   },
   {
     "id": "guheyo",
@@ -31,9 +49,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 0,
+    "count": 24,
     "error": "",
-    "dataFile": "data/guheyo.json"
+    "dataFile": "data/guheyo.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-05T04:56:22.752Z"
+    }
   },
   {
     "id": "mercari",
@@ -43,8 +70,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 0,
+    "count": 50,
     "error": "",
-    "dataFile": "data/mercari.json"
+    "dataFile": "data/mercari.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-05T04:56:22.752Z"
+    }
   }
 ]
