@@ -832,19 +832,19 @@
 
       /* Modern light theme */
       :root {
-        --page: hsl(240 20% 97%);
-        --surface: hsl(240 20% 99%);
-        --surface-soft: hsl(240 20% 94%);
-        --line: hsl(240 20% 82%);
-        --line-strong: hsl(240 20% 68%);
-        --ink: hsl(249 20% 7%);
-        --muted: hsl(250 20% 42%);
-        --primary: hsl(220 59% 54%);
-        --primary-dark: hsl(220 59% 44%);
-        --primary-soft: hsl(220 59% 93%);
-        --danger: hsl(0 70% 54%);
-        --danger-dark: hsl(0 70% 44%);
-        --danger-soft: hsl(0 70% 95%);
+        --page: #fffbff;
+        --surface: #fffbff;
+        --surface-soft: #f5ded6;
+        --line: #f5ded6;
+        --line-strong: #ffdbcf;
+        --ink: #201a18;
+        --muted: #53433e;
+        --primary: #9a4523;
+        --primary-dark: #9a4523;
+        --primary-soft: #fbeeea;
+        --danger: #ba1a1a;
+        --danger-dark: #ba1a1a;
+        --danger-soft: #fbeeea;
         --radius: 0.5rem;
         --radius-dark: 0.5rem;
         font-family: Poppins, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -926,9 +926,9 @@
         transform: translateX(18px);
       }
       .exchange-rate-note {
-        border: 1px solid #bfdbfe;
+        border: 1px solid var(--line-strong);
         border-radius: 10px;
-        color: #1e3a8a;
+        color: var(--muted);
         background: var(--primary-soft);
         box-shadow: 0 6px 18px rgb(15 23 42 / 10%);
         font-weight: 600;
@@ -951,17 +951,19 @@
       }
       html[data-theme="dark"] {
         color-scheme: dark;
-        --page: hsl(240 20% 8%);
-        --surface: hsl(240 20% 12%);
-        --surface-soft: hsl(240 20% 16%);
-        --line: hsl(240 20% 28%);
-        --line-strong: hsl(240 20% 42%);
-        --ink: hsl(249 20% 93%);
-        --muted: hsl(249 20% 70%);
-        --primary: hsl(220 59% 62%);
-        --primary-dark: hsl(220 59% 72%);
-        --primary-soft: hsl(220 35% 22%);
-        --danger-soft: hsl(0 35% 20%);
+        --page: #fffbff;
+        --surface: #fffbff;
+        --surface-soft: #f5ded6;
+        --line: #f5ded6;
+        --line-strong: #ffdbcf;
+        --ink: #201a18;
+        --muted: #53433e;
+        --primary: #9a4523;
+        --primary-dark: #9a4523;
+        --primary-soft: #fbeeea;
+        --danger: #ba1a1a;
+        --danger-dark: #ba1a1a;
+        --danger-soft: #fbeeea;
         --radius: var(--radius-dark);
       }
       html[data-theme="dark"] body {
@@ -1097,9 +1099,9 @@
         text-transform: none;
       }
       .market-status {
-        border: 1px solid #bfdbfe;
+        border: 1px solid var(--line-strong);
         border-radius: 999px;
-        color: var(--primary-dark);
+        color: var(--primary);
         background: var(--primary-soft);
         font-weight: 650;
       }
@@ -1162,17 +1164,17 @@
       }
       .link,
       .page-button {
-        border: 1px solid #bfdbfe;
+        border: 1px solid var(--line-strong);
         border-radius: 10px;
-        color: var(--primary-dark);
+        color: var(--primary);
         background: var(--primary-soft);
         box-shadow: none;
         font-weight: 700;
       }
       .link:hover,
       .page-button:hover:not(:disabled) {
-        border-color: #93c5fd;
-        background: #dbeafe;
+        border-color: var(--line-strong);
+        background: var(--surface-soft);
       }
       .page-info {
         color: #475569;
