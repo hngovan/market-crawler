@@ -16,7 +16,7 @@ async function crawlGoofishViaApify({ keyword, limit }) {
   const token = process.env.APIFY_TOKEN;
   if (!token) return null;
   const actor = (
-    process.env.APIFY_GOOFISH_ACTOR || "5QcLc4BHaLMBUKYs3"
+    process.env.APIFY_GOOFISH_ACTOR || "zen-studio/goofish-xianyu-search-scraper"
   ).replace("/", "~");
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 300000);

@@ -62,7 +62,7 @@ jobs:
       LIMIT: ${{ inputs.limit || '50' }}
       PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
       APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-      APIFY_GOOFISH_ACTOR: 5QcLc4BHaLMBUKYs3
+      APIFY_GOOFISH_ACTOR: zen-studio/goofish-xianyu-search-scraper
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
