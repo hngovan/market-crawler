@@ -1618,10 +1618,18 @@
       .card .name {
         color: #301547;
         font-weight: 700;
+        display: -webkit-box !important;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
         max-height: calc(1.4em * 3);
-        overflow: hidden;
+        overflow: hidden !important;
+        overflow-wrap: anywhere;
+        word-break: break-word;
         text-overflow: ellipsis;
-        white-space: normal;
+        white-space: normal !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
       }
       .card .price {
         color: #ff3678;
