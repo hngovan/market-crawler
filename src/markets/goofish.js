@@ -12,6 +12,47 @@ function buildSearchUrl(keyword) {
   return url.href;
 }
 
+async function crawlGoofishViaApify({ keyword, limit }) {
+  const token = process.env.APIFY_TOKEN;
+  if (!token) return null;
+  const actor = (
+    process.env.APIFY_GOOFISH_ACTOR || "zen-studio/goofish-xianyu-search-scraper"
+  ).replace("/", "~");
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 300000);
+  try {
+    const response = await fetch(
+      `https://api.apify.com/v2/acts/${encodeURIComponent(actor)}/run-sync-get-dataset-items?format=json`,
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          keyword,
+          maxItems: limit,
+          sortBy: "newest",
+          detailLevel: "summary",
+        }),
+        signal: controller.signal,
+      },
+    );
+    if (!response.ok) {
+      const message = (await response.text()).slice(0, 300);
+      throw new Error(
+        `Apify Goofish request failed: HTTP ${response.status}${message ? ` - ${message}` : ""}`,
+      );
+    }
+    const payload = await response.json();
+    const products = extractGoofishProducts(payload);
+    if (products.length === 0) throw new Error("Apify returned no valid Goofish products");
+    return products.slice(0, limit);
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function collectDomProducts(page) {
   return page.evaluate(() =>
     [...document.querySelectorAll('a[href*="/item?"]')].map((anchor) => {
@@ -28,6 +69,9 @@ async function collectDomProducts(page) {
 
 export async function crawlGoofish({ keyword, limit }) {
   console.log(`Crawling Goofish (limit: ${limit})`);
+  const apifyProducts = await crawlGoofishViaApify({ keyword, limit });
+  if (apifyProducts) return apifyProducts;
+
   const profileDir = process.env.GOOFISH_PROFILE_DIR || path.resolve(".cache/goofish-profile");
   const browser = await launchBrowser({ userDataDir: profileDir });
   const products = new Map();
