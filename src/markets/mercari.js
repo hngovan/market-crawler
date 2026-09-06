@@ -30,6 +30,38 @@ async function collectVisibleProducts(page) {
   );
 }
 
+export async function collectMercariCardsDuringScroll(page, limit, delayMs = 700) {
+  const uniqueProducts = new Map();
+
+  const collect = async () => {
+    for (const card of await collectVisibleProducts(page)) {
+      if (isMercariSoldCard(card)) continue;
+      const product = extractMercariCard(card);
+      if (product.name && product.price !== null && !uniqueProducts.has(product.url)) {
+        uniqueProducts.set(product.url, product);
+      }
+    }
+  };
+
+  // Capture the initially rendered cards before Mercari virtualizes the grid.
+  await collect();
+  for (let pass = 0; pass < 20 && uniqueProducts.size < limit; pass += 1) {
+    const state = await page.evaluate(() => {
+      const before = window.scrollY;
+      window.scrollBy(0, Math.max(window.innerHeight * 0.8, 600));
+      return {
+        moved: window.scrollY !== before,
+        atBottom:
+          window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 200,
+      };
+    });
+    if (delayMs > 0) await new Promise((resolve) => setTimeout(resolve, delayMs));
+    await collect();
+    if (state.atBottom || !state.moved) break;
+  }
+  return [...uniqueProducts.values()];
+}
+
 async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
@@ -135,14 +167,8 @@ export async function crawlMercari({ keyword, limit, sort }) {
       const previousCount = uniqueProducts.size;
       console.log(`Mercari search page ${pageNumber}: ${searchUrl}`);
       await loadSearchPage(page, searchUrl, pageNumber);
-      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-      await new Promise((resolve) => setTimeout(resolve, 2500));
-      for (const card of await collectVisibleProducts(page)) {
-        if (isMercariSoldCard(card)) continue;
-        const product = extractMercariCard(card);
-        if (product.name && product.price !== null && !uniqueProducts.has(product.url)) {
-          uniqueProducts.set(product.url, product);
-        }
+      for (const product of await collectMercariCardsDuringScroll(page, limit)) {
+        if (!uniqueProducts.has(product.url)) uniqueProducts.set(product.url, product);
       }
       if (uniqueProducts.size === previousCount) break;
       const links = await page.evaluate(() =>

@@ -6,6 +6,40 @@ import {
   isMercariSoldCard,
   normalizeMercariImages,
 } from "../src/markets/mercari-products.js";
+import { collectMercariCardsDuringScroll } from "../src/markets/mercari.js";
+
+test("keeps cards captured before virtualized scrolling", async () => {
+  const firstCard = {
+    ariaLabel: "Realforce 87UB-EK45 17,800円",
+    imageAlt: "Realforce 87UB-EK45のサムネイル",
+    url: "https://jp.mercari.com/item/m51487841812",
+    image: "https://static.mercdn.net/m51487841812.jpg",
+  };
+  const secondCard = {
+    ariaLabel: "REALFORCE R3 19,800円",
+    imageAlt: "REALFORCE R3のサムネイル",
+    url: "https://jp.mercari.com/item/m83370873552",
+    image: "https://static.mercdn.net/m83370873552.jpg",
+  };
+  let call = 0;
+  const page = {
+    evaluate: async () => {
+      call += 1;
+      if (call === 1) return [firstCard];
+      if (call === 2) return { atBottom: false };
+      if (call === 3) return [secondCard];
+      if (call === 4) return { atBottom: true };
+      return [];
+    },
+  };
+
+  const products = await collectMercariCardsDuringScroll(page, 100, 0);
+
+  assert.deepEqual(
+    products.map(({ url }) => url),
+    [firstCard.url, secondCard.url],
+  );
+});
 
 test("extracts Mercari card data with the original JPY price", () => {
   assert.deepEqual(
