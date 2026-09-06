@@ -373,6 +373,18 @@
       .markets.single-market {
         columns: 1;
       }
+      /* In "Tất cả" mode, keep markets in reading order so the next market
+         starts in the left column instead of being pushed behind a taller one. */
+      .markets.show-all {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        align-items: start;
+      }
+      .markets.show-all .market {
+        display: block;
+        margin: 0;
+      }
       .market-header {
         display: flex;
         justify-content: space-between;
@@ -788,6 +800,11 @@
           scroll-snap-type: x mandatory;
           scrollbar-width: none;
           overscroll-behavior-x: contain;
+        }
+        .markets.show-all {
+          display: flex;
+          gap: 14px;
+          grid-template-columns: none;
         }
         .markets::-webkit-scrollbar {
           height: 0;
@@ -1763,6 +1780,10 @@
           }),
         );
         marketsElement.classList.toggle("single-market", visibleMarkets.length === 1);
+        marketsElement.classList.toggle(
+          "show-all",
+          pageSize === "all" && visibleMarkets.length > 1,
+        );
         renderMarketFilters(loadedMarkets);
         renderRegionFilters(loadedMarkets);
       }
