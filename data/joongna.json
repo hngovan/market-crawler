@@ -45,7 +45,7 @@
     "url": "https://web.joongna.com/product/232115967",
     "image": "https://img2.joongna.com/media/original/2026/09/03/17884359649938w2_kY264.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/03/17884359649938w2_kY264.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/09/03/17884359649938w2_kY264.jpg"
     ],
     "market": "joongna",
     "marketName": "Joongna",
@@ -56,7 +56,8 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-09-06T06:50:49.770Z"
+    "crawledAt": "2026-09-06T06:50:49.770Z",
+    "postedAt": "2026-09-06T03:44:24.000Z"
   },
   {
     "name": "(미개봉) 리얼포스 R3 TLS 그레이블루 45g",
@@ -150,8 +151,7 @@
     "url": "https://web.joongna.com/product/231015139",
     "image": "https://img2.joongna.com/media/original/2026/07/27/1785121046651Jda_BtINX.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/07/27/1785121046651Jda_BtINX.jpg",
-      "https://img2.joongna.com/media/original/2026/07/27/1785121046720Y6d_iOOTH.jpg"
+      "https://img2.joongna.com/media/original/2026/07/27/1785121046651Jda_BtINX.jpg?impolicy=thumb&size=150"
     ],
     "postedAt": "2026-09-05T23:55:10.000Z",
     "market": "joongna",
@@ -927,7 +927,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/08/14/1786663741218pEJ_14jag.jpg"
     ],
-    "postedAt": "2026-09-03T21:09:56.000Z",
+    "postedAt": "2026-09-06T07:15:19.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1133,5 +1133,68 @@
       "realforce"
     ],
     "crawledAt": "2026-09-06T06:50:49.770Z"
+  },
+  {
+    "name": "리얼포스 r1 101u 차등",
+    "price": 290000,
+    "url": "https://web.joongna.com/product/232193752",
+    "image": "https://img2.joongna.com/media/original/2026/09/06/1788684766286HmH_58PQk.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/06/1788684766286HmH_58PQk.jpg",
+      "https://img2.joongna.com/media/original/2026/09/06/1788684766410PUw_SfEuC.jpg",
+      "https://img2.joongna.com/media/original/2026/09/06/1788684766509o5R_dMFej.jpg"
+    ],
+    "postedAt": "2026-09-06T08:52:46.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T09:02:49.122Z"
+  },
+  {
+    "name": "리얼포스 r4 블랙 풀배열 키보드 구매합니다",
+    "price": 350000,
+    "url": "https://web.joongna.com/product/232192170",
+    "image": "https://img2.joongna.com/media/original/2026/09/06/1788681457106202_bVufP.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/06/1788681457106202_bVufP.jpg"
+    ],
+    "postedAt": "2026-09-06T07:57:37.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T09:02:49.122Z"
+  },
+  {
+    "name": "[풀윤활] 리얼포스 R2 TKL 화이트",
+    "price": 160000,
+    "url": "https://web.joongna.com/product/232190894",
+    "image": "https://img2.joongna.com/media/original/2026/09/06/1788678893027xT7_WkHEq.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/06/1788678893027xT7_WkHEq.jpg",
+      "https://img2.joongna.com/media/original/2026/09/06/1788678893179Ukj_FcfQQ.jpg"
+    ],
+    "postedAt": "2026-09-06T07:20:34.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T09:02:49.122Z"
   }
 ]
