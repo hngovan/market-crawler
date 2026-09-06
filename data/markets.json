@@ -7,17 +7,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 56,
+    "count": 106,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "三亩S80",
       "keywords": [
+        "三亩S80",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-06T12:34:03.217Z"
+      "crawledAt": "2026-09-06T13:54:12.858Z"
     }
   },
   {
@@ -28,17 +29,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 12,
+    "count": 62,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "三亩S80",
       "keywords": [
+        "三亩S80",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-06T12:34:03.217Z"
+      "crawledAt": "2026-09-06T13:54:12.858Z"
     }
   },
   {
@@ -53,13 +55,14 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "三亩S80",
       "keywords": [
+        "三亩S80",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-06T12:34:03.217Z"
+      "crawledAt": "2026-09-06T13:54:12.858Z"
     }
   },
   {
@@ -74,13 +77,14 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "三亩S80",
       "keywords": [
+        "三亩S80",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-06T12:34:03.217Z"
+      "crawledAt": "2026-09-06T13:54:12.858Z"
     }
   },
   {
