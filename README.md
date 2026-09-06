@@ -29,7 +29,7 @@ npm run crawl:joongna -- --keyword=realforce --limit=20
 npm run crawl -- --markets=bunjang --keyword=realforce --limit=20
 npm run crawl:guheyo -- --keyword=realforce --limit=20
 npm run crawl:mercari -- --keyword=realforce --limit=20
-npm run crawl -- --markets=goofish --keyword=REALFORCE --limit=20
+npm run crawl -- --markets=goofish --keyword=realforce --limit=20
 ```
 
 Goofish dùng profile trình duyệt riêng tại `.cache/goofish-profile`. Lần đầu cần
@@ -37,7 +37,7 @@ chạy với browser hiển thị để đăng nhập bằng QR, sau đó cookie
 
 ```powershell
 $env:HEADLESS="false"
-node crawl.js --markets=goofish --keyword=REALFORCE --limit=20
+node crawl.js --markets=goofish --keyword=realforce --limit=20
 ```
 
 Goofish ưu tiên bắt response tìm kiếm nội bộ, cuộn từng đoạn để kích hoạt thêm
