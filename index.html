@@ -21,7 +21,6 @@
       }
       html,
       body {
-        overflow-x: hidden;
         max-width: 100%;
       }
       body {
@@ -357,6 +356,9 @@
       .markets {
         columns: 2 520px;
         column-gap: 16px;
+        width: 100%;
+        min-width: 0;
+        overflow: visible;
       }
       .market {
         display: inline-block;
@@ -433,6 +435,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
         gap: 16px;
+        grid-auto-flow: dense;
       }
       .card {
         position: relative;
@@ -592,11 +595,7 @@
         color: #a52323;
       }
       @media (max-width: 900px) {
-        body {
-          overflow-x: hidden;
-        }
         .crawl-panel {
-          overflow-x: hidden;
           width: calc(100vw - 12px);
           right: 0;
           transform: translateX(calc(100% + 12px));

@@ -12,7 +12,7 @@ test("extracts Goofish listings from a search API payload", () => {
           title: "REALFORCE R3 键盘",
           price: "¥1,280",
           seller: { userId: "seller-1" },
-          image: { url: "https://img.alicdn.com/realforce.jpg" },
+          pictureUrl: "https://images.apifyusercontent.com/realforce.jpg",
         },
       ],
     },
@@ -23,7 +23,7 @@ test("extracts Goofish listings from a search API payload", () => {
       name: "REALFORCE R3 键盘",
       price: 1280,
       url: "https://www.goofish.com/item?id=1234567890",
-      image: "https://img.alicdn.com/realforce.jpg",
+      image: "https://images.apifyusercontent.com/realforce.jpg",
     },
   ]);
 });

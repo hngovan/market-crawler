@@ -25,7 +25,9 @@ function parsePrice(value) {
 }
 
 function absoluteImage(value) {
-  const image = textValue(value);
+  const image = textValue(value)
+    .trim()
+    .replace(/^http:\/\//i, "https://");
   if (!image) return "";
   try {
     return new URL(image, GOOFISH_ORIGIN).href;
@@ -45,7 +47,15 @@ function toProduct(object) {
     firstValue(object, ["price", "soldPrice", "currentPrice", "priceInfo", "priceInfoVO"]),
   );
   const image = absoluteImage(
-    firstValue(object, ["picUrl", "imageUrl", "mainPic", "pic", "image", "mainImage"]),
+    firstValue(object, [
+      "pictureUrl",
+      "picUrl",
+      "imageUrl",
+      "mainPic",
+      "pic",
+      "image",
+      "mainImage",
+    ]),
   );
 
   if (id === undefined || id === null || !name || price === null) return null;
