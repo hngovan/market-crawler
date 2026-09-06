@@ -7,18 +7,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 100,
+    "count": 0,
     "error": "",
-    "dataFile": "data/joongna.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 100,
-      "crawledAt": "2026-09-06T04:41:03.210Z"
-    }
+    "dataFile": "data/joongna.json"
   },
   {
     "id": "bunjang",
@@ -28,18 +19,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 12,
+    "count": 0,
     "error": "",
-    "dataFile": "data/bunjang.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 100,
-      "crawledAt": "2026-09-06T04:41:03.210Z"
-    }
+    "dataFile": "data/bunjang.json"
   },
   {
     "id": "guheyo",
@@ -49,18 +31,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 36,
+    "count": 0,
     "error": "",
-    "dataFile": "data/guheyo.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 100,
-      "crawledAt": "2026-09-06T04:41:03.210Z"
-    }
+    "dataFile": "data/guheyo.json"
   },
   {
     "id": "mercari",
@@ -70,18 +43,9 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 100,
+    "count": 0,
     "error": "",
-    "dataFile": "data/mercari.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 100,
-      "crawledAt": "2026-09-06T04:41:03.210Z"
-    }
+    "dataFile": "data/mercari.json"
   },
   {
     "id": "goofish",
@@ -91,18 +55,8 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 2,
+    "count": 0,
     "error": "",
-    "dataFile": "data/goofish.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce",
-        "REALFORCE"
-      ],
-      "sort": "newest",
-      "limit": 2,
-      "crawledAt": "2026-09-06T06:40:04.045Z"
-    }
+    "dataFile": "data/goofish.json"
   }
 ]
