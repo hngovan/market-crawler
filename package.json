@@ -10,6 +10,7 @@
     "crawl:bunjang": "node crawl.js --markets=bunjang",
     "crawl:guheyo": "node crawl.js --markets=guheyo",
     "crawl:mercari": "node crawl.js --markets=mercari",
+    "crawl:goofish": "node crawl.js --markets=goofish",
     "cleanup:data": "node scripts/cleanup-old-data.js --retention-days=14",
     "clear:data": "node scripts/clear-data.js",
     "build": "node scripts/build-static.js",

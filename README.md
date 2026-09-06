@@ -1,7 +1,7 @@
 # Multi-Market Product Crawler
 
-Crawl sản phẩm từ Joongna, Bunjang, Guheyo và Mercari không đăng nhập, lưu kết quả
-theo từng chợ và hiển thị trên trang web local.
+Crawl sản phẩm từ Joongna, Bunjang, Guheyo và Mercari không đăng nhập, cùng Goofish
+(cần phiên đăng nhập riêng), lưu kết quả theo từng chợ và hiển thị trên trang web local.
 
 ## Yêu cầu
 
@@ -29,7 +29,21 @@ npm run crawl:joongna -- --keyword=realforce --limit=20
 npm run crawl -- --markets=bunjang --keyword=realforce --limit=20
 npm run crawl:guheyo -- --keyword=realforce --limit=20
 npm run crawl:mercari -- --keyword=realforce --limit=20
+npm run crawl -- --markets=goofish --keyword=REALFORCE --limit=20
 ```
+
+Goofish dùng profile trình duyệt riêng tại `.cache/goofish-profile`. Lần đầu cần
+chạy với browser hiển thị để đăng nhập bằng QR, sau đó cookie được dùng lại:
+
+```powershell
+$env:HEADLESS="false"
+node crawl.js --markets=goofish --keyword=REALFORCE --limit=20
+```
+
+Goofish ưu tiên bắt response tìm kiếm nội bộ, cuộn từng đoạn để kích hoạt thêm
+kết quả và fallback sang card HTML. Nếu gặp đăng nhập, CAPTCHA hoặc xác minh,
+crawler sẽ đánh dấu market là `skipped` và không retry vô hạn. Có thể đổi thư mục
+profile bằng biến `GOOFISH_PROFILE_DIR`; không commit thư mục này vì chứa cookie.
 
 Truyền nhiều từ khóa và số lượng:
 
@@ -48,7 +62,7 @@ Crawler sẽ:
 - Gắn metadata khu vực, chợ và keyword để UI lọc lại sau khi crawl nhiều từ khóa.
 - Gắn `crawledAt` cho từng sản phẩm để job cleanup biết thời điểm dữ liệu được crawl về.
 - Mở trang chi tiết để lấy toàn bộ ảnh sản phẩm.
-- Lưu kết quả vào `data/joongna.json`, `data/bunjang.json`, `data/guheyo.json`, `data/mercari.json`.
+- Lưu kết quả vào `data/joongna.json`, `data/bunjang.json`, `data/guheyo.json`, `data/mercari.json` và `data/goofish.json` khi market được chọn.
 - Lưu trạng thái các chợ vào `data/markets.json`.
 
 Mercari chạy headless không cần đăng nhập và sử dụng giá gốc JPY.

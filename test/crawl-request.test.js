@@ -62,7 +62,7 @@ test("rejects unsupported markets", () => {
       validateCrawlRequest({
         keyword: "realforce",
         limit: 20,
-        markets: ["goofish"],
+        markets: ["unknown-market"],
         sort: "price-asc",
       }),
     /supported market/,

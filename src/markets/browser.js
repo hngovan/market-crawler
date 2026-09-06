@@ -12,11 +12,12 @@ export async function createPreparedMarketPage(browser, options) {
   return page;
 }
 
-export function launchBrowser() {
+export function launchBrowser(options = {}) {
   const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH;
   const headless = process.env.HEADLESS === "false" ? false : true;
   return puppeteer.launch({
     headless,
+    ...(options.userDataDir ? { userDataDir: options.userDataDir } : {}),
     ...(executablePath ? { executablePath } : {}),
     args: process.env.CI ? ["--no-sandbox", "--disable-setuid-sandbox"] : [],
   });

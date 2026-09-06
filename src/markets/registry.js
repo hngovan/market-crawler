@@ -2,6 +2,7 @@ export const regions = {
   korea: { id: "korea", name: "Hàn Quốc", flag: "🇰🇷" },
   japan: { id: "japan", name: "Nhật Bản", flag: "🇯🇵" },
   usa: { id: "usa", name: "Mỹ", flag: "🇺🇸" },
+  china: { id: "china", name: "Trung Quốc", flag: "🇨🇳" },
 };
 
 export const marketDefinitions = {
@@ -36,6 +37,14 @@ export const marketDefinitions = {
     regionName: regions.japan.name,
     regionFlag: regions.japan.flag,
     currency: "JPY",
+  },
+  goofish: {
+    id: "goofish",
+    name: "Goofish",
+    region: regions.china.id,
+    regionName: "Trung Quốc",
+    regionFlag: regions.china.flag,
+    currency: "CNY",
   },
 };
 
