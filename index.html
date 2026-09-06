@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/css/lightgallery-bundle.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
       :root {
         color-scheme: light;
@@ -21,6 +27,7 @@
       }
       html,
       body {
+        overflow-x: auto;
         max-width: 100%;
       }
       body {
@@ -838,7 +845,7 @@
         --danger: #dc2626;
         --danger-dark: #b91c1c;
         --danger-soft: #fef2f2;
-        font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-family: Poppins, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         color: var(--ink);
         background: var(--page);
       }
@@ -1013,6 +1020,9 @@
         font-weight: 500;
       }
       .toolbar {
+        position: sticky;
+        top: 8px;
+        z-index: 30;
         padding: 16px;
         border: 1px solid var(--line);
         border-radius: 16px;
