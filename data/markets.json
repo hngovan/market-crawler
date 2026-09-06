@@ -82,5 +82,27 @@
       "limit": 100,
       "crawledAt": "2026-09-06T04:41:03.210Z"
     }
+  },
+  {
+    "id": "goofish",
+    "name": "Goofish",
+    "region": "china",
+    "regionName": "Trung Quốc",
+    "regionFlag": "🇨🇳",
+    "currency": "CNY",
+    "status": "success",
+    "count": 2,
+    "error": "",
+    "dataFile": "data/goofish.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce",
+        "REALFORCE"
+      ],
+      "sort": "newest",
+      "limit": 2,
+      "crawledAt": "2026-09-06T06:23:37.256Z"
+    }
   }
 ]
