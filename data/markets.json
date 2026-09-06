@@ -95,18 +95,19 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 38,
+    "count": 48,
     "error": "",
     "dataFile": "data/goofish.json",
     "crawl": {
-      "keyword": "三亩s58m",
+      "keyword": "三亩S80",
       "keywords": [
-        "三亩s58m",
-        "realforce"
+        "三亩S80",
+        "realforce",
+        "三亩s58m"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-06T13:52:59.318Z"
+      "crawledAt": "2026-09-06T14:06:52.592Z"
     }
   }
 ]
