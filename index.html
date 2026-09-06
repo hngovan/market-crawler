@@ -1206,6 +1206,14 @@
       .card .name {
         color: #301547;
         font-weight: 700;
+        display: -webkit-box;
+        max-width: 100%;
+        min-width: 0;
+        overflow: hidden;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
       }
       .card .price {
         color: #ff3678;
@@ -1224,6 +1232,16 @@
       }
       .clear-data {
         background: #ff548a;
+      }
+      .content,
+      .name-wrap {
+        min-width: 0;
+        max-width: 100%;
+      }
+      .name-tooltip {
+        max-width: min(300px, calc(100vw - 32px));
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
       .toolbar {
         border: 4px solid #301547;
@@ -1600,6 +1618,10 @@
       .card .name {
         color: #301547;
         font-weight: 700;
+        max-height: calc(1.4em * 3);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
       }
       .card .price {
         color: #ff3678;
