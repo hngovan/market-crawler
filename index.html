@@ -832,19 +832,19 @@
 
       /* Modern light theme */
       :root {
-        --page: #f4f7fb;
-        --surface: #ffffff;
-        --surface-soft: #f8fafc;
-        --line: #dbe3ef;
-        --line-strong: #c5d0df;
-        --ink: #172033;
-        --muted: #64748b;
-        --primary: #2563eb;
-        --primary-dark: #1d4ed8;
-        --primary-soft: #eff6ff;
-        --danger: #dc2626;
-        --danger-dark: #b91c1c;
-        --danger-soft: #fef2f2;
+        --page: hsl(240 20% 97%);
+        --surface: hsl(240 20% 99%);
+        --surface-soft: hsl(240 20% 94%);
+        --line: hsl(240 20% 82%);
+        --line-strong: hsl(240 20% 68%);
+        --ink: hsl(249 20% 7%);
+        --muted: hsl(250 20% 42%);
+        --primary: hsl(220 59% 54%);
+        --primary-dark: hsl(220 59% 44%);
+        --primary-soft: hsl(220 59% 93%);
+        --danger: hsl(0 70% 54%);
+        --danger-dark: hsl(0 70% 44%);
+        --danger-soft: hsl(0 70% 95%);
         font-family: Poppins, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         color: var(--ink);
         background: var(--page);
@@ -852,18 +852,17 @@
       body {
         min-height: 100vh;
         color: var(--ink);
-        background:
-          radial-gradient(circle at top left, rgb(37 99 235 / 8%), transparent 30rem), var(--page);
+        background: var(--page);
       }
       header {
-        border: 1px solid rgb(255 255 255 / 12%);
-        border-radius: 20px;
-        color: white;
-        background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 58%, #2563eb 100%);
-        box-shadow: 0 18px 45px rgb(15 23 42 / 18%);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        color: var(--ink);
+        background: var(--surface);
+        box-shadow: 0 8px 24px rgb(20 20 40 / 10%);
       }
       header p {
-        color: #dbeafe;
+        color: var(--muted);
         font-weight: 600;
         text-transform: none;
       }
