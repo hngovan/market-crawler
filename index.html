@@ -1225,6 +1225,68 @@
       .clear-data {
         background: #ff548a;
       }
+      .crawl-panel {
+        position: fixed;
+        padding: 28px 18px 18px;
+        border: 4px solid #301547;
+        background: #fffdf6;
+        box-shadow: -8px 8px 0 #ff548a;
+      }
+      .crawl-panel-close {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        display: grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        padding: 0;
+        border: 3px solid #301547;
+        color: #301547;
+        background: #ff548a;
+        box-shadow: 3px 3px 0 #301547;
+        font: inherit;
+        font-size: 24px;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .crawl-panel .crawl-input,
+      .crawl-panel .crawl-log,
+      .crawl-panel .crawl-market-option {
+        border: 3px solid #301547;
+        color: #301547;
+        background: #fff6fa;
+        box-shadow: none;
+      }
+      .crawl-panel .crawl-submit,
+      .crawl-panel .clear-data {
+        min-height: 44px;
+        border: 3px solid #301547;
+        box-shadow: 4px 4px 0 #301547;
+      }
+      html[data-theme="dark"] .crawl-panel {
+        border-color: #ffdbcf;
+        color: #fffbff;
+        background: #201a18;
+        box-shadow: -8px 8px 0 #ff548a;
+      }
+      html[data-theme="dark"] .crawl-panel .crawl-field,
+      html[data-theme="dark"] .crawl-panel h2 {
+        color: #fffbff;
+      }
+      html[data-theme="dark"] .crawl-panel .crawl-input,
+      html[data-theme="dark"] .crawl-panel .crawl-log,
+      html[data-theme="dark"] .crawl-panel .crawl-market-option {
+        border-color: #ffdbcf;
+        color: #fffbff;
+        background: #362f2c;
+      }
+      html[data-theme="dark"] .crawl-panel-close {
+        border-color: #ffdbcf;
+        color: #201a18;
+        background: #ffdbcf;
+        box-shadow: 3px 3px 0 #ff548a;
+      }
 
       /* Retro theme */
       :root {
@@ -1440,6 +1502,15 @@
         padding: 9px 12px;
         font-size: 14px;
       }
+      .header-controls .crawl-toggle {
+        border: 3px solid #301547;
+        color: #301547;
+        background: #6de0de;
+        box-shadow: 3px 3px 0 #301547;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+      }
       .market {
         border: 4px solid #301547;
         background: #fff6fa;
@@ -1500,7 +1571,7 @@
           aria-controls="crawl-panel"
           aria-expanded="true"
         >
-          Ẩn
+          Crawler
         </button>
         <label class="exchange-switch" title="Quy đổi giá sang VND">
           <input id="vnd-toggle" type="checkbox" />
@@ -1525,6 +1596,15 @@
     </button>
     <main>
       <section id="crawl-panel" class="crawl-panel">
+        <button
+          id="crawl-close"
+          class="crawl-panel-close"
+          type="button"
+          aria-label="Đóng cửa sổ crawler"
+          title="Đóng"
+        >
+          ×
+        </button>
         <h2>Chạy crawler</h2>
         <div class="crawl-panel-body">
           <form id="crawl-form" class="crawl-form">
@@ -1662,6 +1742,7 @@
       const clearDataButton = document.querySelector("#clear-data");
       const crawlPanel = document.querySelector("#crawl-panel");
       const crawlToggle = document.querySelector("#crawl-toggle");
+      const crawlClose = document.querySelector("#crawl-close");
       const crawlBackdrop = document.querySelector("#crawl-backdrop");
       const scrollTopButton = document.querySelector("#scroll-top");
       const headerSort = document.querySelector("#header-sort");
@@ -1720,7 +1801,7 @@
 
       function updateCrawlToggleLabel() {
         const isOpen = document.body.classList.contains("crawl-drawer-open");
-        crawlToggle.textContent = isOpen ? "Ẩn" : "Crawler";
+        crawlToggle.textContent = "Crawler";
         crawlToggle.setAttribute("aria-expanded", String(isOpen));
       }
 
@@ -1733,6 +1814,7 @@
       crawlToggle.addEventListener("click", () => {
         setCrawlDrawerOpen(!document.body.classList.contains("crawl-drawer-open"));
       });
+      crawlClose.addEventListener("click", () => setCrawlDrawerOpen(false));
 
       crawlBackdrop.addEventListener("click", () => setCrawlDrawerOpen(false));
 
