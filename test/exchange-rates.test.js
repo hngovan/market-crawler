@@ -17,6 +17,7 @@ test("normalizes VND base exchange rates into VND per source currency", () => {
       VND: 1,
       KRW: 0.054,
       JPY: 0.0058,
+      CNY: 0.000037,
     },
   });
 
@@ -24,6 +25,7 @@ test("normalizes VND base exchange rates into VND per source currency", () => {
   assert.equal(rates.updatedAt, "2026-06-18T00:00:00.000Z");
   assert.equal(Number(rates.vndPerCurrency.KRW.toFixed(4)), 18.5185);
   assert.equal(Number(rates.vndPerCurrency.JPY.toFixed(4)), 172.4138);
+  assert.equal(Number(rates.vndPerCurrency.CNY.toFixed(0)), 27027);
 });
 
 test("formats converted VND prices and per-currency rate notes", () => {
@@ -32,6 +34,7 @@ test("formats converted VND prices and per-currency rate notes", () => {
     vndPerCurrency: {
       KRW: 18.5,
       JPY: 172.25,
+      CNY: 27000,
     },
   };
 

@@ -1,6 +1,6 @@
 export const EXCHANGE_RATE_CACHE_KEY = "market-crawler:vnd-exchange-rates";
 export const EXCHANGE_RATE_TTL_MS = 30 * 60 * 1000;
-export const SUPPORTED_CONVERSION_CURRENCIES = ["KRW", "JPY"];
+export const SUPPORTED_CONVERSION_CURRENCIES = ["KRW", "JPY", "CNY"];
 
 const vndFormatter = new Intl.NumberFormat("vi-VN", {
   maximumFractionDigits: 0,
@@ -32,7 +32,7 @@ export function normalizeVndExchangePayload(payload) {
   }
 
   if (Object.keys(vndPerCurrency).length === 0) {
-    throw new Error("Exchange rate response does not include KRW or JPY");
+    throw new Error("Exchange rate response does not include KRW, JPY, or CNY");
   }
 
   const updatedAt = payload.time_last_update_unix

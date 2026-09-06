@@ -1420,7 +1420,7 @@
           return;
         }
 
-        const rateNotes = ["KRW", "JPY"]
+        const rateNotes = ["KRW", "JPY", "CNY"]
           .map((currency) => formatOriginalToVndRate(currency, exchangeState.rates))
           .filter(Boolean);
         exchangeRateNoteElement.textContent = [
