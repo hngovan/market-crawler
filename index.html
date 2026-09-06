@@ -857,6 +857,7 @@
         background: var(--page);
       }
       header {
+        position: relative;
         border: 1px solid var(--line);
         border-radius: 12px;
         color: var(--ink);
@@ -867,6 +868,37 @@
         color: var(--muted);
         font-weight: 600;
         text-transform: none;
+      }
+      .header-content {
+        min-width: 0;
+        padding-right: 220px;
+      }
+      .header-controls {
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+        max-width: min(50%, 420px);
+      }
+      .header-controls .crawl-toggle {
+        position: static;
+        min-width: auto;
+        padding: 9px 13px;
+      }
+      .header-controls .exchange-switch {
+        position: relative;
+      }
+      .header-controls .exchange-rate-note {
+        width: 100%;
+        margin-top: 0;
+      }
+      .exchange-panel {
+        position: static;
+        display: none;
       }
       .status {
         color: var(--muted);
@@ -951,19 +983,19 @@
       }
       html[data-theme="dark"] {
         color-scheme: dark;
-        --page: #fffbff;
-        --surface: #fffbff;
-        --surface-soft: #f5ded6;
-        --line: #f5ded6;
+        --page: #201a18;
+        --surface: #362f2c;
+        --surface-soft: #53433e;
+        --line: #77574c;
         --line-strong: #ffdbcf;
-        --ink: #201a18;
-        --muted: #53433e;
-        --primary: #9a4523;
-        --primary-dark: #9a4523;
-        --primary-soft: #fbeeea;
-        --danger: #ba1a1a;
-        --danger-dark: #ba1a1a;
-        --danger-soft: #fbeeea;
+        --ink: #fffbff;
+        --muted: #f5ded6;
+        --primary: #ffdbcf;
+        --primary-dark: #ffdbcf;
+        --primary-soft: #77574c;
+        --danger: #ffb4ab;
+        --danger-dark: #ffb4ab;
+        --danger-soft: #53433e;
         --radius: var(--radius-dark);
       }
       html[data-theme="dark"] body {
@@ -1188,6 +1220,15 @@
         outline-offset: 2px;
       }
       @media (max-width: 900px) {
+        .header-content {
+          padding-right: 0;
+        }
+        .header-controls {
+          position: static;
+          justify-content: flex-start;
+          max-width: none;
+          margin-top: 16px;
+        }
         header,
         .market,
         .card,
@@ -1209,31 +1250,33 @@
   </head>
   <body>
     <header>
-      <h1>Multi-Market Crawling</h1>
-      <p id="header-sort">Sắp xếp: giá từ thấp đến cao</p>
-      <p id="header-crawled-at">Crawl thành công lần cuối: chưa có dữ liệu</p>
+      <div class="header-content">
+        <h1>Multi-Market Crawling</h1>
+        <p id="header-sort">Sắp xếp: giá từ thấp đến cao</p>
+        <p id="header-crawled-at">Crawl thành công lần cuối: chưa có dữ liệu</p>
+      </div>
+      <div class="header-controls">
+        <button
+          id="crawl-toggle"
+          class="crawl-toggle"
+          type="button"
+          aria-controls="crawl-panel"
+          aria-expanded="true"
+        >
+          Ẩn
+        </button>
+        <label class="exchange-switch" title="Quy đổi giá sang VND">
+          <input id="vnd-toggle" type="checkbox" />
+          <span class="exchange-track" aria-hidden="true"><span class="exchange-thumb"></span></span>
+          <span class="exchange-switch-text">VND</span>
+        </label>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+          Dark
+        </button>
+        <div id="exchange-rate-note" class="exchange-rate-note" aria-live="polite"></div>
+      </div>
     </header>
     <div id="crawl-backdrop" class="crawl-backdrop" hidden></div>
-    <button
-      id="crawl-toggle"
-      class="crawl-toggle"
-      type="button"
-      aria-controls="crawl-panel"
-      aria-expanded="true"
-    >
-      Ẩn
-    </button>
-    <div class="exchange-panel">
-      <label class="exchange-switch" title="Quy đổi giá sang VND">
-        <input id="vnd-toggle" type="checkbox" />
-        <span class="exchange-track" aria-hidden="true"><span class="exchange-thumb"></span></span>
-        <span class="exchange-switch-text">VND</span>
-      </label>
-      <div id="exchange-rate-note" class="exchange-rate-note" aria-live="polite"></div>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
-        Dark
-      </button>
-    </div>
     <button
       id="scroll-top"
       class="scroll-top"
@@ -1396,6 +1439,7 @@
       function applyTheme(theme) {
         const isDark = theme === "dark";
         document.documentElement.dataset.theme = isDark ? "dark" : "light";
+        document.documentElement.classList.toggle("dark", isDark);
         themeToggleElement.textContent = isDark ? "Light" : "Dark";
         themeToggleElement.setAttribute("aria-pressed", String(isDark));
         themeToggleElement.title = isDark
