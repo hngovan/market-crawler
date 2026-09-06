@@ -253,7 +253,7 @@
   },
   {
     "name": "東プレ トウプレ Topre Realforce R2 日本語配列 30g 静音",
-    "price": 9900,
+    "price": 9500,
     "url": "https://jp.mercari.com/item/m57743584228",
     "image": "https://static.mercdn.net/thumb/item/webp/m57743584228_1.jpg?1788521264",
     "postedAt": "",
@@ -634,10 +634,13 @@
     "price": 4500,
     "url": "https://jp.mercari.com/item/m95692621326",
     "image": "https://static.mercdn.net/thumb/item/webp/m95692621326_1.jpg?1787966613",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-08-30T00:26:41.783Z",
+    "postedAtText": "7日前",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m95692621326_1.jpg?1787966613"
+      "https://static.mercdn.net/item/detail/orig/photos/m95692621326_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m95692621326_2.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m95692621326_3.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m95692621326_4.jpg"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -1072,7 +1075,7 @@
   },
   {
     "name": "東プレ REALFORCE R3 キーボード R3HA12 静音 ハイブリッド",
-    "price": 19800,
+    "price": 18980,
     "url": "https://jp.mercari.com/item/m50089480869",
     "image": "https://static.mercdn.net/thumb/item/webp/m50089480869_1.jpg?1788596410",
     "postedAt": "",
@@ -1135,7 +1138,7 @@
   },
   {
     "name": "最終価格　REALFORCE GX1 Plus　Zガンダムモデル",
-    "price": 34999,
+    "price": 34888,
     "url": "https://jp.mercari.com/item/m61292077442",
     "image": "https://static.mercdn.net/thumb/item/webp/m61292077442_1.jpg?1788155048",
     "postedAt": "",
@@ -1366,7 +1369,7 @@
   },
   {
     "name": "東プレ REALFORCE 108UH-S SA010S 静音 日本語配列",
-    "price": 12800,
+    "price": 11899,
     "url": "https://jp.mercari.com/item/m17570158508",
     "image": "https://static.mercdn.net/thumb/item/webp/m17570158508_1.jpg?1788600409",
     "postedAt": "",
@@ -1450,7 +1453,7 @@
   },
   {
     "name": "機動戦士Zガンダム × REALFORCE クリアファイル",
-    "price": 2780,
+    "price": 2580,
     "url": "https://jp.mercari.com/item/m40742970076",
     "image": "https://static.mercdn.net/thumb/item/webp/m40742970076_1.jpg?1788147147",
     "postedAt": "",
@@ -1489,5 +1492,152 @@
       "realforce"
     ],
     "crawledAt": "2026-09-05T14:13:04.814Z"
+  },
+  {
+    "name": "REALFORCE RGB R2A-JP4G-BK キーボード 本体",
+    "price": 8000,
+    "url": "https://jp.mercari.com/item/m95547850309",
+    "image": "https://static.mercdn.net/thumb/item/webp/m95547850309_1.jpg?1788652925",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m95547850309_1.jpg?1788652925"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T00:22:57.012Z"
+  },
+  {
+    "name": "東プレ REALFORCE R3S R3SA12 フルキーボード 日本語配列",
+    "price": 19800,
+    "url": "https://jp.mercari.com/item/m83370873552",
+    "image": "https://static.mercdn.net/thumb/item/webp/m83370873552_1.jpg?1787462439",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m83370873552_1.jpg?1787462439"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T00:22:57.012Z"
+  },
+  {
+    "name": "REALFORCE ラピッドトリガー キーボード GX1 静音 30ｇ 英語配列",
+    "price": 18000,
+    "url": "https://jp.mercari.com/item/m22606501146",
+    "image": "https://static.mercdn.net/thumb/item/webp/m22606501146_1.jpg?1788050655",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m22606501146_1.jpg?1788050655"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T00:22:57.012Z"
+  },
+  {
+    "name": "REALFORCE GX1 Plus　Zガンダムモデル　アルミリストレスト",
+    "price": 6666,
+    "url": "https://jp.mercari.com/item/m54283727007",
+    "image": "https://static.mercdn.net/thumb/item/webp/m54283727007_1.jpg?1788623290",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m54283727007_1.jpg?1788623290"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T00:22:57.012Z"
+  },
+  {
+    "name": "REALFORCE R2-JP4-BK/AGAZ01 キーボード",
+    "price": 9800,
+    "url": "https://jp.mercari.com/item/m60885955375",
+    "image": "https://static.mercdn.net/thumb/item/webp/m60885955375_1.jpg?1788622680",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m60885955375_1.jpg?1788622680"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T00:22:57.012Z"
+  },
+  {
+    "name": "REALFORCE R3 キーボード R3HC11 本体",
+    "price": 18000,
+    "url": "https://jp.mercari.com/item/m85530686235",
+    "image": "https://static.mercdn.net/thumb/item/webp/m85530686235_1.jpg?1788622431",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m85530686235_1.jpg?1788622431"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T00:22:57.012Z"
+  },
+  {
+    "name": "REALFORCE R4HD13 30g キーボード 本体",
+    "price": 35000,
+    "url": "https://jp.mercari.com/item/m54976941974",
+    "image": "https://static.mercdn.net/thumb/item/webp/m54976941974_1.jpg?1788574206",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m54976941974_1.jpg?1788574206"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-06T00:22:57.012Z"
   }
 ]
