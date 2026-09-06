@@ -931,6 +931,54 @@
         box-shadow: 0 6px 18px rgb(15 23 42 / 10%);
         font-weight: 600;
       }
+      .theme-toggle {
+        min-height: 42px;
+        padding: 9px 13px;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        color: var(--ink);
+        background: var(--surface);
+        box-shadow: 0 8px 22px rgb(15 23 42 / 10%);
+        font: inherit;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      .theme-toggle:hover {
+        border-color: var(--primary);
+        color: var(--primary-dark);
+      }
+      html[data-theme="dark"] {
+        color-scheme: dark;
+        --page: hsl(240 20% 8%);
+        --surface: hsl(240 20% 12%);
+        --surface-soft: hsl(240 20% 16%);
+        --line: hsl(240 20% 28%);
+        --line-strong: hsl(240 20% 42%);
+        --ink: hsl(249 20% 93%);
+        --muted: hsl(249 20% 70%);
+        --primary: hsl(220 59% 62%);
+        --primary-dark: hsl(220 59% 72%);
+        --primary-soft: hsl(220 35% 22%);
+        --danger-soft: hsl(0 35% 20%);
+      }
+      html[data-theme="dark"] body {
+        background: var(--page);
+      }
+      html[data-theme="dark"] header,
+      html[data-theme="dark"] .toolbar,
+      html[data-theme="dark"] .market,
+      html[data-theme="dark"] .card,
+      html[data-theme="dark"] .theme-toggle,
+      html[data-theme="dark"] .exchange-switch {
+        color: var(--ink);
+        background: var(--surface);
+      }
+      html[data-theme="dark"] .crawl-input,
+      html[data-theme="dark"] .filter-select,
+      html[data-theme="dark"] .page-size {
+        color: var(--ink);
+        background: var(--surface-soft);
+      }
       .crawl-panel h2,
       .market-header h2 {
         letter-spacing: -0.02em;
@@ -1177,6 +1225,9 @@
         <span class="exchange-switch-text">VND</span>
       </label>
       <div id="exchange-rate-note" class="exchange-rate-note" aria-live="polite"></div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+        Dark
+      </button>
     </div>
     <button
       id="scroll-top"
@@ -1303,6 +1354,7 @@
       const pageSizeElement = document.querySelector("#page-size");
       const vndToggleElement = document.querySelector("#vnd-toggle");
       const exchangeRateNoteElement = document.querySelector("#exchange-rate-note");
+      const themeToggleElement = document.querySelector("#theme-toggle");
       const statusElement = document.querySelector("#status");
       const crawlForm = document.querySelector("#crawl-form");
       const crawlLog = document.querySelector("#crawl-log");
@@ -1335,6 +1387,22 @@
         CNY: { locale: "zh-CN", symbol: "¥", prefix: true },
         JPY: { locale: "ja-JP", symbol: "¥", prefix: true },
       };
+      const themeStorageKey = "market-crawler-theme";
+      function applyTheme(theme) {
+        const isDark = theme === "dark";
+        document.documentElement.dataset.theme = isDark ? "dark" : "light";
+        themeToggleElement.textContent = isDark ? "Light" : "Dark";
+        themeToggleElement.setAttribute("aria-pressed", String(isDark));
+        themeToggleElement.title = isDark
+          ? "Chuyển sang giao diện sáng"
+          : "Chuyển sang giao diện tối";
+      }
+      applyTheme(localStorage.getItem(themeStorageKey) === "dark" ? "dark" : "light");
+      themeToggleElement.addEventListener("click", () => {
+        const nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+        localStorage.setItem(themeStorageKey, nextTheme);
+        applyTheme(nextTheme);
+      });
       const sortLabels = {
         "price-asc": "giá từ thấp đến cao",
         "price-desc": "giá từ cao đến thấp",
