@@ -7,19 +7,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 110,
+    "count": 0,
     "error": "",
-    "dataFile": "data/joongna.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce",
-        "三亩S80"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-07T00:29:18.636Z"
-    }
+    "dataFile": "data/joongna.json"
   },
   {
     "id": "bunjang",
@@ -29,19 +19,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 62,
+    "count": 0,
     "error": "",
-    "dataFile": "data/bunjang.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce",
-        "三亩S80"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-07T00:29:18.636Z"
-    }
+    "dataFile": "data/bunjang.json"
   },
   {
     "id": "guheyo",
@@ -51,18 +31,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 36,
+    "count": 0,
     "error": "",
-    "dataFile": "data/guheyo.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-07T00:29:18.636Z"
-    }
+    "dataFile": "data/guheyo.json"
   },
   {
     "id": "mercari",
@@ -72,18 +43,9 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 78,
+    "count": 0,
     "error": "",
-    "dataFile": "data/mercari.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-07T00:29:18.636Z"
-    }
+    "dataFile": "data/mercari.json"
   },
   {
     "id": "goofish",
@@ -93,19 +55,8 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 48,
+    "count": 0,
     "error": "",
-    "dataFile": "data/goofish.json",
-    "crawl": {
-      "keyword": "三亩S80",
-      "keywords": [
-        "三亩S80",
-        "realforce",
-        "三亩s58m"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-06T14:06:52.592Z"
-    }
+    "dataFile": "data/goofish.json"
   }
 ]
