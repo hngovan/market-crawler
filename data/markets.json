@@ -70,17 +70,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 54,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Apple Standard Keyboard",
       "keywords": [
+        "Apple Standard Keyboard",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-07T00:48:40.987Z"
+      "crawledAt": "2026-09-07T04:25:36.507Z"
     }
   },
   {
