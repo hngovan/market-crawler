@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 56,
+    "count": 59,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T00:47:55.864Z"
+      "crawledAt": "2026-09-08T09:19:22.389Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T00:47:55.864Z"
+      "crawledAt": "2026-09-08T09:19:22.389Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T00:47:55.864Z"
+      "crawledAt": "2026-09-08T09:19:22.389Z"
     }
   },
   {
@@ -70,19 +70,19 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 72,
+    "count": 76,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "Apple M0116",
+      "keyword": "realforce",
       "keywords": [
-        "Apple M0116",
         "realforce",
-        "Apple Standard Keyboard"
+        "Apple Standard Keyboard",
+        "Apple M0116"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T05:27:17.758Z"
+      "crawledAt": "2026-09-08T09:19:22.389Z"
     }
   },
   {

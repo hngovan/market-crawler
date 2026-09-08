@@ -22,7 +22,7 @@
   },
   {
     "name": "Realforce R3HA13＋昇華印刷キーキャップ＋2㎜キースペーサーセット",
-    "price": 16200,
+    "price": 17100,
     "url": "https://jp.mercari.com/item/m34771296000",
     "image": "https://static.mercdn.net/thumb/item/webp/m34771296000_1.jpg?1776563059",
     "postedAt": "",
@@ -106,7 +106,7 @@
   },
   {
     "name": "REALFORCE ラピッドトリガー キーボード GX1 静音 30ｇ 英語配列",
-    "price": 19000,
+    "price": 11000,
     "url": "https://jp.mercari.com/item/m22606501146",
     "image": "https://static.mercdn.net/thumb/item/webp/m22606501146_1.jpg?1788050655",
     "postedAt": "",
@@ -1178,7 +1178,7 @@
   },
   {
     "name": "Realforce 91UDK-G",
-    "price": 5888,
+    "price": 5666,
     "url": "https://jp.mercari.com/item/m53491598925",
     "image": "https://static.mercdn.net/thumb/item/webp/m53491598925_1.jpg?1788075259",
     "postedAt": "",
@@ -1511,5 +1511,89 @@
       "Apple M0116"
     ],
     "crawledAt": "2026-09-08T05:27:17.758Z"
+  },
+  {
+    "name": "REALFORCE R3S キーボード テンキーレス ブラック R3SC12",
+    "price": 15000,
+    "url": "https://jp.mercari.com/item/m93447124351",
+    "image": "https://static.mercdn.net/thumb/item/webp/m93447124351_1.jpg?1788858600",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m93447124351_1.jpg?1788858600"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T09:19:22.389Z"
+  },
+  {
+    "name": "BUFFALO 有線USBキーボード 日本語配列 ホワイト",
+    "price": 1800,
+    "url": "https://jp.mercari.com/item/m39935243465",
+    "image": "https://static.mercdn.net/thumb/item/webp/m39935243465_1.jpg?1786001032",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m39935243465_1.jpg?1786001032"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T09:19:22.389Z"
+  },
+  {
+    "name": "REALFORCE R2TLSA-JP3-BK キーボード 本体",
+    "price": 11000,
+    "url": "https://jp.mercari.com/item/m97418296028",
+    "image": "https://static.mercdn.net/thumb/item/webp/m97418296028_1.jpg?1785801345",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m97418296028_1.jpg?1785801345"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T09:19:22.389Z"
+  },
+  {
+    "name": "Realforce 106 キーボード 本体",
+    "price": 8500,
+    "url": "https://jp.mercari.com/item/m96814054294",
+    "image": "https://static.mercdn.net/thumb/item/webp/m96814054294_1.jpg?1788344684",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m96814054294_1.jpg?1788344684"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T09:19:22.389Z"
   }
 ]
