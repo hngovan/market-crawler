@@ -106,7 +106,7 @@
   },
   {
     "name": "REALFORCE ラピッドトリガー キーボード GX1 静音 30ｇ 英語配列",
-    "price": 13000,
+    "price": 19000,
     "url": "https://jp.mercari.com/item/m22606501146",
     "image": "https://static.mercdn.net/thumb/item/webp/m22606501146_1.jpg?1788050655",
     "postedAt": "",
@@ -148,7 +148,7 @@
   },
   {
     "name": "REALFORCE キーボード",
-    "price": 23000,
+    "price": 20000,
     "url": "https://jp.mercari.com/item/m86300883405",
     "image": "https://static.mercdn.net/thumb/item/webp/m86300883405_1.jpg?1788654440",
     "postedAt": "",
@@ -1219,7 +1219,7 @@
   },
   {
     "name": "REALFORCE RC1 30g 日本語配列　アイボリー",
-    "price": 29000,
+    "price": 28000,
     "url": "https://jp.mercari.com/item/m69150960148",
     "image": "https://static.mercdn.net/thumb/item/webp/m69150960148_1.jpg?1788748632",
     "postedAt": "",
@@ -1405,5 +1405,89 @@
       "realforce"
     ],
     "crawledAt": "2026-09-07T16:50:55.995Z"
+  },
+  {
+    "name": "REALFORCE RC1 キーボード 本体 ホワイト",
+    "price": 27000,
+    "url": "https://jp.mercari.com/item/m82053831213",
+    "image": "https://static.mercdn.net/thumb/item/webp/m82053831213_1.jpg?1787853130",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m82053831213_1.jpg?1787853130"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T00:47:55.864Z"
+  },
+  {
+    "name": "REALFORCE R2-JP4-BK/AGAZ01 キーボード",
+    "price": 9250,
+    "url": "https://jp.mercari.com/item/m90373311589",
+    "image": "https://static.mercdn.net/thumb/item/webp/m90373311589_1.jpg?1786189805",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m90373311589_1.jpg?1786189805"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T00:47:55.864Z"
+  },
+  {
+    "name": "HHKB Realforce NiZ キースイッチ プランジャー パーツ",
+    "price": 5800,
+    "url": "https://jp.mercari.com/item/m10857328732",
+    "image": "https://static.mercdn.net/thumb/item/webp/m10857328732_1.jpg?1788077366",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m10857328732_1.jpg?1788077366"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T00:47:55.864Z"
+  },
+  {
+    "name": "猫麦とろろ アクリルスタンド",
+    "price": 6000,
+    "url": "https://jp.mercari.com/item/m47174694088",
+    "image": "https://static.mercdn.net/thumb/item/webp/m47174694088_1.jpg?1782993965",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m47174694088_1.jpg?1782993965"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-08T00:47:55.864Z"
   }
 ]
