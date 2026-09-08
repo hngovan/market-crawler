@@ -1066,7 +1066,8 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "keywords": [
-      "Apple Standard Keyboard"
+      "Apple Standard Keyboard",
+      "Apple M0116"
     ],
     "crawledAt": "2026-09-07T04:25:36.507Z"
   },
@@ -1489,5 +1490,26 @@
       "realforce"
     ],
     "crawledAt": "2026-09-08T00:47:55.864Z"
+  },
+  {
+    "name": "1988年製Apple keyboard配列(m0116)PCB 基板",
+    "price": 5500,
+    "url": "https://jp.mercari.com/item/m55421745514",
+    "image": "https://static.mercdn.net/thumb/item/webp/m55421745514_1.jpg?1784081537",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m55421745514_1.jpg?1784081537"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "Apple M0116"
+    ],
+    "crawledAt": "2026-09-08T05:27:17.758Z"
   }
 ]

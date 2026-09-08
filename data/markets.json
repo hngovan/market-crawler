@@ -70,18 +70,19 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 71,
+    "count": 72,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Apple M0116",
       "keywords": [
+        "Apple M0116",
         "realforce",
         "Apple Standard Keyboard"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T00:47:55.864Z"
+      "crawledAt": "2026-09-08T05:27:17.758Z"
     }
   },
   {
@@ -92,20 +93,21 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 74,
+    "count": 104,
     "error": "",
     "dataFile": "data/goofish.json",
     "crawl": {
-      "keyword": "Metakeebs 胶碗",
+      "keyword": "Apple M0116",
       "keywords": [
-        "Metakeebs 胶碗",
+        "Apple M0116",
         "realforce",
         "三亩S58m",
-        "三亩S80"
+        "三亩S80",
+        "Metakeebs 胶碗"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-07T01:03:47.954Z"
+      "crawledAt": "2026-09-08T05:27:17.758Z"
     }
   }
 ]
