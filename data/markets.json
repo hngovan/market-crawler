@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 62,
+    "count": 64,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T15:38:45.016Z"
+      "crawledAt": "2026-09-09T00:51:26.800Z"
     }
   },
   {
@@ -28,7 +28,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 12,
+    "count": 13,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T15:38:45.016Z"
+      "crawledAt": "2026-09-09T00:51:26.800Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T15:38:45.016Z"
+      "crawledAt": "2026-09-09T00:51:26.800Z"
     }
   },
   {
@@ -82,7 +82,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T15:38:45.016Z"
+      "crawledAt": "2026-09-09T00:51:26.800Z"
     }
   },
   {
