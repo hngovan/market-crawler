@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 64,
+    "count": 66,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-09T00:51:26.800Z"
+      "crawledAt": "2026-09-09T06:40:32.800Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-09T00:51:26.800Z"
+      "crawledAt": "2026-09-09T06:40:32.800Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-09T00:51:26.800Z"
+      "crawledAt": "2026-09-09T06:40:32.800Z"
     }
   },
   {
@@ -70,7 +70,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 89,
+    "count": 93,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -82,7 +82,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-09T00:51:26.800Z"
+      "crawledAt": "2026-09-09T06:40:32.800Z"
     }
   },
   {
@@ -93,22 +93,22 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 105,
+    "count": 128,
     "error": "",
     "dataFile": "data/goofish.json",
     "crawl": {
-      "keyword": "绝版sam rm.6",
+      "keyword": "realforce",
       "keywords": [
-        "绝版sam rm.6",
         "realforce",
         "三亩S58m",
         "三亩S80",
         "Metakeebs 胶碗",
-        "Apple M0116"
+        "Apple M0116",
+        "绝版sam rm.6"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-09T03:09:48.318Z"
+      "crawledAt": "2026-09-09T06:40:32.800Z"
     }
   }
 ]
