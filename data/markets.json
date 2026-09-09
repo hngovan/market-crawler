@@ -93,21 +93,22 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 104,
+    "count": 105,
     "error": "",
     "dataFile": "data/goofish.json",
     "crawl": {
-      "keyword": "Apple M0116",
+      "keyword": "绝版sam rm.6",
       "keywords": [
-        "Apple M0116",
+        "绝版sam rm.6",
         "realforce",
         "三亩S58m",
         "三亩S80",
-        "Metakeebs 胶碗"
+        "Metakeebs 胶碗",
+        "Apple M0116"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-08T05:27:17.758Z"
+      "crawledAt": "2026-09-09T03:09:48.318Z"
     }
   }
 ]
