@@ -16,6 +16,8 @@ class CrawlWorkflowTest(unittest.TestCase):
         )
         self.assertIn('--keywords="$CHINA_KEYWORDS" --markets="goofish"', workflow)
         self.assertIn('--keywords="$KEYWORDS" --markets="$non_china_markets"', workflow)
+        self.assertIn('if ! node crawl.js --keywords="$CHINA_KEYWORDS" --markets="goofish"', workflow)
+        self.assertIn('::warning::Goofish crawl failed; keeping the previous data and manifest error.', workflow)
 
     def test_crawl_panel_selects_goofish(self):
         panel = (ROOT / "index.html").read_text(encoding="utf-8")

@@ -98,7 +98,9 @@ jobs:
           fi
 
           if [[ "$run_goofish" == true ]]; then
-            node crawl.js --keywords="$CHINA_KEYWORDS" --markets="goofish" --sort="$SORT" --limit="$LIMIT"
+            if ! node crawl.js --keywords="$CHINA_KEYWORDS" --markets="goofish" --sort="$SORT" --limit="$LIMIT"; then
+              echo "::warning::Goofish crawl failed; keeping the previous data and manifest error."
+            fi
           fi
       - name: Clear product data
         if: ${{ inputs.operation == 'clear' }}

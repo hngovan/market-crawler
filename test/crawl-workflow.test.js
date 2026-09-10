@@ -12,6 +12,11 @@ test("workflow gives Goofish its China-only keyword set", async () => {
   assert.match(workflow, /CHINA_KEYWORDS: \$\{\{ inputs\.china_keywords \|\| '三亩S80,三亩s58m,MetaKeebs,realforce' \}\}/);
   assert.match(workflow, /--keywords="\$CHINA_KEYWORDS" --markets="goofish"/);
   assert.match(workflow, /--keywords="\$KEYWORDS" --markets="\$non_china_markets"/);
+  assert.match(workflow, /if ! node crawl\.js --keywords="\$CHINA_KEYWORDS" --markets="goofish"/);
+  assert.match(
+    workflow,
+    /::warning::Goofish crawl failed; keeping the previous data and manifest error\./,
+  );
 });
 
 test("crawl panel selects Goofish by default", async () => {
