@@ -3,7 +3,7 @@ import test from "node:test";
 
 import crawlHandler from "../api/crawl.js";
 
-test("Vercel crawl API sends the entered keyword to Goofish instead of the scheduled China defaults", async (t) => {
+test("Vercel crawl API dispatches the entered keyword without a separate China keyword list", async (t) => {
   const originalFetch = global.fetch;
   const originalEnv = {
     CRAWL_TRIGGER_SECRET: process.env.CRAWL_TRIGGER_SECRET,
@@ -68,7 +68,6 @@ test("Vercel crawl API sends the entered keyword to Goofish instead of the sched
       request_id: payload.requestId,
       keyword: "三亩s58m",
       keywords: "三亩s58m,MetaKeebs",
-      china_keywords: "三亩s58m",
       limit: "50",
       markets: "goofish",
       sort: "newest",

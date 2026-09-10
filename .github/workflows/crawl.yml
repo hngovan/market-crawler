@@ -24,10 +24,6 @@ on:
         description: Comma-separated search keywords for Korea and Japan markets
         required: false
         default: realforce
-      china_keywords:
-        description: Comma-separated search keywords for Goofish
-        required: false
-        default: 三亩S80,三亩s58m,MetaKeebs,realforce
       markets:
         description: Comma-separated markets
         required: true
@@ -61,7 +57,6 @@ jobs:
     env:
       KEYWORD: ${{ inputs.keyword || 'realforce' }}
       KEYWORDS: ${{ inputs.keywords || inputs.keyword || 'realforce' }}
-      CHINA_KEYWORDS: ${{ inputs.china_keywords || '三亩S80,三亩s58m,MetaKeebs,realforce' }}
       MARKETS: ${{ inputs.markets || 'joongna,bunjang,guheyo,mercari,goofish' }}
       SORT: ${{ inputs.sort || 'newest' }}
       LIMIT: ${{ inputs.limit || '50' }}
@@ -98,7 +93,7 @@ jobs:
           fi
 
           if [[ "$run_goofish" == true ]]; then
-            if ! node crawl.js --keywords="$CHINA_KEYWORDS" --markets="goofish" --sort="$SORT" --limit="$LIMIT"; then
+            if ! node crawl.js --keywords="$KEYWORDS" --markets="goofish" --sort="$SORT" --limit="$LIMIT"; then
               echo "::warning::Goofish crawl failed; keeping the previous data and manifest error."
             fi
           fi

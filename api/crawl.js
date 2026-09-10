@@ -45,7 +45,6 @@ export default async function handler(request, response) {
           request_id: requestId,
           keyword: options.keyword,
           keywords: options.keywords.join(","),
-          china_keywords: options.keyword,
           limit: String(options.limit),
           markets: options.markets.join(","),
           sort: options.sort,
