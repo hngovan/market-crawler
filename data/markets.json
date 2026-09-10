@@ -93,7 +93,7 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 128,
+    "count": 143,
     "error": "",
     "dataFile": "data/goofish.json",
     "crawl": {
@@ -108,7 +108,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-09T06:40:32.800Z"
+      "crawledAt": "2026-09-10T03:26:00.739Z"
     }
   }
 ]
