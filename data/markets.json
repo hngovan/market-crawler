@@ -7,18 +7,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 52,
+    "count": 0,
     "error": "",
-    "dataFile": "data/joongna.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T08:43:30.987Z"
-    }
+    "dataFile": "data/joongna.json"
   },
   {
     "id": "bunjang",
@@ -28,18 +19,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 12,
+    "count": 0,
     "error": "",
-    "dataFile": "data/bunjang.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T08:43:30.987Z"
-    }
+    "dataFile": "data/bunjang.json"
   },
   {
     "id": "guheyo",
@@ -49,18 +31,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 61,
+    "count": 0,
     "error": "",
-    "dataFile": "data/guheyo.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T08:43:30.987Z"
-    }
+    "dataFile": "data/guheyo.json"
   },
   {
     "id": "mercari",
@@ -70,18 +43,9 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 56,
+    "count": 0,
     "error": "",
-    "dataFile": "data/mercari.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T08:43:30.987Z"
-    }
+    "dataFile": "data/mercari.json"
   },
   {
     "id": "goofish",
@@ -90,21 +54,9 @@
     "regionName": "Trung Quốc",
     "regionFlag": "🇨🇳",
     "currency": "CNY",
-    "status": "skipped",
-    "count": 30,
-    "error": "三亩S80: Apify returned no valid Goofish products | 三亩s58m: Apify returned no valid Goofish products | MetaKeebs: Apify returned no valid Goofish products | realforce: Apify returned no valid Goofish products",
-    "dataFile": "data/goofish.json",
-    "crawl": {
-      "keyword": "三亩S80",
-      "keywords": [
-        "三亩S80",
-        "三亩s58m",
-        "MetaKeebs",
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T08:50:14.633Z"
-    }
+    "status": "success",
+    "count": 0,
+    "error": "",
+    "dataFile": "data/goofish.json"
   }
 ]
