@@ -25,10 +25,11 @@
     "price": 700,
     "url": "https://jp.mercari.com/item/m88201298745",
     "image": "https://static.mercdn.net/thumb/item/webp/m88201298745_1.jpg?1789024863",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-09-10T07:38:28.105Z",
+    "postedAtText": "3時間前",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m88201298745_1.jpg?1789024863"
+      "https://static.mercdn.net/item/detail/orig/photos/m88201298745_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m88201298745_2.jpg"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -739,10 +740,13 @@
     "price": 11000,
     "url": "https://jp.mercari.com/item/m97418296028",
     "image": "https://static.mercdn.net/thumb/item/webp/m97418296028_1.jpg?1785801345",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-09-08T10:38:58.386Z",
+    "postedAtText": "2日前",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m97418296028_1.jpg?1785801345"
+      "https://static.mercdn.net/item/detail/orig/photos/m97418296028_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m97418296028_2.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m97418296028_3.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m97418296028_4.jpg"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -757,7 +761,7 @@
   },
   {
     "name": "Realforce 106 キーボード 本体",
-    "price": 8500,
+    "price": 7000,
     "url": "https://jp.mercari.com/item/m96814054294",
     "image": "https://static.mercdn.net/thumb/item/webp/m96814054294_1.jpg?1788344684",
     "postedAt": "",
@@ -1048,5 +1052,26 @@
       "realforce"
     ],
     "crawledAt": "2026-09-10T10:01:07.131Z"
+  },
+  {
+    "name": "REALFORCE R3 キーボード Mac用 R3HG21",
+    "price": 20000,
+    "url": "https://jp.mercari.com/item/m62740795847",
+    "image": "https://static.mercdn.net/thumb/item/webp/m62740795847_1.jpg?1788590931",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m62740795847_1.jpg?1788590931"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-10T10:35:34.224Z"
   }
 ]
