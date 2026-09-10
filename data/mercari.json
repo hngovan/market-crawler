@@ -64,7 +64,7 @@
   },
   {
     "name": "REALFORCE 91UBK キーボード NG01B0 本体",
-    "price": 5600,
+    "price": 5500,
     "url": "https://jp.mercari.com/item/m48870882775",
     "image": "https://static.mercdn.net/thumb/item/webp/m48870882775_1.jpg?1788960640",
     "postedAt": "",
@@ -235,20 +235,10 @@
     "price": 2600,
     "url": "https://jp.mercari.com/item/m69401875883",
     "image": "https://static.mercdn.net/thumb/item/webp/m69401875883_1.jpg?1788994063",
-    "postedAt": "2026-09-09T22:48:18.827Z",
-    "postedAtText": "5時間前",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_1.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_2.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_3.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_4.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_5.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_6.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_7.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_8.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_9.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_10.jpg",
-      "https://static.mercdn.net/item/detail/orig/photos/m69401875883_11.jpg"
+      "https://static.mercdn.net/thumb/item/webp/m69401875883_1.jpg?1788994063"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -788,7 +778,7 @@
   },
   {
     "name": "REALFORCE R2-JP4-BK/AGAZ01 キーボード",
-    "price": 9250,
+    "price": 8999,
     "url": "https://jp.mercari.com/item/m90373311589",
     "image": "https://static.mercdn.net/thumb/item/webp/m90373311589_1.jpg?1786189805",
     "postedAt": "",
@@ -1058,5 +1048,47 @@
       "realforce"
     ],
     "crawledAt": "2026-09-10T03:45:51.822Z"
+  },
+  {
+    "name": "REALFORCE キーボード 本体　GX1 45g　US配列",
+    "price": 12200,
+    "url": "https://jp.mercari.com/item/m82068002578",
+    "image": "https://static.mercdn.net/thumb/item/webp/m82068002578_1.jpg?1786934759",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m82068002578_1.jpg?1786934759"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-10T07:07:57.988Z"
+  },
+  {
+    "name": "値下げ不可 Realforce RC1 純正キーキャップ変更 おまけ付 45g",
+    "price": 20980,
+    "url": "https://jp.mercari.com/item/m89109708644",
+    "image": "https://static.mercdn.net/thumb/item/webp/m89109708644_1.jpg?1787989904",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m89109708644_1.jpg?1787989904"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-10T07:07:57.988Z"
   }
 ]
