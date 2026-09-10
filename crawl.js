@@ -8,6 +8,7 @@ import {
   createMarketStatus,
   extractProductKeywords,
   mergeProductsByUrl,
+  summarizeKeywordErrors,
 } from "./src/market-output.js";
 import { crawlBunjang, bunjangMarket } from "./src/markets/bunjang.js";
 import { crawlGuheyo, guheyoMarket } from "./src/markets/guheyo.js";
@@ -93,7 +94,7 @@ async function crawl() {
       mergeProductsByUrl([...(await readExistingProducts(marketId)), ...products]),
       crawledAt,
     );
-    let error = products.length === 0 ? errors.join(" | ") : "";
+    const error = summarizeKeywordErrors(errors);
     if (products.length > 0) {
       console.log(`\n${adapter.market.name} products (${products.length}):`);
       products.forEach((product, index) => console.log(formatProductLog(product, index)));

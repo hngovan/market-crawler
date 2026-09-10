@@ -7,6 +7,7 @@ import {
   createMarketStatus,
   extractProductKeywords,
   mergeProductsByUrl,
+  summarizeKeywordErrors,
 } from "../src/market-output.js";
 
 test("adds native market metadata to products", () => {
@@ -183,4 +184,18 @@ test("extracts unique product keywords for crawl metadata", () => {
     ],
     ["realforce 101", "realforce"],
   );
+});
+
+test("preserves keyword errors when retained products exist", () => {
+  const error = summarizeKeywordErrors([
+    "三亩S80: Apify returned no valid Goofish products",
+  ]);
+  const status = createMarketStatus(
+    { id: "goofish", name: "Goofish", currency: "CNY" },
+    [{ name: "Existing product" }],
+    error,
+  );
+
+  assert.equal(status.status, "skipped");
+  assert.match(status.error, /三亩S80/);
 });

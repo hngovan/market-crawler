@@ -12,8 +12,12 @@ function buildSearchUrl(keyword) {
   return url.href;
 }
 
-async function crawlGoofishViaApify({ keyword, limit }) {
-  const token = process.env.APIFY_TOKEN;
+export async function crawlGoofishViaApify({
+  keyword,
+  limit,
+  token = process.env.APIFY_TOKEN,
+  fetchImpl = fetch,
+}) {
   if (!token) return null;
   const actor = (
     process.env.APIFY_GOOFISH_ACTOR || "zen-studio/goofish-xianyu-search-scraper"
@@ -21,8 +25,8 @@ async function crawlGoofishViaApify({ keyword, limit }) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 300000);
   try {
-    const response = await fetch(
-      `https://api.apify.com/v2/acts/${encodeURIComponent(actor)}/run-sync-get-dataset-items?format=json`,
+    const runResponse = await fetchImpl(
+      `https://api.apify.com/v2/acts/${encodeURIComponent(actor)}/runs?waitForFinish=300`,
       {
         method: "POST",
         headers: {
@@ -38,13 +42,31 @@ async function crawlGoofishViaApify({ keyword, limit }) {
         signal: controller.signal,
       },
     );
-    if (!response.ok) {
-      const message = (await response.text()).slice(0, 300);
+    if (!runResponse.ok) {
+      const message = (await runResponse.text()).slice(0, 300);
       throw new Error(
-        `Apify Goofish request failed: HTTP ${response.status}${message ? ` - ${message}` : ""}`,
+        `Apify Goofish run failed: HTTP ${runResponse.status}${message ? ` - ${message}` : ""}`,
       );
     }
-    const payload = await response.json();
+    const run = (await runResponse.json()).data;
+    if (run?.status !== "SUCCEEDED" || !run.defaultDatasetId) {
+      throw new Error(`Apify Goofish run did not succeed: ${run?.status || "unknown"}`);
+    }
+
+    const datasetResponse = await fetchImpl(
+      `https://api.apify.com/v2/datasets/${encodeURIComponent(run.defaultDatasetId)}/items?format=json`,
+      {
+        headers: { Authorization: `Bearer ${token}` },
+        signal: controller.signal,
+      },
+    );
+    if (!datasetResponse.ok) {
+      const message = (await datasetResponse.text()).slice(0, 300);
+      throw new Error(
+        `Apify Goofish dataset failed: HTTP ${datasetResponse.status}${message ? ` - ${message}` : ""}`,
+      );
+    }
+    const payload = await datasetResponse.json();
     const products = extractGoofishProducts(payload);
     if (products.length === 0) throw new Error("Apify returned no valid Goofish products");
     return products.slice(0, limit);

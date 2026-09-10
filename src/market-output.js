@@ -39,6 +39,10 @@ export function extractProductKeywords(products) {
   return [...new Set(products.flatMap((product) => product.keywords ?? []))];
 }
 
+export function summarizeKeywordErrors(errors) {
+  return errors.join(" | ");
+}
+
 export function createMarketStatus(market, products, error = "", crawl = {}) {
   return {
     id: market.id,
