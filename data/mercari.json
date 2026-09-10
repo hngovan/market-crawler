@@ -340,10 +340,19 @@
     "price": 5600,
     "url": "https://jp.mercari.com/item/m98251148412",
     "image": "https://static.mercdn.net/thumb/item/webp/m98251148412_1.jpg?1788960163",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-09-09T13:31:42.548Z",
+    "postedAtText": "20時間前",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m98251148412_1.jpg?1788960163"
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_2.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_3.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_4.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_5.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_6.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_7.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_8.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_9.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m98251148412_10.jpg"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -487,10 +496,17 @@
     "price": 16900,
     "url": "https://jp.mercari.com/item/m50803073491",
     "image": "https://static.mercdn.net/thumb/item/webp/m50803073491_1.jpg?1788218820",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-09-09T09:31:49.273Z",
+    "postedAtText": "1日前",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m50803073491_1.jpg?1788218820"
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_2.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_3.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_4.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_5.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_6.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_7.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m50803073491_8.jpg"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -1048,5 +1064,26 @@
       "realforce"
     ],
     "crawledAt": "2026-09-10T09:16:21.800Z"
+  },
+  {
+    "name": "REALFORCE GX1 英語配列 30g（型番: X1UD13）",
+    "price": 9800,
+    "url": "https://jp.mercari.com/item/m31403509168",
+    "image": "https://static.mercdn.net/thumb/item/webp/m31403509168_1.jpg?1789032556",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m31403509168_1.jpg?1789032556"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-10T09:28:18.696Z"
   }
 ]
