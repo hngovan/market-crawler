@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 51,
+    "count": 52,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-10T07:36:01.594Z"
+      "crawledAt": "2026-09-10T08:43:30.987Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-10T07:36:01.594Z"
+      "crawledAt": "2026-09-10T08:43:30.987Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-10T07:36:01.594Z"
+      "crawledAt": "2026-09-10T08:43:30.987Z"
     }
   },
   {
@@ -70,7 +70,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 55,
+    "count": 56,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -80,7 +80,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-10T07:36:01.594Z"
+      "crawledAt": "2026-09-10T08:43:30.987Z"
     }
   },
   {
@@ -90,9 +90,9 @@
     "regionName": "Trung Quốc",
     "regionFlag": "🇨🇳",
     "currency": "CNY",
-    "status": "success",
+    "status": "skipped",
     "count": 30,
-    "error": "",
+    "error": "三亩S80: Apify returned no valid Goofish products | 三亩s58m: Apify returned no valid Goofish products | MetaKeebs: Apify returned no valid Goofish products | realforce: Apify returned no valid Goofish products",
     "dataFile": "data/goofish.json",
     "crawl": {
       "keyword": "三亩S80",
@@ -104,7 +104,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-10T08:30:28.275Z"
+      "crawledAt": "2026-09-10T08:47:16.260Z"
     }
   }
 ]

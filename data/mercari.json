@@ -781,10 +781,12 @@
     "price": 8999,
     "url": "https://jp.mercari.com/item/m90373311589",
     "image": "https://static.mercdn.net/thumb/item/webp/m90373311589_1.jpg?1786189805",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-09-10T07:47:05.770Z",
+    "postedAtText": "1時間前",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m90373311589_1.jpg?1786189805"
+      "https://static.mercdn.net/item/detail/orig/photos/m90373311589_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m90373311589_2.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m90373311589_3.jpg"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -1153,5 +1155,26 @@
       "realforce"
     ],
     "crawledAt": "2026-09-10T07:36:01.594Z"
+  },
+  {
+    "name": "◯ REALFORCE R2-USV-BK(ブラック) USキーボード",
+    "price": 14001,
+    "url": "https://jp.mercari.com/item/m52466800236",
+    "image": "https://static.mercdn.net/thumb/item/webp/m52466800236_1.jpg?1789026352",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m52466800236_1.jpg?1789026352"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-10T08:43:30.987Z"
   }
 ]
