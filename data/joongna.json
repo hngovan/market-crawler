@@ -69,7 +69,7 @@
       "https://img2.joongna.com/media/original/2026/09/06/1788678893027xT7_WkHEq.jpg",
       "https://img2.joongna.com/media/original/2026/09/06/1788678893179Ukj_FcfQQ.jpg"
     ],
-    "postedAt": "2026-09-06T22:28:40.000Z",
+    "postedAt": "2026-09-09T22:41:39.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -89,7 +89,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/08/14/1786663741218pEJ_14jag.jpg"
     ],
-    "postedAt": "2026-09-07T21:43:27.000Z",
+    "postedAt": "2026-09-09T22:41:48.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -112,7 +112,7 @@
       "https://img2.joongna.com/media/original/2026/09/01/1788210724181mNo_sIXPA.jpg",
       "https://img2.joongna.com/media/original/2026/09/01/1788210724274XYT_yHEv8.jpg"
     ],
-    "postedAt": "2026-09-07T21:26:22.000Z",
+    "postedAt": "2026-09-09T22:39:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -130,7 +130,9 @@
     "url": "https://web.joongna.com/product/230380189",
     "image": "https://img2.joongna.com/media/original/2026/07/07/1783383463571CII_mpvsc.png?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/07/07/1783383463571CII_mpvsc.png?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/07/07/1783383463571CII_mpvsc.png",
+      "https://img2.joongna.com/media/original/2026/07/07/17833834635718rd_PIxhe.png",
+      "https://img2.joongna.com/media/original/2026/07/07/1783383463572LcZ_lhSdO.png"
     ],
     "postedAt": "2026-09-09T05:49:45.000Z",
     "market": "joongna",
@@ -1057,7 +1059,7 @@
       "https://img2.joongna.com/media/original/2026/09/02/17883245313437St_PbBiK.jpg",
       "https://img2.joongna.com/media/original/2026/09/02/1788324531511Jkr_c5dii.jpg"
     ],
-    "postedAt": "2026-09-09T00:38:57.000Z",
+    "postedAt": "2026-09-09T23:29:47.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1545,5 +1547,26 @@
       "realforce"
     ],
     "crawledAt": "2026-09-09T15:32:41.366Z"
+  },
+  {
+    "name": "리얼포스 R4 블랙저소음 45g 균등 판매합니다",
+    "price": 350000,
+    "url": "https://web.joongna.com/product/232296121",
+    "image": "https://img2.joongna.com/media/original/2026/09/10/1788996264560fbl_jm70n.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/10/1788996264560fbl_jm70n.jpg",
+      "https://img2.joongna.com/media/original/2026/09/10/1788996264749vfR_IYZTC.jpg"
+    ],
+    "postedAt": "2026-09-09T23:24:24.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-10T00:42:39.567Z"
   }
 ]
