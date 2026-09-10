@@ -7,18 +7,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 70,
+    "count": 0,
     "error": "",
-    "dataFile": "data/joongna.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T00:42:39.567Z"
-    }
+    "dataFile": "data/joongna.json"
   },
   {
     "id": "bunjang",
@@ -28,18 +19,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 13,
+    "count": 0,
     "error": "",
-    "dataFile": "data/bunjang.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T00:42:39.567Z"
-    }
+    "dataFile": "data/bunjang.json"
   },
   {
     "id": "guheyo",
@@ -49,18 +31,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 36,
+    "count": 0,
     "error": "",
-    "dataFile": "data/guheyo.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T00:42:39.567Z"
-    }
+    "dataFile": "data/guheyo.json"
   },
   {
     "id": "mercari",
@@ -70,20 +43,9 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 108,
+    "count": 0,
     "error": "",
-    "dataFile": "data/mercari.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce",
-        "Apple Standard Keyboard",
-        "Apple M0116"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T00:42:39.567Z"
-    }
+    "dataFile": "data/mercari.json"
   },
   {
     "id": "goofish",
@@ -93,22 +55,8 @@
     "regionFlag": "🇨🇳",
     "currency": "CNY",
     "status": "success",
-    "count": 143,
+    "count": 0,
     "error": "",
-    "dataFile": "data/goofish.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce",
-        "三亩S58m",
-        "三亩S80",
-        "Metakeebs 胶碗",
-        "Apple M0116",
-        "绝版sam rm.6"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-10T03:26:00.739Z"
-    }
+    "dataFile": "data/goofish.json"
   }
 ]
