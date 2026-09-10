@@ -7,9 +7,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 0,
+    "count": 50,
     "error": "",
-    "dataFile": "data/joongna.json"
+    "dataFile": "data/joongna.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-10T10:01:07.131Z"
+    }
   },
   {
     "id": "bunjang",
@@ -19,9 +28,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 0,
+    "count": 12,
     "error": "",
-    "dataFile": "data/bunjang.json"
+    "dataFile": "data/bunjang.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-10T10:01:07.131Z"
+    }
   },
   {
     "id": "guheyo",
@@ -31,9 +49,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 0,
+    "count": 36,
     "error": "",
-    "dataFile": "data/guheyo.json"
+    "dataFile": "data/guheyo.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-10T10:01:07.131Z"
+    }
   },
   {
     "id": "mercari",
@@ -43,9 +70,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 0,
+    "count": 50,
     "error": "",
-    "dataFile": "data/mercari.json"
+    "dataFile": "data/mercari.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-10T10:01:07.131Z"
+    }
   },
   {
     "id": "goofish",
@@ -54,9 +90,18 @@
     "regionName": "Trung Quốc",
     "regionFlag": "🇨🇳",
     "currency": "CNY",
-    "status": "success",
+    "status": "skipped",
     "count": 0,
-    "error": "",
-    "dataFile": "data/goofish.json"
+    "error": "realforce: Apify returned no valid Goofish products",
+    "dataFile": "data/goofish.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-10T10:04:09.833Z"
+    }
   }
 ]
