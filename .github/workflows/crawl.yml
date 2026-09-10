@@ -21,13 +21,17 @@ on:
         required: true
         default: realforce
       keywords:
-        description: Comma-separated search keywords
+        description: Comma-separated search keywords for Korea and Japan markets
         required: false
         default: realforce
+      china_keywords:
+        description: Comma-separated search keywords for Goofish
+        required: false
+        default: 三亩S80,三亩s58m,MetaKeebs,realforce
       markets:
         description: Comma-separated markets
         required: true
-        default: joongna,bunjang,guheyo,mercari
+        default: joongna,bunjang,guheyo,mercari,goofish
       sort:
         description: Sort order
         required: true
@@ -57,7 +61,8 @@ jobs:
     env:
       KEYWORD: ${{ inputs.keyword || 'realforce' }}
       KEYWORDS: ${{ inputs.keywords || inputs.keyword || 'realforce' }}
-      MARKETS: ${{ inputs.markets || 'joongna,bunjang,guheyo,mercari' }}
+      CHINA_KEYWORDS: ${{ inputs.china_keywords || '三亩S80,三亩s58m,MetaKeebs,realforce' }}
+      MARKETS: ${{ inputs.markets || 'joongna,bunjang,guheyo,mercari,goofish' }}
       SORT: ${{ inputs.sort || 'newest' }}
       LIMIT: ${{ inputs.limit || '50' }}
       PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome
@@ -74,7 +79,27 @@ jobs:
         run: google-chrome --version
       - name: Crawl products
         if: ${{ inputs.operation != 'clear' }}
-        run: node crawl.js --keywords="$KEYWORDS" --markets="$MARKETS" --sort="$SORT" --limit="$LIMIT"
+        shell: bash
+        run: |
+          IFS=',' read -r -a selected_markets <<< "$MARKETS"
+          non_china_markets=""
+          run_goofish=false
+
+          for market in "${selected_markets[@]}"; do
+            if [[ "$market" == "goofish" ]]; then
+              run_goofish=true
+            elif [[ -n "$market" ]]; then
+              non_china_markets+="${non_china_markets:+,}${market}"
+            fi
+          done
+
+          if [[ -n "$non_china_markets" ]]; then
+            node crawl.js --keywords="$KEYWORDS" --markets="$non_china_markets" --sort="$SORT" --limit="$LIMIT"
+          fi
+
+          if [[ "$run_goofish" == true ]]; then
+            node crawl.js --keywords="$CHINA_KEYWORDS" --markets="goofish" --sort="$SORT" --limit="$LIMIT"
+          fi
       - name: Clear product data
         if: ${{ inputs.operation == 'clear' }}
         run: node scripts/clear-data.js
