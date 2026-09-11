@@ -1,7 +1,7 @@
 [
   {
     "name": "◯ REALFORCE R2-USV-BK(ブラック) USキーボード",
-    "price": 14001,
+    "price": 13901,
     "url": "https://jp.mercari.com/item/m52466800236",
     "image": "https://static.mercdn.net/thumb/item/webp/m52466800236_1.jpg?1789026352",
     "postedAt": "",
@@ -67,10 +67,11 @@
     "price": 9800,
     "url": "https://jp.mercari.com/item/m28393705777",
     "image": "https://static.mercdn.net/thumb/item/webp/m28393705777_1.jpg?1781413169",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-09-10T09:19:00.993Z",
+    "postedAtText": "1日前",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m28393705777_1.jpg?1781413169"
+      "https://static.mercdn.net/item/detail/orig/photos/m28393705777_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m28393705777_2.jpg"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -1321,5 +1322,26 @@
       "realforce"
     ],
     "crawledAt": "2026-09-11T08:28:44.093Z"
+  },
+  {
+    "name": "東プレ REALFORCE 108UH-S/SA010S ALL45g 静音",
+    "price": 16000,
+    "url": "https://jp.mercari.com/item/m69497834024",
+    "image": "https://static.mercdn.net/thumb/item/webp/m69497834024_1.jpg?1789116659",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m69497834024_1.jpg?1789116659"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-11T09:15:30.323Z"
   }
 ]
