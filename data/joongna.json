@@ -8,7 +8,7 @@
       "https://img2.joongna.com/media/original/2026/09/10/1788996264560fbl_jm70n.jpg",
       "https://img2.joongna.com/media/original/2026/09/10/1788996264749vfR_IYZTC.jpg"
     ],
-    "postedAt": "2026-09-11T04:15:57.000Z",
+    "postedAt": "2026-09-12T04:42:21.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -30,7 +30,7 @@
       "https://img2.joongna.com/media/original/2026/09/10/1789029782946RFI_FRQIh.jpg",
       "https://img2.joongna.com/media/original/2026/09/10/1789029783038fuP_F3S8i.jpg"
     ],
-    "postedAt": "2026-09-10T08:43:03.000Z",
+    "postedAt": "2026-09-12T04:33:57.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -64,7 +64,7 @@
   },
   {
     "name": "리얼포스 R3 TLS 45g 균등",
-    "price": 160000,
+    "price": 155000,
     "url": "https://web.joongna.com/product/232241384",
     "image": "https://img2.joongna.com/media/original/2026/09/08/178883482612828C_SNrmH.jpg?impolicy=thumb&size=150",
     "images": [
@@ -77,7 +77,7 @@
       "https://img2.joongna.com/media/original/2026/09/08/1788834825896WeA_ngySb.jpg",
       "https://img2.joongna.com/media/original/2026/09/08/1788834826005bWB_y1ni6.jpg"
     ],
-    "postedAt": "2026-09-11T09:56:43.000Z",
+    "postedAt": "2026-09-12T02:47:03.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -179,7 +179,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/08/14/1786663741218pEJ_14jag.jpg"
     ],
-    "postedAt": "2026-09-12T00:18:03.000Z",
+    "postedAt": "2026-09-12T01:15:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -200,7 +200,7 @@
       "https://img2.joongna.com/media/original/2026/09/06/1788678893027xT7_WkHEq.jpg",
       "https://img2.joongna.com/media/original/2026/09/06/1788678893179Ukj_FcfQQ.jpg"
     ],
-    "postedAt": "2026-09-12T00:17:51.000Z",
+    "postedAt": "2026-09-12T01:15:45.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -223,7 +223,7 @@
       "https://img2.joongna.com/media/original/2026/09/01/1788210724181mNo_sIXPA.jpg",
       "https://img2.joongna.com/media/original/2026/09/01/1788210724274XYT_yHEv8.jpg"
     ],
-    "postedAt": "2026-09-10T21:23:47.000Z",
+    "postedAt": "2026-09-12T01:14:39.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -513,7 +513,7 @@
     "url": "https://web.joongna.com/product/232189065",
     "image": "https://img2.joongna.com/media/original/2026/09/06/1788675249060UsG_TOpDo.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/06/1788675249060UsG_TOpDo.jpg"
+      "https://img2.joongna.com/media/original/2026/09/06/1788675249060UsG_TOpDo.jpg?impolicy=thumb&size=150"
     ],
     "postedAt": "2026-09-11T03:39:09.000Z",
     "market": "joongna",
@@ -535,7 +535,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/03/17884359649938w2_kY264.jpg"
     ],
-    "postedAt": "2026-09-11T03:40:13.000Z",
+    "postedAt": "2026-09-12T02:30:20.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -555,7 +555,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/04/17885270253471O6_Vh6YV.jpg"
     ],
-    "postedAt": "2026-09-11T03:39:51.000Z",
+    "postedAt": "2026-09-12T02:29:57.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1284,5 +1284,70 @@
       "realforce"
     ],
     "crawledAt": "2026-09-11T15:30:31.176Z"
+  },
+  {
+    "name": "리얼포스 R3 무접점키보드 맥전용 108배열 미개봉 새제품",
+    "price": 250000,
+    "url": "https://web.joongna.com/product/231892045",
+    "image": "https://img2.joongna.com/media/original/2026/08/26/1787755951842nRi_AISzK.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/08/26/1787755951842nRi_AISzK.jpg",
+      "https://img2.joongna.com/media/original/2026/08/26/1787755951892LSx_6Ofd9.jpg",
+      "https://img2.joongna.com/media/original/2026/08/26/1787755951990Kxi_h32td.jpg"
+    ],
+    "postedAt": "2026-09-12T08:06:22.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-12T08:56:08.700Z"
+  },
+  {
+    "name": "리얼포스 87u 일반 차등 키보드",
+    "price": 95000,
+    "url": "https://web.joongna.com/product/232364382",
+    "image": "https://img2.joongna.com/media/original/2026/09/12/17891953975087l7_n2KOR.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/12/17891953975087l7_n2KOR.jpg",
+      "https://img2.joongna.com/media/original/2026/09/12/1789195397602Izv_FadYK.jpg"
+    ],
+    "postedAt": "2026-09-12T06:43:17.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-12T08:56:08.700Z"
+  },
+  {
+    "name": "리얼포스 r4 텐키리스 45g 블랙 국내정발",
+    "price": 300000,
+    "url": "https://web.joongna.com/product/232361263",
+    "image": "https://img2.joongna.com/media/original/2026/09/12/1789188579944G5v_7ncbM.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/12/1789188579944G5v_7ncbM.jpg",
+      "https://img2.joongna.com/media/original/2026/09/12/17891885943681Af_pf8sg.png",
+      "https://img2.joongna.com/media/original/2026/09/12/1789188573110yj7_Z0XLm.jpg"
+    ],
+    "postedAt": "2026-09-12T04:55:31.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-12T08:56:08.700Z"
   }
 ]
