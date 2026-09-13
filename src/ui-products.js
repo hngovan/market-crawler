@@ -2,6 +2,10 @@ export function formatKeywordTags(keywords = []) {
   return [...new Set(keywords.map((keyword) => String(keyword).trim()).filter(Boolean))];
 }
 
+export function formatSaleBadge(product = {}) {
+  return product.saleType === "auction" ? "🔨 Đấu giá" : "";
+}
+
 export function formatMarketError(error = "") {
   const message = String(error).trim();
   if (/Joongna blocked by CloudFront\/WAF: HTTP 403/i.test(message)) {

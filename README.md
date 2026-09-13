@@ -1,7 +1,8 @@
 # Multi-Market Product Crawler
 
-Crawl sản phẩm từ Joongna, Bunjang, Guheyo và Mercari không đăng nhập, cùng Goofish
-(cần phiên đăng nhập riêng), lưu kết quả theo từng chợ và hiển thị trên trang web local.
+Crawl sản phẩm từ Joongna, Bunjang, Guheyo, Mercari và Yahoo! Auctions không đăng nhập,
+cùng Goofish (cần phiên đăng nhập riêng), lưu kết quả theo từng chợ và hiển thị trên
+trang web local.
 
 ## Yêu cầu
 
@@ -29,6 +30,7 @@ npm run crawl:joongna -- --keyword=realforce --limit=20
 npm run crawl -- --markets=bunjang --keyword=realforce --limit=20
 npm run crawl:guheyo -- --keyword=realforce --limit=20
 npm run crawl:mercari -- --keyword=realforce --limit=20
+npm run crawl:yahoo-auctions -- --keyword=realforce --limit=20
 npm run crawl -- --markets=goofish --keyword=realforce --limit=20
 ```
 
@@ -56,13 +58,16 @@ Crawler sẽ:
 - Chạy adapter riêng cho từng chợ.
 - Hỗ trợ `--sort=price-asc`, `--sort=price-desc` và `--sort=newest`.
 - Đi qua `?page=2...` của Joongna và `page_token` của Mercari cho đến khi đủ limit.
+- Đi qua các trang kết quả Yahoo! Auctions, chỉ giữ listing còn hiệu lực và phân biệt
+  đấu giá với bán giá cố định.
 - Guheyo hiện crawl trang search đầu tiên rồi sort nội bộ vì chưa xác định được API phân trang ổn định.
 - Loại bỏ sản phẩm trùng URL hoặc thiếu dữ liệu cần thiết.
 - Hiển thị tên, giá và URL của từng sản phẩm trên terminal.
 - Gắn metadata khu vực, chợ và keyword để UI lọc lại sau khi crawl nhiều từ khóa.
 - Gắn `crawledAt` cho từng sản phẩm để job cleanup biết thời điểm dữ liệu được crawl về.
 - Mở trang chi tiết để lấy toàn bộ ảnh sản phẩm.
-- Lưu kết quả vào `data/joongna.json`, `data/bunjang.json`, `data/guheyo.json`, `data/mercari.json` và `data/goofish.json` khi market được chọn.
+- Lưu kết quả vào file JSON riêng của Joongna, Bunjang, Guheyo, Mercari,
+  Yahoo! Auctions và Goofish khi market được chọn.
 - Lưu trạng thái các chợ vào `data/markets.json`.
 
 Mercari chạy headless không cần đăng nhập và sử dụng giá gốc JPY.
@@ -119,7 +124,8 @@ tạo thêm process ghi đè dữ liệu.
 Trang HTML đọc `data/markets.json` và hiển thị mỗi chợ trong một cột riêng.
 
 Click vào ảnh sản phẩm để mở preview bằng LightGallery. Badge số lượng ảnh chỉ
-hiển thị khi sản phẩm có nhiều hơn một ảnh.
+hiển thị khi sản phẩm có nhiều hơn một ảnh. Listing Yahoo! Auctions nhận đấu giá
+hiển thị badge `🔨 Đấu giá`; listing bán giá cố định không có badge này.
 
 Switch `VND` dưới nút `Crawler` gọi `/api/exchange-rates` để lấy tỉ giá realtime
 từ ExchangeRate-API Open Access, hiển thị giá gốc và giá Việt Nam đã quy đổi.
@@ -226,6 +232,7 @@ website không phụ thuộc vào file này khi chạy bình thường.
 |-- data/bunjang.json        # Kết quả Bunjang
 |-- data/guheyo.json         # Kết quả Guheyo
 |-- data/mercari.json        # Kết quả Mercari
+|-- data/yahoo-auctions.json # Kết quả Yahoo! Auctions
 |-- src/markets/             # Adapter crawler từng chợ
 |-- src/options.js           # Xử lý tham số dòng lệnh
 |-- src/products.js          # Chuẩn hóa, loại trùng và sắp xếp

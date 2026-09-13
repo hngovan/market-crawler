@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "crawl": "node crawl.js",
-    "crawl:all": "node crawl.js --markets=joongna,bunjang,guheyo,mercari",
+    "crawl:all": "node crawl.js --markets=joongna,bunjang,guheyo,mercari,yahoo-auctions",
     "crawl:joongna": "node crawl.js --markets=joongna",
     "crawl:bunjang": "node crawl.js --markets=bunjang",
     "crawl:guheyo": "node crawl.js --markets=guheyo",
     "crawl:mercari": "node crawl.js --markets=mercari",
+    "crawl:yahoo-auctions": "node crawl.js --markets=yahoo-auctions",
     "crawl:goofish": "node --env-file-if-exists=.env crawl.js --markets=goofish",
     "cleanup:data": "node scripts/cleanup-old-data.js --retention-days=14",
     "clear:data": "node scripts/clear-data.js",

@@ -7,7 +7,7 @@ import {
   backfillProductCrawledAt,
   createMarketStatus,
   extractProductKeywords,
-  mergeProductsByUrl,
+  resolveCrawlProducts,
   summarizeKeywordErrors,
 } from "./src/market-output.js";
 import { crawlBunjang, bunjangMarket } from "./src/markets/bunjang.js";
@@ -15,6 +15,7 @@ import { crawlGuheyo, guheyoMarket } from "./src/markets/guheyo.js";
 import { crawlJoongna, joongnaMarket } from "./src/markets/joongna.js";
 import { crawlMercari, mercariMarket } from "./src/markets/mercari.js";
 import { crawlGoofish, goofishMarket } from "./src/markets/goofish.js";
+import { crawlYahooAuctions, yahooAuctionsMarket } from "./src/markets/yahoo-auctions.js";
 import { parseOptions } from "./src/options.js";
 import { formatProductLog } from "./src/products.js";
 
@@ -23,6 +24,11 @@ const adapters = {
   bunjang: { market: bunjangMarket, crawl: crawlBunjang },
   guheyo: { market: guheyoMarket, crawl: crawlGuheyo },
   mercari: { market: mercariMarket, crawl: crawlMercari },
+  "yahoo-auctions": {
+    market: yahooAuctionsMarket,
+    crawl: crawlYahooAuctions,
+    retainExisting: false,
+  },
   goofish: { market: goofishMarket, crawl: crawlGoofish },
 };
 
@@ -74,6 +80,7 @@ async function crawl() {
     }
 
     let products = [];
+    let successfulCrawls = 0;
     const errors = [];
     for (const keyword of options.keywords) {
       try {
@@ -84,18 +91,22 @@ async function crawl() {
           crawledAt,
         );
         products.push(...keywordProducts);
+        successfulCrawls += 1;
       } catch (crawlError) {
         errors.push(`${keyword}: ${crawlError.message}`);
         console.warn(`${adapter.market.name} keyword "${keyword}" skipped: ${crawlError.message}`);
       }
     }
 
-    products = backfillProductCrawledAt(
-      mergeProductsByUrl([...(await readExistingProducts(marketId)), ...products]),
-      crawledAt,
-    );
+    const resolved = resolveCrawlProducts(await readExistingProducts(marketId), products, {
+      retainExisting: adapter.retainExisting !== false,
+      successfulCrawls,
+    });
+    products = resolved.shouldWrite
+      ? backfillProductCrawledAt(resolved.products, crawledAt)
+      : resolved.products;
     const error = summarizeKeywordErrors(errors);
-    if (products.length > 0) {
+    if (resolved.shouldWrite) {
       console.log(`\n${adapter.market.name} products (${products.length}):`);
       products.forEach((product, index) => console.log(formatProductLog(product, index)));
       await writeJson(`data/${marketId}.json`, products);
@@ -109,13 +120,21 @@ async function crawl() {
 
     statusByMarket.set(
       marketId,
-      createMarketStatus(adapter.market, products, error, {
-        keyword: options.keyword,
-        keywords: [...new Set([...options.keywords, ...extractProductKeywords(products)])],
-        sort: options.sort,
-        limit: options.limit,
-        crawledAt,
-      }),
+      createMarketStatus(
+        adapter.market,
+        products,
+        error,
+        {
+          keyword: options.keyword,
+          keywords: [...new Set([...options.keywords, ...extractProductKeywords(products)])],
+          sort: options.sort,
+          limit: options.limit,
+          crawledAt,
+        },
+        {
+          succeeded: successfulCrawls > 0,
+        },
+      ),
     );
   }
 

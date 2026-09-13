@@ -9,7 +9,7 @@ class CrawlWorkflowTest(unittest.TestCase):
     def test_goofish_uses_the_shared_single_keyword(self):
         workflow = (ROOT / ".github" / "workflows" / "crawl.yml").read_text(encoding="utf-8")
 
-        self.assertIn("default: joongna,bunjang,guheyo,mercari,goofish", workflow)
+        self.assertIn("default: joongna,bunjang,guheyo,mercari,yahoo-auctions,goofish", workflow)
         self.assertNotIn("china_keywords:", workflow)
         self.assertNotIn("CHINA_KEYWORDS:", workflow)
         self.assertIn('--keywords="$KEYWORDS" --markets="goofish"', workflow)
@@ -20,9 +20,13 @@ class CrawlWorkflowTest(unittest.TestCase):
     def test_crawl_panel_selects_goofish(self):
         panel = (ROOT / "index.html").read_text(encoding="utf-8")
 
-        self.assertIn(
-            '<input name="crawl-market" type="checkbox" value="goofish" checked /> 🇨🇳 Goofish',
+        self.assertRegex(
             panel,
+            r'<input name="crawl-market" type="checkbox" value="goofish" checked />\s*🇨🇳\s*Goofish',
+        )
+        self.assertRegex(
+            panel,
+            r'<input name="crawl-market" type="checkbox" value="yahoo-auctions" checked />\s*🇯🇵\s*Yahoo! Auctions',
         )
 
 

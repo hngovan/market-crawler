@@ -1,7 +1,18 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { formatKeywordTags, formatMarketError, hydrateProducts } from "../src/ui-products.js";
+import {
+  formatKeywordTags,
+  formatMarketError,
+  formatSaleBadge,
+  hydrateProducts,
+} from "../src/ui-products.js";
+
+test("shows a hammer badge only for auction listings", () => {
+  assert.equal(formatSaleBadge({ saleType: "auction" }), "🔨 Đấu giá");
+  assert.equal(formatSaleBadge({ saleType: "fixed-price" }), "");
+  assert.equal(formatSaleBadge({}), "");
+});
 
 test("legacy products inherit crawl keywords before UI filtering", () => {
   const market = {

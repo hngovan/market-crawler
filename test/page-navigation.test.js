@@ -6,8 +6,20 @@ import {
   buildGuheyoSearchUrl,
   buildJoongnaSearchUrl,
   buildMercariSearchUrl,
+  buildYahooAuctionsSearchUrl,
   findMercariNextUrl,
 } from "../src/markets/page-navigation.js";
+
+test("builds sorted and paginated Yahoo Auctions search URLs", () => {
+  assert.equal(
+    buildYahooAuctionsSearchUrl("realforce", "newest", 1),
+    "https://auctions.yahoo.co.jp/search/search?p=realforce&s1=new&o1=d",
+  );
+  assert.equal(
+    buildYahooAuctionsSearchUrl("real force", "price-asc", 2),
+    "https://auctions.yahoo.co.jp/search/search?p=real+force&s1=cbids&o1=a&b=51",
+  );
+});
 
 test("builds numbered Joongna search URLs with sort direction", () => {
   assert.equal(

@@ -8,7 +8,7 @@ test("uses realforce, 50, and newest as defaults", () => {
     keyword: "realforce",
     keywords: ["realforce"],
     limit: 50,
-    markets: ["joongna", "bunjang", "guheyo", "mercari"],
+    markets: ["joongna", "bunjang", "guheyo", "mercari", "yahoo-auctions"],
     sort: "newest",
   });
 });
@@ -18,7 +18,7 @@ test("accepts keyword and limit overrides", () => {
     keyword: "keyboard",
     keywords: ["keyboard"],
     limit: 50,
-    markets: ["joongna", "bunjang", "guheyo", "mercari"],
+    markets: ["joongna", "bunjang", "guheyo", "mercari", "yahoo-auctions"],
     sort: "newest",
   });
 });
@@ -28,7 +28,7 @@ test("accepts multiple keyword overrides", () => {
     keyword: "realforce",
     keywords: ["realforce", "hhkb"],
     limit: 50,
-    markets: ["joongna", "bunjang", "guheyo", "mercari"],
+    markets: ["joongna", "bunjang", "guheyo", "mercari", "yahoo-auctions"],
     sort: "newest",
   });
 });

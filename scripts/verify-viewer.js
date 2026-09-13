@@ -9,7 +9,7 @@ async function readProductTotal(marketId) {
   }
 }
 
-const marketIds = ["joongna", "bunjang", "guheyo", "mercari"];
+const marketIds = ["joongna", "bunjang", "guheyo", "mercari", "yahoo-auctions"];
 const totals = Object.fromEntries(
   await Promise.all(
     marketIds.map(async (marketId) => [marketId, await readProductTotal(marketId)]),
@@ -57,6 +57,10 @@ const initial = await page.evaluate(() => {
     joongnaCards: document.querySelectorAll('[data-market="joongna"] .card').length,
     guheyoCards: document.querySelectorAll('[data-market="guheyo"] .card').length,
     mercariCards: document.querySelectorAll('[data-market="mercari"] .card').length,
+    yahooAuctionBadges: document.querySelectorAll('[data-market="yahoo-auctions"] .sale-badge')
+      .length,
+    yahooAuctionBadgeText: document.querySelector('[data-market="yahoo-auctions"] .sale-badge')
+      ?.textContent,
     badgeStyle: (() => {
       const badge = document.querySelector(".image-badge");
       const style = getComputedStyle(badge);
@@ -111,6 +115,7 @@ const allMode = await page.evaluate(() => ({
   bunjangCards: document.querySelectorAll('[data-market="bunjang"] .card').length,
   guheyoCards: document.querySelectorAll('[data-market="guheyo"] .card').length,
   mercariCards: document.querySelectorAll('[data-market="mercari"] .card').length,
+  yahooAuctionsCards: document.querySelectorAll('[data-market="yahoo-auctions"] .card').length,
 }));
 await page.click(".market:not([hidden]) .image-button");
 await page.waitForSelector(".lg-container.lg-show", { timeout: 10000 });
@@ -144,6 +149,7 @@ if (
   initial.hasCrawlSort ||
   initial.pageSize !== "20" ||
   initial.paginationCount !== marketTotal ||
+  (initial.yahooAuctionBadgeText && initial.yahooAuctionBadgeText !== "🔨 Đấu giá") ||
   initial.badgeStyle.background !== "rgba(15, 23, 42, 0.78)" ||
   initial.badgeStyle.color !== "rgb(255, 255, 255)" ||
   initial.badgeStyle.border !== "1px" ||
@@ -165,6 +171,7 @@ if (
   allMode.bunjangCards !== totals.bunjang ||
   allMode.guheyoCards !== totals.guheyo ||
   allMode.mercariCards !== totals.mercari ||
+  allMode.yahooAuctionsCards !== totals["yahoo-auctions"] ||
   !galleryOpened ||
   !legacyDemoRemoved
 ) {

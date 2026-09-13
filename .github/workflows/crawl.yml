@@ -27,7 +27,7 @@ on:
       markets:
         description: Comma-separated markets
         required: true
-        default: joongna,bunjang,guheyo,mercari,goofish
+        default: joongna,bunjang,guheyo,mercari,yahoo-auctions,goofish
       sort:
         description: Sort order
         required: true
@@ -57,7 +57,7 @@ jobs:
     env:
       KEYWORD: ${{ inputs.keyword || 'realforce' }}
       KEYWORDS: ${{ inputs.keywords || inputs.keyword || 'realforce' }}
-      MARKETS: ${{ inputs.markets || 'joongna,bunjang,guheyo,mercari,goofish' }}
+      MARKETS: ${{ inputs.markets || 'joongna,bunjang,guheyo,mercari,yahoo-auctions,goofish' }}
       SORT: ${{ inputs.sort || 'newest' }}
       LIMIT: ${{ inputs.limit || '50' }}
       PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome

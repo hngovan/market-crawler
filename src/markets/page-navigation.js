@@ -36,6 +36,15 @@ export function buildGuheyoSearchUrl(keyword) {
   return url.href;
 }
 
+export function buildYahooAuctionsSearchUrl(keyword, sort, page = 1) {
+  const url = new URL("/search/search", "https://auctions.yahoo.co.jp");
+  url.searchParams.set("p", keyword);
+  url.searchParams.set("s1", sort === "newest" ? "new" : "cbids");
+  url.searchParams.set("o1", sort === "price-desc" || sort === "newest" ? "d" : "a");
+  if (page > 1) url.searchParams.set("b", String((page - 1) * 50 + 1));
+  return url.href;
+}
+
 export function findMercariNextUrl(urls) {
   for (const candidate of urls) {
     try {

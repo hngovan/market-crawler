@@ -35,6 +35,22 @@ export function mergeProductsByUrl(products) {
   return [...byUrl.values()];
 }
 
+export function mergeCrawlProducts(existingProducts, currentProducts, options = {}) {
+  const { retainExisting = true } = options;
+  return mergeProductsByUrl(
+    retainExisting ? [...existingProducts, ...currentProducts] : currentProducts,
+  );
+}
+
+export function resolveCrawlProducts(existingProducts, currentProducts, options = {}) {
+  const { successfulCrawls = 0, retainExisting = true } = options;
+  if (successfulCrawls === 0) return { products: existingProducts, shouldWrite: false };
+  return {
+    products: mergeCrawlProducts(existingProducts, currentProducts, { retainExisting }),
+    shouldWrite: true,
+  };
+}
+
 export function extractProductKeywords(products) {
   return [...new Set(products.flatMap((product) => product.keywords ?? []))];
 }
@@ -43,7 +59,8 @@ export function summarizeKeywordErrors(errors) {
   return errors.join(" | ");
 }
 
-export function createMarketStatus(market, products, error = "", crawl = {}) {
+export function createMarketStatus(market, products, error = "", crawl = {}, options = {}) {
+  const { succeeded = !error } = options;
   return {
     id: market.id,
     name: market.name,
@@ -51,7 +68,7 @@ export function createMarketStatus(market, products, error = "", crawl = {}) {
     regionName: market.regionName ?? "",
     regionFlag: market.regionFlag ?? "",
     currency: market.currency,
-    status: error ? "skipped" : "success",
+    status: succeeded ? "success" : "skipped",
     count: products.length,
     error,
     dataFile: `data/${market.id}.json`,

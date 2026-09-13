@@ -84,6 +84,27 @@
     }
   },
   {
+    "id": "yahoo-auctions",
+    "name": "Yahoo! Auctions",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "status": "success",
+    "count": 50,
+    "error": "",
+    "dataFile": "data/yahoo-auctions.json",
+    "crawl": {
+      "keyword": "realforce",
+      "keywords": [
+        "realforce"
+      ],
+      "sort": "newest",
+      "limit": 50,
+      "crawledAt": "2026-09-12T14:00:29.650Z"
+    }
+  },
+  {
     "id": "goofish",
     "name": "Goofish",
     "region": "china",

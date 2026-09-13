@@ -38,6 +38,14 @@ export const marketDefinitions = {
     regionFlag: regions.japan.flag,
     currency: "JPY",
   },
+  "yahoo-auctions": {
+    id: "yahoo-auctions",
+    name: "Yahoo! Auctions",
+    region: regions.japan.id,
+    regionName: regions.japan.name,
+    regionFlag: regions.japan.flag,
+    currency: "JPY",
+  },
   goofish: {
     id: "goofish",
     name: "Goofish",
@@ -48,7 +56,7 @@ export const marketDefinitions = {
   },
 };
 
-export const defaultMarkets = ["joongna", "bunjang", "guheyo", "mercari"];
+export const defaultMarkets = ["joongna", "bunjang", "guheyo", "mercari", "yahoo-auctions"];
 export const supportedMarkets = Object.keys(marketDefinitions);
 export const supportedSorts = ["price-asc", "price-desc", "newest"];
 

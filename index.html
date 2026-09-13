@@ -1154,7 +1154,9 @@
         z-index: 60;
         width: min(216px, calc(100vw - 24px));
         margin: 0;
-        transition: transform 0.2s ease, opacity 0.2s ease;
+        transition:
+          transform 0.2s ease,
+          opacity 0.2s ease;
       }
       body.toolbar-collapsed .toolbar {
         pointer-events: none;
@@ -1697,7 +1699,9 @@
         </button>
         <label class="exchange-switch" title="Quy đổi giá sang VND">
           <input id="vnd-toggle" type="checkbox" />
-          <span class="exchange-track" aria-hidden="true"><span class="exchange-thumb"></span></span>
+          <span class="exchange-track" aria-hidden="true"
+            ><span class="exchange-thumb"></span
+          ></span>
           <span class="exchange-switch-text">VND</span>
         </label>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
@@ -1776,7 +1780,12 @@
                   Mercari</label
                 >
                 <label class="crawl-market-option"
-                  ><input name="crawl-market" type="checkbox" value="goofish" checked /> 🇨🇳 Goofish</label
+                  ><input name="crawl-market" type="checkbox" value="yahoo-auctions" checked /> 🇯🇵
+                  Yahoo! Auctions</label
+                >
+                <label class="crawl-market-option"
+                  ><input name="crawl-market" type="checkbox" value="goofish" checked /> 🇨🇳
+                  Goofish</label
                 >
               </div>
             </fieldset>
@@ -1795,7 +1804,13 @@
         aria-label="Hiện bộ lọc"
         title="Hiện bộ lọc"
       >
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        >
           <path d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
@@ -1844,7 +1859,7 @@
         formatOriginalToVndRate,
         formatVndPrice,
       } from "./src/exchange-rates.js";
-      import { formatMarketError, hydrateProducts } from "./src/ui-products.js";
+      import { formatMarketError, formatSaleBadge, hydrateProducts } from "./src/ui-products.js";
 
       const marketsElement = document.querySelector("#markets");
       const filtersElement = document.querySelector("#filters");
@@ -2131,6 +2146,13 @@
           badge.className = "image-badge";
           badge.textContent = `${images.length} ảnh`;
         }
+        const saleBadgeText = formatSaleBadge(product);
+        let saleBadge;
+        if (saleBadgeText) {
+          saleBadge = document.createElement("span");
+          saleBadge.className = "image-badge sale-badge";
+          saleBadge.textContent = saleBadgeText;
+        }
 
         const content = document.createElement("div");
         content.className = "content";
@@ -2156,6 +2178,7 @@
         postedAt.className = "posted-at";
         postedAt.textContent = formatPostedAt(product);
         if (badge) imageTopTags.append(badge);
+        if (saleBadge) imageTopTags.append(saleBadge);
         if (imageTopTags.childElementCount) imageButton.append(imageTopTags);
         imageButton.append(postedAt);
         const link = document.createElement("a");

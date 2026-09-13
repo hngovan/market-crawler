@@ -7,8 +7,31 @@ import {
   createMarketStatus,
   extractProductKeywords,
   mergeProductsByUrl,
+  mergeCrawlProducts,
+  resolveCrawlProducts,
   summarizeKeywordErrors,
 } from "../src/market-output.js";
+
+test("can replace retained products for markets whose listings expire", () => {
+  const existing = [{ name: "Ended auction", url: "https://example.com/ended" }];
+  const current = [{ name: "Active auction", url: "https://example.com/active" }];
+
+  assert.deepEqual(mergeCrawlProducts(existing, current, { retainExisting: false }), current);
+  assert.deepEqual(mergeCrawlProducts(existing, current), [...existing, ...current]);
+});
+
+test("distinguishes a successful empty crawl from a total crawl failure", () => {
+  const existing = [{ name: "Stale auction", url: "https://example.com/stale" }];
+
+  assert.deepEqual(
+    resolveCrawlProducts(existing, [], { retainExisting: false, successfulCrawls: 1 }),
+    { products: [], shouldWrite: true },
+  );
+  assert.deepEqual(
+    resolveCrawlProducts(existing, [], { retainExisting: false, successfulCrawls: 0 }),
+    { products: existing, shouldWrite: false },
+  );
+});
 
 test("adds native market metadata to products", () => {
   assert.deepEqual(
@@ -127,6 +150,19 @@ test("adds crawl metadata to market status", () => {
   assert.equal(status.region, "korea");
 });
 
+test("marks a partial keyword crawl successful while retaining its warning", () => {
+  const status = createMarketStatus(
+    { id: "yahoo-auctions", name: "Yahoo! Auctions", currency: "JPY" },
+    [{ name: "Active auction" }],
+    "second keyword: HTTP 503",
+    { keywords: ["realforce", "hhkb"] },
+    { succeeded: true },
+  );
+
+  assert.equal(status.status, "success");
+  assert.equal(status.error, "second keyword: HTTP 503");
+});
+
 test("merges products from previous and current keyword crawls", () => {
   assert.deepEqual(
     mergeProductsByUrl([
@@ -187,9 +223,7 @@ test("extracts unique product keywords for crawl metadata", () => {
 });
 
 test("preserves keyword errors when retained products exist", () => {
-  const error = summarizeKeywordErrors([
-    "三亩S80: Apify returned no valid Goofish products",
-  ]);
+  const error = summarizeKeywordErrors(["三亩S80: Apify returned no valid Goofish products"]);
   const status = createMarketStatus(
     { id: "goofish", name: "Goofish", currency: "CNY" },
     [{ name: "Existing product" }],
