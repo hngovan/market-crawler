@@ -8,7 +8,7 @@
       "https://img2.joongna.com/media/original/2026/09/10/1788996264560fbl_jm70n.jpg",
       "https://img2.joongna.com/media/original/2026/09/10/1788996264749vfR_IYZTC.jpg"
     ],
-    "postedAt": "2026-09-12T04:42:21.000Z",
+    "postedAt": "2026-09-12T17:07:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1698,5 +1698,74 @@
       "realforce"
     ],
     "crawledAt": "2026-09-12T14:37:25.295Z"
+  },
+  {
+    "name": "리얼포스 87u 저소음 차등 풀윤활",
+    "price": 130000,
+    "url": "https://web.joongna.com/product/232378392",
+    "image": "https://img2.joongna.com/media/original/2026/09/13/1789229918962NFA_WKpxJ.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/13/1789229918962NFA_WKpxJ.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789229919083pFs_IZTt0.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789229919201IAR_4JQeS.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789229919343gMd_fORrk.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789229919440wZM_dHM4w.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789229919541ex6_rCm3b.jpg"
+    ],
+    "postedAt": "2026-09-13T00:18:51.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
+  },
+  {
+    "name": "풀윤활 리얼포스R2 TKL 토프레 무접점 45g 블루그레이 키보드 싸게 드려요",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/232380142",
+    "image": "https://img2.joongna.com/media/original/2026/09/13/1789252237337WnH_FR5Tz.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/13/1789252237337WnH_FR5Tz.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789252237523G0j_ncs0X.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789252237670ELK_p7Ht8.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789252237807mpm_Cvod0.jpg"
+    ],
+    "postedAt": "2026-09-12T22:30:37.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
+  },
+  {
+    "name": "리얼포스R3S 45g 한글 풀배열 판매합니다.",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/232377876",
+    "image": "https://img2.joongna.com/media/original/2026/09/13/1789227321254Eci_pyAaW.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/13/1789227321254Eci_pyAaW.jpg",
+      "https://img2.joongna.com/media/original/2026/09/13/1789227321412STi_r3vyZ.jpg"
+    ],
+    "postedAt": "2026-09-12T15:35:21.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
   }
 ]

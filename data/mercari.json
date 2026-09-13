@@ -358,7 +358,7 @@
   },
   {
     "name": "REALFORCE R3SC31 テンキーレスキーボード",
-    "price": 13600,
+    "price": 13500,
     "url": "https://jp.mercari.com/item/m35829582987",
     "image": "https://static.mercdn.net/thumb/item/webp/m35829582987_1.jpg?1788955087",
     "postedAt": "",
@@ -568,13 +568,13 @@
   },
   {
     "name": "REALFORCE R2TLA-JP4-BK キーボード 本体",
-    "price": 11500,
+    "price": 10899,
     "url": "https://jp.mercari.com/item/m63613757576",
-    "image": "https://static.mercdn.net/thumb/item/webp/m63613757576_1.jpg?1788872790",
+    "image": "https://static.mercdn.net/thumb/item/webp/m63613757576_1.jpg?1789224880",
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m63613757576_1.jpg?1788872790"
+      "https://static.mercdn.net/thumb/item/webp/m63613757576_1.jpg?1789224880"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -1681,7 +1681,7 @@
   },
   {
     "name": "【土日限定価格】【美品】REALFORCE R3 45g 静音 R3HA21",
-    "price": 21000,
+    "price": 19000,
     "url": "https://jp.mercari.com/item/m37765149143",
     "image": "https://static.mercdn.net/thumb/item/webp/m37765149143_1.jpg?1788008049",
     "postedAt": "",
@@ -1993,5 +1993,110 @@
       "realforce"
     ],
     "crawledAt": "2026-09-12T14:37:25.295Z"
+  },
+  {
+    "name": "REALFORCE R3HA22 キーボード",
+    "price": 17000,
+    "url": "https://jp.mercari.com/item/m53960378125",
+    "image": "https://static.mercdn.net/thumb/item/webp/m53960378125_1.jpg?1787887975",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m53960378125_1.jpg?1787887975"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
+  },
+  {
+    "name": "NuPhy Node75 JIS配列 Blush Max軸ホワイト",
+    "price": 12000,
+    "url": "https://jp.mercari.com/item/m52419167880",
+    "image": "https://static.mercdn.net/thumb/item/webp/m52419167880_1.jpg?1789239524",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m52419167880_1.jpg?1789239524"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
+  },
+  {
+    "name": "MetaPulse 静電容量無接点 ラバードーム BS 40g 70個 HHKB",
+    "price": 1999,
+    "url": "https://jp.mercari.com/item/m78713651907",
+    "image": "https://static.mercdn.net/thumb/item/webp/m78713651907_1.jpg?1783836218",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m78713651907_1.jpg?1783836218"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
+  },
+  {
+    "name": "REALFORCE R4HA11 45g 日本語配列 リアルフォース",
+    "price": 29000,
+    "url": "https://jp.mercari.com/item/m89176278426",
+    "image": "https://static.mercdn.net/thumb/item/webp/m89176278426_1.jpg?1789228087",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m89176278426_1.jpg?1789228087"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
+  },
+  {
+    "name": "REALFORCE R3HA11 45g 日本語配列 リアルフォース",
+    "price": 18000,
+    "url": "https://jp.mercari.com/item/m78175369820",
+    "image": "https://static.mercdn.net/thumb/item/webp/m78175369820_1.jpg?1789227521",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m78175369820_1.jpg?1789227521"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-13T00:29:30.766Z"
   }
 ]
