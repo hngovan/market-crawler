@@ -69,9 +69,9 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
-    "count": 50,
-    "error": "apple extended keyboard ii: Waiting for selector `a[data-testid=\"thumbnail-link\"][href*=\"/item/\"]` failed",
+    "status": "success",
+    "count": 61,
+    "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "apple extended keyboard ii",
@@ -81,7 +81,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:34:30.195Z"
+      "crawledAt": "2026-09-14T17:47:10.003Z"
     }
   },
   {

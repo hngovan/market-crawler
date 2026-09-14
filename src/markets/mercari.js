@@ -10,10 +10,13 @@ import { marketDefinitions } from "./registry.js";
 
 export const mercariMarket = marketDefinitions.mercari;
 
+const mercariProductSelector =
+  'a[data-testid="thumbnail-link"][href*="/item/"], [data-testid="item-cell"] a[href*="/item/"]';
+
 async function collectVisibleProducts(page) {
-  return page.evaluate(() =>
-    [...document.querySelectorAll('a[data-testid="thumbnail-link"][href*="/item/"]')].map(
-      (anchor) => {
+  return page.evaluate(
+    (productSelector) =>
+      [...document.querySelectorAll(productSelector)].map((anchor) => {
         const image = anchor.querySelector("img");
         const labelledElement = anchor.querySelector('[aria-label*="円"]') ?? anchor;
         const priceElement = anchor.querySelector('[data-testid="item-tile-price"]');
@@ -27,8 +30,8 @@ async function collectVisibleProducts(page) {
           stickerLabel: soldSticker?.getAttribute("aria-label") || "",
           stickerTestId: soldSticker?.getAttribute("data-testid") || "",
         };
-      },
-    ),
+      }),
+    mercariProductSelector,
   );
 }
 
@@ -64,6 +67,23 @@ export async function collectMercariCardsDuringScroll(page, limit, delayMs = 700
   return [...uniqueProducts.values()];
 }
 
+export async function waitForMercariSearchState(page, timeout = 75000) {
+  const handle = await page.waitForFunction(
+    (productSelector) => {
+      if (document.querySelector(productSelector)) return "products";
+      if (document.querySelector('[data-testid="item-grid-empty-state"]')) return "empty";
+      return false;
+    },
+    { timeout },
+    mercariProductSelector,
+  );
+  try {
+    return await handle.jsonValue();
+  } finally {
+    await handle.dispose();
+  }
+}
+
 async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
@@ -81,10 +101,7 @@ async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
           `Mercari blocked or unavailable: HTTP ${status}${text ? ` - ${text}` : ""}`,
         );
       }
-      await page.waitForSelector('a[data-testid="thumbnail-link"][href*="/item/"]', {
-        timeout: 75000,
-      });
-      return;
+      return await waitForMercariSearchState(page);
     } catch (error) {
       lastError = error;
       const diagnostic = await page
@@ -112,6 +129,11 @@ export async function readMercariDetail(page, timeout = 10000) {
     ),
     text: document.body.innerText,
   }));
+}
+
+export function finalizeMercariSearch(products, searchWasEmpty) {
+  if (products.length > 0 || searchWasEmpty) return products;
+  throw new Error("No valid Mercari products found");
 }
 
 async function enrichDetailImages(browser, products, concurrency = 2) {
@@ -167,12 +189,17 @@ export async function crawlMercari({ keyword, limit, sort }) {
       });
     await new Promise((resolve) => setTimeout(resolve, 1500));
     const uniqueProducts = new Map();
+    let searchWasEmpty = false;
     let searchUrl = buildMercariSearchUrl(keyword, sort);
     let pageNumber = 1;
     while (uniqueProducts.size < limit && searchUrl) {
       const previousCount = uniqueProducts.size;
       console.log(`Mercari search page ${pageNumber}: ${searchUrl}`);
-      await loadSearchPage(page, searchUrl, pageNumber);
+      const searchState = await loadSearchPage(page, searchUrl, pageNumber);
+      if (searchState === "empty") {
+        searchWasEmpty = true;
+        break;
+      }
       for (const product of await collectMercariCardsDuringScroll(page, limit)) {
         if (!uniqueProducts.has(product.url)) uniqueProducts.set(product.url, product);
       }
@@ -192,8 +219,10 @@ export async function crawlMercari({ keyword, limit, sort }) {
             sort === "price-desc" ? b.price - a.price : a.price - b.price,
           )
     ).slice(0, limit);
-    if (products.length === 0) throw new Error("No valid Mercari products found");
-    return await enrichDetailImages(browser, products);
+    const validProducts = finalizeMercariSearch(products, searchWasEmpty);
+    return validProducts.length > 0
+      ? await enrichDetailImages(browser, validProducts)
+      : validProducts;
   } finally {
     await browser.close();
   }

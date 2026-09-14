@@ -6,9 +6,76 @@ import {
   isMercariSoldCard,
   normalizeMercariImages,
 } from "../src/markets/mercari-products.js";
+import { launchBrowser } from "../src/markets/browser.js";
 import * as mercariCrawler from "../src/markets/mercari.js";
 
 const { collectMercariCardsDuringScroll } = mercariCrawler;
+
+test("collects Mercari item-cell links when thumbnail-link is absent", async () => {
+  const browser = await launchBrowser();
+  try {
+    const page = await browser.newPage();
+    await page.setContent(`
+      <div data-testid="item-cell">
+        <a href="https://jp.mercari.com/item/m65101872460" aria-label="Apple Extended Keyboard II 6,900円">
+          <img alt="Apple Extended Keyboard IIのサムネイル" src="https://static.mercdn.net/thumb/item/webp/m65101872460_1.jpg">
+          <span data-testid="item-tile-price">¥6,900</span>
+        </a>
+      </div>
+    `);
+
+    assert.equal(await mercariCrawler.waitForMercariSearchState(page, 1000), "products");
+    const products = await collectMercariCardsDuringScroll(page, 1, 0);
+
+    assert.deepEqual(products, [
+      {
+        name: "Apple Extended Keyboard II",
+        price: 6900,
+        url: "https://jp.mercari.com/item/m65101872460",
+        image: "https://static.mercdn.net/thumb/item/webp/m65101872460_1.jpg",
+      },
+    ]);
+  } finally {
+    await browser.close();
+  }
+});
+
+test("recognizes a completed Mercari search with no products", async () => {
+  const browser = await launchBrowser();
+  try {
+    const page = await browser.newPage();
+    await page.setContent(
+      '<div data-testid="item-grid-empty-state">出品された商品がありません</div>',
+    );
+
+    assert.equal(await mercariCrawler.waitForMercariSearchState(page, 1000), "empty");
+  } finally {
+    await browser.close();
+  }
+});
+
+test("accepts a confirmed empty Mercari search as a successful result", () => {
+  assert.deepEqual(mercariCrawler.finalizeMercariSearch([], true), []);
+});
+
+test("rejects an unresolved Mercari search page", async () => {
+  const browser = await launchBrowser();
+  try {
+    const page = await browser.newPage();
+    await page.setContent("<main>Loading</main>");
+
+    await assert.rejects(mercariCrawler.waitForMercariSearchState(page, 100));
+  } finally {
+    await browser.close();
+  }
+});
+
+test("rejects zero parsed products without a confirmed empty state", () => {
+  assert.throws(
+    () => mercariCrawler.finalizeMercariSearch([], false),
+    /No valid Mercari products found/,
+  );
+});
 
 test("waits for Mercari detail images before reading the page", async () => {
   let imagesReady = false;
