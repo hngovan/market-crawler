@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 97,
+    "count": 98,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T10:11:49.525Z"
+      "crawledAt": "2026-09-14T16:21:36.398Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T10:11:49.525Z"
+      "crawledAt": "2026-09-14T16:21:36.398Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T10:11:49.525Z"
+      "crawledAt": "2026-09-14T16:21:36.398Z"
     }
   },
   {
@@ -80,7 +80,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T15:54:35.305Z"
+      "crawledAt": "2026-09-14T16:21:36.398Z"
     }
   },
   {
@@ -101,7 +101,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T10:11:49.525Z"
+      "crawledAt": "2026-09-14T16:21:36.398Z"
     }
   },
   {
@@ -122,7 +122,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T10:14:22.523Z"
+      "crawledAt": "2026-09-14T16:24:50.748Z"
     }
   }
 ]
