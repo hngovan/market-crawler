@@ -265,12 +265,14 @@
         font: inherit;
       }
       .crawl-market-options {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        display: flex;
+        flex-wrap: wrap;
         gap: 8px;
       }
       .crawl-market-option {
         display: inline-flex;
+        flex: 1 1 120px;
+        min-width: 0;
         align-items: center;
         gap: 6px;
         justify-content: center;
@@ -278,7 +280,11 @@
         border: 2px solid #301547;
         background: white;
         box-shadow: 2px 2px 0 #ff548a;
-        white-space: nowrap;
+        overflow-wrap: anywhere;
+        white-space: normal;
+      }
+      .crawl-market-option input {
+        flex: 0 0 auto;
       }
       .crawl-submit {
         align-self: stretch;
@@ -626,7 +632,6 @@
           overflow: hidden;
         }
         .crawl-market-options {
-          grid-template-columns: 1fr;
           gap: 10px;
         }
         .crawl-market-option {
@@ -1885,6 +1890,13 @@
       const headerSort = document.querySelector("#header-sort");
       const headerCrawledAt = document.querySelector("#header-crawled-at");
       const crawlSessionKey = "market-crawl-active-job";
+      const hiddenMarketIds = new Set(["goofish"]);
+      document.querySelectorAll('[name="crawl-market"]').forEach((input) => {
+        if (!hiddenMarketIds.has(input.value)) return;
+        input.checked = false;
+        input.disabled = true;
+        input.closest(".crawl-market-option").hidden = true;
+      });
       const marketState = new Map();
       const filterState = {
         market: "all",
@@ -2435,7 +2447,8 @@
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           return response.json();
         })
-        .then(async (markets) => {
+        .then(async (allMarkets) => {
+          const markets = allMarkets.filter((market) => !hiddenMarketIds.has(market.id));
           const rawProductLists = await Promise.all(
             markets.map((market) =>
               fetch(`./${market.dataFile}`, { cache: "no-store" }).then((response) =>
@@ -2544,9 +2557,9 @@
       crawlForm.addEventListener("submit", async (event) => {
         event.preventDefault();
         const secret = document.querySelector("#crawl-secret").value;
-        const markets = [...document.querySelectorAll('[name="crawl-market"]:checked')].map(
-          (input) => input.value,
-        );
+        const markets = [
+          ...document.querySelectorAll('[name="crawl-market"]:checked:not(:disabled)'),
+        ].map((input) => input.value);
         if (markets.length === 0) return showCrawlError(new Error("Chọn ít nhất một chợ"));
         setActionLoading(true, "crawl");
         crawlLog.textContent = "Đang gửi yêu cầu crawl...";

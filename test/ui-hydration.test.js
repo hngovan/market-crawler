@@ -8,6 +8,14 @@ import {
   hydrateProducts,
 } from "../src/ui-products.js";
 
+test("uses the first gallery image when a product thumbnail is empty", () => {
+  const [product] = hydrateProducts({ id: "mercari", name: "Mercari", currency: "JPY" }, [
+    { image: "", images: ["https://example.com/gallery.jpg"] },
+  ]);
+
+  assert.equal(product.image, "https://example.com/gallery.jpg");
+});
+
 test("shows a hammer badge only for auction listings", () => {
   assert.equal(formatSaleBadge({ saleType: "auction" }), "🔨 Đấu giá");
   assert.equal(formatSaleBadge({ saleType: "fixed-price" }), "");

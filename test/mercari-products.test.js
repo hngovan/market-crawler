@@ -6,7 +6,30 @@ import {
   isMercariSoldCard,
   normalizeMercariImages,
 } from "../src/markets/mercari-products.js";
-import { collectMercariCardsDuringScroll } from "../src/markets/mercari.js";
+import * as mercariCrawler from "../src/markets/mercari.js";
+
+const { collectMercariCardsDuringScroll } = mercariCrawler;
+
+test("waits for Mercari detail images before reading the page", async () => {
+  let imagesReady = false;
+  const page = {
+    waitForSelector: async () => {
+      imagesReady = true;
+    },
+    evaluate: async () =>
+      imagesReady
+        ? {
+            imageUrls: ["https://static.mercdn.net/item/detail/orig/photos/m45348486777_1.jpg"],
+            text: "出品された商品",
+          }
+        : { imageUrls: [], text: "" },
+  };
+
+  assert.deepEqual(await mercariCrawler.readMercariDetail(page), {
+    imageUrls: ["https://static.mercdn.net/item/detail/orig/photos/m45348486777_1.jpg"],
+    text: "出品された商品",
+  });
+});
 
 test("keeps cards captured before virtualized scrolling", async () => {
   const firstCard = {

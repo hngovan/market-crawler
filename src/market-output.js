@@ -27,6 +27,7 @@ export function mergeProductsByUrl(products) {
     byUrl.set(product.url, {
       ...existing,
       ...product,
+      ...(product.image || existing.image ? { image: product.image || existing.image } : {}),
       keywords: [...new Set([...(existing.keywords ?? []), ...(product.keywords ?? [])])],
       images: product.images?.length ? product.images : existing.images,
       crawledAt: existing.crawledAt ?? product.crawledAt,

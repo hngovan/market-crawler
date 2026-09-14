@@ -17,13 +17,9 @@ class CrawlWorkflowTest(unittest.TestCase):
         self.assertIn('if ! node crawl.js --keywords="$KEYWORDS" --markets="goofish"', workflow)
         self.assertIn('::warning::Goofish crawl failed; keeping the previous data and manifest error.', workflow)
 
-    def test_crawl_panel_selects_goofish(self):
+    def test_crawl_panel_selects_yahoo_auctions(self):
         panel = (ROOT / "index.html").read_text(encoding="utf-8")
 
-        self.assertRegex(
-            panel,
-            r'<input name="crawl-market" type="checkbox" value="goofish" checked />\s*🇨🇳\s*Goofish',
-        )
         self.assertRegex(
             panel,
             r'<input name="crawl-market" type="checkbox" value="yahoo-auctions" checked />\s*🇯🇵\s*Yahoo! Auctions',

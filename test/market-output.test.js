@@ -207,6 +207,33 @@ test("merges products from previous and current keyword crawls", () => {
   );
 });
 
+test("preserves an existing thumbnail when a refreshed product has an empty thumbnail", () => {
+  assert.deepEqual(
+    mergeProductsByUrl([
+      {
+        name: "REALFORCE",
+        url: "https://jp.mercari.com/item/m1",
+        image: "https://example.com/existing.jpg",
+      },
+      {
+        name: "REALFORCE refreshed",
+        url: "https://jp.mercari.com/item/m1",
+        image: "",
+      },
+    ]),
+    [
+      {
+        name: "REALFORCE refreshed",
+        url: "https://jp.mercari.com/item/m1",
+        image: "https://example.com/existing.jpg",
+        keywords: [],
+        images: undefined,
+        crawledAt: undefined,
+      },
+    ],
+  );
+});
+
 test("extracts unique product keywords for crawl metadata", () => {
   assert.deepEqual(
     [

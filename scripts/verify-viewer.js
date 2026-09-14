@@ -15,8 +15,6 @@ const totals = Object.fromEntries(
     marketIds.map(async (marketId) => [marketId, await readProductTotal(marketId)]),
   ),
 );
-const marketManifest = JSON.parse(await readFile("data/markets.json", "utf8"));
-const marketTotal = marketManifest.length;
 const paginatedMarketId = marketIds.find((marketId) => totals[marketId] > 10);
 const comparisonMarketId = marketIds.find(
   (marketId) => marketId !== paginatedMarketId && totals[marketId] > 0,
@@ -43,6 +41,19 @@ const initial = await page.evaluate(() => {
     crawledAtText: document.querySelector("#header-crawled-at")?.textContent,
     filterCount: document.querySelectorAll("#filters option").length,
     visibleMarkets: document.querySelectorAll(".market:not([hidden])").length,
+    visibleMarketIds: [...document.querySelectorAll(".market:not([hidden])")].map(
+      (market) => market.dataset.market,
+    ),
+    goofishFilterVisible: Boolean(document.querySelector('#filters option[value="goofish"]')),
+    goofishRegionVisible: Boolean(document.querySelector('#region-filters option[value="china"]')),
+    goofishCrawlOption: (() => {
+      const input = document.querySelector('[name="crawl-market"][value="goofish"]');
+      return {
+        hidden: input.closest(".crawl-market-option").hidden,
+        disabled: input.disabled,
+        checked: input.checked,
+      };
+    })(),
     cardBorder: cardStyle.borderTopWidth,
     contentDisplay: contentStyle.display,
     linkBottomGap: Math.round(
@@ -139,8 +150,13 @@ if (
   initial.title !== "Multi-Market Crawling" ||
   !initial.headerText.toLowerCase().includes("sắp xếp:") ||
   !initial.crawledAtText.toLowerCase().includes("crawl thành công lần cuối:") ||
-  initial.filterCount !== marketTotal + 1 ||
-  initial.visibleMarkets !== marketTotal ||
+  initial.filterCount !== initial.visibleMarkets + 1 ||
+  initial.visibleMarketIds.includes("goofish") ||
+  initial.goofishFilterVisible ||
+  initial.goofishRegionVisible ||
+  !initial.goofishCrawlOption.hidden ||
+  !initial.goofishCrawlOption.disabled ||
+  initial.goofishCrawlOption.checked ||
   initial.contentDisplay !== "flex" ||
   initial.linkBottomGap > 20 ||
   initial.nameClamp !== "3" ||
@@ -148,7 +164,7 @@ if (
   initial.tooltipCount < 1 ||
   initial.hasCrawlSort ||
   initial.pageSize !== "20" ||
-  initial.paginationCount !== marketTotal ||
+  initial.paginationCount !== initial.visibleMarkets ||
   (initial.yahooAuctionBadgeText && initial.yahooAuctionBadgeText !== "🔨 Đấu giá") ||
   initial.badgeStyle.background !== "rgba(15, 23, 42, 0.78)" ||
   initial.badgeStyle.color !== "rgb(255, 255, 255)" ||

@@ -21,6 +21,7 @@ export function hydrateProducts(market, products) {
 
   return products.map((product) => ({
     ...product,
+    ...(product.image || product.images?.[0] ? { image: product.image || product.images[0] } : {}),
     market: product.market || market.id,
     marketName: product.marketName || market.name,
     region: product.region || market.region || "",

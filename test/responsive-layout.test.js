@@ -168,6 +168,108 @@ test("desktop region filter fills both market columns", async (t) => {
   );
 });
 
+test("hides Goofish from the viewer and crawl request", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+
+  const page = await browser.newPage();
+  await page.setRequestInterception(true);
+  let resolveCrawlBody;
+  const crawlBody = new Promise((resolve) => {
+    resolveCrawlBody = resolve;
+  });
+  page.on("request", (request) => {
+    const url = new URL(request.url());
+    if (url.pathname === "/api/crawl" && request.method() === "POST") {
+      resolveCrawlBody(JSON.parse(request.postData()));
+      request.respond({
+        status: 202,
+        contentType: "application/json",
+        body: JSON.stringify({ requestId: "test-request" }),
+      });
+      return;
+    }
+    request.continue();
+  });
+
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.waitForSelector(".market", { timeout: 10000 });
+
+  const visibility = await page.evaluate(() => {
+    const input = document.querySelector('[name="crawl-market"][value="goofish"]');
+    const marketOptions = [...document.querySelectorAll("#filters option")].map(
+      (option) => option.value,
+    );
+    const regionOptions = [...document.querySelectorAll("#region-filters option")].map(
+      (option) => option.value,
+    );
+    return {
+      renderedMarket: Boolean(document.querySelector('[data-market="goofish"]')),
+      marketFilter: marketOptions.includes("goofish"),
+      regionFilter: regionOptions.includes("china"),
+      inputDisabled: input.disabled,
+      inputChecked: input.checked,
+      optionHidden: input.closest(".crawl-market-option").hidden,
+    };
+  });
+
+  assert.deepEqual(visibility, {
+    renderedMarket: false,
+    marketFilter: false,
+    regionFilter: false,
+    inputDisabled: true,
+    inputChecked: false,
+    optionHidden: true,
+  });
+
+  await page.type("#crawl-secret", "test-secret");
+  await page.$eval("#crawl-form", (form) => form.requestSubmit());
+  assert.equal((await crawlBody).markets.includes("goofish"), false);
+});
+
+test("crawl market options wrap with flex without horizontal overflow", async (t) => {
+  const port = await getFreePort();
+  const server = await startServer(port);
+  t.after(async () => {
+    server.kill();
+    await once(server, "close").catch(() => {});
+  });
+
+  const browser = await puppeteer.launch({ headless: true });
+  t.after(() => browser.close());
+
+  const page = await browser.newPage();
+  await page.setViewport({ width: 420, height: 800, deviceScaleFactor: 1 });
+  await page.goto(`http://localhost:${port}`, { waitUntil: "domcontentloaded" });
+  await page.click("#crawl-toggle");
+
+  const layout = await page.$eval(".crawl-market-options", (container) => {
+    const style = getComputedStyle(container);
+    const options = [...container.querySelectorAll(".crawl-market-option:not([hidden])")];
+    return {
+      display: style.display,
+      flexWrap: style.flexWrap,
+      overflow: container.scrollWidth - container.clientWidth,
+      optionOverflows: options.map((option) => option.scrollWidth - option.clientWidth),
+    };
+  });
+
+  assert.equal(layout.display, "flex");
+  assert.equal(layout.flexWrap, "wrap");
+  assert.ok(layout.overflow <= 1, `market options overflowed by ${layout.overflow}px`);
+  assert.ok(
+    layout.optionOverflows.every((overflow) => overflow <= 1),
+    `market option text overflowed: ${JSON.stringify(layout.optionOverflows)}`,
+  );
+});
+
 test("web crawl form relies on the automatic newest sort", async (t) => {
   const port = await getFreePort();
   const server = await startServer(port);

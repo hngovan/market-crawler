@@ -104,6 +104,16 @@ async function loadSearchPage(page, searchUrl, pageNumber, attempts = 3) {
   throw lastError;
 }
 
+export async function readMercariDetail(page, timeout = 10000) {
+  await page.waitForSelector(".slick-list img[src]", { timeout });
+  return page.evaluate(() => ({
+    imageUrls: [...document.querySelectorAll(".slick-list img")].map(
+      (image) => image.currentSrc || image.src,
+    ),
+    text: document.body.innerText,
+  }));
+}
+
 async function enrichDetailImages(browser, products, concurrency = 2) {
   const enriched = [...products];
   let nextIndex = 0;
@@ -116,13 +126,7 @@ async function enrichDetailImages(browser, products, concurrency = 2) {
         const product = products[index];
         try {
           await page.goto(product.url, { waitUntil: "domcontentloaded", timeout: 90000 });
-          await new Promise((resolve) => setTimeout(resolve, 1200));
-          const detail = await page.evaluate(() => ({
-            imageUrls: [...document.querySelectorAll(".slick-list img")].map(
-              (image) => image.currentSrc || image.src,
-            ),
-            text: document.body.innerText,
-          }));
+          const detail = await readMercariDetail(page);
           const images = normalizeMercariImages(detail.imageUrls);
           const posted = extractMercariPostedAt(detail.text);
           enriched[index] = {

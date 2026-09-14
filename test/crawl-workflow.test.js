@@ -17,13 +17,9 @@ test("workflow crawls Yahoo Auctions normally and isolates Goofish failures", as
   );
 });
 
-test("crawl panel selects Yahoo Auctions and Goofish by default", async () => {
+test("crawl panel selects Yahoo Auctions by default", async () => {
   const panel = await readFile(panelPath, "utf8");
 
-  assert.match(
-    panel,
-    /<input name="crawl-market" type="checkbox" value="goofish" checked \/>\s*🇨🇳\s*Goofish/,
-  );
   assert.match(
     panel,
     /<input name="crawl-market" type="checkbox" value="yahoo-auctions" checked \/>\s*🇯🇵\s*Yahoo! Auctions/,
