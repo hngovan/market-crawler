@@ -484,7 +484,7 @@
   },
   {
     "name": "REALFORCE TKL SA for Mac R2TLSA-JP3M-BK",
-    "price": 16900,
+    "price": 15900,
     "url": "https://jp.mercari.com/item/m50803073491",
     "image": "https://static.mercdn.net/thumb/item/webp/m50803073491_1.jpg?1788218820",
     "postedAt": "",
@@ -2437,13 +2437,13 @@
   },
   {
     "name": "たつきち様オーダー作品NapeProを合体　パームレスト　HHKB向け",
-    "price": 999999,
+    "price": 999000,
     "url": "https://jp.mercari.com/item/m82766446512",
-    "image": "https://static.mercdn.net/thumb/item/webp/m82766446512_1.jpg?1789307543",
+    "image": "https://static.mercdn.net/thumb/item/webp/m82766446512_1.jpg?1789339660",
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://static.mercdn.net/thumb/item/webp/m82766446512_1.jpg?1789307543"
+      "https://static.mercdn.net/thumb/item/webp/m82766446512_1.jpg?1789339660"
     ],
     "market": "mercari",
     "marketName": "Mercari",
@@ -2623,5 +2623,68 @@
       "realforce"
     ],
     "crawledAt": "2026-09-13T15:17:06.026Z"
+  },
+  {
+    "name": "REALFORCE RC1 英語配列 45g",
+    "price": 31800,
+    "url": "https://jp.mercari.com/item/m55298582275",
+    "image": "https://static.mercdn.net/thumb/item/webp/m55298582275_1.jpg?1787750337",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m55298582275_1.jpg?1787750337"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-14T00:31:42.011Z"
+  },
+  {
+    "name": "REALFORCE R3UC11 グリーンキーキャップセット",
+    "price": 17500,
+    "url": "https://jp.mercari.com/item/m94030978465",
+    "image": "https://static.mercdn.net/thumb/item/webp/m94030978465_1.jpg?1777910146",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m94030978465_1.jpg?1777910146"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-14T00:31:42.011Z"
+  },
+  {
+    "name": "Topre REALFORCE 91U キーボード 本体",
+    "price": 10000,
+    "url": "https://jp.mercari.com/item/m88956220622",
+    "image": "https://static.mercdn.net/thumb/item/webp/m88956220622_1.jpg?1789312867",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://static.mercdn.net/thumb/item/webp/m88956220622_1.jpg?1789312867"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-14T00:31:42.011Z"
   }
 ]
