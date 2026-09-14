@@ -7,18 +7,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 98,
+    "count": 0,
     "error": "",
-    "dataFile": "data/joongna.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-14T16:21:36.398Z"
-    }
+    "dataFile": "data/joongna.json"
   },
   {
     "id": "bunjang",
@@ -28,18 +19,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 12,
+    "count": 0,
     "error": "",
-    "dataFile": "data/bunjang.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-14T16:21:36.398Z"
-    }
+    "dataFile": "data/bunjang.json"
   },
   {
     "id": "guheyo",
@@ -49,18 +31,9 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 86,
+    "count": 0,
     "error": "",
-    "dataFile": "data/guheyo.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-14T16:21:36.398Z"
-    }
+    "dataFile": "data/guheyo.json"
   },
   {
     "id": "mercari",
@@ -70,18 +43,9 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 144,
+    "count": 0,
     "error": "",
-    "dataFile": "data/mercari.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-14T16:21:36.398Z"
-    }
+    "dataFile": "data/mercari.json"
   },
   {
     "id": "yahoo-auctions",
@@ -91,18 +55,9 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 0,
     "error": "",
-    "dataFile": "data/yahoo-auctions.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-14T16:21:36.398Z"
-    }
+    "dataFile": "data/yahoo-auctions.json"
   },
   {
     "id": "goofish",
@@ -111,18 +66,9 @@
     "regionName": "Trung Quốc",
     "regionFlag": "🇨🇳",
     "currency": "CNY",
-    "status": "skipped",
+    "status": "success",
     "count": 0,
-    "error": "realforce: Apify returned no valid Goofish products",
-    "dataFile": "data/goofish.json",
-    "crawl": {
-      "keyword": "realforce",
-      "keywords": [
-        "realforce"
-      ],
-      "sort": "newest",
-      "limit": 50,
-      "crawledAt": "2026-09-14T16:24:50.748Z"
-    }
+    "error": "",
+    "dataFile": "data/goofish.json"
   }
 ]
