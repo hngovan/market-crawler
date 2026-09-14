@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 88,
+    "count": 97,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T00:31:42.011Z"
+      "crawledAt": "2026-09-14T10:11:49.525Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T00:31:42.011Z"
+      "crawledAt": "2026-09-14T10:11:49.525Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T00:31:42.011Z"
+      "crawledAt": "2026-09-14T10:11:49.525Z"
     }
   },
   {
@@ -69,9 +69,9 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "success",
+    "status": "skipped",
     "count": 128,
-    "error": "",
+    "error": "realforce: No valid Mercari products found",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
@@ -80,7 +80,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T00:31:42.011Z"
+      "crawledAt": "2026-09-14T10:11:49.525Z"
     }
   },
   {
@@ -101,7 +101,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T00:31:42.011Z"
+      "crawledAt": "2026-09-14T10:11:49.525Z"
     }
   },
   {
@@ -122,7 +122,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T00:35:20.597Z"
+      "crawledAt": "2026-09-14T10:14:22.523Z"
     }
   }
 ]
