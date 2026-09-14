@@ -1,5 +1,6 @@
-export function extractMercariCard({ ariaLabel, imageAlt, url, image }) {
-  const priceMatch = String(ariaLabel ?? "").match(/([\d,]+)円/);
+export function extractMercariCard({ ariaLabel, priceText, imageAlt, url, image }) {
+  const priceMatch =
+    String(priceText ?? "").match(/¥\s*([\d,]+)/) ?? String(ariaLabel ?? "").match(/([\d,]+)円/);
   const name = String(imageAlt ?? "")
     .replace(/のサムネイル$/, "")
     .trim();

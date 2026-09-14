@@ -58,6 +58,24 @@ test("extracts Mercari card data with the original JPY price", () => {
   );
 });
 
+test("extracts Mercari price from the current item tile markup", () => {
+  assert.deepEqual(
+    extractMercariCard({
+      ariaLabel: "",
+      priceText: "¥\n9,000",
+      imageAlt: "REALFORCE 104UBのサムネイル",
+      url: "https://jp.mercari.com/item/m63126408051",
+      image: "https://static.mercdn.net/thumb/item/webp/m63126408051_1.jpg",
+    }),
+    {
+      name: "REALFORCE 104UB",
+      price: 9000,
+      url: "https://jp.mercari.com/item/m63126408051",
+      image: "https://static.mercdn.net/thumb/item/webp/m63126408051_1.jpg",
+    },
+  );
+});
+
 test("normalizes unique Mercari original detail images", () => {
   assert.deepEqual(
     normalizeMercariImages([

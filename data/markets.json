@@ -69,9 +69,9 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
-    "count": 128,
-    "error": "realforce: No valid Mercari products found",
+    "status": "success",
+    "count": 144,
+    "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
@@ -80,7 +80,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T10:11:49.525Z"
+      "crawledAt": "2026-09-14T15:54:35.305Z"
     }
   },
   {

@@ -16,9 +16,11 @@ async function collectVisibleProducts(page) {
       (anchor) => {
         const image = anchor.querySelector("img");
         const labelledElement = anchor.querySelector('[aria-label*="円"]') ?? anchor;
+        const priceElement = anchor.querySelector('[data-testid="item-tile-price"]');
         const soldSticker = anchor.querySelector('[data-testid="thumbnail-sticker"][aria-label]');
         return {
           ariaLabel: labelledElement.getAttribute("aria-label") || "",
+          priceText: priceElement?.textContent || "",
           imageAlt: image?.alt || "",
           url: anchor.href,
           image: image?.currentSrc || image?.src || "",
