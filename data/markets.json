@@ -69,18 +69,19 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "success",
+    "status": "skipped",
     "count": 50,
-    "error": "",
+    "error": "apple extended keyboard ii: Waiting for selector `a[data-testid=\"thumbnail-link\"][href*=\"/item/\"]` failed",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "apple extended keyboard ii",
       "keywords": [
+        "apple extended keyboard ii",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:26:50.854Z"
+      "crawledAt": "2026-09-14T17:34:30.195Z"
     }
   },
   {
@@ -91,17 +92,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 6,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "apple extended keyboard ii",
       "keywords": [
-        "realforce"
+        "apple extended keyboard ii"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:14:07.015Z"
+      "crawledAt": "2026-09-14T17:34:30.195Z"
     }
   },
   {
