@@ -74,14 +74,14 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "apple extended keyboard ii",
       "keywords": [
-        "realforce",
-        "apple extended keyboard ii"
+        "apple extended keyboard ii",
+        "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-15T01:03:28.166Z"
+      "crawledAt": "2026-09-15T02:38:32.826Z"
     }
   },
   {
@@ -92,17 +92,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 0,
+    "count": 6,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "Apple Standard Keyboard",
+      "keyword": "apple extended keyboard ii",
       "keywords": [
-        "Apple Standard Keyboard"
+        "apple extended keyboard ii"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-15T02:34:12.354Z"
+      "crawledAt": "2026-09-15T02:38:32.826Z"
     }
   },
   {
