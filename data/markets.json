@@ -92,17 +92,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 0,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Apple Standard Keyboard",
       "keywords": [
-        "realforce"
+        "Apple Standard Keyboard"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-15T01:03:28.166Z"
+      "crawledAt": "2026-09-15T02:34:12.354Z"
     }
   },
   {
