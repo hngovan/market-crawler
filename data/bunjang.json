@@ -4,11 +4,10 @@
     "price": 329000,
     "url": "https://m.bunjang.co.kr/products/428191019",
     "image": "https://media.bunjang.co.kr/product/428191019_1_1789113808_w160.jpg",
-    "postedAt": "2026-09-14T09:43:04.837Z",
-    "postedAtText": "1일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/428191019_1_1789113808_w900.jpg",
-      "https://media.bunjang.co.kr/product/428191019_2_1789113808_w900.jpg"
+      "https://media.bunjang.co.kr/product/428191019_1_1789113808_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -26,8 +25,8 @@
     "price": 300000,
     "url": "https://m.bunjang.co.kr/products/429208339",
     "image": "https://media.bunjang.co.kr/product/429208339_1_1788968195_w160.jpg",
-    "postedAt": "2026-09-13T09:43:04.747Z",
-    "postedAtText": "2일 전",
+    "postedAt": "2026-09-15T12:55:27.519Z",
+    "postedAtText": "3시간 전",
     "images": [
       "https://media.bunjang.co.kr/product/429208339_1_1788968195_w900.jpg",
       "https://media.bunjang.co.kr/product/429208339_2_1788968195_w900.jpg"
@@ -48,10 +47,10 @@
     "price": 300000,
     "url": "https://m.bunjang.co.kr/products/394969644",
     "image": "https://media.bunjang.co.kr/product/394969644_1_1773974875_w160.jpg",
-    "postedAt": "2026-09-13T09:43:05.698Z",
-    "postedAtText": "2일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/394969644_1_1773974875_w900.jpg"
+      "https://media.bunjang.co.kr/product/394969644_1_1773974875_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -69,10 +68,10 @@
     "price": 240000,
     "url": "https://m.bunjang.co.kr/products/426876974",
     "image": "https://media.bunjang.co.kr/product/426876974_1_1787975272_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-08-29T15:55:29.277Z",
+    "postedAtText": "17일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/426876974_1_1787975272_w160.jpg"
+      "https://media.bunjang.co.kr/product/426876974_1_1787975272_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -93,7 +92,7 @@
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/370283626_1_1786489823_w900.jpg"
+      "https://media.bunjang.co.kr/product/370283626_1_1786489823_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -135,7 +134,7 @@
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/415110725_1_1781935192_w900.jpg"
+      "https://media.bunjang.co.kr/product/415110725_1_1781935192_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -240,7 +239,7 @@
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/359663946_1_1759927915_w160.jpg"
+      "https://media.bunjang.co.kr/product/359663946_1_1759927915_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -252,5 +251,29 @@
       "realforce"
     ],
     "crawledAt": "2026-09-14T17:14:07.015Z"
+  },
+  {
+    "name": "레오폴드 REALFORCE 키보드 R3 for mac 풀윤활 및 흡음 완료제품입니다.",
+    "price": 300000,
+    "url": "https://m.bunjang.co.kr/products/431939834",
+    "image": "https://media.bunjang.co.kr/product/431939834_1_1789487227_w160.jpg",
+    "postedAt": "2026-09-15T15:45:27.942Z",
+    "postedAtText": "10분 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/431939834_1_1789487227_w900.jpg",
+      "https://media.bunjang.co.kr/product/431939834_2_1789487227_w900.jpg",
+      "https://media.bunjang.co.kr/product/431939834_3_1789487227_w900.jpg",
+      "https://media.bunjang.co.kr/product/431939834_4_1789487227_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-15T15:53:53.448Z"
   }
 ]
