@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 50,
+    "count": 51,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:14:07.015Z"
+      "crawledAt": "2026-09-15T01:03:28.166Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:14:07.015Z"
+      "crawledAt": "2026-09-15T01:03:28.166Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:14:07.015Z"
+      "crawledAt": "2026-09-15T01:03:28.166Z"
     }
   },
   {
@@ -70,18 +70,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 61,
+    "count": 63,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "apple extended keyboard ii",
+      "keyword": "realforce",
       "keywords": [
-        "apple extended keyboard ii",
-        "realforce"
+        "realforce",
+        "apple extended keyboard ii"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:47:10.003Z"
+      "crawledAt": "2026-09-15T01:03:28.166Z"
     }
   },
   {
@@ -92,17 +92,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 6,
+    "count": 50,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "apple extended keyboard ii",
+      "keyword": "realforce",
       "keywords": [
-        "apple extended keyboard ii"
+        "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:34:30.195Z"
+      "crawledAt": "2026-09-15T01:03:28.166Z"
     }
   },
   {
@@ -123,7 +123,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-14T17:17:21.228Z"
+      "crawledAt": "2026-09-15T01:07:31.279Z"
     }
   }
 ]

@@ -21,13 +21,13 @@
   },
   {
     "name": "리얼포스 104u",
-    "price": 90000,
+    "price": 80000,
     "url": "https://web.joongna.com/product/232322288",
     "image": "https://img2.joongna.com/media/original/2026/09/11/1789053889901bP4_MbfB3.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/09/11/1789053889901bP4_MbfB3.jpg"
     ],
-    "postedAt": "2026-09-14T14:55:54.000Z",
+    "postedAt": "2026-09-14T18:09:45.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -202,7 +202,7 @@
     "url": "https://web.joongna.com/product/232409638",
     "image": "https://img2.joongna.com/media/original/2026/09/14/17893491156215AS_PixU9.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/14/17893491156215AS_PixU9.jpg"
+      "https://img2.joongna.com/media/original/2026/09/14/17893491156215AS_PixU9.jpg?impolicy=thumb&size=150"
     ],
     "postedAt": "2026-09-14T12:47:33.000Z",
     "market": "joongna",
@@ -252,7 +252,7 @@
       "https://img2.joongna.com/media/original/2026/09/12/17891953975087l7_n2KOR.jpg",
       "https://img2.joongna.com/media/original/2026/09/12/1789195397602Izv_FadYK.jpg"
     ],
-    "postedAt": "2026-09-14T11:20:18.000Z",
+    "postedAt": "2026-09-14T22:41:50.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -274,7 +274,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789286517513sxt_1z3Mp.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789286517571M9J_uYUQ0.jpg"
     ],
-    "postedAt": "2026-09-14T11:20:10.000Z",
+    "postedAt": "2026-09-14T22:41:41.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -299,7 +299,7 @@
       "https://img2.joongna.com/media/original/2026/09/14/17893749350130Vo_SAnTB.jpg",
       "https://img2.joongna.com/media/original/2026/09/14/1789374935143WbW_cO0eQ.jpg"
     ],
-    "postedAt": "2026-09-14T09:58:04.000Z",
+    "postedAt": "2026-09-15T00:37:42.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -319,7 +319,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352983591ImI_UGJh8.jpg"
     ],
-    "postedAt": "2026-09-14T09:22:18.000Z",
+    "postedAt": "2026-09-14T22:57:06.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -339,7 +339,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352622960mCk_DlTno.jpg"
     ],
-    "postedAt": "2026-09-14T09:22:09.000Z",
+    "postedAt": "2026-09-14T22:57:00.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -359,7 +359,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352445183VkN_TR81b.jpg"
     ],
-    "postedAt": "2026-09-14T09:22:01.000Z",
+    "postedAt": "2026-09-14T22:56:53.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -381,7 +381,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789300504333H9q_luTQJ.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789300504333L7s_8J3PJ.jpg"
     ],
-    "postedAt": "2026-09-14T09:21:48.000Z",
+    "postedAt": "2026-09-14T22:56:46.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -405,7 +405,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789295719710drv_V3OzI.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789295719790etu_hbxFu.jpg"
     ],
-    "postedAt": "2026-09-14T09:21:40.000Z",
+    "postedAt": "2026-09-14T22:56:39.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -428,7 +428,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789292084295CBa_lQdLe.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789292084390L9Y_vphEF.jpg"
     ],
-    "postedAt": "2026-09-14T09:21:32.000Z",
+    "postedAt": "2026-09-14T22:56:28.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1115,5 +1115,25 @@
       "realforce"
     ],
     "crawledAt": "2026-09-14T17:14:07.015Z"
+  },
+  {
+    "name": "[구매] 리얼포스 104ub dk",
+    "price": 222222,
+    "url": "https://web.joongna.com/product/232172759",
+    "image": "https://img2.joongna.com/media/original/2026/09/05/1788611842403OVp_XP8af.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/05/1788611842403OVp_XP8af.jpg"
+    ],
+    "postedAt": "2026-09-14T23:56:21.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-15T01:03:28.166Z"
   }
 ]
