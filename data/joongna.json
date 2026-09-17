@@ -112,7 +112,7 @@
       "https://img2.joongna.com/media/original/2026/09/14/1789386442772Yua_MEjnS.jpg",
       "https://img2.joongna.com/media/original/2026/09/14/1789386442888N6T_EpE2y.jpg"
     ],
-    "postedAt": "2026-09-16T11:59:02.000Z",
+    "postedAt": "2026-09-17T14:04:15.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -184,7 +184,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789252237670ELK_p7Ht8.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789252237807mpm_Cvod0.jpg"
     ],
-    "postedAt": "2026-09-16T11:58:55.000Z",
+    "postedAt": "2026-09-17T14:04:26.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -218,7 +218,7 @@
   },
   {
     "name": "리얼포스 R3 TLS 45g 균등 토프레 무접점 키보드",
-    "price": 140000,
+    "price": 135000,
     "url": "https://web.joongna.com/product/232241384",
     "image": "https://img2.joongna.com/media/original/2026/09/16/1789492165743yro_k1NAU.jpg?impolicy=thumb&size=150",
     "images": [
@@ -229,7 +229,7 @@
       "https://img2.joongna.com/media/original/2026/09/08/1788834825896WeA_ngySb.jpg",
       "https://img2.joongna.com/media/original/2026/09/08/1788834826005bWB_y1ni6.jpg"
     ],
-    "postedAt": "2026-09-15T17:09:57.000Z",
+    "postedAt": "2026-09-17T15:47:36.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1409,7 +1409,7 @@
       "https://img2.joongna.com/media/original/2026/09/16/1789561488986RhK_BSXA4.jpg",
       "https://img2.joongna.com/media/original/2026/09/16/1789561489044mb7_BuQyH.jpg"
     ],
-    "postedAt": "2026-09-16T15:55:18.000Z",
+    "postedAt": "2026-09-17T15:17:52.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1503,5 +1503,51 @@
       "realforce"
     ],
     "crawledAt": "2026-09-17T09:43:46.814Z"
+  },
+  {
+    "name": "리얼포스R2 저소음 토프레 무접점 풀윤활 블루그레이 키보드 싸게 드려요",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/232520189",
+    "image": "https://img2.joongna.com/media/original/2026/09/17/1789656172456Rg5_DY8pg.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/17/1789656172456Rg5_DY8pg.jpg",
+      "https://img2.joongna.com/media/original/2026/09/17/1789656172576MNI_n32Jo.jpg",
+      "https://img2.joongna.com/media/original/2026/09/17/17896561726534NY_FBcdy.jpg",
+      "https://img2.joongna.com/media/original/2026/09/17/1789656172755Ute_WIotp.jpg",
+      "https://img2.joongna.com/media/original/2026/09/17/1789656172878rBP_p4YYg.jpg",
+      "https://img2.joongna.com/media/original/2026/09/17/1789656172999w7C_Y5Iw6.jpg",
+      "https://img2.joongna.com/media/original/2026/09/17/1789656173072jFl_aIgad.jpg"
+    ],
+    "postedAt": "2026-09-17T14:42:53.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-17T15:53:27.709Z"
+  },
+  {
+    "name": "[미개봉] 리얼포스 R3HD11 87키 45g 무접점 키보드",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/231885631",
+    "image": "https://img2.joongna.com/media/original/2026/09/17/178964931768025a_dQPS1.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/17/178964931768025a_dQPS1.jpg?impolicy=thumb&size=150"
+    ],
+    "postedAt": "2026-09-17T12:40:45.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-17T15:53:27.709Z"
   }
 ]
