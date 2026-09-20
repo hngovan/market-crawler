@@ -67,7 +67,7 @@
     "url": "https://web.joongna.com/product/232309315",
     "image": "https://img2.joongna.com/media/original/2026/09/10/17890256590601gP_y6z34.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/10/17890256590601gP_y6z34.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/09/10/17890256590601gP_y6z34.jpg"
     ],
     "postedAt": "2026-09-19T07:59:59.000Z",
     "market": "joongna",
@@ -1714,7 +1714,7 @@
       "https://img2.joongna.com/media/original/2026/09/18/1789738738002Frh_w2T2S.jpg",
       "https://img2.joongna.com/media/original/2026/09/18/1789738738061tiZ_qYQPM.jpg"
     ],
-    "postedAt": "2026-09-19T00:47:55.000Z",
+    "postedAt": "2026-09-19T16:26:07.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1769,5 +1769,25 @@
       "realforce"
     ],
     "crawledAt": "2026-09-19T15:02:05.932Z"
+  },
+  {
+    "name": "리얼포스 R3 BT 저소음 균등 45g 풀윤활",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/232576174",
+    "image": "https://img2.joongna.com/media/original/2026/09/20/1789844376779jR7_wrJnL.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/20/1789844376779jR7_wrJnL.jpg"
+    ],
+    "postedAt": "2026-09-19T18:59:36.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-20T00:29:51.475Z"
   }
 ]
