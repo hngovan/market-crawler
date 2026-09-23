@@ -297,7 +297,7 @@
       "https://img2.joongna.com/media/original/2026/09/14/17893749350130Vo_SAnTB.jpg",
       "https://img2.joongna.com/media/original/2026/09/14/1789374935143WbW_cO0eQ.jpg"
     ],
-    "postedAt": "2026-09-19T07:16:36.000Z",
+    "postedAt": "2026-09-22T11:37:29.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -731,7 +731,8 @@
     "url": "https://web.joongna.com/product/231845565",
     "image": "https://img2.joongna.com/media/original/2026/08/25/1787636189702Izn_zu6xR.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/08/25/1787636189702Izn_zu6xR.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/08/25/1787636189702Izn_zu6xR.jpg",
+      "https://img2.joongna.com/media/original/2026/08/25/1787636189933dOy_6q57V.jpg"
     ],
     "postedAt": "2026-09-22T05:07:11.000Z",
     "market": "joongna",
@@ -1600,7 +1601,7 @@
       "https://img2.joongna.com/media/original/2026/09/01/1788210724181mNo_sIXPA.jpg",
       "https://img2.joongna.com/media/original/2026/09/01/1788210724274XYT_yHEv8.jpg"
     ],
-    "postedAt": "2026-09-21T03:05:09.000Z",
+    "postedAt": "2026-09-22T21:16:13.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1769,11 +1770,11 @@
   },
   {
     "name": "리얼포스 R3 BT 저소음 균등 45g 풀윤활",
-    "price": 200000,
+    "price": 195000,
     "url": "https://web.joongna.com/product/232576174",
     "image": "https://img2.joongna.com/media/original/2026/09/20/1789844376779jR7_wrJnL.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/20/1789844376779jR7_wrJnL.jpg"
+      "https://img2.joongna.com/media/original/2026/09/20/1789844376779jR7_wrJnL.jpg?impolicy=thumb&size=150"
     ],
     "postedAt": "2026-09-21T05:15:00.000Z",
     "market": "joongna",
@@ -1924,5 +1925,29 @@
       "realforce"
     ],
     "crawledAt": "2026-09-21T17:24:36.851Z"
+  },
+  {
+    "name": "진심키보드 추석 한가위 [ 무료배송 ] 이벤트 진행 레오폴드 리얼포스 해피해킹 토프레 게이밍 무접점",
+    "price": 5000,
+    "url": "https://web.joongna.com/product/232652657",
+    "image": "https://img2.joongna.com/media/original/2026/09/22/1790086181907yHk_beehV.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/22/1790086181907yHk_beehV.jpg",
+      "https://img2.joongna.com/media/original/2026/09/22/17900861820390nP_ahdLi.jpg",
+      "https://img2.joongna.com/media/original/2026/09/22/1790086182095lL6_R2Xjr.jpg",
+      "https://img2.joongna.com/media/original/2026/09/22/17900861821540Ol_bw0kq.jpg",
+      "https://img2.joongna.com/media/original/2026/09/22/17900861822124Lw_iYpEh.jpg"
+    ],
+    "postedAt": "2026-09-23T00:21:53.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-23T01:02:57.187Z"
   }
 ]
