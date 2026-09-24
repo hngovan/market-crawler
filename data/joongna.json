@@ -2050,7 +2050,7 @@
       "https://img2.joongna.com/media/original/2026/09/07/1788711918707cTd_caI5E.jpg",
       "https://img2.joongna.com/media/original/2026/09/07/17887119188174UG_CiHUk.jpg"
     ],
-    "postedAt": "2026-09-23T15:26:37.000Z",
+    "postedAt": "2026-09-24T09:46:44.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2259,5 +2259,34 @@
       "realforce"
     ],
     "crawledAt": "2026-09-24T09:37:35.518Z"
+  },
+  {
+    "name": "리얼포스, 해피해킹, 토프레 포인트 정품 키캡",
+    "price": 123456,
+    "url": "https://web.joongna.com/product/232693579",
+    "image": "https://img2.joongna.com/media/original/2026/09/24/1790249009107QdL_vDIQk.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009107QdL_vDIQk.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009217WI3_nvBAr.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009302pf4_KDNIK.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009363jDO_oJ96I.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009423Mvr_1XqlD.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009506Lxa_KHQJy.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009577XYL_KooPs.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009636iGm_hQ1x5.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/1790249009706G2E_CDsJ6.jpg",
+      "https://img2.joongna.com/media/original/2026/09/24/17902490097669RL_cHTnG.jpg"
+    ],
+    "postedAt": "2026-09-24T11:16:42.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-24T16:07:31.097Z"
   }
 ]
