@@ -709,7 +709,9 @@
     "url": "https://web.joongna.com/product/232407882",
     "image": "https://img2.joongna.com/media/original/2026/09/14/17893441426458PT_BYSTA.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/14/17893441426458PT_BYSTA.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/09/14/17893441426458PT_BYSTA.jpg",
+      "https://img2.joongna.com/media/original/2026/09/14/17893441427556YX_qLubY.jpg",
+      "https://img2.joongna.com/media/original/2026/09/14/1789344142888pxV_2s0DX.jpg"
     ],
     "postedAt": "2026-09-24T09:10:19.000Z",
     "market": "joongna",
@@ -1576,7 +1578,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/18/1789688170033j6H_O4lbX.jpg"
     ],
-    "postedAt": "2026-09-21T06:10:15.000Z",
+    "postedAt": "2026-09-25T08:08:38.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1599,7 +1601,7 @@
       "https://img2.joongna.com/media/original/2026/09/01/1788210724181mNo_sIXPA.jpg",
       "https://img2.joongna.com/media/original/2026/09/01/1788210724274XYT_yHEv8.jpg"
     ],
-    "postedAt": "2026-09-22T21:16:13.000Z",
+    "postedAt": "2026-09-25T08:07:34.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1959,7 +1961,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/23/1790149839811qgb_hKYfZ.jpg"
     ],
-    "postedAt": "2026-09-24T07:51:46.000Z",
+    "postedAt": "2026-09-25T01:30:43.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1999,7 +2001,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/23/1790149779911909_xsWXL.jpg"
     ],
-    "postedAt": "2026-09-24T07:51:37.000Z",
+    "postedAt": "2026-09-25T01:29:37.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2286,5 +2288,49 @@
       "realforce"
     ],
     "crawledAt": "2026-09-24T16:07:31.097Z"
+  },
+  {
+    "name": "리얼포스 108us 화이트 표준 30g 균등 토프레 무접점키보드",
+    "price": 130000,
+    "url": "https://web.joongna.com/product/229890527",
+    "image": "https://img2.joongna.com/media/original/2026/06/22/1782100159339IIx_46bJq.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/22/1782100159339IIx_46bJq.jpg",
+      "https://img2.joongna.com/media/original/2026/06/22/1782100159426Vq7_BFxEN.jpg",
+      "https://img2.joongna.com/media/original/2026/06/22/1782100159479myw_bSIoy.jpg"
+    ],
+    "postedAt": "2026-09-25T07:03:03.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-25T09:54:45.026Z"
+  },
+  {
+    "name": "리얼포스 R2 TKL 화이트그린 저소음45g 균등 토프레 무접점키보드",
+    "price": 170000,
+    "url": "https://web.joongna.com/product/228165735",
+    "image": "https://img2.joongna.com/media/original/2026/05/02/17777005078264ya_wD03y.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/05/02/17777005078264ya_wD03y.jpg",
+      "https://img2.joongna.com/media/original/2026/05/02/1777700507899KRF_7X4O3.jpg",
+      "https://img2.joongna.com/media/original/2026/05/02/1777700507978eIX_ffbOU.jpg"
+    ],
+    "postedAt": "2026-09-25T07:02:59.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-25T09:54:45.026Z"
   }
 ]
