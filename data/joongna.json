@@ -317,7 +317,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352983591ImI_UGJh8.jpg"
     ],
-    "postedAt": "2026-09-26T03:03:35.000Z",
+    "postedAt": "2026-09-26T13:13:43.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -337,7 +337,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352622960mCk_DlTno.jpg"
     ],
-    "postedAt": "2026-09-26T03:03:30.000Z",
+    "postedAt": "2026-09-26T13:13:39.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -357,7 +357,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352445183VkN_TR81b.jpg"
     ],
-    "postedAt": "2026-09-26T03:03:25.000Z",
+    "postedAt": "2026-09-26T13:13:35.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -379,7 +379,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789300504333H9q_luTQJ.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789300504333L7s_8J3PJ.jpg"
     ],
-    "postedAt": "2026-09-26T03:03:19.000Z",
+    "postedAt": "2026-09-26T13:13:30.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -446,7 +446,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
     ],
-    "postedAt": "2026-09-22T03:18:05.000Z",
+    "postedAt": "2026-09-26T12:08:03.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1227,7 +1227,8 @@
     "url": "https://web.joongna.com/product/232167499",
     "image": "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg"
+      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg",
+      "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
     ],
     "postedAt": "2026-09-22T14:17:08.000Z",
     "market": "joongna",
@@ -1726,7 +1727,7 @@
   },
   {
     "name": "리얼포스 R4 BT 무접점 풀 배열 그레이블루(한글), 균등 45g",
-    "price": 320000,
+    "price": 310000,
     "url": "https://web.joongna.com/product/232559205",
     "image": "https://img2.joongna.com/media/original/2026/09/19/1789794746503PwD_qORuo.jpg?impolicy=thumb&size=150",
     "images": [
@@ -1736,7 +1737,7 @@
       "https://img2.joongna.com/media/original/2026/09/19/1789794746754E6O_Ica6F.jpg",
       "https://img2.joongna.com/media/original/2026/09/19/1789794746829KXz_2Vzrl.jpg"
     ],
-    "postedAt": "2026-09-22T10:27:56.000Z",
+    "postedAt": "2026-09-26T10:48:05.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2040,7 +2041,7 @@
   },
   {
     "name": "리얼포스 r3s 저소음 텐키리스 45g 균등",
-    "price": 190000,
+    "price": 180000,
     "url": "https://web.joongna.com/product/232204809",
     "image": "https://img2.joongna.com/media/original/2026/09/07/1788711918381r5h_PWOZH.jpg?impolicy=thumb&size=150",
     "images": [
@@ -2050,7 +2051,7 @@
       "https://img2.joongna.com/media/original/2026/09/07/1788711918707cTd_caI5E.jpg",
       "https://img2.joongna.com/media/original/2026/09/07/17887119188174UG_CiHUk.jpg"
     ],
-    "postedAt": "2026-09-24T09:46:44.000Z",
+    "postedAt": "2026-09-26T11:09:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
