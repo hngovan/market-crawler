@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T10:16:54.241Z"
+      "crawledAt": "2026-09-27T16:00:20.961Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T10:16:54.241Z"
+      "crawledAt": "2026-09-27T16:00:20.961Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T10:16:54.241Z"
+      "crawledAt": "2026-09-27T16:00:20.961Z"
     }
   },
   {
@@ -70,18 +70,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 356,
+    "count": 366,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "apple extended keyboard ii",
+      "keyword": "realforce",
       "keywords": [
-        "apple extended keyboard ii",
-        "realforce"
+        "realforce",
+        "apple extended keyboard ii"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T13:09:28.809Z"
+      "crawledAt": "2026-09-27T16:00:20.961Z"
     }
   },
   {
@@ -91,19 +91,18 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
+    "status": "success",
     "count": 50,
-    "error": "apple extended keyboard ii: Yahoo! Auctions unavailable: HTTP 500",
+    "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "apple extended keyboard ii",
+      "keyword": "realforce",
       "keywords": [
-        "apple extended keyboard ii",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T13:09:28.809Z"
+      "crawledAt": "2026-09-27T16:00:20.961Z"
     }
   },
   {
@@ -124,7 +123,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T10:21:02.497Z"
+      "crawledAt": "2026-09-27T16:04:21.600Z"
     }
   }
 ]
