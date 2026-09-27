@@ -1320,8 +1320,8 @@
     "price": 6900,
     "url": "https://jp.mercari.com/item/m65101872460",
     "image": "",
-    "postedAt": "2026-09-12T02:38:46.529Z",
-    "postedAtText": "3日前",
+    "postedAt": "2026-09-11T13:09:49.012Z",
+    "postedAtText": "16日前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m65101872460_1.jpg",
       "https://static.mercdn.net/item/detail/orig/photos/m65101872460_2.jpg",
@@ -1391,11 +1391,11 @@
   },
   {
     "name": "Apple Extended Keyboard II 日本語配列 中古　ADB",
-    "price": 19980,
+    "price": 18980,
     "url": "https://jp.mercari.com/item/m66883356245",
     "image": "",
-    "postedAt": "2026-08-22T02:38:49.131Z",
-    "postedAtText": "24日前",
+    "postedAt": "2026-09-27T08:09:46.187Z",
+    "postedAtText": "5時間前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m66883356245_1.jpg",
       "https://static.mercdn.net/item/detail/orig/photos/m66883356245_2.jpg",
@@ -1422,8 +1422,8 @@
     "price": 8999,
     "url": "https://jp.mercari.com/item/m97491071321",
     "image": "",
-    "postedAt": "2026-08-28T02:38:52.389Z",
-    "postedAtText": "18日前",
+    "postedAt": "2026-08-27T13:09:49.202Z",
+    "postedAtText": "1か月前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m97491071321_1.jpg",
       "https://static.mercdn.net/item/detail/orig/photos/m97491071321_2.jpg",
@@ -1457,7 +1457,7 @@
     "price": 8000,
     "url": "https://jp.mercari.com/item/m52264749660",
     "image": "",
-    "postedAt": "2026-08-15T02:38:53.885Z",
+    "postedAt": "2026-08-27T13:09:51.764Z",
     "postedAtText": "1か月前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m52264749660_1.jpg",
@@ -1484,7 +1484,7 @@
     "price": 8000,
     "url": "https://jp.mercari.com/item/m17962666823",
     "image": "",
-    "postedAt": "2026-08-15T02:38:55.553Z",
+    "postedAt": "2026-08-27T13:09:51.985Z",
     "postedAtText": "1か月前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m17962666823_1.jpg",
@@ -1511,8 +1511,8 @@
     "price": 7500,
     "url": "https://jp.mercari.com/item/m53112070722",
     "image": "",
-    "postedAt": "2026-07-15T02:38:57.811Z",
-    "postedAtText": "2か月前",
+    "postedAt": "2026-06-27T13:09:54.624Z",
+    "postedAtText": "3か月前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m53112070722_1.jpg",
       "https://static.mercdn.net/item/detail/orig/photos/m53112070722_2.jpg",
@@ -1539,8 +1539,8 @@
     "price": 12000,
     "url": "https://jp.mercari.com/item/m70083507697",
     "image": "",
-    "postedAt": "2026-07-15T02:38:58.642Z",
-    "postedAtText": "2か月前",
+    "postedAt": "2026-06-27T13:09:55.092Z",
+    "postedAtText": "3か月前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m70083507697_1.jpg",
       "https://static.mercdn.net/item/detail/orig/photos/m70083507697_2.jpg",
@@ -1564,7 +1564,7 @@
     "price": 27000,
     "url": "https://jp.mercari.com/item/m94517938961",
     "image": "",
-    "postedAt": "2026-08-15T02:39:00.897Z",
+    "postedAt": "2026-08-27T13:09:56.837Z",
     "postedAtText": "1か月前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m94517938961_1.jpg",
@@ -1583,11 +1583,11 @@
   },
   {
     "name": "Apple キーボード Extended Keyboard Ⅱ 2 アップル",
-    "price": 27470,
+    "price": 27460,
     "url": "https://jp.mercari.com/item/m23863883226",
     "image": "",
-    "postedAt": "2026-09-11T02:39:01.668Z",
-    "postedAtText": "4日前",
+    "postedAt": "2026-09-27T04:09:57.743Z",
+    "postedAtText": "9時間前",
     "images": [
       "https://static.mercdn.net/item/detail/orig/photos/m23863883226_1.jpg",
       "https://static.mercdn.net/item/detail/orig/photos/m23863883226_2.jpg",
@@ -9086,5 +9086,31 @@
       "realforce"
     ],
     "crawledAt": "2026-09-27T10:16:54.241Z"
+  },
+  {
+    "name": "Apple Extended Keyboard II マック　M3501 純正",
+    "price": 6600,
+    "url": "https://jp.mercari.com/item/m65285435936",
+    "image": "",
+    "postedAt": "2026-09-27T02:09:46.142Z",
+    "postedAtText": "11時間前",
+    "images": [
+      "https://static.mercdn.net/item/detail/orig/photos/m65285435936_1.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m65285435936_2.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m65285435936_3.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m65285435936_4.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m65285435936_5.jpg",
+      "https://static.mercdn.net/item/detail/orig/photos/m65285435936_6.jpg"
+    ],
+    "market": "mercari",
+    "marketName": "Mercari",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "apple extended keyboard ii"
+    ],
+    "crawledAt": "2026-09-27T13:09:28.809Z"
   }
 ]

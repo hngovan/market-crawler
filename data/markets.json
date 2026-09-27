@@ -70,18 +70,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 355,
+    "count": 356,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "apple extended keyboard ii",
       "keywords": [
-        "realforce",
-        "apple extended keyboard ii"
+        "apple extended keyboard ii",
+        "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T10:16:54.241Z"
+      "crawledAt": "2026-09-27T13:09:28.809Z"
     }
   },
   {
@@ -91,18 +91,19 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "success",
+    "status": "skipped",
     "count": 50,
-    "error": "",
+    "error": "apple extended keyboard ii: Yahoo! Auctions unavailable: HTTP 500",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "apple extended keyboard ii",
       "keywords": [
+        "apple extended keyboard ii",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-27T10:16:54.241Z"
+      "crawledAt": "2026-09-27T13:09:28.809Z"
     }
   },
   {
