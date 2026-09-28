@@ -45,7 +45,9 @@
     "url": "https://web.joongna.com/product/232311495",
     "image": "https://img2.joongna.com/media/original/2026/09/10/1789029782788jqk_Hc59Z.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/10/1789029782788jqk_Hc59Z.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/09/10/1789029782788jqk_Hc59Z.jpg",
+      "https://img2.joongna.com/media/original/2026/09/10/1789029782946RFI_FRQIh.jpg",
+      "https://img2.joongna.com/media/original/2026/09/10/1789029783038fuP_F3S8i.jpg"
     ],
     "postedAt": "2026-09-27T04:09:50.000Z",
     "market": "joongna",
@@ -248,7 +250,7 @@
       "https://img2.joongna.com/media/original/2026/09/12/17891953975087l7_n2KOR.jpg",
       "https://img2.joongna.com/media/original/2026/09/12/1789195397602Izv_FadYK.jpg"
     ],
-    "postedAt": "2026-09-26T04:52:29.000Z",
+    "postedAt": "2026-09-28T00:08:34.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -315,7 +317,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352983591ImI_UGJh8.jpg"
     ],
-    "postedAt": "2026-09-26T13:13:43.000Z",
+    "postedAt": "2026-09-28T00:16:47.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -335,7 +337,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352622960mCk_DlTno.jpg"
     ],
-    "postedAt": "2026-09-26T13:13:39.000Z",
+    "postedAt": "2026-09-28T00:16:37.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -355,7 +357,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/14/1789352445183VkN_TR81b.jpg"
     ],
-    "postedAt": "2026-09-26T13:13:35.000Z",
+    "postedAt": "2026-09-28T00:16:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -377,7 +379,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789300504333H9q_luTQJ.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789300504333L7s_8J3PJ.jpg"
     ],
-    "postedAt": "2026-09-26T13:13:30.000Z",
+    "postedAt": "2026-09-28T00:16:28.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -442,11 +444,9 @@
     "url": "https://web.joongna.com/product/232167496",
     "image": "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg",
-      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg",
-      "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg"
+      "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
     ],
-    "postedAt": "2026-09-26T12:08:03.000Z",
+    "postedAt": "2026-09-28T00:06:16.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1140,7 +1140,7 @@
     "image": "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg",
-      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg"
+      "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
     ],
     "postedAt": "2026-09-27T09:18:13.000Z",
     "market": "joongna",
@@ -1229,7 +1229,7 @@
     "image": "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg",
-      "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg"
+      "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
     ],
     "postedAt": "2026-09-27T13:33:16.000Z",
     "market": "joongna",
@@ -1424,7 +1424,7 @@
   },
   {
     "name": "리얼포스 R3HB13 토프레 무접점 키보드 판매",
-    "price": 249000,
+    "price": 248000,
     "url": "https://web.joongna.com/product/230380189",
     "image": "https://img2.joongna.com/media/original/2026/07/07/1783383463571CII_mpvsc.png?impolicy=thumb&size=150",
     "images": [
@@ -1432,7 +1432,7 @@
       "https://img2.joongna.com/media/original/2026/07/07/17833834635718rd_PIxhe.png",
       "https://img2.joongna.com/media/original/2026/07/07/1783383463572LcZ_lhSdO.png"
     ],
-    "postedAt": "2026-09-21T01:36:39.000Z",
+    "postedAt": "2026-09-27T23:27:48.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1560,7 +1560,7 @@
       "https://img2.joongna.com/media/original/2026/09/06/1788678893027xT7_WkHEq.jpg",
       "https://img2.joongna.com/media/original/2026/09/06/1788678893179Ukj_FcfQQ.jpg"
     ],
-    "postedAt": "2026-09-27T10:54:32.000Z",
+    "postedAt": "2026-09-27T20:37:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2364,7 +2364,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/27/1790496337606uPw_nnII6.jpg"
     ],
-    "postedAt": "2026-09-27T08:05:37.000Z",
+    "postedAt": "2026-09-27T22:29:50.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2375,5 +2375,30 @@
       "realforce"
     ],
     "crawledAt": "2026-09-27T10:16:54.241Z"
+  },
+  {
+    "name": "REALFORCE for Mac 키보드 리얼포스 TKL",
+    "price": 70000,
+    "url": "https://web.joongna.com/product/232764443",
+    "image": "https://img2.joongna.com/media/original/2026/09/28/1790542965199pD3_e87i1.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/28/1790542965199pD3_e87i1.jpg",
+      "https://img2.joongna.com/media/original/2026/09/28/1790542965338ztU_dLOpq.jpg",
+      "https://img2.joongna.com/media/original/2026/09/28/1790542965414koY_Ss6Se.jpg",
+      "https://img2.joongna.com/media/original/2026/09/28/1790542965494lhn_a9lcx.jpg",
+      "https://img2.joongna.com/media/original/2026/09/28/1790542965627EkQ_3wLGK.jpg",
+      "https://img2.joongna.com/media/original/2026/09/28/1790543076619cYl_AF55L.jpg"
+    ],
+    "postedAt": "2026-09-27T21:02:45.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-28T01:18:03.328Z"
   }
 ]
