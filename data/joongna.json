@@ -355,9 +355,9 @@
     "url": "https://web.joongna.com/product/232411309",
     "image": "https://img2.joongna.com/media/original/2026/09/14/1789352445183VkN_TR81b.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/14/1789352445183VkN_TR81b.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/09/14/1789352445183VkN_TR81b.jpg"
     ],
-    "postedAt": "2026-09-28T00:16:32.000Z",
+    "postedAt": "2026-09-29T00:42:03.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -728,14 +728,14 @@
   },
   {
     "name": "리얼포스 R2 텐키리스",
-    "price": 140000,
+    "price": 130000,
     "url": "https://web.joongna.com/product/231845565",
     "image": "https://img2.joongna.com/media/original/2026/08/25/1787636189702Izn_zu6xR.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/08/25/1787636189702Izn_zu6xR.jpg",
       "https://img2.joongna.com/media/original/2026/08/25/1787636189933dOy_6q57V.jpg"
     ],
-    "postedAt": "2026-09-28T02:16:11.000Z",
+    "postedAt": "2026-09-29T05:39:12.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1324,7 +1324,7 @@
       "https://img2.joongna.com/media/original/2026/09/08/1788864044483ZnM_ARu9j.png",
       "https://img2.joongna.com/media/original/2026/09/08/1788864044484vUZ_vJuxO.png"
     ],
-    "postedAt": "2026-09-28T02:57:53.000Z",
+    "postedAt": "2026-09-29T07:45:43.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1733,11 +1733,7 @@
     "url": "https://web.joongna.com/product/232559205",
     "image": "https://img2.joongna.com/media/original/2026/09/19/1789794746503PwD_qORuo.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/19/1789794746503PwD_qORuo.jpg",
-      "https://img2.joongna.com/media/original/2026/09/19/1789794746610Fir_kB48M.jpg",
-      "https://img2.joongna.com/media/original/2026/09/19/1789794746676bZ4_Xqkq0.jpg",
-      "https://img2.joongna.com/media/original/2026/09/19/1789794746754E6O_Ica6F.jpg",
-      "https://img2.joongna.com/media/original/2026/09/19/1789794746829KXz_2Vzrl.jpg"
+      "https://img2.joongna.com/media/original/2026/09/19/1789794746503PwD_qORuo.jpg?impolicy=thumb&size=150"
     ],
     "postedAt": "2026-09-28T22:59:07.000Z",
     "market": "joongna",
@@ -2280,7 +2276,7 @@
       "https://img2.joongna.com/media/original/2026/09/24/17902490097669RL_cHTnG.jpg",
       "https://img2.joongna.com/media/original/2026/09/26/17904079641137F0_2EMhk.jpg"
     ],
-    "postedAt": "2026-09-28T04:29:24.000Z",
+    "postedAt": "2026-09-29T05:07:31.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2467,5 +2463,25 @@
       "realforce"
     ],
     "crawledAt": "2026-09-29T02:24:02.225Z"
+  },
+  {
+    "name": "리얼포스 101u 차등",
+    "price": 115000,
+    "url": "https://web.joongna.com/product/232810991",
+    "image": "https://img2.joongna.com/media/original/2026/09/29/1790676365806DOt_kA76z.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/29/1790676365806DOt_kA76z.jpg"
+    ],
+    "postedAt": "2026-09-29T10:06:05.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-09-29T10:58:37.541Z"
   }
 ]
