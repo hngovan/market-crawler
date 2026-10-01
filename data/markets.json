@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 123,
+    "count": 124,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-30T17:13:21.674Z"
+      "crawledAt": "2026-10-01T01:41:18.266Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-30T17:13:21.674Z"
+      "crawledAt": "2026-10-01T01:41:18.266Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-30T17:13:21.674Z"
+      "crawledAt": "2026-10-01T01:41:18.266Z"
     }
   },
   {
@@ -69,9 +69,9 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
-    "count": 398,
-    "error": "realforce: Waiting failed: 75000ms exceeded",
+    "status": "success",
+    "count": 412,
+    "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
@@ -81,7 +81,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-30T17:13:21.674Z"
+      "crawledAt": "2026-10-01T01:41:18.266Z"
     }
   },
   {
@@ -102,7 +102,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-30T17:13:21.674Z"
+      "crawledAt": "2026-10-01T01:41:18.266Z"
     }
   },
   {
@@ -123,7 +123,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-09-30T17:20:03.105Z"
+      "crawledAt": "2026-10-01T01:45:07.547Z"
     }
   }
 ]
