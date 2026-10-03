@@ -1,5 +1,45 @@
 [
   {
+    "name": "東プレ REALFORCE R3HC11 キーボード 有線/BT5.0 日本語配列 ブラック",
+    "price": 18800,
+    "bidCount": 0,
+    "postedAt": "2026-10-03T05:48:50.000Z",
+    "endsAt": "2026-10-10T15:48:50.000Z",
+    "saleType": "auction",
+    "url": "https://auctions.yahoo.co.jp/jp/auction/f1246888245",
+    "image": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/user/364d80a448bae80ab5dbc3e0268073e48c759513266afcef388db3fdd4716779/i-img1200x900-17910065296550e0knbm56287.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+    "market": "yahoo-auctions",
+    "marketName": "Yahoo! Auctions",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-03T10:07:26.114Z"
+  },
+  {
+    "name": "東プレ REALFORCE R2-JP4-BK",
+    "price": 5000,
+    "bidCount": 1,
+    "postedAt": "2026-10-03T02:31:27.000Z",
+    "endsAt": "2026-10-09T13:29:51.000Z",
+    "saleType": "auction",
+    "url": "https://auctions.yahoo.co.jp/jp/auction/e1246872880",
+    "image": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/user/5a7473c7a8faa14fbd68b440f8a71526c0f48e58605d3f01cd3e5c22df450ce1/i-img1024x768-17909946106779h72d5h55416.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+    "market": "yahoo-auctions",
+    "marketName": "Yahoo! Auctions",
+    "region": "japan",
+    "regionName": "Nhật Bản",
+    "regionFlag": "🇯🇵",
+    "currency": "JPY",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-03T10:07:26.114Z"
+  },
+  {
     "name": "REALFORCE R3S キーボード 標準スイッチ 有線 フル 45g 英語配列 ブラック R3SB31",
     "price": 33400,
     "buyNowPrice": 33400,
@@ -18,7 +58,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3S キーボード 有線 テンキーレス 45g 日本語配列 ブラック R3SC11",
@@ -39,7 +79,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE◆パソコン周辺機器/R2TLS-US3//",
@@ -60,7 +100,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "東プレ Realforce TKL R2TL-JP4-BK テンキーレスUSBキーボード 静電容量無接点方式",
@@ -80,7 +120,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R4 キーボード ハイブリッド テンキーレス 30g 英語配列 ブラック R4HD13",
@@ -101,12 +141,12 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE リアルフォース 東プレ アルミリストレスト テンキーレスサイズ M070201 ダークシルバー R4 R3rr",
-    "price": 11890,
-    "buyNowPrice": 11890,
+    "price": 10230,
+    "buyNowPrice": 10230,
     "bidCount": 0,
     "postedAt": "2026-10-02T14:03:57.000Z",
     "endsAt": "2026-10-05T14:03:57.000Z",
@@ -122,7 +162,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3S キーボード 標準スイッチ 有線 テンキーレス 45g 英語配列 ブラック R3SD31rr",
@@ -143,12 +183,12 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE リアルフォース 東プレ ジェルリストレスト TKLサイズ M080201 ブラック ジェルトロン 搭載 腱rr",
-    "price": 12150,
-    "buyNowPrice": 12150,
+    "price": 10370,
+    "buyNowPrice": 10370,
     "bidCount": 0,
     "postedAt": "2026-10-02T14:03:19.000Z",
     "endsAt": "2026-10-05T14:03:19.000Z",
@@ -164,7 +204,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "東プレ REALFORCE GX1 ゲーミングキーボード 2024年製 有線 静音 ブラック テンキーレス 中古 S11712631",
@@ -185,7 +225,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE キーボードデッキ RC1 キーボード専用 ノートパソコン用 C1AKDn",
@@ -206,7 +246,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R4キーボード 対応 カラーキーキャップ セット 日本語配列 タイプキー 丁字茶(ちょうじちゃ) かなレス n",
@@ -227,7 +267,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "東プレ キーボード REALFORCE TKL R2TL-JP4-BK/AHAZ01 Topre",
@@ -247,7 +287,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "Y198 東プレ Topre 日本製 NG01BS REALFORCE リアルフォース 91UBK-S PCキーボード　中古 本体",
@@ -268,7 +308,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "東プレ キーボード REALFORCE 108UD-A XE01B0 Topre",
@@ -288,7 +328,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE リアルフォース 東プレ アルミリストレスト テンキーレスサイズ M070201 ダークシルバー R4 R3 R",
@@ -309,7 +349,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【動作確認済み】REALFORCE R3 KEYBOARD/R3HC11",
@@ -329,7 +369,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【HHKB・リアルフォース】Deskeys Silencing Rings #2 89枚【静電容量無接点・静音リング】",
@@ -349,7 +389,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "東プレ REALFORCE R2-JP4-BK AGAZ01 キーボード PC周辺機器 中古 N11689502",
@@ -369,7 +409,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "極美品 REALFORCE for Mac R2SA-JP3M-WH 東プレ 日本語キーボード 付属品一式 日本語 114キー 30g かな無し 静音 Mac用",
@@ -389,7 +429,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE リアルフォース R3HA21 キーボード PC周辺機器 中古 W11691256",
@@ -410,7 +450,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【送料込み】東プレ REALFORCE Realforce108UBK SJ08B0 USB キーボード 動作確認済",
@@ -431,7 +471,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "①東プレ 108UBK SJ08B0 キーボード Keyboard REALFORCE リアルフォース 静電容量無接点方式キーボード",
@@ -451,7 +491,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "★新品★R2TLA-US4G-BK Realforce RGB TKL 有線キーボード 英語配列 87キーレ",
@@ -472,7 +512,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "動作確認済 箱・説明書なし REALFORCE R2TL-JP4-BK/AHAZ01",
@@ -492,7 +532,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【未開封訳あり】東プレ ラプラス・ダークネス モデル GX1 Keyboard X1UCL1 日本語配列 ホロライブ×REALFORCE M1001",
@@ -512,7 +552,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【8】REALFORCE GX1 キーボード X1UC11 日本語配列 荷重45g ラピッドトリガー搭載 静電容量無接点 東プレ 動作正常",
@@ -533,7 +573,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "Realforce 91UDK-G 東プレ リアルフォース テンキーレス 静電容量無接点方式 DIPスイッチ機能付 昇華印刷墨モデル ALL45g荷重",
@@ -553,49 +593,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
-  },
-  {
-    "name": "【新品未使用】REALFORCE RC1用 パームレスト 木製リストレスト 高さを最適化した薄型 3Mゴム足 リアルフォース用 6",
-    "price": 6700,
-    "buyNowPrice": 6700,
-    "bidCount": 0,
-    "postedAt": "2026-10-01T01:35:49.000Z",
-    "endsAt": "2026-10-05T01:35:49.000Z",
-    "saleType": "fixed-price",
-    "url": "https://auctions.yahoo.co.jp/jp/auction/h1245149953",
-    "image": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/e2fa445e12d6b69ae88f0651313914d67865a1f799a06c2de8d554e181d76e02/i-img500x500-17897817480228aiv3a117102.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
-    "market": "yahoo-auctions",
-    "marketName": "Yahoo! Auctions",
-    "region": "japan",
-    "regionName": "Nhật Bản",
-    "regionFlag": "🇯🇵",
-    "currency": "JPY",
-    "keywords": [
-      "realforce"
-    ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
-  },
-  {
-    "name": "REALFORCE R3S R3SC41 東プレ キーボード ホワイト",
-    "price": 11980,
-    "buyNowPrice": 11980,
-    "bidCount": 0,
-    "postedAt": "2026-09-30T16:25:50.000Z",
-    "endsAt": "2026-10-04T10:25:50.000Z",
-    "saleType": "fixed-price",
-    "url": "https://auctions.yahoo.co.jp/jp/auction/x1245195565",
-    "image": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/ae223cec29861739ef908a5847c0737696b656c5c7e62622bf4cf2da0792da99/i-img1200x1200-17898226327683qhbjiw36.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
-    "market": "yahoo-auctions",
-    "marketName": "Yahoo! Auctions",
-    "region": "japan",
-    "regionName": "Nhật Bản",
-    "regionFlag": "🇯🇵",
-    "currency": "JPY",
-    "keywords": [
-      "realforce"
-    ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE RGB AEAX02 日本語配列 箱付",
@@ -616,7 +614,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "リアルフォース REALFORCE ゲーミングキーボード X1UD11",
@@ -636,12 +634,12 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【1289】リアルフォース Realforce 91U NG0100 ホワイト Topre 東プレ USBキーボード 有線キーボード 静電容量無接点方式 通電確認済み",
-    "price": 5500,
-    "bidCount": 1,
+    "price": 5750,
+    "bidCount": 2,
     "postedAt": "2026-09-30T07:46:28.000Z",
     "endsAt": "2026-10-04T13:46:28.000Z",
     "saleType": "auction",
@@ -656,7 +654,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3 フルキーボード 変荷重 かな有 R3HA12 [Etc]",
@@ -676,7 +674,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3 フルキーボード 変荷重 かな有 R3HA12 [Etc]",
@@ -696,7 +694,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3 フルキーボード 変荷重 かな有 R3HA12 [Etc]",
@@ -716,7 +714,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3 フルキーボード 変荷重 かな有 R3HC12 [Etc]",
@@ -736,7 +734,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R4 フルキーボード 変荷重 かな有 R4HA12 [Etc]",
@@ -756,7 +754,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3 フルキーボード 変荷重 かな有 R3HC12 [Etc]",
@@ -776,7 +774,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3 フルキーボード 変荷重 かな有 R3HA12 [Etc]",
@@ -796,7 +794,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R4 フルキーボード 変荷重 かな有 R4HA12 [Etc]",
@@ -816,7 +814,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R4 フルキーボード 変荷重 かな有 R4HA12 [Etc]",
@@ -836,7 +834,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE R3 フルキーボード 変荷重 かな有 R3HC12 [Etc]",
@@ -856,7 +854,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【1286】Realforce リアルフォース 23U WC0100 Topre テンキー 通電確認済み 簡易動作確認済み USBキーボード 東プレ",
@@ -877,7 +875,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "東プレ REALFORCE R2-JPV-Ⅳ USB キーボード",
@@ -898,7 +896,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "ほぼ未使用REALFORCE R3S R3SA13 30g 静音 日本語配列 有線 フル ブラック 東プレ",
@@ -919,7 +917,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE TKL SA R2TLSA-JP3-BK （ブラック）",
@@ -939,7 +937,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "REALFORCE リアルフォース RC1 開封のみ未使用",
@@ -960,7 +958,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "Realforce キーボード テンキーレス 91UBK NG01B0 日本語配列 ブラック USB接続 動作確認済み",
@@ -980,7 +978,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【1円スタート！】東プレ REALFORCE 91U テンキーレスキーボード アイボリー",
@@ -1000,7 +998,7 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   },
   {
     "name": "【希少・新品未使用】東プレ(Topre)RealForce106S (LA0200)白☆パソコン用キーボード☆リアルフォース",
@@ -1020,6 +1018,6 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-03T01:33:30.300Z"
+    "crawledAt": "2026-10-03T10:07:26.114Z"
   }
 ]
