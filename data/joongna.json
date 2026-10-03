@@ -2499,7 +2499,7 @@
       "https://img2.joongna.com/media/original/2026/09/29/1790686065864Wbp_UJPfW.jpg",
       "https://img2.joongna.com/media/original/2026/09/29/1790686065967slA_hh8Xv.jpg"
     ],
-    "postedAt": "2026-10-03T09:48:24.000Z",
+    "postedAt": "2026-10-03T12:11:53.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2586,7 +2586,7 @@
       "https://img2.joongna.com/media/original/2026/09/30/1790723391120zGV_q2YQj.jpg",
       "https://img2.joongna.com/media/original/2026/09/30/1790723391248uLN_X77QJ.jpg"
     ],
-    "postedAt": "2026-10-03T09:48:21.000Z",
+    "postedAt": "2026-10-03T12:11:50.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2832,5 +2832,52 @@
       "realforce"
     ],
     "crawledAt": "2026-10-03T10:07:26.114Z"
+  },
+  {
+    "name": "KBDfans EC Hi-pro Renso (하이프로 렌소 - 리얼포스 키캡) 구매합니다.",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/232925029",
+    "image": "https://img2.joongna.com/media/original/2026/10/03/17910282271000Jz_J3HWa.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/03/17910282271000Jz_J3HWa.jpg"
+    ],
+    "postedAt": "2026-10-03T11:51:03.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-03T15:24:29.812Z"
+  },
+  {
+    "name": "리얼포스 R3 R3HDK5 화이트민트 45g 한글 / 저소음 APC 블루투스",
+    "price": 280000,
+    "url": "https://web.joongna.com/product/232922943",
+    "image": "https://img2.joongna.com/media/original/2026/10/03/17910230103203vL_FZ142.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/03/17910230103203vL_FZ142.jpg",
+      "https://img2.joongna.com/media/original/2026/10/03/1791023010452xEc_Q11dL.jpg",
+      "https://img2.joongna.com/media/original/2026/10/03/17910230105483e1_1qDZv.jpg",
+      "https://img2.joongna.com/media/original/2026/10/03/1791023010643lUX_s2krN.jpg",
+      "https://img2.joongna.com/media/original/2026/10/03/1791023010752YU2_8Sxos.jpg",
+      "https://img2.joongna.com/media/original/2026/10/03/1791023010891iiG_rPmsj.jpg",
+      "https://img2.joongna.com/media/original/2026/10/03/1791023011020XuR_oKfCf.jpg",
+      "https://img2.joongna.com/media/original/2026/10/03/1791023011111SqW_9fw9f.jpg"
+    ],
+    "postedAt": "2026-10-03T10:23:31.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-03T15:24:29.812Z"
   }
 ]
