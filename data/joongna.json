@@ -250,7 +250,7 @@
       "https://img2.joongna.com/media/original/2026/09/12/17891953975087l7_n2KOR.jpg",
       "https://img2.joongna.com/media/original/2026/09/12/1789195397602Izv_FadYK.jpg"
     ],
-    "postedAt": "2026-10-01T23:59:03.000Z",
+    "postedAt": "2026-10-04T05:05:42.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -272,7 +272,7 @@
       "https://img2.joongna.com/media/original/2026/09/13/1789286517513sxt_1z3Mp.jpg",
       "https://img2.joongna.com/media/original/2026/09/13/1789286517571M9J_uYUQ0.jpg"
     ],
-    "postedAt": "2026-10-01T23:58:39.000Z",
+    "postedAt": "2026-10-04T05:05:18.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -737,7 +737,7 @@
       "https://img2.joongna.com/media/original/2026/08/25/1787636189702Izn_zu6xR.jpg",
       "https://img2.joongna.com/media/original/2026/08/25/1787636189933dOy_6q57V.jpg"
     ],
-    "postedAt": "2026-10-01T00:07:24.000Z",
+    "postedAt": "2026-10-04T04:13:58.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1142,10 +1142,9 @@
     "url": "https://web.joongna.com/product/231839768",
     "image": "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg",
-      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg"
+      "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg"
     ],
-    "postedAt": "2026-09-27T09:18:13.000Z",
+    "postedAt": "2026-10-04T08:10:26.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1231,7 +1230,8 @@
     "url": "https://web.joongna.com/product/232167499",
     "image": "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg"
+      "https://img2.joongna.com/media/original/2026/09/05/1788599129108kfN_9mM60.jpg",
+      "https://img2.joongna.com/media/original/2026/08/25/1787624189352ELl_bY5qh.jpg"
     ],
     "postedAt": "2026-10-01T09:21:33.000Z",
     "market": "joongna",
@@ -1325,7 +1325,7 @@
       "https://img2.joongna.com/media/original/2026/09/08/1788864044483ZnM_ARu9j.png",
       "https://img2.joongna.com/media/original/2026/09/08/1788864044484vUZ_vJuxO.png"
     ],
-    "postedAt": "2026-10-03T07:19:05.000Z",
+    "postedAt": "2026-10-04T07:04:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2054,7 +2054,7 @@
       "https://img2.joongna.com/media/original/2026/09/07/1788711918707cTd_caI5E.jpg",
       "https://img2.joongna.com/media/original/2026/09/07/17887119188174UG_CiHUk.jpg"
     ],
-    "postedAt": "2026-10-01T14:35:22.000Z",
+    "postedAt": "2026-10-04T08:53:19.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2449,14 +2449,14 @@
   },
   {
     "name": "(풀윤활) 리얼포스 저소음 45g 균등 풀배열 판매 합니다.",
-    "price": 95000,
+    "price": 90000,
     "url": "https://web.joongna.com/product/232794874",
     "image": "https://img2.joongna.com/media/original/2026/09/29/1790642512722njs_PXmtj.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/09/29/1790642512722njs_PXmtj.jpg",
       "https://img2.joongna.com/media/original/2026/09/29/1790642512857RHN_kpxN7.jpg"
     ],
-    "postedAt": "2026-10-04T00:56:21.000Z",
+    "postedAt": "2026-10-04T06:08:08.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2476,7 +2476,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/29/1790676365806DOt_kA76z.jpg"
     ],
-    "postedAt": "2026-10-03T04:54:16.000Z",
+    "postedAt": "2026-10-04T06:45:21.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2643,14 +2643,14 @@
   },
   {
     "name": "리얼포스 r3 45g 저소음 균등 apc 윈도우용 블루투스 팝니다.",
-    "price": 125000,
+    "price": 120000,
     "url": "https://web.joongna.com/product/232824118",
     "image": "https://img2.joongna.com/media/original/2026/09/30/17907296709997RS_UtQTa.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/09/30/17907296709997RS_UtQTa.jpg",
       "https://img2.joongna.com/media/original/2026/09/14/1789352983591ImI_UGJh8.jpg"
     ],
-    "postedAt": "2026-10-04T00:56:27.000Z",
+    "postedAt": "2026-10-04T06:08:12.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2687,13 +2687,13 @@
   },
   {
     "name": "리얼포스 45g 저소음 풀배열 판매합니다.",
-    "price": 80000,
+    "price": 75000,
     "url": "https://web.joongna.com/product/232842304",
     "image": "https://img2.joongna.com/media/original/2026/09/30/1790768152699MJ8_Pqd3G.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/09/30/1790768152699MJ8_Pqd3G.jpg"
     ],
-    "postedAt": "2026-10-04T00:56:46.000Z",
+    "postedAt": "2026-10-04T06:08:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2707,13 +2707,13 @@
   },
   {
     "name": "리얼포스 토프레 106키 먹각 차등 일반 팝니다.",
-    "price": 75000,
+    "price": 70000,
     "url": "https://web.joongna.com/product/232842248",
     "image": "https://img2.joongna.com/media/original/2026/09/30/1790768038162bdG_Xn4Lb.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/09/30/1790768038162bdG_Xn4Lb.jpg"
     ],
-    "postedAt": "2026-10-04T00:56:42.000Z",
+    "postedAt": "2026-10-04T06:08:26.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2727,7 +2727,7 @@
   },
   {
     "name": "리얼포스 저소음 차등 판매합니다.",
-    "price": 80000,
+    "price": 75000,
     "url": "https://web.joongna.com/product/232842124",
     "image": "https://img2.joongna.com/media/original/2026/09/30/1790767763314H9a_9ww69.jpg?impolicy=thumb&size=150",
     "images": [
@@ -2743,17 +2743,17 @@
       "realforce"
     ],
     "crawledAt": "2026-09-30T17:13:21.674Z",
-    "postedAt": "2026-10-04T00:56:31.000Z"
+    "postedAt": "2026-10-04T06:08:17.000Z"
   },
   {
     "name": "리얼포스 토프레 r2 45 저소음 팝니다.",
-    "price": 90000,
+    "price": 85000,
     "url": "https://web.joongna.com/product/232842194",
     "image": "https://img2.joongna.com/media/original/2026/09/30/1790767918170Tmu_cUAPI.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/09/30/1790767918170Tmu_cUAPI.jpg"
     ],
-    "postedAt": "2026-10-04T00:56:35.000Z",
+    "postedAt": "2026-10-04T06:08:21.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2886,7 +2886,7 @@
     "url": "https://web.joongna.com/product/227051118",
     "image": "https://img2.joongna.com/media/original/2026/04/02/1775132861821ZD0_uNSCD.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/04/02/1775132861821ZD0_uNSCD.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/04/02/1775132861821ZD0_uNSCD.jpg"
     ],
     "market": "joongna",
     "marketName": "Joongna",
@@ -2897,7 +2897,8 @@
     "keywords": [
       "realforce"
     ],
-    "crawledAt": "2026-10-04T02:14:07.884Z"
+    "crawledAt": "2026-10-04T02:14:07.884Z",
+    "postedAt": "2026-10-04T01:27:12.000Z"
   },
   {
     "name": "리얼포스 RGB LED Edition 풀배열 키보드",
