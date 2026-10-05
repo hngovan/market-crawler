@@ -1383,7 +1383,8 @@
     "url": "https://web.joongna.com/product/230683292",
     "image": "https://img2.joongna.com/media/original/2026/07/16/1784192702514I8l_UXkPr.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/07/16/1784192702514I8l_UXkPr.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/07/16/1784192702514I8l_UXkPr.jpg",
+      "https://img2.joongna.com/media/original/2026/07/16/1784192729115syw_RJjN2.jpg"
     ],
     "postedAt": "2026-10-04T00:43:36.000Z",
     "market": "joongna",
@@ -2606,7 +2607,7 @@
       "https://img2.joongna.com/media/original/2026/05/28/1779968742701pQi_QXja4.jpg",
       "https://img2.joongna.com/media/original/2026/05/28/1779968742852nmB_TMtKJ.jpg"
     ],
-    "postedAt": "2026-09-30T04:30:17.000Z",
+    "postedAt": "2026-10-05T12:23:59.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
