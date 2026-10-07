@@ -2993,5 +2993,27 @@
       "realforce"
     ],
     "crawledAt": "2026-10-07T01:53:41.162Z"
+  },
+  {
+    "name": "리얼포스 87U 균등 55g",
+    "price": 80000,
+    "url": "https://web.joongna.com/product/233037524",
+    "image": "https://img2.joongna.com/media/original/2026/10/07/1791382778652ycz_6nZXQ.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/07/1791382778652ycz_6nZXQ.jpg",
+      "https://img2.joongna.com/media/original/2026/10/07/1791382778821vH3_3ftsV.jpg",
+      "https://img2.joongna.com/media/original/2026/10/07/1791382778916xoO_mrUvt.jpg"
+    ],
+    "postedAt": "2026-10-07T14:19:39.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-07T18:07:13.366Z"
   }
 ]
