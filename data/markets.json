@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-07T01:53:41.162Z"
+      "crawledAt": "2026-10-07T11:25:26.874Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-07T01:53:41.162Z"
+      "crawledAt": "2026-10-07T11:25:26.874Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-07T01:53:41.162Z"
+      "crawledAt": "2026-10-07T11:25:26.874Z"
     }
   },
   {
@@ -70,7 +70,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 516,
+    "count": 523,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -81,7 +81,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-07T01:53:41.162Z"
+      "crawledAt": "2026-10-07T11:25:26.874Z"
     }
   },
   {
@@ -102,7 +102,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-07T01:53:41.162Z"
+      "crawledAt": "2026-10-07T11:25:26.874Z"
     }
   },
   {
@@ -112,9 +112,9 @@
     "regionName": "Trung Quốc",
     "regionFlag": "🇨🇳",
     "currency": "CNY",
-    "status": "success",
+    "status": "skipped",
     "count": 60,
-    "error": "",
+    "error": "realforce: Apify returned no valid Goofish products",
     "dataFile": "data/goofish.json",
     "crawl": {
       "keyword": "realforce",
@@ -123,7 +123,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-07T01:57:48.793Z"
+      "crawledAt": "2026-10-07T11:28:49.898Z"
     }
   }
 ]
