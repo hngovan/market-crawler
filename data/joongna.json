@@ -1320,7 +1320,9 @@
     "url": "https://web.joongna.com/product/232255512",
     "image": "https://img2.joongna.com/media/original/2026/10/06/1791273671378n0H_EqgdX.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/10/06/1791273671378n0H_EqgdX.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/10/06/1791273671378n0H_EqgdX.jpg",
+      "https://img2.joongna.com/media/original/2026/09/08/1788864044483ZnM_ARu9j.png",
+      "https://img2.joongna.com/media/original/2026/09/08/1788864044484vUZ_vJuxO.png"
     ],
     "postedAt": "2026-10-07T08:00:33.000Z",
     "market": "joongna",
@@ -2910,7 +2912,7 @@
       "https://img2.joongna.com/media/original/2026/10/04/179106473409062h_AG9L3.jpg",
       "https://img2.joongna.com/media/original/2026/10/04/1791064734178Ymh_wF7JJ.jpg"
     ],
-    "postedAt": "2026-10-07T02:01:47.000Z",
+    "postedAt": "2026-10-08T22:54:36.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3002,7 +3004,7 @@
       "https://img2.joongna.com/media/original/2026/10/07/1791382778821vH3_3ftsV.jpg",
       "https://img2.joongna.com/media/original/2026/10/07/1791382778916xoO_mrUvt.jpg"
     ],
-    "postedAt": "2026-10-08T07:54:05.000Z",
+    "postedAt": "2026-10-09T01:05:50.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3118,7 +3120,7 @@
       "https://img2.joongna.com/media/original/2026/10/08/1791430881977HtW_5I5dO.jpg",
       "https://img2.joongna.com/media/original/2026/10/08/1791430882037Cq2_ukQo4.jpg"
     ],
-    "postedAt": "2026-10-08T03:41:22.000Z",
+    "postedAt": "2026-10-08T23:10:40.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3129,5 +3131,27 @@
       "realforce"
     ],
     "crawledAt": "2026-10-08T11:41:01.165Z"
+  },
+  {
+    "name": "리얼포스 R4 tkl 화이트",
+    "price": 335000,
+    "url": "https://web.joongna.com/product/233072418",
+    "image": "https://img2.joongna.com/media/original/2026/10/09/1791512335389nPX_tk1X2.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/09/1791512335389nPX_tk1X2.jpg",
+      "https://img2.joongna.com/media/original/2026/10/09/1791512335518UWX_CHjXo.jpg",
+      "https://img2.joongna.com/media/original/2026/10/09/1791512335659nQH_hKa1R.jpg"
+    ],
+    "postedAt": "2026-10-09T02:18:55.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-09T02:39:41.925Z"
   }
 ]
