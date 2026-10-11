@@ -565,7 +565,7 @@
       "https://img2.joongna.com/media/original/2026/05/09/1778291564085Gmr_ZYL4y.jpg",
       "https://img2.joongna.com/media/original/2026/05/09/1778291564236aeK_VOnE3.jpg"
     ],
-    "postedAt": "2026-10-05T23:28:05.000Z",
+    "postedAt": "2026-10-11T07:26:59.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1965,7 +1965,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/23/1790149839811qgb_hKYfZ.jpg"
     ],
-    "postedAt": "2026-10-10T00:52:16.000Z",
+    "postedAt": "2026-10-11T02:55:20.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2005,7 +2005,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/23/1790149779911909_xsWXL.jpg"
     ],
-    "postedAt": "2026-10-10T00:52:09.000Z",
+    "postedAt": "2026-10-11T02:55:14.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2587,7 +2587,7 @@
       "https://img2.joongna.com/media/original/2026/09/30/1790723391120zGV_q2YQj.jpg",
       "https://img2.joongna.com/media/original/2026/09/30/1790723391248uLN_X77QJ.jpg"
     ],
-    "postedAt": "2026-10-10T10:16:37.000Z",
+    "postedAt": "2026-10-11T11:03:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2609,7 +2609,7 @@
       "https://img2.joongna.com/media/original/2026/05/28/1779968742701pQi_QXja4.jpg",
       "https://img2.joongna.com/media/original/2026/05/28/1779968742852nmB_TMtKJ.jpg"
     ],
-    "postedAt": "2026-10-09T07:11:44.000Z",
+    "postedAt": "2026-10-11T03:18:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3027,7 +3027,7 @@
       "https://img2.joongna.com/media/original/2026/10/07/1791377446482jZb_N8c4l.jpg",
       "https://img2.joongna.com/media/original/2026/10/07/1791377446573msH_lNEuA.jpg"
     ],
-    "postedAt": "2026-10-10T10:16:40.000Z",
+    "postedAt": "2026-10-11T11:03:34.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3071,7 +3071,7 @@
       "https://img2.joongna.com/media/original/2026/10/08/1791436328975za2_bjDkV.jpg",
       "https://img2.joongna.com/media/original/2026/10/08/1791438982339BjI_T22Md.jpg"
     ],
-    "postedAt": "2026-10-10T06:49:17.000Z",
+    "postedAt": "2026-10-11T05:26:12.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3225,5 +3225,29 @@
       "realforce"
     ],
     "crawledAt": "2026-10-09T17:42:57.411Z"
+  },
+  {
+    "name": "리얼포스 R4 30g 블랙 풀배열",
+    "price": 349000,
+    "url": "https://web.joongna.com/product/233128551",
+    "image": "https://img2.joongna.com/media/original/2026/10/11/1791694189448Sg8_mpQw1.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189448Sg8_mpQw1.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189511aq6_IcCAP.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189559v1X_IEEHm.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189672B2q_orInb.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189734Zo7_NtJc0.jpg"
+    ],
+    "postedAt": "2026-10-11T04:49:49.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-11T11:05:09.373Z"
   }
 ]
