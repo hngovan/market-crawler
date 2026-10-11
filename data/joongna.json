@@ -448,7 +448,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
     ],
-    "postedAt": "2026-10-04T11:20:41.000Z",
+    "postedAt": "2026-10-11T12:22:07.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2674,7 +2674,7 @@
       "https://img2.joongna.com/media/original/2026/10/01/1790785422824trb_gQj4N.jpg",
       "https://img2.joongna.com/media/original/2026/10/01/1790785422938Tx7_TFUdo.jpg"
     ],
-    "postedAt": "2026-10-08T08:05:26.000Z",
+    "postedAt": "2026-10-11T14:11:26.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2836,7 +2836,7 @@
   },
   {
     "name": "KBDfans EC Hi-pro Renso (하이프로 렌소 - 리얼포스 키캡) 구매합니다.",
-    "price": 200000,
+    "price": 999999,
     "url": "https://web.joongna.com/product/232925029",
     "image": "https://img2.joongna.com/media/original/2026/10/03/17910282271000Jz_J3HWa.jpg?impolicy=thumb&size=150",
     "images": [
@@ -3249,5 +3249,26 @@
       "realforce"
     ],
     "crawledAt": "2026-10-11T11:05:09.373Z"
+  },
+  {
+    "name": "리얼포스r2 저소음 화이트그린",
+    "price": 150000,
+    "url": "https://web.joongna.com/product/233139910",
+    "image": "https://img2.joongna.com/media/original/2026/10/11/1791719764621CLC_yMbY8.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/11/1791719764621CLC_yMbY8.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/17917200057844yW_dSJ6u.jpg"
+    ],
+    "postedAt": "2026-10-11T11:56:04.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-11T16:59:51.453Z"
   }
 ]
