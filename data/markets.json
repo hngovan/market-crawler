@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-14T01:28:37.127Z"
+      "crawledAt": "2026-10-14T09:50:04.583Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-14T01:28:37.127Z"
+      "crawledAt": "2026-10-14T09:50:04.583Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-14T01:28:37.127Z"
+      "crawledAt": "2026-10-14T09:50:04.583Z"
     }
   },
   {
@@ -70,7 +70,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 312,
+    "count": 319,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -80,7 +80,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-14T01:28:37.127Z"
+      "crawledAt": "2026-10-14T09:50:04.583Z"
     }
   },
   {
@@ -90,9 +90,9 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "success",
+    "status": "skipped",
     "count": 50,
-    "error": "",
+    "error": "realforce: Yahoo! Auctions returned no product cards or no-results marker",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
       "keyword": "realforce",
@@ -101,7 +101,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-14T01:28:37.127Z"
+      "crawledAt": "2026-10-14T09:50:04.583Z"
     }
   },
   {
@@ -122,7 +122,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-14T01:32:51.091Z"
+      "crawledAt": "2026-10-14T09:53:29.811Z"
     }
   }
 ]
