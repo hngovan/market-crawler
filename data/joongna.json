@@ -244,14 +244,14 @@
   },
   {
     "name": "리얼포스 87U 먹각 팝니다. (해피해킹 타입2와 교환 가능)",
-    "price": 115000,
+    "price": 110000,
     "url": "https://web.joongna.com/product/147690076",
     "image": "https://img2.joongna.com/cafe-article-data/live/2023/12/24/1031516720/1703414631858_000_QEfg7_main.JPG?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/cafe-article-data/live/2023/12/24/1031516720/1703414631858_000_QEfg7_main.JPG",
       "https://img2.joongna.com/cafe-article-data/live/2023/12/24/1031516720/1703414631859_001_6Ln8D.JPG"
     ],
-    "postedAt": "2026-10-13T22:24:53.000Z",
+    "postedAt": "2026-10-16T07:25:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -713,7 +713,7 @@
       "https://img2.joongna.com/media/original/2026/10/08/1791432979598nsS_Bu2d3.jpg",
       "https://img2.joongna.com/media/original/2026/10/08/1791432979603Jb0_4Neye.jpg"
     ],
-    "postedAt": "2026-10-08T04:20:27.000Z",
+    "postedAt": "2026-10-16T05:28:50.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1441,7 +1441,7 @@
     "url": "https://web.joongna.com/product/228488915",
     "image": "https://img2.joongna.com/media/original/2026/05/11/1778492485921ZGV_LqjuO.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/05/11/1778492485921ZGV_LqjuO.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/05/11/1778492485921ZGV_LqjuO.jpg"
     ],
     "postedAt": "2026-10-14T11:45:36.000Z",
     "market": "joongna",
@@ -1870,5 +1870,87 @@
       "realforce"
     ],
     "crawledAt": "2026-10-15T09:30:41.698Z"
+  },
+  {
+    "name": "리얼포스 RC1 컴팩트보드",
+    "price": 260000,
+    "url": "https://web.joongna.com/product/233272777",
+    "image": "https://img2.joongna.com/media/original/2026/10/16/17921316750506fU_BenAW.JPEG?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/16/17921316750506fU_BenAW.JPEG",
+      "https://img2.joongna.com/media/original/2026/10/16/1792131675050I38_HEtWg.JPEG"
+    ],
+    "postedAt": "2026-10-16T06:22:19.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-16T09:23:33.778Z"
+  },
+  {
+    "name": "(미개봉) 리얼포스 R3 TLS 그레이블루 45g",
+    "price": 250000,
+    "url": "https://web.joongna.com/product/233267434",
+    "image": "https://img2.joongna.com/media/original/2026/10/16/17921201066244Ep_Acerv.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/16/17921201066244Ep_Acerv.jpg"
+    ],
+    "postedAt": "2026-10-16T03:08:26.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-16T09:23:33.778Z"
+  },
+  {
+    "name": "(미개봉) 리얼포스 R3TL 블투 apc 30g",
+    "price": 300000,
+    "url": "https://web.joongna.com/product/233267427",
+    "image": "https://img2.joongna.com/media/original/2026/10/16/1792120094586Be7_le011.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/16/1792120094586Be7_le011.jpg"
+    ],
+    "postedAt": "2026-10-16T03:08:14.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-16T09:23:33.778Z"
+  },
+  {
+    "name": "리얼포스 R4 TKL 미사용 화이트 저소음 45G 영문 국내 정발",
+    "price": 340000,
+    "url": "https://web.joongna.com/product/233266289",
+    "image": "https://img2.joongna.com/media/original/2026/10/16/17921172346156f6_vW6oM.JPEG?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/16/17921172346156f6_vW6oM.JPEG",
+      "https://img2.joongna.com/media/original/2026/10/16/1792117245233ZSH_fLnKd.JPEG"
+    ],
+    "postedAt": "2026-10-16T02:24:41.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-16T09:23:33.778Z"
   }
 ]
