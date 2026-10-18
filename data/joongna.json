@@ -647,7 +647,7 @@
       "https://img2.joongna.com/media/original/2026/10/07/1791377446482jZb_N8c4l.jpg",
       "https://img2.joongna.com/media/original/2026/10/07/1791377446573msH_lNEuA.jpg"
     ],
-    "postedAt": "2026-10-17T14:34:57.000Z",
+    "postedAt": "2026-10-18T09:04:02.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -691,7 +691,7 @@
       "https://img2.joongna.com/media/original/2026/10/08/1791436328975za2_bjDkV.jpg",
       "https://img2.joongna.com/media/original/2026/10/08/1791438982339BjI_T22Md.jpg"
     ],
-    "postedAt": "2026-10-17T08:11:50.000Z",
+    "postedAt": "2026-10-18T07:42:09.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -938,7 +938,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/09/05/1788599120223FWk_IZXzG.jpg"
     ],
-    "postedAt": "2026-10-11T12:22:07.000Z",
+    "postedAt": "2026-10-18T02:03:17.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1592,7 +1592,7 @@
       "https://img2.joongna.com/media/original/2026/10/12/1791802326223UL2_5xfX3.jpg",
       "https://img2.joongna.com/media/original/2026/10/12/1791802326349nxN_PtQUx.jpg"
     ],
-    "postedAt": "2026-10-17T14:35:03.000Z",
+    "postedAt": "2026-10-18T09:04:09.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1833,7 +1833,7 @@
       "https://img2.joongna.com/media/original/2026/10/13/1791901896934yeu_xHQfl.jpg",
       "https://img2.joongna.com/media/original/2026/10/13/17919018970637qu_MO0y6.jpg"
     ],
-    "postedAt": "2026-10-17T14:35:07.000Z",
+    "postedAt": "2026-10-18T09:04:06.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1858,7 +1858,7 @@
       "https://img2.joongna.com/media/original/2026/10/15/1792038978077Fyy_Yxgf0.jpg",
       "https://img2.joongna.com/media/original/2026/10/15/1792038978082dEf_5bppo.jpg"
     ],
-    "postedAt": "2026-10-15T04:37:58.000Z",
+    "postedAt": "2026-10-18T04:56:26.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1899,7 +1899,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/10/16/17921201066244Ep_Acerv.jpg"
     ],
-    "postedAt": "2026-10-17T04:00:12.000Z",
+    "postedAt": "2026-10-18T04:30:48.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1919,7 +1919,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/10/16/1792120094586Be7_le011.jpg"
     ],
-    "postedAt": "2026-10-17T04:00:16.000Z",
+    "postedAt": "2026-10-18T04:30:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2030,7 +2030,7 @@
   },
   {
     "name": "리얼포스 R3 TKL BT 블랙 저소음 APC 45g 균등 영문 - 리더스키 국내정발",
-    "price": 200000,
+    "price": 180000,
     "url": "https://web.joongna.com/product/233307298",
     "image": "https://img2.joongna.com/media/original/2026/10/17/1792238195717IfD_B3qIx.jpg?impolicy=thumb&size=150",
     "images": [
@@ -2044,7 +2044,7 @@
       "https://img2.joongna.com/media/original/2026/10/17/1792238196398qY6_5RKmd.jpg",
       "https://img2.joongna.com/media/original/2026/10/17/1792238196493HMT_9vZxO.jpg"
     ],
-    "postedAt": "2026-10-17T11:56:36.000Z",
+    "postedAt": "2026-10-18T01:07:50.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2055,5 +2055,49 @@
       "realforce"
     ],
     "crawledAt": "2026-10-17T14:38:21.597Z"
+  },
+  {
+    "name": "토프레 리얼포스 rc1 저소음",
+    "price": 330000,
+    "url": "https://web.joongna.com/product/222851570",
+    "image": "https://img2.joongna.com/media/original/2025/12/11/1765445441762o1E_AmYOJ.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2025/12/11/1765445441762o1E_AmYOJ.jpg"
+    ],
+    "postedAt": "2026-10-18T04:16:05.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-18T09:13:44.382Z"
+  },
+  {
+    "name": "[30g + 55g 러버돔 포함] REALFORCE 리얼포스 R3 30g 저소음 균등 영문배열",
+    "price": 300000,
+    "url": "https://web.joongna.com/product/233318879",
+    "image": "https://img2.joongna.com/media/original/2026/10/18/1792292374589syh_ORhHR.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/18/1792292374589syh_ORhHR.jpg",
+      "https://img2.joongna.com/media/original/2026/10/18/1792292295729jBM_Tv7p2.jpg",
+      "https://img2.joongna.com/media/original/2026/10/18/1792292295848oAC_oZVrY.jpg",
+      "https://img2.joongna.com/media/original/2026/10/18/1792292374675vfd_9eZbv.jpg",
+      "https://img2.joongna.com/media/original/2026/10/18/17922923747445Gv_7JWAZ.jpg"
+    ],
+    "postedAt": "2026-10-18T02:58:15.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-18T09:13:44.382Z"
   }
 ]
