@@ -2165,5 +2165,47 @@
       "realforce"
     ],
     "crawledAt": "2026-10-18T15:05:06.677Z"
+  },
+  {
+    "name": "[풀윤활] 리얼포스 R2 TKL 화이트",
+    "price": 150000,
+    "url": "https://web.joongna.com/product/233339982",
+    "image": "https://img2.joongna.com/media/original/2026/10/19/17923597929810qb_aEUsg.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/19/17923597929810qb_aEUsg.jpg",
+      "https://img2.joongna.com/media/original/2026/10/19/17923597931358kK_1e6Mu.jpg"
+    ],
+    "postedAt": "2026-10-18T21:43:12.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-19T00:36:08.657Z"
+  },
+  {
+    "name": "(미개봉) 리얼포스 R4 BT 블랙 저소음 APC 45g 균등 키보드 판매합니다",
+    "price": 350000,
+    "url": "https://web.joongna.com/product/233338616",
+    "image": "https://img2.joongna.com/media/original/2026/10/19/1792339910216cQ1_LI9tD.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/19/1792339910216cQ1_LI9tD.jpg",
+      "https://img2.joongna.com/media/original/2026/10/19/1792339910400Jvk_PSEeR.jpg"
+    ],
+    "postedAt": "2026-10-18T16:11:50.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-19T00:36:08.657Z"
   }
 ]
