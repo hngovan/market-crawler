@@ -90,9 +90,9 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
+    "status": "success",
     "count": 50,
-    "error": "realforce: Yahoo! Auctions returned no product cards or no-results marker",
+    "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
       "keyword": "realforce",
@@ -101,7 +101,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-10-19T00:36:08.657Z"
+      "crawledAt": "2026-10-19T01:27:38.757Z"
     }
   },
   {
