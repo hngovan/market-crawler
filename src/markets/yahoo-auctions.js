@@ -6,24 +6,34 @@ import { extractYahooAuctionProduct } from "./yahoo-auctions-products.js";
 export const yahooAuctionsMarket = marketDefinitions["yahoo-auctions"];
 
 async function collectVisibleProducts(page) {
-  return page.$$eval(".Products__items .Product", (elements) =>
-    elements.map((element) => {
-      const detail = element.querySelector(".Product__bonus");
-      const link = element.querySelector(".Product__titleLink");
-      const image = element.querySelector(".Product__imageData");
-      const tracking = link?.getAttribute("data-cl-params") || "";
-      return {
-        name: link?.dataset.auctionTitle || link?.textContent || image?.alt || "",
-        currentPrice: detail?.dataset.auctionPrice || "",
-        startPrice: detail?.dataset.auctionStartprice || "",
-        buyNowPrice: detail?.dataset.auctionBuynowprice || "",
-        bidCount: element.querySelector(".Product__bid")?.textContent || "0",
-        startTime: tracking.match(/(?:^|;)st:(\d+)/)?.[1] || "",
-        endTime: detail?.dataset.auctionEndtime || "",
-        url: link?.href || "",
-        image: image?.currentSrc || image?.src || "",
-      };
-    }),
+  // Yahoo's search grid uses generated utility classes, so anchor on semantic attributes.
+  return page.$$eval("#searchItems li", (elements) =>
+    elements
+      .map((element) => {
+        const title = element.querySelector("[data-grid-item-title]");
+        const link = title?.closest("a");
+        const image = element.querySelector("img");
+        const tracking = link?.getAttribute("data-cl-params") || "";
+        const extra = tracking.match(/(?:^|;)etc:([^;]*)/)?.[1] || "";
+        const priceRow = title?.nextElementSibling?.querySelector("p");
+        const priceLabel = priceRow?.querySelector("span")?.textContent.trim() || "";
+        const currentPrice =
+          extra.match(/(?:^|,)p=(\d+)/)?.[1] || priceRow?.textContent.replace(priceLabel, "") || "";
+        const isBuyNow = priceLabel === "即決";
+        const bidRow = element.querySelector('[aria-label="入札件数"]')?.closest("p");
+        return {
+          name: title?.getAttribute("title") || title?.textContent || image?.alt || "",
+          currentPrice,
+          startPrice: isBuyNow ? currentPrice : "",
+          buyNowPrice: isBuyNow ? currentPrice : "",
+          bidCount: bidRow?.textContent || extra.match(/(?:^|,)b=(\d+)/)?.[1] || "0",
+          startTime: tracking.match(/(?:^|;)st:(\d+)/)?.[1] || "",
+          endTime: tracking.match(/(?:^|;)end:(\d+)/)?.[1] || "",
+          url: link?.href || "",
+          image: image?.currentSrc || image?.src || "",
+        };
+      })
+      .filter((card) => card.url),
   );
 }
 
