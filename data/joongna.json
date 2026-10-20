@@ -528,9 +528,12 @@
     "url": "https://web.joongna.com/product/232931723",
     "image": "https://img2.joongna.com/media/original/2026/10/04/17910647338760NB_KyUPO.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/10/04/17910647338760NB_KyUPO.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/10/04/17910647338760NB_KyUPO.jpg",
+      "https://img2.joongna.com/media/original/2026/10/04/1791064734009HYw_8fJs5.jpg",
+      "https://img2.joongna.com/media/original/2026/10/04/179106473409062h_AG9L3.jpg",
+      "https://img2.joongna.com/media/original/2026/10/04/1791064734178Ymh_wF7JJ.jpg"
     ],
-    "postedAt": "2026-10-18T10:23:23.000Z",
+    "postedAt": "2026-10-19T21:17:27.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1855,7 +1858,7 @@
       "https://img2.joongna.com/media/original/2026/10/15/1792038978077Fyy_Yxgf0.jpg",
       "https://img2.joongna.com/media/original/2026/10/15/1792038978082dEf_5bppo.jpg"
     ],
-    "postedAt": "2026-10-19T01:16:44.000Z",
+    "postedAt": "2026-10-20T05:22:55.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1896,7 +1899,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/10/16/17921201066244Ep_Acerv.jpg"
     ],
-    "postedAt": "2026-10-19T04:14:16.000Z",
+    "postedAt": "2026-10-20T02:57:09.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1916,7 +1919,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/10/16/1792120094586Be7_le011.jpg"
     ],
-    "postedAt": "2026-10-19T04:14:12.000Z",
+    "postedAt": "2026-10-20T02:57:28.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2085,7 +2088,7 @@
       "https://img2.joongna.com/media/original/2026/10/18/1792292374675vfd_9eZbv.jpg",
       "https://img2.joongna.com/media/original/2026/10/18/17922923747445Gv_7JWAZ.jpg"
     ],
-    "postedAt": "2026-10-19T13:32:06.000Z",
+    "postedAt": "2026-10-20T03:44:51.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2193,7 +2196,7 @@
       "https://img2.joongna.com/media/original/2026/10/19/1792339910216cQ1_LI9tD.jpg",
       "https://img2.joongna.com/media/original/2026/10/19/1792339910400Jvk_PSEeR.jpg"
     ],
-    "postedAt": "2026-10-19T05:52:05.000Z",
+    "postedAt": "2026-10-20T07:22:09.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2270,5 +2273,25 @@
       "realforce"
     ],
     "crawledAt": "2026-10-19T17:56:53.358Z"
+  },
+  {
+    "name": "[구매] 리얼포스 하이프로 그레이",
+    "price": 22222,
+    "url": "https://web.joongna.com/product/232409638",
+    "image": "https://img2.joongna.com/media/original/2026/09/14/17893491156215AS_PixU9.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/14/17893491156215AS_PixU9.jpg"
+    ],
+    "postedAt": "2026-10-20T05:00:33.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-20T09:43:01.025Z"
   }
 ]
