@@ -876,7 +876,7 @@
       "https://img2.joongna.com/media/original/2026/10/11/1791719764621CLC_yMbY8.jpg",
       "https://img2.joongna.com/media/original/2026/10/11/17917200057844yW_dSJ6u.jpg"
     ],
-    "postedAt": "2026-10-11T11:56:04.000Z",
+    "postedAt": "2026-10-20T23:23:13.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2016,7 +2016,7 @@
       "https://img2.joongna.com/media/original/2026/10/17/1792240107118hlT_gowqd.jpg",
       "https://img2.joongna.com/media/original/2026/10/17/1792240107202TLh_ao7CD.jpg"
     ],
-    "postedAt": "2026-10-17T12:28:27.000Z",
+    "postedAt": "2026-10-20T23:32:06.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2088,7 +2088,7 @@
       "https://img2.joongna.com/media/original/2026/10/18/1792292374675vfd_9eZbv.jpg",
       "https://img2.joongna.com/media/original/2026/10/18/17922923747445Gv_7JWAZ.jpg"
     ],
-    "postedAt": "2026-10-20T03:44:51.000Z",
+    "postedAt": "2026-10-21T00:50:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2175,7 +2175,7 @@
       "https://img2.joongna.com/media/original/2026/10/19/17923597929810qb_aEUsg.jpg",
       "https://img2.joongna.com/media/original/2026/10/19/17923597931358kK_1e6Mu.jpg"
     ],
-    "postedAt": "2026-10-19T21:17:02.000Z",
+    "postedAt": "2026-10-20T21:02:17.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2316,5 +2316,25 @@
       "realforce"
     ],
     "crawledAt": "2026-10-20T16:00:49.128Z"
+  },
+  {
+    "name": "리얼포스 R3 화이트 풀배열 45g",
+    "price": 215000,
+    "url": "https://web.joongna.com/product/232420373",
+    "image": "https://img2.joongna.com/media/original/2026/09/14/1789371074350C6J_UjUGm.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/14/1789371074350C6J_UjUGm.jpg"
+    ],
+    "postedAt": "2026-10-20T21:08:03.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-21T01:07:33.541Z"
   }
 ]
