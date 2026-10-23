@@ -1837,7 +1837,7 @@
       "https://img2.joongna.com/media/original/2026/10/13/1791901896934yeu_xHQfl.jpg",
       "https://img2.joongna.com/media/original/2026/10/13/17919018970637qu_MO0y6.jpg"
     ],
-    "postedAt": "2026-10-22T11:56:30.000Z",
+    "postedAt": "2026-10-23T12:09:56.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2115,7 +2115,7 @@
       "https://img2.joongna.com/media/original/2026/10/18/1792332193069cqQ_cm0VG.jpg",
       "https://img2.joongna.com/media/original/2026/10/18/1792332193208tDe_YMNHt.jpg"
     ],
-    "postedAt": "2026-10-22T11:56:35.000Z",
+    "postedAt": "2026-10-23T12:10:00.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2151,8 +2151,8 @@
     "crawledAt": "2026-10-18T15:05:06.677Z"
   },
   {
-    "name": "REALFORCE R3 키보드 R3HD21 화이트 영문배열 저소음 텐키리스 45g",
-    "price": 180000,
+    "name": "리얼포스 R3 키보드 R3HD21 화이트 영문배열 저소음 텐키리스 45g",
+    "price": 200000,
     "url": "https://web.joongna.com/product/233330320",
     "image": "https://img2.joongna.com/media/original/2026/10/18/17923179025116Rl_dWC6Q.jpg?impolicy=thumb&size=150",
     "images": [
@@ -2223,7 +2223,7 @@
       "https://img2.joongna.com/media/original/2026/10/19/179240492223268K_UHMH6.jpg",
       "https://img2.joongna.com/media/original/2026/10/19/1792404922344SAW_m3whM.jpg"
     ],
-    "postedAt": "2026-10-22T11:56:41.000Z",
+    "postedAt": "2026-10-23T12:10:15.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2237,13 +2237,13 @@
   },
   {
     "name": "리얼포스 r4 45g tkl 화이트",
-    "price": 270000,
+    "price": 300000,
     "url": "https://web.joongna.com/product/233344090",
     "image": "https://img2.joongna.com/media/original/2026/10/19/1792375617677H7R_JXRCZ.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/10/19/1792375617677H7R_JXRCZ.jpg"
     ],
-    "postedAt": "2026-10-22T02:00:37.000Z",
+    "postedAt": "2026-10-23T12:04:10.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2429,5 +2429,73 @@
       "realforce"
     ],
     "crawledAt": "2026-10-23T09:40:07.281Z"
+  },
+  {
+    "name": "리얼포스r4 45g 블랙 잠깐 사용했습니다.",
+    "price": 330000,
+    "url": "https://web.joongna.com/product/233476061",
+    "image": "https://img2.joongna.com/media/original/2026/10/23/1792759340322eGS_p36yI.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/23/1792759340322eGS_p36yI.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792759340464CcY_l314E.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792759340528gpd_4m3ZD.jpg"
+    ],
+    "postedAt": "2026-10-23T12:42:20.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-23T16:06:16.102Z"
+  },
+  {
+    "name": "리얼포스R2 TKL 저소음 토프레 무접점 풀윤활 키보드 싸게 드려요",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/233472352",
+    "image": "https://img2.joongna.com/media/original/2026/10/23/1792750945342fR1_woGyF.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/23/1792750945342fR1_woGyF.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792750945474pGD_e57HH.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792750945588em1_RVWiu.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792750945702o74_GU8fB.jpg"
+    ],
+    "postedAt": "2026-10-23T12:10:11.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-23T16:06:16.102Z"
+  },
+  {
+    "name": "리얼포스 r2 45g 균등 무접점 키보드 팝니다",
+    "price": 150000,
+    "url": "https://web.joongna.com/product/233474234",
+    "image": "https://img2.joongna.com/media/original/2026/10/23/1792755192943jEm_HNaaW.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/23/1792755192943jEm_HNaaW.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792755193056Exf_bhSLN.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792755193164Ssj_I5xHn.jpg",
+      "https://img2.joongna.com/media/original/2026/10/23/1792755193285wsP_TSoE5.jpg"
+    ],
+    "postedAt": "2026-10-23T11:50:26.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-23T16:06:16.102Z"
   }
 ]
