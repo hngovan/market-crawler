@@ -1,27 +1,5 @@
 [
   {
-    "name": "realforce r4 블루투스 키보드",
-    "price": 320000,
-    "url": "https://m.bunjang.co.kr/products/438394350",
-    "image": "https://media.bunjang.co.kr/product/438394350_1_1791469888_w160.jpg",
-    "postedAt": "2026-10-08T16:36:37.245Z",
-    "postedAtText": "2일 전",
-    "images": [
-      "https://media.bunjang.co.kr/product/438394350_1_1791469888_w480.jpg",
-      "https://media.bunjang.co.kr/product/438394350_2_1791469888_w480.jpg"
-    ],
-    "market": "bunjang",
-    "marketName": "Bunjang",
-    "region": "korea",
-    "regionName": "Hàn Quốc",
-    "regionFlag": "🇰🇷",
-    "currency": "KRW",
-    "keywords": [
-      "realforce"
-    ],
-    "crawledAt": "2026-10-08T18:09:22.305Z"
-  },
-  {
     "name": "[30g + 55g 러버돔 포함] REALFORCE 리얼포스 R3 30g 저소음 균등 영문배열",
     "price": 300000,
     "url": "https://m.bunjang.co.kr/products/429208339",
