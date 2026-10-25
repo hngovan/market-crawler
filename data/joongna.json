@@ -524,7 +524,7 @@
   },
   {
     "name": "리얼포스 RGB LED Edition 풀배열 키보드",
-    "price": 210000,
+    "price": 205000,
     "url": "https://web.joongna.com/product/232931723",
     "image": "https://img2.joongna.com/media/original/2026/10/04/17910647338760NB_KyUPO.jpg?impolicy=thumb&size=150",
     "images": [
@@ -533,7 +533,7 @@
       "https://img2.joongna.com/media/original/2026/10/04/179106473409062h_AG9L3.jpg",
       "https://img2.joongna.com/media/original/2026/10/04/1791064734178Ymh_wF7JJ.jpg"
     ],
-    "postedAt": "2026-10-19T21:17:27.000Z",
+    "postedAt": "2026-10-24T22:58:21.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2233,13 +2233,13 @@
   },
   {
     "name": "리얼포스 r4 45g tkl 화이트",
-    "price": 270000,
+    "price": 265000,
     "url": "https://web.joongna.com/product/233344090",
     "image": "https://img2.joongna.com/media/original/2026/10/19/1792375617677H7R_JXRCZ.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/10/19/1792375617677H7R_JXRCZ.jpg"
     ],
-    "postedAt": "2026-10-24T10:47:16.000Z",
+    "postedAt": "2026-10-24T23:41:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2495,8 +2495,8 @@
     "crawledAt": "2026-10-23T16:06:16.102Z"
   },
   {
-    "name": "리얼포스 R3 45g 플윤활 / 흡음 공방작 팝니다",
-    "price": 280000,
+    "name": "리얼포스 R3 45g 플윤활 / 흡음 칼라키캡포함",
+    "price": 260000,
     "url": "https://web.joongna.com/product/233504498",
     "image": "https://img2.joongna.com/media/original/2026/10/24/1792852445129Smo_F5ZXz.jpg?impolicy=thumb&size=150",
     "images": [
@@ -2565,5 +2565,26 @@
       "realforce"
     ],
     "crawledAt": "2026-10-24T15:03:10.365Z"
+  },
+  {
+    "name": "(새상품)리얼포스 하츠네 미쿠 키보드 텐키리스",
+    "price": 370000,
+    "url": "https://web.joongna.com/product/231015139",
+    "image": "https://img2.joongna.com/media/original/2026/07/27/1785121046651Jda_BtINX.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/07/27/1785121046651Jda_BtINX.jpg",
+      "https://img2.joongna.com/media/original/2026/07/27/1785121046720Y6d_iOOTH.jpg"
+    ],
+    "postedAt": "2026-10-24T22:52:47.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-10-25T00:40:48.573Z"
   }
 ]
