@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-01T11:34:31.247Z"
+      "crawledAt": "2026-11-01T17:24:07.180Z"
     }
   },
   {
@@ -38,7 +38,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-01T11:34:31.247Z"
+      "crawledAt": "2026-11-01T17:24:07.180Z"
     }
   },
   {
@@ -59,7 +59,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-01T11:34:31.247Z"
+      "crawledAt": "2026-11-01T17:24:07.180Z"
     }
   },
   {
@@ -71,7 +71,7 @@
     "currency": "JPY",
     "status": "skipped",
     "count": 313,
-    "error": "realforce: No valid Mercari products found",
+    "error": "realforce: Waiting failed: 75000ms exceeded",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
@@ -80,7 +80,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-01T11:34:31.247Z"
+      "crawledAt": "2026-11-01T17:24:07.180Z"
     }
   },
   {
@@ -101,7 +101,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-01T11:34:31.247Z"
+      "crawledAt": "2026-11-01T17:24:07.180Z"
     }
   },
   {
@@ -122,7 +122,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-01T11:35:51.894Z"
+      "crawledAt": "2026-11-01T17:29:19.959Z"
     }
   }
 ]
