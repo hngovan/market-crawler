@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 85,
+    "count": 103,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -17,7 +17,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-02T12:57:19.574Z"
+      "crawledAt": "2026-11-03T00:54:31.873Z"
     }
   },
   {
@@ -69,9 +69,9 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
-    "count": 313,
-    "error": "realforce: No valid Mercari products found",
+    "status": "success",
+    "count": 349,
+    "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
@@ -80,7 +80,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-02T12:57:19.574Z"
+      "crawledAt": "2026-11-03T00:54:31.873Z"
     }
   },
   {
@@ -101,7 +101,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-02T12:57:19.574Z"
+      "crawledAt": "2026-11-03T00:54:31.873Z"
     }
   },
   {
