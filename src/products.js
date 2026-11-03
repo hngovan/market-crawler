@@ -10,8 +10,12 @@ export function extractCardProduct({ text, imageAlt, url, image }) {
     .split("\n")
     .map((line) => line.trim())
     .filter(Boolean);
+  // Joongna has rendered prices both as "12,345\n원" and as a single "12,345원" line.
   const wonIndex = lines.findIndex((line) => line === "원");
-  const price = wonIndex > 0 ? lines[wonIndex - 1] : "";
+  const price =
+    wonIndex > 0
+      ? lines[wonIndex - 1]
+      : (lines.find((line) => /^[\d,]+\s*원$/.test(line))?.replace(/\s*원$/, "") ?? "");
 
   return {
     name: String(imageAlt ?? lines[0] ?? "")

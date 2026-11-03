@@ -30,6 +30,18 @@ test("extracts name and split price from a Joongna product card", () => {
   );
 });
 
+test("extracts an inline won price from a Joongna product card", () => {
+  assert.equal(
+    extractCardProduct({
+      text: "정발 리얼포스 R4 화이트 45g 텐키리스 팝니다\n\n300,000원\n\n1시간 전",
+      imageAlt: "정발 리얼포스 R4 화이트 45g 텐키리스 팝니다 이미지",
+      url: "https://web.joongna.com/product/233753477",
+      image: "",
+    }).price,
+    "300,000",
+  );
+});
+
 test("formats a crawled product for console output", () => {
   assert.equal(
     formatProductLog(

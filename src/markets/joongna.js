@@ -134,6 +134,11 @@ export async function crawlJoongna({ keyword, limit, sort }) {
       products = normalizeProducts([...products, ...visibleProducts], {
         sortByPrice: sort !== "newest",
       });
+      if (pageNumber === 1 && visibleProducts.length > 0 && products.length === 0) {
+        throw new Error(
+          `Joongna parser could not parse any of ${visibleProducts.length} product cards`,
+        );
+      }
       if (products.length === previousCount) break;
       pageNumber += 1;
     }

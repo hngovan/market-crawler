@@ -67,6 +67,17 @@ export async function collectMercariCardsDuringScroll(page, limit, delayMs = 700
   return [...uniqueProducts.values()];
 }
 
+// Mercari converts tile prices to the visitor's geo-IP currency (VND, USD, ...).
+// Blocking the rate lookup keeps the original yen prices that the parser expects.
+export async function keepMercariPricesInYen(page) {
+  await page.setRequestInterception(true);
+  page.on("request", (request) => {
+    if (request.isInterceptResolutionHandled()) return;
+    if (/\/getCurrencyConversionRate\//.test(request.url())) request.abort();
+    else request.continue();
+  });
+}
+
 export async function waitForMercariSearchState(page, timeout = 75000) {
   const handle = await page.waitForFunction(
     (productSelector) => {
@@ -181,6 +192,7 @@ export async function crawlMercari({ keyword, limit, sort }) {
   const browser = await launchBrowser();
   try {
     const page = await browser.newPage();
+    await keepMercariPricesInYen(page);
     await page.setViewport({ width: 1440, height: 1200 });
     await page
       .goto("https://jp.mercari.com/", { waitUntil: "domcontentloaded", timeout: 90000 })
