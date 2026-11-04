@@ -29,18 +29,19 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 66,
+    "count": 111,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
         "realforce",
+        "리얼포스",
         "ABKO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T07:41:18.832Z"
+      "crawledAt": "2026-11-04T07:58:48.940Z"
     }
   },
   {
