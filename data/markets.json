@@ -7,17 +7,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 106,
+    "count": 156,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "ABKO",
       "keywords": [
+        "ABKO",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T02:49:03.824Z"
+      "crawledAt": "2026-11-04T06:52:10.326Z"
     }
   },
   {
@@ -28,17 +29,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 16,
+    "count": 66,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "ABKO",
       "keywords": [
+        "ABKO",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T02:49:03.824Z"
+      "crawledAt": "2026-11-04T06:52:10.326Z"
     }
   },
   {
