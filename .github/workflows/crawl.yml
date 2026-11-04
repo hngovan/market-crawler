@@ -23,7 +23,7 @@ on:
       keywords:
         description: Comma-separated search keywords for Korea and Japan markets
         required: false
-        default: realforce
+        default: realforce,리얼포스
       markets:
         description: Comma-separated markets
         required: true
@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       KEYWORD: ${{ inputs.keyword || 'realforce' }}
-      KEYWORDS: ${{ inputs.keywords || inputs.keyword || 'realforce' }}
+      KEYWORDS: ${{ inputs.keywords || inputs.keyword || 'realforce,리얼포스' }}
       MARKETS: ${{ inputs.markets || 'joongna,bunjang,guheyo,mercari,yahoo-auctions,goofish' }}
       SORT: ${{ inputs.sort || 'newest' }}
       LIMIT: ${{ inputs.limit || '50' }}
