@@ -7,19 +7,20 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 157,
+    "count": 158,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "abko kn03bt",
+      "keyword": "realforce",
       "keywords": [
-        "abko kn03bt",
         "realforce",
-        "ABKO"
+        "리얼포스",
+        "ABKO",
+        "abko kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T08:33:51.804Z"
+      "crawledAt": "2026-11-04T12:39:41.470Z"
     }
   },
   {
@@ -30,20 +31,20 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 139,
+    "count": 140,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "abko kn03bt",
+      "keyword": "realforce",
       "keywords": [
-        "abko kn03bt",
         "realforce",
         "리얼포스",
-        "ABKO"
+        "ABKO",
+        "abko kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T08:33:51.804Z"
+      "crawledAt": "2026-11-04T12:39:41.470Z"
     }
   },
   {
@@ -54,17 +55,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 62,
+    "count": 97,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
-        "realforce"
+        "realforce",
+        "리얼포스"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T02:49:03.824Z"
+      "crawledAt": "2026-11-04T12:39:41.470Z"
     }
   },
   {
@@ -75,17 +77,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 367,
+    "count": 378,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
-        "realforce"
+        "realforce",
+        "리얼포스"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T02:49:03.824Z"
+      "crawledAt": "2026-11-04T12:39:41.470Z"
     }
   },
   {
@@ -102,11 +105,12 @@
     "crawl": {
       "keyword": "realforce",
       "keywords": [
-        "realforce"
+        "realforce",
+        "리얼포스"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T02:49:03.824Z"
+      "crawledAt": "2026-11-04T12:39:41.470Z"
     }
   },
   {
@@ -118,16 +122,17 @@
     "currency": "CNY",
     "status": "skipped",
     "count": 0,
-    "error": "realforce: Apify returned no valid Goofish products",
+    "error": "realforce: Apify returned no valid Goofish products | 리얼포스: Apify returned no valid Goofish products",
     "dataFile": "data/goofish.json",
     "crawl": {
       "keyword": "realforce",
       "keywords": [
-        "realforce"
+        "realforce",
+        "리얼포스"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T02:52:32.541Z"
+      "crawledAt": "2026-11-04T12:46:48.926Z"
     }
   }
 ]
