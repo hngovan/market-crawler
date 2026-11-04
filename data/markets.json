@@ -33,14 +33,14 @@
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "ABKO",
+      "keyword": "realforce",
       "keywords": [
-        "ABKO",
-        "realforce"
+        "realforce",
+        "ABKO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T06:52:10.326Z"
+      "crawledAt": "2026-11-04T07:41:18.832Z"
     }
   },
   {
