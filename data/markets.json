@@ -7,18 +7,19 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 156,
+    "count": 157,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "ABKO",
+      "keyword": "abko kn03bt",
       "keywords": [
-        "ABKO",
-        "realforce"
+        "abko kn03bt",
+        "realforce",
+        "ABKO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T06:52:10.326Z"
+      "crawledAt": "2026-11-04T08:33:51.804Z"
     }
   },
   {
@@ -29,19 +30,20 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 111,
+    "count": 139,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "abko kn03bt",
       "keywords": [
+        "abko kn03bt",
         "realforce",
         "리얼포스",
         "ABKO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-04T07:58:48.940Z"
+      "crawledAt": "2026-11-04T08:33:51.804Z"
     }
   },
   {

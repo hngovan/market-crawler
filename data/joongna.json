@@ -3508,5 +3508,26 @@
       "ABKO"
     ],
     "crawledAt": "2026-11-04T06:52:10.326Z"
+  },
+  {
+    "name": "ABKO KN03BT 블루투스 텐키리스 무접점 키보드",
+    "price": 70000,
+    "url": "https://web.joongna.com/product/222154832",
+    "image": "https://img2.joongna.com/media/original/2025/11/23/1763839080073BoW_8ckKg.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2025/11/23/1763839080073BoW_8ckKg.jpg",
+      "https://img2.joongna.com/media/original/2025/11/23/1763839080233ynN_yUTN9.jpg"
+    ],
+    "postedAt": "2025-11-22T19:18:58.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "abko kn03bt"
+    ],
+    "crawledAt": "2026-11-04T08:33:51.804Z"
   }
 ]
