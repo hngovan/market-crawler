@@ -8,6 +8,7 @@ import {
   buildMercariSearchUrl,
   buildYahooAuctionsSearchUrl,
   findMercariNextUrl,
+  withBunjangKoreaSite,
 } from "../src/markets/page-navigation.js";
 
 test("builds sorted and paginated Yahoo Auctions search URLs", () => {
@@ -49,15 +50,22 @@ test("builds newest Joongna and Mercari URLs", () => {
 test("builds Bunjang search URLs with JSON sort values", () => {
   assert.equal(
     buildBunjangSearchUrl("realforce", "newest"),
-    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22latest%22%5D",
+    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22latest%22%5D&redirect_global=false",
   );
   assert.equal(
     buildBunjangSearchUrl("realforce", "price-asc"),
-    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22price_asc%22%5D",
+    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22price_asc%22%5D&redirect_global=false",
   );
   assert.equal(
     buildBunjangSearchUrl("realforce", "price-desc"),
-    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22price_desc%22%5D",
+    "https://m.bunjang.co.kr/keywords/realforce?sort=%5B%22price_desc%22%5D&redirect_global=false",
+  );
+});
+
+test("adds the Bunjang global-redirect opt-out to product URLs", () => {
+  assert.equal(
+    withBunjangKoreaSite("https://m.bunjang.co.kr/products/429208339"),
+    "https://m.bunjang.co.kr/products/429208339?redirect_global=false",
   );
 });
 

@@ -1,6 +1,6 @@
 import { parsePrice } from "../products.js";
 import { launchBrowser } from "./browser.js";
-import { buildBunjangSearchUrl } from "./page-navigation.js";
+import { buildBunjangSearchUrl, withBunjangKoreaSite } from "./page-navigation.js";
 import { extractKoreanRelativePostedAt } from "./product-date.js";
 import { marketDefinitions } from "./registry.js";
 
@@ -92,7 +92,10 @@ async function enrichDetailImages(browser, products, concurrency = 2) {
         const index = nextIndex++;
         const product = products[index];
         try {
-          await page.goto(product.url, { waitUntil: "networkidle2", timeout: 60000 });
+          await page.goto(withBunjangKoreaSite(product.url), {
+            waitUntil: "networkidle2",
+            timeout: 60000,
+          });
           const detail = await page.evaluate(() => ({
             imageUrls: [...document.images].map((image) => image.currentSrc || image.src),
             text: document.body?.innerText || "",
