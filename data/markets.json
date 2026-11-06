@@ -7,24 +7,25 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 189,
+    "count": 197,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "Archon E1 Pro",
+      "keyword": "E1 PRO",
       "keywords": [
-        "Archon E1 Pro",
+        "E1 PRO",
         "realforce",
         "리얼포스",
         "ABKO",
         "abko kn03bt",
         "GK893B",
         "gk893b sports",
-        "GK868B"
+        "GK868B",
+        "Archon E1 Pro"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T06:43:45.594Z"
+      "crawledAt": "2026-11-06T07:22:07.955Z"
     }
   },
   {
@@ -35,24 +36,25 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 201,
+    "count": 251,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "Archon E1 Pro",
+      "keyword": "E1 PRO",
       "keywords": [
-        "Archon E1 Pro",
+        "E1 PRO",
         "realforce",
         "리얼포스",
         "ABKO",
         "abko kn03bt",
         "GK893B",
         "gk893b sports",
-        "GK868B"
+        "GK868B",
+        "Archon E1 Pro"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T06:43:45.594Z"
+      "crawledAt": "2026-11-06T07:22:07.955Z"
     }
   },
   {
@@ -63,21 +65,22 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 145,
+    "count": 181,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "Archon E1 Pro",
+      "keyword": "E1 PRO",
       "keywords": [
-        "Archon E1 Pro",
+        "E1 PRO",
         "realforce",
         "리얼포스",
         "GK893B",
-        "GK868B"
+        "GK868B",
+        "Archon E1 Pro"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T06:43:45.594Z"
+      "crawledAt": "2026-11-06T07:22:07.955Z"
     }
   },
   {
@@ -88,18 +91,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 401,
+    "count": 451,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "Archon E1 Pro",
+      "keyword": "E1 PRO",
       "keywords": [
-        "Archon E1 Pro",
+        "E1 PRO",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T06:43:45.594Z"
+      "crawledAt": "2026-11-06T07:22:07.955Z"
     }
   },
   {
@@ -114,13 +117,13 @@
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "Archon E1 Pro",
+      "keyword": "E1 PRO",
       "keywords": [
-        "Archon E1 Pro"
+        "E1 PRO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T06:43:45.594Z"
+      "crawledAt": "2026-11-06T07:22:07.955Z"
     }
   },
   {
