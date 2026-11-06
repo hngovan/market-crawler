@@ -4489,5 +4489,71 @@
       "E1 PRO"
     ],
     "crawledAt": "2026-11-06T07:22:07.955Z"
+  },
+  {
+    "name": "앱코 kn35bt 서울",
+    "price": 60000,
+    "url": "https://web.joongna.com/product/232717140",
+    "image": "https://img2.joongna.com/media/original/2026/09/26/1790353477606aBW_DGnLk.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/09/26/1790353477606aBW_DGnLk.jpg",
+      "https://img2.joongna.com/media/original/2026/09/26/1790353477784zy5_CfW8S.jpg"
+    ],
+    "postedAt": "2026-09-25T16:24:37.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "앱코 KN35BT 서울 무접점, 팜레스트 포함",
+    "price": 89000,
+    "url": "https://web.joongna.com/product/223800266",
+    "image": "https://img2.joongna.com/media/original/2026/01/06/17676811396161zF_L3KpF.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/01/06/17676811396161zF_L3KpF.jpg",
+      "https://img2.joongna.com/media/original/2026/01/06/1767681139781o8M_JzT4U.jpg",
+      "https://img2.joongna.com/media/original/2026/01/06/1767681139946jQz_CBNZ2.jpg",
+      "https://img2.joongna.com/media/original/2026/02/07/17704664406688Us_cIT8s.jpg",
+      "https://img2.joongna.com/media/original/2026/02/07/1770466440899zRO_LQ4o3.jpg"
+    ],
+    "postedAt": "2026-05-19T23:20:45.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "앱코 KN35BT DRT 8K 트리거 염료승화 블루투스",
+    "price": 135000,
+    "url": "https://web.joongna.com/product/220637240",
+    "image": "https://img2.joongna.com/media/original/2025/10/12/1760280336989Lgd_8f2pL.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2025/10/12/1760280336989Lgd_8f2pL.jpg",
+      "https://img2.joongna.com/media/original/2025/10/12/17602803369901Jg_l8A0B.jpg"
+    ],
+    "postedAt": "2026-02-05T14:41:24.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
   }
 ]

@@ -747,7 +747,8 @@
     "currency": "KRW",
     "keywords": [
       "ABKO",
-      "abko kn03bt"
+      "abko kn03bt",
+      "kn35bt"
     ],
     "crawledAt": "2026-11-04T06:52:10.326Z"
   },
@@ -2631,10 +2632,10 @@
     "price": 55000,
     "url": "https://m.bunjang.co.kr/products/441894915",
     "image": "https://media.bunjang.co.kr/product/441894915_1_1792569564_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-10-22T07:27:33.661Z",
+    "postedAtText": "15일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/441894915_1_1792569564_w160.jpg"
+      "https://media.bunjang.co.kr/product/441894915_1_1792569564_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2643,7 +2644,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "abko kn03bt"
+      "abko kn03bt",
+      "kn35bt"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -5626,5 +5628,617 @@
       "E1 PRO"
     ],
     "crawledAt": "2026-11-06T07:22:07.955Z"
+  },
+  {
+    "name": "<미개봉>앱코 kn35bt 베른 무소음 유무선 키보드",
+    "price": 100000,
+    "url": "https://m.bunjang.co.kr/products/386470991",
+    "image": "https://media.bunjang.co.kr/product/386470991_1_1769997191_w160.jpg",
+    "postedAt": "2026-10-26T07:27:32.889Z",
+    "postedAtText": "11일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/386470991_1_1769997191_w480.jpg",
+      "https://media.bunjang.co.kr/product/386470991_2_1769997191_w900.jpg",
+      "https://media.bunjang.co.kr/product/386470991_3_1769997191_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "Km350 키보드",
+    "price": 10000,
+    "url": "https://m.bunjang.co.kr/products/446029943",
+    "image": "https://media.bunjang.co.kr/product/446029943_1_1793872491_w160.jpg",
+    "postedAt": "2026-11-05T10:27:32.710Z",
+    "postedAtText": "21시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/446029943_1_1793872491_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "큐센 멤브레인 dt35 68키보드",
+    "price": 8000,
+    "url": "https://m.bunjang.co.kr/products/444794311",
+    "image": "https://media.bunjang.co.kr/product/444794311_1_1793500115_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/444794311_1_1793500115_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "[스티브잡스 키보드] NeXT N8002-3663 빈티지키보드",
+    "price": 350000,
+    "url": "https://m.bunjang.co.kr/products/439741721",
+    "image": "https://media.bunjang.co.kr/product/439741721_1_1791875130_w160.jpg",
+    "postedAt": "2026-10-13T07:27:34.617Z",
+    "postedAtText": "24일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/439741721_1_1791875130_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "로지텍 K375s 키보드 팝니다 새상품",
+    "price": 30000,
+    "url": "https://m.bunjang.co.kr/products/439952923",
+    "image": "https://media.bunjang.co.kr/product/439952923_1_1793572850_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/439952923_1_1793572850_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "Keysight N6700B/N6743B/N6774A",
+    "price": 1711200,
+    "url": "https://m.bunjang.co.kr/products/437277415",
+    "image": "https://media.bunjang.co.kr/product/437277415_1_1791114634_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/437277415_1_1791114634_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "아이노트(inote) K608RB 트리플모드 무선 블루투스 키보드",
+    "price": 25000,
+    "url": "https://m.bunjang.co.kr/products/445698771",
+    "image": "https://media.bunjang.co.kr/product/445698771_1_1793769659_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/445698771_1_1793769659_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "로지텍 MK235 무선 키보드 마우스 콤보",
+    "price": 20000,
+    "url": "https://m.bunjang.co.kr/products/441287538",
+    "image": "https://media.bunjang.co.kr/product/441287538_1_1792373917_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/441287538_1_1792373917_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "사운드코어 라이프 Q35",
+    "price": 60000,
+    "url": "https://m.bunjang.co.kr/products/441186793",
+    "image": "https://media.bunjang.co.kr/product/441186793_1_1792326689_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/441186793_1_1792326689_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "로지텍 K375s 블루투스 키보드 무선 멀티페어링",
+    "price": 15000,
+    "url": "https://m.bunjang.co.kr/products/444939294",
+    "image": "https://media.bunjang.co.kr/product/444939294_1_1793798959_w160.jpg",
+    "postedAt": "2026-11-02T07:27:37.207Z",
+    "postedAtText": "4일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/444939294_1_1793798959_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "CAT.5E 키스톤잭 (화이트)",
+    "price": 6000,
+    "url": "https://m.bunjang.co.kr/products/437713244",
+    "image": "https://media.bunjang.co.kr/product/437713244_1_1791257550_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/437713244_1_1791257550_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "아이노트 K608RB 트리플 모드 무선 키보드 화이트 미개봉",
+    "price": 20000,
+    "url": "https://m.bunjang.co.kr/products/441115904",
+    "image": "https://media.bunjang.co.kr/product/441115904_1_1792313297_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/441115904_1_1792313297_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "로이체 KT5 PRO 블루투스 키보드",
+    "price": 9000,
+    "url": "https://m.bunjang.co.kr/products/444612306",
+    "image": "https://media.bunjang.co.kr/product/444612306_1_1793435400_w160.jpg",
+    "postedAt": "2026-11-01T07:27:38.383Z",
+    "postedAtText": "5일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/444612306_1_1793435400_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "Keysight 33500B Waveform Generator",
+    "price": 1500000,
+    "url": "https://m.bunjang.co.kr/products/443670335",
+    "image": "https://media.bunjang.co.kr/product/443670335_1_1793106366_w160.jpg",
+    "postedAt": "2026-10-28T07:27:39.248Z",
+    "postedAtText": "9일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/443670335_1_1793106366_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "Keychron K2 블루투스 키보드",
+    "price": 30000,
+    "url": "https://m.bunjang.co.kr/products/443688148",
+    "image": "https://media.bunjang.co.kr/product/443688148_1_1793109753_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/443688148_1_1793109753_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "KB6 유선 멤브레인 키보드",
+    "price": 10000,
+    "url": "https://m.bunjang.co.kr/products/440867858",
+    "image": "https://media.bunjang.co.kr/product/440867858_1_1793008806_w160.jpg",
+    "postedAt": "2026-10-18T07:27:40.218Z",
+    "postedAtText": "19일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/440867858_1_1793008806_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "블루투스 키보드 Bk3001",
+    "price": 4500,
+    "url": "https://m.bunjang.co.kr/products/442482565",
+    "image": "https://media.bunjang.co.kr/product/442482565_1_1792992365_w160.jpg",
+    "postedAt": "2026-10-24T07:27:41.130Z",
+    "postedAtText": "13일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/442482565_1_1792992365_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "ACTTO RETRO KEYBORD B503(WHITE)블루투스",
+    "price": 15000,
+    "url": "https://m.bunjang.co.kr/products/445786992",
+    "image": "https://media.bunjang.co.kr/product/445786992_1_1793790357_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/445786992_1_1793790357_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "LGC-CKB03 유선 키보드",
+    "price": 12000,
+    "url": "https://m.bunjang.co.kr/products/444883650",
+    "image": "https://media.bunjang.co.kr/product/444883650_1_1793519545_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/444883650_1_1793519545_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "MACHENIKS KT68 투명 키보드",
+    "price": 205000,
+    "url": "https://m.bunjang.co.kr/products/444134641",
+    "image": "https://media.bunjang.co.kr/product/444134641_1_1793947004_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/444134641_1_1793947004_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "[키보드 미개봉] Keychron Q8 Knob + 원목 팜레스트 세트",
+    "price": 270000,
+    "url": "https://m.bunjang.co.kr/products/441837143",
+    "image": "https://media.bunjang.co.kr/product/441837143_1_1792554577_w160.jpg",
+    "postedAt": "2026-10-21T07:27:43.000Z",
+    "postedAtText": "16일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/441837143_1_1792554577_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "키크롣 K10 기계식키보드 단순개봉(미개봉급) 팔아요",
+    "price": 60000,
+    "url": "https://m.bunjang.co.kr/products/445290777",
+    "image": "https://media.bunjang.co.kr/product/445290777_1_1793636639_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/445290777_1_1793636639_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "<판매> 키크론 K2 C3 84키 알루미늄 갈축 RGB 블루투스 기계식 영문 키보드",
+    "price": 70000,
+    "url": "https://m.bunjang.co.kr/products/443671548",
+    "image": "https://media.bunjang.co.kr/product/443671548_1_1793107016_w160.jpg",
+    "postedAt": "2026-10-28T07:27:43.933Z",
+    "postedAtText": "9일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/443671548_1_1793107016_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "TG 유선 키보드 TGk-9200U 새상품",
+    "price": 10000,
+    "url": "https://m.bunjang.co.kr/products/443057913",
+    "image": "https://media.bunjang.co.kr/product/443057913_1_1792930659_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/443057913_1_1792930659_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "[1]톰브라운 맨투맨",
+    "price": 155000,
+    "url": "https://m.bunjang.co.kr/products/444164032",
+    "image": "https://media.bunjang.co.kr/product/444164032_1_1793437282_w160.jpg",
+    "postedAt": "2026-11-05T09:27:44.876Z",
+    "postedAtText": "22시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/444164032_1_1793437282_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "샘소나이트 베논 백팩",
+    "price": 80000,
+    "url": "https://m.bunjang.co.kr/products/446070160",
+    "image": "https://media.bunjang.co.kr/product/446070160_1_1793945307_w160.jpg",
+    "postedAt": "2026-11-06T06:27:45.084Z",
+    "postedAtText": "1시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/446070160_1_1793945307_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "바쿠고 점프샵 4주년 일러스트 빅타올 빅타월",
+    "price": 42000,
+    "url": "https://m.bunjang.co.kr/products/306444999",
+    "image": "https://media.bunjang.co.kr/product/306444999_1_1784633759_w160.jpg",
+    "postedAt": "2026-11-02T07:27:46.961Z",
+    "postedAtText": "4일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/306444999_1_1784633759_w480.jpg",
+      "https://media.bunjang.co.kr/product/306444999_2_1784633759_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "레고 마블 정품 미니피규어 일괄 대략 400종",
+    "price": 4700000,
+    "url": "https://m.bunjang.co.kr/products/433391664",
+    "image": "https://media.bunjang.co.kr/product/433391664_1_1793151316_w160.jpg",
+    "postedAt": "2026-10-27T07:27:46.032Z",
+    "postedAtText": "10일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/433391664_1_1793151316_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
+  },
+  {
+    "name": "라라랜드 포스터 3종 + 필름컷",
+    "price": 33000,
+    "url": "https://m.bunjang.co.kr/products/443479723",
+    "image": "https://media.bunjang.co.kr/product/443479723_1_1793125938_w160.jpg",
+    "postedAt": "2026-11-06T06:27:46.984Z",
+    "postedAtText": "1시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/443479723_1_1793125938_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-06T07:26:58.860Z"
   }
 ]
