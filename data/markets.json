@@ -7,12 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 182,
+    "count": 189,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Archon E1 Pro",
       "keywords": [
+        "Archon E1 Pro",
         "realforce",
         "리얼포스",
         "ABKO",
@@ -23,7 +24,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T02:57:24.737Z"
+      "crawledAt": "2026-11-06T06:43:45.594Z"
     }
   },
   {
@@ -34,12 +35,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 193,
+    "count": 201,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Archon E1 Pro",
       "keywords": [
+        "Archon E1 Pro",
         "realforce",
         "리얼포스",
         "ABKO",
@@ -50,7 +52,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T02:57:24.737Z"
+      "crawledAt": "2026-11-06T06:43:45.594Z"
     }
   },
   {
@@ -61,12 +63,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 138,
+    "count": 145,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Archon E1 Pro",
       "keywords": [
+        "Archon E1 Pro",
         "realforce",
         "리얼포스",
         "GK893B",
@@ -74,7 +77,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T02:57:24.737Z"
+      "crawledAt": "2026-11-06T06:43:45.594Z"
     }
   },
   {
@@ -89,14 +92,14 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Archon E1 Pro",
       "keywords": [
-        "realforce",
-        "리얼포스"
+        "Archon E1 Pro",
+        "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T02:57:24.737Z"
+      "crawledAt": "2026-11-06T06:43:45.594Z"
     }
   },
   {
@@ -111,14 +114,13 @@
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "Archon E1 Pro",
       "keywords": [
-        "realforce",
-        "리얼포스"
+        "Archon E1 Pro"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T02:57:24.737Z"
+      "crawledAt": "2026-11-06T06:43:45.594Z"
     }
   },
   {
