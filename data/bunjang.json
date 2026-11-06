@@ -3168,10 +3168,11 @@
     "price": 80000,
     "url": "https://m.bunjang.co.kr/products/444404258",
     "image": "https://media.bunjang.co.kr/product/444404258_1_1793362349_w160.jpg",
-    "postedAt": "2026-11-05T01:31:16.484Z",
+    "postedAt": "2026-11-05T01:38:38.096Z",
     "postedAtText": "1일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/444404258_1_1793362349_w900.jpg"
+      "https://media.bunjang.co.kr/product/444404258_1_1793362349_w480.jpg",
+      "https://media.bunjang.co.kr/product/444404258_2_1793362349_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3180,7 +3181,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "GK893B"
+      "GK893B",
+      "gk893b sports"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3189,10 +3191,10 @@
     "price": 65000,
     "url": "https://m.bunjang.co.kr/products/437901909",
     "image": "https://media.bunjang.co.kr/product/437901909_1_1791302748_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-11-05T01:38:39.870Z",
+    "postedAtText": "1일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/437901909_1_1791302748_w160.jpg"
+      "https://media.bunjang.co.kr/product/437901909_1_1791302748_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3201,7 +3203,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "GK893B"
+      "GK893B",
+      "gk893b sports"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3231,10 +3234,11 @@
     "price": 18000,
     "url": "https://m.bunjang.co.kr/products/443378954",
     "image": "https://media.bunjang.co.kr/product/443378954_1_1793372613_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-11-01T01:38:41.832Z",
+    "postedAtText": "5일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/443378954_1_1793372613_w160.jpg"
+      "https://media.bunjang.co.kr/product/443378954_1_1793372613_w480.jpg",
+      "https://media.bunjang.co.kr/product/443378954_2_1793372613_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3243,7 +3247,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "GK893B"
+      "GK893B",
+      "gk893b sports"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3252,7 +3257,7 @@
     "price": 60000,
     "url": "https://m.bunjang.co.kr/products/438086257",
     "image": "https://media.bunjang.co.kr/product/438086257_1_1792389158_w160.jpg",
-    "postedAt": "2026-10-30T01:31:19.207Z",
+    "postedAt": "2026-10-30T01:38:38.547Z",
     "postedAtText": "7일 전",
     "images": [
       "https://media.bunjang.co.kr/product/438086257_1_1792389158_w480.jpg"
@@ -3264,7 +3269,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "GK893B"
+      "GK893B",
+      "gk893b sports"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3273,10 +3279,10 @@
     "price": 50000,
     "url": "https://m.bunjang.co.kr/products/443533596",
     "image": "https://media.bunjang.co.kr/product/443533596_1_1793076248_w160.jpg",
-    "postedAt": "2026-10-28T01:31:18.347Z",
-    "postedAtText": "9일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/443533596_1_1793076248_w900.jpg"
+      "https://media.bunjang.co.kr/product/443533596_1_1793076248_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3285,7 +3291,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "GK893B"
+      "GK893B",
+      "gk893b sports"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3540,5 +3547,553 @@
       "GK893B"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
+  },
+  {
+    "name": "Gtune GK868B 키보드 블랙 색상 처분합니다.",
+    "price": 75000,
+    "url": "https://m.bunjang.co.kr/products/445090547",
+    "image": "https://media.bunjang.co.kr/product/445090547_1_1793588460_w160.jpg",
+    "postedAt": "2026-11-05T01:38:38.971Z",
+    "postedAtText": "1일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/445090547_1_1793588460_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "GK898B 블랙핑크 에디션 키보드",
+    "price": 60000,
+    "url": "https://m.bunjang.co.kr/products/445354722",
+    "image": "https://media.bunjang.co.kr/product/445354722_1_1793672551_w160.jpg",
+    "postedAt": "2026-11-04T01:38:39.708Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/445354722_1_1793672551_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "gk2000i",
+    "price": 600000,
+    "url": "https://m.bunjang.co.kr/products/443066163",
+    "image": "https://media.bunjang.co.kr/product/443066163_1_1792932060_w160.jpg",
+    "postedAt": "2026-10-26T01:38:40.745Z",
+    "postedAtText": "11일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/443066163_1_1792932060_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "그루브스톤 gv8m-8k",
+    "price": 100000,
+    "url": "https://m.bunjang.co.kr/products/444601917",
+    "image": "https://media.bunjang.co.kr/product/444601917_1_1793433243_w160.jpg",
+    "postedAt": "2026-11-01T01:38:41.884Z",
+    "postedAtText": "5일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/444601917_1_1793433243_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한성컴퓨터 GK868B PRO 동그리 8K 유무선 텐키리스 키보드",
+    "price": 62000,
+    "url": "https://m.bunjang.co.kr/products/443231592",
+    "image": "https://media.bunjang.co.kr/product/443231592_1_1793592639_w160.jpg",
+    "postedAt": "2026-11-03T01:38:44.197Z",
+    "postedAtText": "3일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/443231592_1_1793592639_w480.jpg",
+      "https://media.bunjang.co.kr/product/443231592_2_1793592639_w480.jpg",
+      "https://media.bunjang.co.kr/product/443231592_3_1793592639_w480.jpg",
+      "https://media.bunjang.co.kr/product/443231592_4_1793592639_w480.jpg",
+      "https://media.bunjang.co.kr/product/443231592_5_1793592639_w480.jpg",
+      "https://media.bunjang.co.kr/product/443231592_6_1793592639_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한무무 GK868B PRO 풀윤활",
+    "price": 120000,
+    "url": "https://m.bunjang.co.kr/products/446003406",
+    "image": "https://media.bunjang.co.kr/product/446003406_1_1793866779_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/446003406_1_1793866779_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "긱스타 GKG108SS 기계식 키보드",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/439474744",
+    "image": "https://media.bunjang.co.kr/product/439474744_1_1791788094_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/439474744_1_1791788094_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한성키보드 GK798 pro",
+    "price": 35000,
+    "url": "https://m.bunjang.co.kr/products/438530934",
+    "image": "https://media.bunjang.co.kr/product/438530934_1_1791519590_w160.jpg",
+    "postedAt": "2026-10-10T01:38:45.199Z",
+    "postedAtText": "27일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/438530934_1_1791519590_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "긱스타 GK03 pro 키보드",
+    "price": 9000,
+    "url": "https://m.bunjang.co.kr/products/437518055",
+    "image": "https://media.bunjang.co.kr/product/437518055_1_1791197135_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/437518055_1_1791197135_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한성 GK797 PRO 기계식 키보드",
+    "price": 46000,
+    "url": "https://m.bunjang.co.kr/products/442704896",
+    "image": "https://media.bunjang.co.kr/product/442704896_1_1793021518_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/442704896_1_1793021518_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한성 무접점 GK888b 한무무",
+    "price": 40500,
+    "url": "https://m.bunjang.co.kr/products/441890215",
+    "image": "https://media.bunjang.co.kr/product/441890215_1_1793257150_w160.jpg",
+    "postedAt": "2026-11-05T01:38:46.102Z",
+    "postedAtText": "1일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/441890215_1_1793257150_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "gmk67 키보드 + 블루밍 키캡",
+    "price": 30000,
+    "url": "https://m.bunjang.co.kr/products/441740622",
+    "image": "https://media.bunjang.co.kr/product/441740622_1_1792505207_w160.jpg",
+    "postedAt": "2026-10-21T01:38:48.315Z",
+    "postedAtText": "16일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/441740622_1_1792505207_w480.jpg",
+      "https://media.bunjang.co.kr/product/441740622_2_1792505207_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "지클릭커 WK98 제주스위치 풀윤활 무선 블루투스 기계식 키보드",
+    "price": 29000,
+    "url": "https://m.bunjang.co.kr/products/441811888",
+    "image": "https://media.bunjang.co.kr/product/441811888_1_1792546667_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/441811888_1_1792546667_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "지클릭커 키보드 GMK-220 (마우스는 없음)",
+    "price": 10000,
+    "url": "https://m.bunjang.co.kr/products/440435717",
+    "image": "https://media.bunjang.co.kr/product/440435717_1_1792109445_w160.jpg",
+    "postedAt": "2026-10-16T01:38:49.022Z",
+    "postedAtText": "21일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/440435717_1_1792109445_w480.jpg",
+      "https://media.bunjang.co.kr/product/440435717_2_1792109445_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "지클릭커 GMK-180 유선 키보드 마우스 세트",
+    "price": 5000,
+    "url": "https://m.bunjang.co.kr/products/443937441",
+    "image": "https://media.bunjang.co.kr/product/443937441_1_1793276978_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/443937441_1_1793276978_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한성 무접점 키보드 gk 897b pro",
+    "price": 80000,
+    "url": "https://m.bunjang.co.kr/products/440756979",
+    "image": "https://media.bunjang.co.kr/product/440756979_1_1792309200_w160.jpg",
+    "postedAt": "2026-11-01T01:38:51.022Z",
+    "postedAtText": "5일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/440756979_1_1792309200_w480.jpg",
+      "https://media.bunjang.co.kr/product/440756979_2_1792309200_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "키크론 k8 키보드 갈축",
+    "price": 29000,
+    "url": "https://m.bunjang.co.kr/products/442971355",
+    "image": "https://media.bunjang.co.kr/product/442971355_1_1792914694_w160.jpg",
+    "postedAt": "2026-11-05T02:38:50.144Z",
+    "postedAtText": "23시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/442971355_1_1792914694_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "커스텀 키보드 gmk67",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/444978440",
+    "image": "https://media.bunjang.co.kr/product/444978440_1_1793537302_w160.jpg",
+    "postedAt": "2026-11-05T01:38:51.071Z",
+    "postedAtText": "1일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/444978440_1_1793537302_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "gmk67 커스텀 기계식 키보드",
+    "price": 27000,
+    "url": "https://m.bunjang.co.kr/products/445968191",
+    "image": "https://media.bunjang.co.kr/product/445968191_1_1793874676_w160.jpg",
+    "postedAt": "2026-11-05T06:38:51.961Z",
+    "postedAtText": "19시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/445968191_1_1793874676_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한성컴퓨터 GK898B 무접점 기계식 블루투스 키보드",
+    "price": 65000,
+    "url": "https://m.bunjang.co.kr/products/443282921",
+    "image": "https://media.bunjang.co.kr/product/443282921_1_1793350887_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/443282921_1_1793350887_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "[155] 게스 키즈 본딩기모 데님 팬츠",
+    "price": 26000,
+    "url": "https://m.bunjang.co.kr/products/378869895",
+    "image": "https://media.bunjang.co.kr/product/378869895_1_1768307128_w160.jpg",
+    "postedAt": "2026-11-04T01:38:54.322Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/378869895_1_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_2_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_3_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_4_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_5_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_6_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_7_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_8_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_9_1768307128_w480.jpg",
+      "https://media.bunjang.co.kr/product/378869895_10_1768307128_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "[46] 송지오옴므 컬렉션 드레이프 티셔츠 SI3TS747BK",
+    "price": 290000,
+    "url": "https://m.bunjang.co.kr/products/432634514",
+    "image": "https://media.bunjang.co.kr/product/432634514_1_1789666303_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/432634514_1_1789666303_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "[택O] 메이지니 오구데님 리뉴얼 ver. 중청 M 기본기장",
+    "price": 55000,
+    "url": "https://m.bunjang.co.kr/products/437253164",
+    "image": "https://media.bunjang.co.kr/product/437253164_1_1791109844_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/437253164_1_1791109844_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "요넥스 배드민턴 라켓 아스트록스 99프로",
+    "price": 160000,
+    "url": "https://m.bunjang.co.kr/products/444199312",
+    "image": "https://media.bunjang.co.kr/product/444199312_1_1793282828_w160.jpg",
+    "postedAt": "2026-10-30T01:38:54.569Z",
+    "postedAtText": "7일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/444199312_1_1793282828_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "폴로 랄프 로렌 신형 QR 프렙스터 스트레치 데님 팬츠 L14-16",
+    "price": 33000,
+    "url": "https://m.bunjang.co.kr/products/446116529",
+    "image": "https://media.bunjang.co.kr/product/446116529_1_1793887291_w160.jpg",
+    "postedAt": "2026-11-05T14:38:56.568Z",
+    "postedAtText": "11시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/446116529_1_1793887291_w480.jpg",
+      "https://media.bunjang.co.kr/product/446116529_2_1793887291_w480.jpg",
+      "https://media.bunjang.co.kr/product/446116529_3_1793887291_w480.jpg",
+      "https://media.bunjang.co.kr/product/446116529_4_1793887291_w480.jpg",
+      "https://media.bunjang.co.kr/product/446116529_5_1793887291_w480.jpg",
+      "https://media.bunjang.co.kr/product/446116529_6_1793887291_w480.jpg",
+      "https://media.bunjang.co.kr/product/446116529_7_1793887291_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "gk893b sports"
+    ],
+    "crawledAt": "2026-11-06T01:37:58.446Z"
   }
 ]

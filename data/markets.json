@@ -11,17 +11,18 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "GK893B",
+      "keyword": "gk893b sports",
       "keywords": [
-        "GK893B",
+        "gk893b sports",
         "realforce",
         "리얼포스",
         "ABKO",
-        "abko kn03bt"
+        "abko kn03bt",
+        "GK893B"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T01:30:22.758Z"
+      "crawledAt": "2026-11-06T01:37:58.446Z"
     }
   },
   {
@@ -32,21 +33,22 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 161,
+    "count": 186,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "GK893B",
+      "keyword": "gk893b sports",
       "keywords": [
-        "GK893B",
+        "gk893b sports",
         "realforce",
         "리얼포스",
         "ABKO",
-        "abko kn03bt"
+        "abko kn03bt",
+        "GK893B"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T01:30:22.758Z"
+      "crawledAt": "2026-11-06T01:37:58.446Z"
     }
   },
   {
@@ -56,20 +58,21 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "success",
+    "status": "skipped",
     "count": 133,
-    "error": "",
+    "error": "gk893b sports: Waiting for selector `a[href*=\"/offer/\"]` failed",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "GK893B",
+      "keyword": "gk893b sports",
       "keywords": [
-        "GK893B",
+        "gk893b sports",
         "realforce",
-        "리얼포스"
+        "리얼포스",
+        "GK893B"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T01:30:22.758Z"
+      "crawledAt": "2026-11-06T01:37:58.446Z"
     }
   },
   {
@@ -79,19 +82,19 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
+    "status": "success",
     "count": 393,
-    "error": "GK893B: Waiting failed: 75000ms exceeded",
+    "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "GK893B",
+      "keyword": "gk893b sports",
       "keywords": [
-        "GK893B",
+        "gk893b sports",
         "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T01:30:22.758Z"
+      "crawledAt": "2026-11-06T01:37:58.446Z"
     }
   },
   {
@@ -102,17 +105,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 0,
+    "count": 50,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "GK893B",
+      "keyword": "gk893b sports",
       "keywords": [
-        "GK893B"
+        "gk893b sports"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T01:30:22.758Z"
+      "crawledAt": "2026-11-06T01:37:58.446Z"
     }
   },
   {
