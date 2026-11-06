@@ -1301,7 +1301,7 @@
       "https://img2.joongna.com/media/original/2026/10/19/17923597929810qb_aEUsg.jpg",
       "https://img2.joongna.com/media/original/2026/10/19/17923597931358kK_1e6Mu.jpg"
     ],
-    "postedAt": "2026-11-04T21:38:51.000Z",
+    "postedAt": "2026-11-05T21:12:34.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1534,7 +1534,7 @@
   },
   {
     "name": "topre realforce r1 color keycap set 토프레 리얼포스 1세대 키캡셋",
-    "price": 390000,
+    "price": 389000,
     "url": "https://web.joongna.com/product/233461389",
     "image": "https://img2.joongna.com/media/original/2026/10/23/1792727762802kMx_gscXE.jpg?impolicy=thumb&size=150",
     "images": [
@@ -1543,7 +1543,7 @@
       "https://img2.joongna.com/media/original/2026/10/23/1792727762802p9R_hamst.jpg",
       "https://img2.joongna.com/media/original/2026/10/23/1792727762801Bbu_FdarL.jpg"
     ],
-    "postedAt": "2026-10-31T10:26:58.000Z",
+    "postedAt": "2026-11-06T02:28:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1836,7 +1836,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "realforce"
+      "realforce",
+      "리얼포스"
     ],
     "crawledAt": "2026-10-26T00:51:28.565Z"
   },
@@ -1990,7 +1991,7 @@
       "https://img2.joongna.com/media/original/2026/10/27/17930364395513Jd_RJNFs.jpg",
       "https://img2.joongna.com/media/original/2026/10/27/17930364396481da_MaZ83.jpg"
     ],
-    "postedAt": "2026-11-04T23:37:00.000Z",
+    "postedAt": "2026-11-05T22:00:37.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2013,7 +2014,7 @@
       "https://img2.joongna.com/media/original/2026/10/31/1793405962182BmM_T2cr7.jpg",
       "https://img2.joongna.com/media/original/2026/10/31/1793405962322R4n_VXC36.jpg"
     ],
-    "postedAt": "2026-11-05T06:08:56.000Z",
+    "postedAt": "2026-11-05T23:33:46.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2179,9 +2180,7 @@
     "url": "https://web.joongna.com/product/233712378",
     "image": "https://img2.joongna.com/media/original/2026/11/01/1793525144664aPr_9ckBb.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/11/01/1793525144664aPr_9ckBb.jpg",
-      "https://img2.joongna.com/media/original/2026/11/01/17935251448349ix_JDxRZ.jpg",
-      "https://img2.joongna.com/media/original/2026/11/01/1793525144959J9L_QoEF5.jpg"
+      "https://img2.joongna.com/media/original/2026/11/01/1793525144664aPr_9ckBb.jpg?impolicy=thumb&size=150"
     ],
     "postedAt": "2026-11-05T06:44:57.000Z",
     "market": "joongna",
