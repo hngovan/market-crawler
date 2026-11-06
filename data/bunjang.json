@@ -3553,10 +3553,13 @@
     "price": 75000,
     "url": "https://m.bunjang.co.kr/products/445090547",
     "image": "https://media.bunjang.co.kr/product/445090547_1_1793588460_w160.jpg",
-    "postedAt": "2026-11-05T01:38:38.971Z",
+    "postedAt": "2026-11-05T02:52:38.761Z",
     "postedAtText": "1일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/445090547_1_1793588460_w900.jpg"
+      "https://media.bunjang.co.kr/product/445090547_1_1793588460_w480.jpg",
+      "https://media.bunjang.co.kr/product/445090547_2_1793588460_w480.jpg",
+      "https://media.bunjang.co.kr/product/445090547_3_1793588460_w480.jpg",
+      "https://media.bunjang.co.kr/product/445090547_4_1793588460_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3565,7 +3568,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "gk893b sports"
+      "gk893b sports",
+      "GK868B"
     ],
     "crawledAt": "2026-11-06T01:37:58.446Z"
   },
@@ -3637,15 +3641,10 @@
     "price": 62000,
     "url": "https://m.bunjang.co.kr/products/443231592",
     "image": "https://media.bunjang.co.kr/product/443231592_1_1793592639_w160.jpg",
-    "postedAt": "2026-11-03T01:38:44.197Z",
-    "postedAtText": "3일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/443231592_1_1793592639_w480.jpg",
-      "https://media.bunjang.co.kr/product/443231592_2_1793592639_w480.jpg",
-      "https://media.bunjang.co.kr/product/443231592_3_1793592639_w480.jpg",
-      "https://media.bunjang.co.kr/product/443231592_4_1793592639_w480.jpg",
-      "https://media.bunjang.co.kr/product/443231592_5_1793592639_w480.jpg",
-      "https://media.bunjang.co.kr/product/443231592_6_1793592639_w480.jpg"
+      "https://media.bunjang.co.kr/product/443231592_1_1793592639_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3654,7 +3653,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "gk893b sports"
+      "gk893b sports",
+      "GK868B"
     ],
     "crawledAt": "2026-11-06T01:37:58.446Z"
   },
@@ -3663,10 +3663,13 @@
     "price": 120000,
     "url": "https://m.bunjang.co.kr/products/446003406",
     "image": "https://media.bunjang.co.kr/product/446003406_1_1793866779_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-11-05T09:52:38.765Z",
+    "postedAtText": "17시간 전",
     "images": [
-      "https://media.bunjang.co.kr/product/446003406_1_1793866779_w160.jpg"
+      "https://media.bunjang.co.kr/product/446003406_1_1793866779_w480.jpg",
+      "https://media.bunjang.co.kr/product/446003406_2_1793866779_w900.jpg",
+      "https://media.bunjang.co.kr/product/446003406_3_1793866779_w900.jpg",
+      "https://media.bunjang.co.kr/product/446003406_4_1793866779_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -3675,7 +3678,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "gk893b sports"
+      "gk893b sports",
+      "GK868B"
     ],
     "crawledAt": "2026-11-06T01:37:58.446Z"
   },
@@ -4095,5 +4099,111 @@
       "gk893b sports"
     ],
     "crawledAt": "2026-11-06T01:37:58.446Z"
+  },
+  {
+    "name": "한성 무접점 키보드 SURFY EDITION GK868B 텐키리스",
+    "price": 80000,
+    "url": "https://m.bunjang.co.kr/products/412535160",
+    "image": "https://media.bunjang.co.kr/product/412535160_1_1780652431_w160.jpg",
+    "postedAt": "2026-11-05T08:52:40.725Z",
+    "postedAtText": "18시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/412535160_1_1780652431_w480.jpg",
+      "https://media.bunjang.co.kr/product/412535160_2_1780652431_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK868B"
+    ],
+    "crawledAt": "2026-11-06T02:51:59.743Z"
+  },
+  {
+    "name": "삽니다) 한성 gk868b tico 50g",
+    "price": 55000,
+    "url": "https://m.bunjang.co.kr/products/415990207",
+    "image": "https://media.bunjang.co.kr/product/415990207_1_1782307300_w160.jpg",
+    "postedAt": "2026-11-04T02:52:41.529Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/415990207_1_1782307300_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK868B"
+    ],
+    "crawledAt": "2026-11-06T02:51:59.743Z"
+  },
+  {
+    "name": "한성컴퓨터 GK868B 키보드",
+    "price": 68000,
+    "url": "https://m.bunjang.co.kr/products/405585297",
+    "image": "https://media.bunjang.co.kr/product/405585297_1_1777792525_w160.jpg",
+    "postedAt": "2026-11-04T02:52:42.599Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/405585297_1_1777792525_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK868B"
+    ],
+    "crawledAt": "2026-11-06T02:51:59.743Z"
+  },
+  {
+    "name": "gtune gk868b 무선 블루투스 키보드",
+    "price": 40000,
+    "url": "https://m.bunjang.co.kr/products/385513391",
+    "image": "https://media.bunjang.co.kr/product/385513391_1_1769622615_w160.jpg",
+    "postedAt": "2026-10-26T02:52:43.704Z",
+    "postedAtText": "11일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/385513391_1_1769622615_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK868B"
+    ],
+    "crawledAt": "2026-11-06T02:51:59.743Z"
+  },
+  {
+    "name": "Gk868b 한성 무접점",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/385216260",
+    "image": "https://media.bunjang.co.kr/product/385216260_1_1770101702_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/385216260_1_1770101702_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK868B"
+    ],
+    "crawledAt": "2026-11-06T02:51:59.743Z"
   }
 ]

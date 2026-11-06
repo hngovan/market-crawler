@@ -3687,7 +3687,8 @@
     "currency": "KRW",
     "keywords": [
       "GK893B",
-      "gk893b sports"
+      "gk893b sports",
+      "GK868B"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3733,7 +3734,8 @@
     "currency": "KRW",
     "keywords": [
       "GK893B",
-      "gk893b sports"
+      "gk893b sports",
+      "GK868B"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3809,7 +3811,8 @@
     "currency": "KRW",
     "keywords": [
       "GK893B",
-      "gk893b sports"
+      "gk893b sports",
+      "GK868B"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -3857,7 +3860,8 @@
     "currency": "KRW",
     "keywords": [
       "GK893B",
-      "gk893b sports"
+      "gk893b sports",
+      "GK868B"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -4094,5 +4098,51 @@
       "GK893B"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
+  },
+  {
+    "name": "한성 무접점 키보드 gk868b 35g",
+    "price": 80000,
+    "url": "https://web.joongna.com/product/233220127",
+    "image": "https://img2.joongna.com/media/original/2026/10/14/1791967467852YUZ_lY322.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/14/1791967467852YUZ_lY322.jpg",
+      "https://img2.joongna.com/media/original/2026/10/14/17919674679590OQ_Xs6fH.jpg",
+      "https://img2.joongna.com/media/original/2026/10/14/17919674680590Ua_0YdZR.jpg",
+      "https://img2.joongna.com/media/original/2026/10/14/1791967468161lmQ_T549t.jpg",
+      "https://img2.joongna.com/media/original/2026/10/14/1791967468269bnY_8mcKn.jpg",
+      "https://img2.joongna.com/media/original/2026/10/14/17919674683778L1_ufXFj.jpg"
+    ],
+    "postedAt": "2026-11-05T22:37:25.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK868B"
+    ],
+    "crawledAt": "2026-11-06T02:51:59.743Z"
+  },
+  {
+    "name": "한성컴퓨터 GK868B PRO 동그리 8K 유무선 텐키리스 키보드",
+    "price": 62000,
+    "url": "https://web.joongna.com/product/233537005",
+    "image": "https://img2.joongna.com/media/original/2026/10/26/1792979163846JRG_d68UP.png?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/26/1792979163846JRG_d68UP.png",
+      "https://img2.joongna.com/media/original/2026/10/26/1792979173632zQq_Q9uRU.png"
+    ],
+    "postedAt": "2026-11-02T04:24:56.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK868B"
+    ],
+    "crawledAt": "2026-11-06T02:51:59.743Z"
   }
 ]
