@@ -7,13 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 200,
+    "count": 204,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "nck87",
       "keywords": [
-        "kn35bt",
+        "nck87",
         "realforce",
         "리얼포스",
         "ABKO",
@@ -22,11 +22,12 @@
         "gk893b sports",
         "GK868B",
         "Archon E1 Pro",
-        "E1 PRO"
+        "E1 PRO",
+        "kn35bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T07:26:58.860Z"
+      "crawledAt": "2026-11-06T07:35:15.350Z"
     }
   },
   {
@@ -37,17 +38,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 280,
+    "count": 302,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "nck87",
       "keywords": [
-        "kn35bt",
+        "nck87",
         "realforce",
         "리얼포스",
         "ABKO",
         "abko kn03bt",
+        "kn35bt",
         "GK893B",
         "gk893b sports",
         "GK868B",
@@ -56,7 +58,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T07:26:58.860Z"
+      "crawledAt": "2026-11-06T07:35:15.350Z"
     }
   },
   {
@@ -67,23 +69,24 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 217,
+    "count": 220,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "nck87",
       "keywords": [
-        "kn35bt",
+        "nck87",
         "realforce",
         "리얼포스",
         "GK893B",
         "GK868B",
         "Archon E1 Pro",
-        "E1 PRO"
+        "E1 PRO",
+        "kn35bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T07:26:58.860Z"
+      "crawledAt": "2026-11-06T07:35:15.350Z"
     }
   },
   {
@@ -93,20 +96,20 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "skipped",
+    "status": "success",
     "count": 451,
-    "error": "kn35bt: Waiting failed: 75000ms exceeded",
+    "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "nck87",
       "keywords": [
-        "kn35bt",
+        "nck87",
         "realforce",
         "E1 PRO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T07:26:58.860Z"
+      "crawledAt": "2026-11-06T07:35:15.350Z"
     }
   },
   {
@@ -121,13 +124,13 @@
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "nck87",
       "keywords": [
-        "kn35bt"
+        "nck87"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-06T07:26:58.860Z"
+      "crawledAt": "2026-11-06T07:35:15.350Z"
     }
   },
   {
