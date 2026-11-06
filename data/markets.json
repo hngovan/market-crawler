@@ -7,12 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 159,
+    "count": 180,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK893B",
       "keywords": [
+        "GK893B",
         "realforce",
         "리얼포스",
         "ABKO",
@@ -20,7 +21,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-05T12:50:50.180Z"
+      "crawledAt": "2026-11-06T01:30:22.758Z"
     }
   },
   {
@@ -31,12 +32,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 141,
+    "count": 161,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK893B",
       "keywords": [
+        "GK893B",
         "realforce",
         "리얼포스",
         "ABKO",
@@ -44,7 +46,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-05T12:50:50.180Z"
+      "crawledAt": "2026-11-06T01:30:22.758Z"
     }
   },
   {
@@ -55,18 +57,19 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 97,
+    "count": 133,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK893B",
       "keywords": [
+        "GK893B",
         "realforce",
         "리얼포스"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-05T12:50:50.180Z"
+      "crawledAt": "2026-11-06T01:30:22.758Z"
     }
   },
   {
@@ -76,19 +79,19 @@
     "regionName": "Nhật Bản",
     "regionFlag": "🇯🇵",
     "currency": "JPY",
-    "status": "success",
+    "status": "skipped",
     "count": 393,
-    "error": "",
+    "error": "GK893B: Waiting failed: 75000ms exceeded",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK893B",
       "keywords": [
-        "realforce",
-        "리얼포스"
+        "GK893B",
+        "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-05T12:50:50.180Z"
+      "crawledAt": "2026-11-06T01:30:22.758Z"
     }
   },
   {
@@ -99,18 +102,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 0,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK893B",
       "keywords": [
-        "realforce",
-        "리얼포스"
+        "GK893B"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-05T12:50:50.180Z"
+      "crawledAt": "2026-11-06T01:30:22.758Z"
     }
   },
   {
