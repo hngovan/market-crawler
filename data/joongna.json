@@ -1965,7 +1965,7 @@
       "https://img2.joongna.com/media/original/2026/11/03/1793660958650U1S_4jxhp.jpg",
       "https://img2.joongna.com/media/original/2026/11/03/17936609587538CG_JzVDE.jpg"
     ],
-    "postedAt": "2026-11-07T08:15:41.000Z",
+    "postedAt": "2026-11-07T23:23:39.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2016,7 +2016,7 @@
       "https://img2.joongna.com/media/original/2026/10/31/1793405962182BmM_T2cr7.jpg",
       "https://img2.joongna.com/media/original/2026/10/31/1793405962322R4n_VXC36.jpg"
     ],
-    "postedAt": "2026-11-07T10:00:26.000Z",
+    "postedAt": "2026-11-07T22:39:14.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2082,7 +2082,10 @@
     "url": "https://web.joongna.com/product/233664421",
     "image": "https://img2.joongna.com/media/original/2026/10/30/1793357612031tVk_8Vp7V.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/10/30/1793357612031tVk_8Vp7V.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/10/30/1793357612031tVk_8Vp7V.jpg",
+      "https://img2.joongna.com/media/original/2026/10/30/1793357612150sZg_n7UjW.jpg",
+      "https://img2.joongna.com/media/original/2026/10/30/1793357612223BIH_QY6W2.jpg",
+      "https://img2.joongna.com/media/original/2026/10/30/17933576123552cP_wZyFs.jpg"
     ],
     "postedAt": "2026-11-07T14:21:47.000Z",
     "market": "joongna",
@@ -4717,10 +4720,7 @@
     "url": "https://web.joongna.com/product/233859839",
     "image": "https://img2.joongna.com/media/original/2026/11/06/1793968561734IqN_3Q9iP.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/11/06/1793968561734IqN_3Q9iP.jpg",
-      "https://img2.joongna.com/media/original/2026/11/06/1793968561857Op1_mJIcu.jpg",
-      "https://img2.joongna.com/media/original/2026/11/06/1793968561921AGO_E7nKG.jpg",
-      "https://img2.joongna.com/media/original/2026/11/06/1793968562047frk_zRruI.jpg"
+      "https://img2.joongna.com/media/original/2026/11/06/1793968561734IqN_3Q9iP.jpg?impolicy=thumb&size=150"
     ],
     "postedAt": "2026-11-07T14:21:57.000Z",
     "market": "joongna",
