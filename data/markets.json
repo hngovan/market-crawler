@@ -11,11 +11,12 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce r4",
+      "keyword": "ABKO KN03BT",
       "keywords": [
-        "realforce r4",
+        "ABKO KN03BT",
         "realforce",
         "리얼포스",
+        "realforce r4",
         "ABKO",
         "abko kn03bt",
         "GK893B",
@@ -28,7 +29,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:46:56.492Z"
+      "crawledAt": "2026-11-09T12:21:18.634Z"
     }
   },
   {
@@ -39,15 +40,16 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 320,
+    "count": 329,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce r4",
+      "keyword": "ABKO KN03BT",
       "keywords": [
-        "realforce r4",
+        "ABKO KN03BT",
         "realforce",
         "리얼포스",
+        "realforce r4",
         "ABKO",
         "abko kn03bt",
         "kn35bt",
@@ -60,7 +62,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:46:56.492Z"
+      "crawledAt": "2026-11-09T12:21:18.634Z"
     }
   },
   {
@@ -70,14 +72,14 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "success",
+    "status": "skipped",
     "count": 245,
-    "error": "",
+    "error": "ABKO KN03BT: Waiting for selector `a[href*=\"/offer/\"]` failed",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce r4",
+      "keyword": "ABKO KN03BT",
       "keywords": [
-        "realforce r4",
+        "ABKO KN03BT",
         "리얼포스",
         "GK893B",
         "GK868B",
@@ -85,11 +87,12 @@
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
-        "realforce"
+        "realforce",
+        "realforce r4"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:46:56.492Z"
+      "crawledAt": "2026-11-09T12:21:18.634Z"
     }
   },
   {
@@ -104,15 +107,16 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce r4",
+      "keyword": "ABKO KN03BT",
       "keywords": [
-        "realforce r4",
+        "ABKO KN03BT",
         "realforce",
+        "realforce r4",
         "E1 PRO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:46:56.492Z"
+      "crawledAt": "2026-11-09T12:21:18.634Z"
     }
   },
   {
@@ -123,17 +127,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 20,
+    "count": 5,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce r4",
+      "keyword": "ABKO KN03BT",
       "keywords": [
-        "realforce r4"
+        "ABKO KN03BT"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:46:56.492Z"
+      "crawledAt": "2026-11-09T12:21:18.634Z"
     }
   },
   {
