@@ -251,7 +251,8 @@
     "currency": "KRW",
     "keywords": [
       "realforce",
-      "리얼포스"
+      "리얼포스",
+      "realforce r4"
     ],
     "crawledAt": "2026-11-03T00:54:31.873Z"
   },
@@ -643,7 +644,8 @@
     "currency": "KRW",
     "keywords": [
       "realforce",
-      "리얼포스"
+      "리얼포스",
+      "realforce r4"
     ],
     "crawledAt": "2026-11-03T00:54:31.873Z"
   },
@@ -3100,7 +3102,8 @@
     "currency": "KRW",
     "keywords": [
       "realforce",
-      "리얼포스"
+      "리얼포스",
+      "realforce r4"
     ],
     "crawledAt": "2026-11-07T11:24:15.667Z"
   },
@@ -3602,5 +3605,112 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-09T02:12:55.439Z"
+  },
+  {
+    "name": "R4 외장 스토리지 썬더볼트",
+    "price": 450000,
+    "url": "https://web.joongna.com/product/225741753",
+    "image": "https://img2.joongna.com/media/original/2026/02/28/1772238716462pzz_7G7eY.jpeg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/02/28/1772238716462pzz_7G7eY.jpeg"
+    ],
+    "postedAt": "2026-10-28T05:24:11.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce r4"
+    ],
+    "crawledAt": "2026-11-09T02:46:56.492Z"
+  },
+  {
+    "name": "리얼포스 R4 30g 블랙 풀배열",
+    "price": 349000,
+    "url": "https://web.joongna.com/product/233128551",
+    "image": "https://img2.joongna.com/media/original/2026/10/11/1791694189448Sg8_mpQw1.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189448Sg8_mpQw1.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189511aq6_IcCAP.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189559v1X_IEEHm.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189672B2q_orInb.jpg",
+      "https://img2.joongna.com/media/original/2026/10/11/1791694189734Zo7_NtJc0.jpg"
+    ],
+    "postedAt": "2026-10-11T04:49:49.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce r4"
+    ],
+    "crawledAt": "2026-11-09T02:46:56.492Z"
+  },
+  {
+    "name": "리얼포스 r4 45g 텐키리스",
+    "price": 290000,
+    "url": "https://web.joongna.com/product/231966658",
+    "image": "https://img2.joongna.com/media/original/2026/08/29/1787994095854fhU_lWIfm.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/08/29/1787994095854fhU_lWIfm.jpg"
+    ],
+    "postedAt": "2026-08-29T09:01:35.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce r4"
+    ],
+    "crawledAt": "2026-11-09T02:46:56.492Z"
+  },
+  {
+    "name": "리얼포스 R4 BT APC 30g 균등 풀사이즈",
+    "price": 330000,
+    "url": "https://web.joongna.com/product/229258412",
+    "image": "https://img2.joongna.com/media/original/2026/06/03/1780450689992L5r_d06Rq.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/03/1780450689992L5r_d06Rq.jpg",
+      "https://img2.joongna.com/media/original/2026/06/03/1780450690162B9B_TWGCe.jpg"
+    ],
+    "postedAt": "2026-06-22T07:55:30.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce r4"
+    ],
+    "crawledAt": "2026-11-09T02:46:56.492Z"
+  },
+  {
+    "name": "리얼포스 R4 30g 저소음",
+    "price": 350000,
+    "url": "https://web.joongna.com/product/229682670",
+    "image": "https://img2.joongna.com/media/original/2026/06/15/1781534101664KAa_ubVvd.JPG?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/06/15/1781534101664KAa_ubVvd.JPG",
+      "https://img2.joongna.com/media/original/2026/06/15/1781534101664ADe_n49qk.JPG",
+      "https://img2.joongna.com/media/original/2026/06/15/1781534101664Ahu_DuCLy.JPG"
+    ],
+    "postedAt": "2026-06-15T14:36:48.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce r4"
+    ],
+    "crawledAt": "2026-11-09T02:46:56.492Z"
   }
 ]

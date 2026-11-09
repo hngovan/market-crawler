@@ -7,12 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 159,
+    "count": 164,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce r4",
       "keywords": [
+        "realforce r4",
         "realforce",
         "리얼포스",
         "ABKO",
@@ -27,7 +28,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:12:55.439Z"
+      "crawledAt": "2026-11-09T02:46:56.492Z"
     }
   },
   {
@@ -38,12 +39,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 303,
+    "count": 320,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce r4",
       "keywords": [
+        "realforce r4",
         "realforce",
         "리얼포스",
         "ABKO",
@@ -58,7 +60,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:12:55.439Z"
+      "crawledAt": "2026-11-09T02:46:56.492Z"
     }
   },
   {
@@ -69,24 +71,25 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 244,
+    "count": 245,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce r4",
       "keywords": [
-        "realforce",
+        "realforce r4",
         "리얼포스",
         "GK893B",
         "GK868B",
         "nck87",
         "Archon E1 Pro",
         "E1 PRO",
-        "kn35bt"
+        "kn35bt",
+        "realforce"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:12:55.439Z"
+      "crawledAt": "2026-11-09T02:46:56.492Z"
     }
   },
   {
@@ -97,19 +100,19 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 236,
+    "count": 251,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce r4",
       "keywords": [
+        "realforce r4",
         "realforce",
-        "리얼포스",
         "E1 PRO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:12:55.439Z"
+      "crawledAt": "2026-11-09T02:46:56.492Z"
     }
   },
   {
@@ -120,18 +123,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 20,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "realforce r4",
       "keywords": [
-        "realforce",
-        "리얼포스"
+        "realforce r4"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T02:12:55.439Z"
+      "crawledAt": "2026-11-09T02:46:56.492Z"
     }
   },
   {
