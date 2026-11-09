@@ -1860,7 +1860,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "kn03bt"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -3713,5 +3714,25 @@
       "realforce r4"
     ],
     "crawledAt": "2026-11-09T02:46:56.492Z"
+  },
+  {
+    "name": "앱코 KN03BT TKL 유무선 블루투스 무접점키보드",
+    "price": 115000,
+    "url": "https://web.joongna.com/product/224909006",
+    "image": "https://img2.joongna.com/media/original/2026/02/04/1770200766472pI1_mMp42.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/02/04/1770200766472pI1_mMp42.jpg"
+    ],
+    "postedAt": "2026-02-04T10:26:06.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn03bt"
+    ],
+    "crawledAt": "2026-11-09T12:27:26.308Z"
   }
 ]

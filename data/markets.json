@@ -7,18 +7,19 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 164,
+    "count": 165,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "ABKO KN03BT",
+      "keyword": "kn03bt",
       "keywords": [
-        "ABKO KN03BT",
+        "kn03bt",
         "realforce",
         "리얼포스",
         "realforce r4",
         "ABKO",
         "abko kn03bt",
+        "ABKO KN03BT",
         "GK893B",
         "gk893b sports",
         "GK868B",
@@ -29,7 +30,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T12:21:18.634Z"
+      "crawledAt": "2026-11-09T12:27:26.308Z"
     }
   },
   {
@@ -40,19 +41,20 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 329,
+    "count": 350,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "ABKO KN03BT",
+      "keyword": "kn03bt",
       "keywords": [
-        "ABKO KN03BT",
+        "kn03bt",
         "realforce",
         "리얼포스",
         "realforce r4",
         "ABKO",
         "abko kn03bt",
         "kn35bt",
+        "ABKO KN03BT",
         "GK893B",
         "gk893b sports",
         "GK868B",
@@ -62,7 +64,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T12:21:18.634Z"
+      "crawledAt": "2026-11-09T12:27:26.308Z"
     }
   },
   {
