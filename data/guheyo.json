@@ -5354,5 +5354,26 @@
       "realforce r4"
     ],
     "crawledAt": "2026-11-09T02:46:56.492Z"
+  },
+  {
+    "name": "앱코 KN03BT 무접점",
+    "price": 60000,
+    "url": "https://guheyo.com/offer/%EC%95%B1%EC%BD%94-KN03BT-%EB%AC%B4%EC%A0%91%EC%A0%90-zTgt2fMPyPzeV-04DXfJ",
+    "image": "https://image.guheyo.com/guheyo/offer/202608/fbab7d29-145b-4e7d-ac78-4f012c146a2e/thumb-640-q78/af2681c3-f264-4f3b-b4cf-cf32ee053a12.webp",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://image.guheyo.com/guheyo/offer/202608/fbab7d29-145b-4e7d-ac78-4f012c146a2e/display-1600-q82/af2681c3-f264-4f3b-b4cf-cf32ee053a12.webp"
+    ],
+    "market": "guheyo",
+    "marketName": "Guheyo",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn03bt"
+    ],
+    "crawledAt": "2026-11-10T03:58:24.554Z"
   }
 ]
