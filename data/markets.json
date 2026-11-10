@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 171,
+    "count": 172,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -30,7 +30,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T04:25:07.062Z"
+      "crawledAt": "2026-11-10T13:07:36.946Z"
     }
   },
   {
@@ -41,7 +41,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 356,
+    "count": 357,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
@@ -64,7 +64,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T04:25:07.062Z"
+      "crawledAt": "2026-11-10T13:07:36.946Z"
     }
   },
   {
@@ -76,7 +76,7 @@
     "currency": "KRW",
     "status": "success",
     "count": 246,
-    "error": "",
+    "error": "리얼포스: Navigation timeout of 60000 ms exceeded",
     "dataFile": "data/guheyo.json",
     "crawl": {
       "keyword": "realforce",
@@ -94,7 +94,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T04:25:07.062Z"
+      "crawledAt": "2026-11-10T13:07:36.946Z"
     }
   },
   {
@@ -105,7 +105,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 268,
+    "count": 276,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -118,7 +118,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T04:25:07.062Z"
+      "crawledAt": "2026-11-10T13:07:36.946Z"
     }
   },
   {
@@ -140,7 +140,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T04:25:07.062Z"
+      "crawledAt": "2026-11-10T13:07:36.946Z"
     }
   },
   {
@@ -162,7 +162,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T04:32:43.788Z"
+      "crawledAt": "2026-11-10T13:14:07.432Z"
     }
   }
 ]
