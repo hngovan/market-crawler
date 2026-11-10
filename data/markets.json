@@ -7,19 +7,19 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 166,
+    "count": 171,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "kn03bt",
+      "keyword": "realforce",
       "keywords": [
-        "kn03bt",
         "realforce",
         "리얼포스",
         "realforce r4",
         "ABKO",
         "abko kn03bt",
         "ABKO KN03BT",
+        "kn03bt",
         "GK893B",
         "gk893b sports",
         "GK868B",
@@ -30,7 +30,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T03:58:24.554Z"
+      "crawledAt": "2026-11-10T04:25:07.062Z"
     }
   },
   {
@@ -41,13 +41,12 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 354,
+    "count": 356,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "kn03bt",
+      "keyword": "realforce",
       "keywords": [
-        "kn03bt",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -55,6 +54,7 @@
         "abko kn03bt",
         "kn35bt",
         "ABKO KN03BT",
+        "kn03bt",
         "GK893B",
         "gk893b sports",
         "GK868B",
@@ -64,7 +64,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T03:58:24.554Z"
+      "crawledAt": "2026-11-10T04:25:07.062Z"
     }
   },
   {
@@ -79,9 +79,9 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "kn03bt",
+      "keyword": "realforce",
       "keywords": [
-        "kn03bt",
+        "realforce",
         "리얼포스",
         "GK893B",
         "GK868B",
@@ -89,12 +89,12 @@
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
-        "realforce",
-        "realforce r4"
+        "realforce r4",
+        "kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-10T03:58:24.554Z"
+      "crawledAt": "2026-11-10T04:25:07.062Z"
     }
   },
   {
@@ -105,7 +105,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 263,
+    "count": 268,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -118,7 +118,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T13:28:34.306Z"
+      "crawledAt": "2026-11-10T04:25:07.062Z"
     }
   },
   {
@@ -140,7 +140,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T13:28:34.306Z"
+      "crawledAt": "2026-11-10T04:25:07.062Z"
     }
   },
   {
@@ -162,7 +162,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-09T13:34:21.805Z"
+      "crawledAt": "2026-11-10T04:32:43.788Z"
     }
   }
 ]
