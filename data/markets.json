@@ -11,8 +11,9 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "EDIUSV4KB",
       "keywords": [
+        "EDIUSV4KB",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -30,7 +31,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-11T02:22:29.194Z"
+      "crawledAt": "2026-11-11T06:44:21.139Z"
     }
   },
   {
@@ -41,12 +42,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 358,
+    "count": 388,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "EDIUSV4KB",
       "keywords": [
+        "EDIUSV4KB",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -64,7 +66,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-11T02:22:29.194Z"
+      "crawledAt": "2026-11-11T06:44:21.139Z"
     }
   },
   {
@@ -74,14 +76,14 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "success",
+    "status": "skipped",
     "count": 246,
-    "error": "",
+    "error": "EDIUSV4KB: Waiting for selector `a[href*=\"/offer/\"]` failed",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "EDIUSV4KB",
       "keywords": [
-        "realforce",
+        "EDIUSV4KB",
         "리얼포스",
         "GK893B",
         "GK868B",
@@ -89,12 +91,13 @@
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
+        "realforce",
         "realforce r4",
         "kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-11T02:22:29.194Z"
+      "crawledAt": "2026-11-11T06:44:21.139Z"
     }
   },
   {
@@ -105,20 +108,20 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 282,
+    "count": 283,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "EDIUSV4KB",
       "keywords": [
+        "EDIUSV4KB",
         "realforce",
-        "리얼포스",
         "realforce r4",
         "E1 PRO"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-11T02:22:29.194Z"
+      "crawledAt": "2026-11-11T06:44:21.139Z"
     }
   },
   {
@@ -129,18 +132,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 2,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "EDIUSV4KB",
       "keywords": [
-        "realforce",
-        "리얼포스"
+        "EDIUSV4KB"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-11T02:22:29.194Z"
+      "crawledAt": "2026-11-11T06:44:21.139Z"
     }
   },
   {
