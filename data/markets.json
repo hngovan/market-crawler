@@ -7,12 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 195,
+    "count": 200,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK888B",
       "keywords": [
+        "GK888B",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -30,7 +31,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T03:29:10.329Z"
+      "crawledAt": "2026-11-12T04:42:15.386Z"
     }
   },
   {
@@ -41,12 +42,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 395,
+    "count": 412,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK888B",
       "keywords": [
+        "GK888B",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -65,7 +67,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T03:29:10.329Z"
+      "crawledAt": "2026-11-12T04:42:15.386Z"
     }
   },
   {
@@ -76,13 +78,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 246,
+    "count": 247,
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK888B",
       "keywords": [
-        "realforce",
+        "GK888B",
         "리얼포스",
         "GK893B",
         "GK868B",
@@ -90,12 +92,13 @@
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
+        "realforce",
         "realforce r4",
         "kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T03:29:10.329Z"
+      "crawledAt": "2026-11-12T04:42:15.386Z"
     }
   },
   {
@@ -110,17 +113,17 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK888B",
       "keywords": [
+        "GK888B",
         "realforce",
-        "리얼포스",
         "realforce r4",
         "E1 PRO",
         "EDIUSV4KB"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T03:29:10.329Z"
+      "crawledAt": "2026-11-12T04:42:15.386Z"
     }
   },
   {
@@ -131,18 +134,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 50,
+    "count": 0,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "realforce",
+      "keyword": "GK888B",
       "keywords": [
-        "realforce",
-        "리얼포스"
+        "GK888B"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T03:29:10.329Z"
+      "crawledAt": "2026-11-12T04:42:15.386Z"
     }
   },
   {

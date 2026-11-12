@@ -873,7 +873,7 @@
     "price": 45000,
     "url": "https://guheyo.com/offer/%ED%95%9C%EC%84%B1-GK893B-%ED%99%94%EC%9D%B4%ED%8A%B8-50G-UINHxanZFd388vh6rfCx3",
     "image": "https://image.guheyo.com/guheyo/offer/202504/aad46d09-415a-4bdc-b8f0-6246300b9ca8/eeaccec8-adec-494a-8eb8-c0e008b288d8.jpg",
-    "postedAt": "2024-11-06T01:31:40.721Z",
+    "postedAt": "2024-11-12T04:43:21.762Z",
     "postedAtText": "2년 전",
     "images": [
       "https://image.guheyo.com/guheyo/offer/202504/aad46d09-415a-4bdc-b8f0-6246300b9ca8/eeaccec8-adec-494a-8eb8-c0e008b288d8.jpg",
@@ -894,7 +894,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "GK893B"
+      "GK893B",
+      "GK888B"
     ],
     "crawledAt": "2026-11-06T01:30:22.758Z"
   },
@@ -5375,5 +5376,27 @@
       "kn03bt"
     ],
     "crawledAt": "2026-11-10T03:58:24.554Z"
+  },
+  {
+    "name": "한성컴퓨터 GK888B minicoup 블랙 색상",
+    "price": 70000,
+    "url": "https://guheyo.com/offer/%ED%95%9C%EC%84%B1%EC%BB%B4%ED%93%A8%ED%84%B0-GK888B-minicoup-%EB%B8%94%EB%9E%99-%EC%83%89%EC%83%81-0boqHgzWc0e8HqkTEhDUZ",
+    "image": "https://image.guheyo.com/guheyo/offer/202404/e6b0c24b-363f-4cdd-8948-50e92339905d/image.png",
+    "postedAt": "2023-11-12T04:43:22.570Z",
+    "postedAtText": "3년 전",
+    "images": [
+      "https://image.guheyo.com/guheyo/offer/202404/e6b0c24b-363f-4cdd-8948-50e92339905d/image.png",
+      "https://image.guheyo.com/guheyo/offer/202407/e6b0c24b-363f-4cdd-8948-50e92339905d/image.png"
+    ],
+    "market": "guheyo",
+    "marketName": "Guheyo",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "GK888B"
+    ],
+    "crawledAt": "2026-11-12T04:42:15.386Z"
   }
 ]
