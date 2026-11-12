@@ -7,13 +7,12 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 209,
+    "count": 210,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "Sony NEWS NWP-411a",
+      "keyword": "realforce",
       "keywords": [
-        "Sony NEWS NWP-411a",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -28,11 +27,12 @@
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
-        "nck87"
+        "nck87",
+        "Sony NEWS NWP-411a"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T07:35:07.617Z"
+      "crawledAt": "2026-11-12T13:27:06.999Z"
     }
   },
   {
@@ -43,13 +43,12 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 441,
+    "count": 442,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "Sony NEWS NWP-411a",
+      "keyword": "realforce",
       "keywords": [
-        "Sony NEWS NWP-411a",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -65,11 +64,12 @@
         "Archon E1 Pro",
         "E1 PRO",
         "nck87",
+        "Sony NEWS NWP-411a",
         "EDIUSV4KB"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T07:35:07.617Z"
+      "crawledAt": "2026-11-12T13:27:06.999Z"
     }
   },
   {
@@ -79,14 +79,14 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "skipped",
-    "count": 247,
-    "error": "Sony NEWS NWP-411a: Waiting for selector `a[href*=\"/offer/\"]` failed",
+    "status": "success",
+    "count": 272,
+    "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "Sony NEWS NWP-411a",
+      "keyword": "realforce",
       "keywords": [
-        "Sony NEWS NWP-411a",
+        "realforce",
         "리얼포스",
         "GK893B",
         "GK888B",
@@ -95,13 +95,12 @@
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
-        "realforce",
         "realforce r4",
         "kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T07:35:07.617Z"
+      "crawledAt": "2026-11-12T13:27:06.999Z"
     }
   },
   {
@@ -112,21 +111,21 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 296,
+    "count": 303,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "Sony NEWS NWP-411a",
+      "keyword": "realforce",
       "keywords": [
-        "Sony NEWS NWP-411a",
         "realforce",
+        "리얼포스",
         "realforce r4",
         "E1 PRO",
         "EDIUSV4KB"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T07:35:07.617Z"
+      "crawledAt": "2026-11-12T13:27:06.999Z"
     }
   },
   {
@@ -141,13 +140,14 @@
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "Sony NEWS NWP-411a",
+      "keyword": "realforce",
       "keywords": [
-        "Sony NEWS NWP-411a"
+        "realforce",
+        "리얼포스"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T07:35:07.617Z"
+      "crawledAt": "2026-11-12T13:27:06.999Z"
     }
   },
   {
@@ -159,7 +159,7 @@
     "currency": "CNY",
     "status": "skipped",
     "count": 0,
-    "error": "realforce: Apify returned no valid Goofish products | 리얼포스: Apify returned no valid Goofish products",
+    "error": "realforce: Apify Goofish run failed: HTTP 401 - {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n} | 리얼포스: Apify Goofish run failed: HTTP 401 - {\n  \"error\": {\n    \"type\": \"user-or-token-not-found\",\n    \"message\": \"User was not found or authentication token is not valid\"\n  }\n}",
     "dataFile": "data/goofish.json",
     "crawl": {
       "keyword": "realforce",
@@ -169,7 +169,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T03:35:46.176Z"
+      "crawledAt": "2026-11-12T13:33:32.927Z"
     }
   }
 ]
