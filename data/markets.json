@@ -7,13 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 200,
+    "count": 209,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "GK888B",
+      "keyword": "Sony NEWS NWP-411a",
       "keywords": [
-        "GK888B",
+        "Sony NEWS NWP-411a",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -24,6 +24,7 @@
         "GK893B",
         "gk893b sports",
         "GK868B",
+        "GK888B",
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
@@ -31,7 +32,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T04:42:15.386Z"
+      "crawledAt": "2026-11-12T07:35:07.617Z"
     }
   },
   {
@@ -42,13 +43,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 412,
+    "count": 441,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "GK888B",
+      "keyword": "Sony NEWS NWP-411a",
       "keywords": [
-        "GK888B",
+        "Sony NEWS NWP-411a",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -59,6 +60,7 @@
         "kn03bt",
         "GK893B",
         "gk893b sports",
+        "GK888B",
         "GK868B",
         "Archon E1 Pro",
         "E1 PRO",
@@ -67,7 +69,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T04:42:15.386Z"
+      "crawledAt": "2026-11-12T07:35:07.617Z"
     }
   },
   {
@@ -77,16 +79,17 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "success",
+    "status": "skipped",
     "count": 247,
-    "error": "",
+    "error": "Sony NEWS NWP-411a: Waiting for selector `a[href*=\"/offer/\"]` failed",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "GK888B",
+      "keyword": "Sony NEWS NWP-411a",
       "keywords": [
-        "GK888B",
+        "Sony NEWS NWP-411a",
         "리얼포스",
         "GK893B",
+        "GK888B",
         "GK868B",
         "nck87",
         "Archon E1 Pro",
@@ -98,7 +101,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T04:42:15.386Z"
+      "crawledAt": "2026-11-12T07:35:07.617Z"
     }
   },
   {
@@ -113,9 +116,9 @@
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "GK888B",
+      "keyword": "Sony NEWS NWP-411a",
       "keywords": [
-        "GK888B",
+        "Sony NEWS NWP-411a",
         "realforce",
         "realforce r4",
         "E1 PRO",
@@ -123,7 +126,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T04:42:15.386Z"
+      "crawledAt": "2026-11-12T07:35:07.617Z"
     }
   },
   {
@@ -134,17 +137,17 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 0,
+    "count": 50,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "GK888B",
+      "keyword": "Sony NEWS NWP-411a",
       "keywords": [
-        "GK888B"
+        "Sony NEWS NWP-411a"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-12T04:42:15.386Z"
+      "crawledAt": "2026-11-12T07:35:07.617Z"
     }
   },
   {

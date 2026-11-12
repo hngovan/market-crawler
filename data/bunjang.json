@@ -7417,10 +7417,10 @@
     "price": 60000,
     "url": "https://m.bunjang.co.kr/products/443560629",
     "image": "https://media.bunjang.co.kr/product/443560629_1_1793083206_w160.jpg",
-    "postedAt": "2026-10-27T10:20:29.053Z",
-    "postedAtText": "15일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/443560629_1_1793083206_w900.jpg"
+      "https://media.bunjang.co.kr/product/443560629_1_1793083206_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7429,7 +7429,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "kn03bt"
+      "kn03bt",
+      "Sony NEWS NWP-411a"
     ],
     "crawledAt": "2026-11-09T12:27:26.308Z"
   },
@@ -9189,5 +9190,620 @@
       "GK888B"
     ],
     "crawledAt": "2026-11-12T04:42:15.386Z"
+  },
+  {
+    "name": "소니 ICF-SW11 휴대용 수신기",
+    "price": 80000,
+    "url": "https://m.bunjang.co.kr/products/437623684",
+    "image": "https://media.bunjang.co.kr/product/437623684_1_1791211896_w160.jpg",
+    "postedAt": "2026-11-07T07:35:42.427Z",
+    "postedAtText": "5일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/437623684_1_1791211896_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 4 밴드 ICF-890 라디오",
+    "price": 95000,
+    "url": "https://m.bunjang.co.kr/products/444053339",
+    "image": "https://media.bunjang.co.kr/product/444053339_1_1793946919_w160.jpg",
+    "postedAt": "2026-11-10T07:35:42.687Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/444053339_1_1793946919_w480.jpg",
+      "https://media.bunjang.co.kr/product/444053339_2_1793946919_w480.jpg",
+      "https://media.bunjang.co.kr/product/444053339_3_1793946919_w480.jpg",
+      "https://media.bunjang.co.kr/product/444053339_4_1793946919_w900.jpg",
+      "https://media.bunjang.co.kr/product/444053339_5_1793946919_w900.jpg",
+      "https://media.bunjang.co.kr/product/444053339_6_1793946919_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 포타블 단파라디오 ICF-SW1S",
+    "price": 238000,
+    "url": "https://m.bunjang.co.kr/products/442016303",
+    "image": "https://media.bunjang.co.kr/product/442016303_1_1793243711_w160.jpg",
+    "postedAt": "2026-11-08T07:35:43.310Z",
+    "postedAtText": "4일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/442016303_1_1793243711_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 ICF-B100 방재라디오 NO-11",
+    "price": 105000,
+    "url": "https://m.bunjang.co.kr/products/440485272",
+    "image": "https://media.bunjang.co.kr/product/440485272_1_1792125671_w160.jpg",
+    "postedAt": "2026-10-16T07:35:44.242Z",
+    "postedAtText": "27일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/440485272_1_1792125671_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "SONY 소니 NW-S14K 레트로 MP3 워크맨 스피커독",
+    "price": 88000,
+    "url": "https://m.bunjang.co.kr/products/445640237",
+    "image": "https://media.bunjang.co.kr/product/445640237_1_1793750479_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/445640237_1_1793750479_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 WATCHMAN AM/FM 라디오",
+    "price": 132000,
+    "url": "https://m.bunjang.co.kr/products/443717834",
+    "image": "https://media.bunjang.co.kr/product/443717834_1_1793946946_w160.jpg",
+    "postedAt": "2026-11-08T07:35:45.098Z",
+    "postedAtText": "4일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/443717834_1_1793946946_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "Sony 소니 NWZ-X1050 16기가",
+    "price": 130000,
+    "url": "https://m.bunjang.co.kr/products/445719750",
+    "image": "https://media.bunjang.co.kr/product/445719750_1_1793775119_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/445719750_1_1793775119_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 FM-AM 6밴드 라디오/",
+    "price": 60000,
+    "url": "https://m.bunjang.co.kr/products/438600271",
+    "image": "https://media.bunjang.co.kr/product/438600271_1_1793088070_w160.jpg",
+    "postedAt": "2026-10-17T07:35:45.947Z",
+    "postedAtText": "26일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/438600271_1_1793088070_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 ICR-P10 AM 라디오 재난대비 서바이벌",
+    "price": 10000,
+    "url": "https://m.bunjang.co.kr/products/437573260",
+    "image": "https://media.bunjang.co.kr/product/437573260_1_1791201958_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/437573260_1_1791201958_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 PVM-14N5E 모니터",
+    "price": 490000,
+    "url": "https://m.bunjang.co.kr/products/441827743",
+    "image": "https://media.bunjang.co.kr/product/441827743_1_1792551837_w160.jpg",
+    "postedAt": "2026-11-12T03:35:46.840Z",
+    "postedAtText": "4시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/441827743_1_1792551837_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "NW420N 플래시",
+    "price": 70000,
+    "url": "https://m.bunjang.co.kr/products/441813048",
+    "image": "https://media.bunjang.co.kr/product/441813048_1_1794250708_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/441813048_1_1794250708_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 B-50 방재라디오,NO-5",
+    "price": 105000,
+    "url": "https://m.bunjang.co.kr/products/438254387",
+    "image": "https://media.bunjang.co.kr/product/438254387_1_1791436906_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/438254387_1_1791436906_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 라디오 ICF-F10 캠핑",
+    "price": 90000,
+    "url": "https://m.bunjang.co.kr/products/440466011",
+    "image": "https://media.bunjang.co.kr/product/440466011_1_1792120055_w160.jpg",
+    "postedAt": "2026-10-16T07:35:47.963Z",
+    "postedAtText": "27일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/440466011_1_1792120055_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "재난대비) 소니 휴대용 FM/AM 라디오 블랙 ICF-P26",
+    "price": 85000,
+    "url": "https://m.bunjang.co.kr/products/447898141",
+    "image": "https://media.bunjang.co.kr/product/447898141_1_1794449625_w160.jpg",
+    "postedAt": "2026-11-12T02:35:48.621Z",
+    "postedAtText": "5시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/447898141_1_1794449625_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 SONY ICF-P26 FM/AM 라디오",
+    "price": 140000,
+    "url": "https://m.bunjang.co.kr/products/438256908",
+    "image": "https://media.bunjang.co.kr/product/438256908_1_1794010199_w160.jpg",
+    "postedAt": "2026-11-04T07:35:48.844Z",
+    "postedAtText": "8일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/438256908_1_1794010199_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "소니 ICF-8 휴대용 FM/AM 라디오",
+    "price": 15000,
+    "url": "https://m.bunjang.co.kr/products/441102367",
+    "image": "https://media.bunjang.co.kr/product/441102367_1_1792310869_w160.jpg",
+    "postedAt": "2026-10-19T07:35:49.589Z",
+    "postedAtText": "24일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/441102367_1_1792310869_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "세이코 빈티지 오토매틱 세이코매틱 39석 Cal.395",
+    "price": 373000,
+    "url": "https://m.bunjang.co.kr/products/420873469",
+    "image": "https://media.bunjang.co.kr/product/420873469_1_1794392044_w160.jpg",
+    "postedAt": "2026-11-11T10:35:49.772Z",
+    "postedAtText": "21시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/420873469_1_1794392044_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "크리니크 모이스춰 써지 수분크림75m",
+    "price": 25000,
+    "url": "https://m.bunjang.co.kr/products/433573950",
+    "image": "https://media.bunjang.co.kr/product/433573950_1_1790502350_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/433573950_1_1790502350_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "도리벤 라이터",
+    "price": 195000,
+    "url": "https://m.bunjang.co.kr/products/446269283",
+    "image": "https://media.bunjang.co.kr/product/446269283_1_1793950593_w160.jpg",
+    "postedAt": "2026-11-11T11:35:52.077Z",
+    "postedAtText": "20시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/446269283_1_1793950593_w480.jpg",
+      "https://media.bunjang.co.kr/product/446269283_2_1793950593_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "몽클레어 MAGLIA CARDIGAN 마글리아 집업 후드(8Y / 130cm)",
+    "price": 180000,
+    "url": "https://m.bunjang.co.kr/products/445334298",
+    "image": "https://media.bunjang.co.kr/product/445334298_1_1793667617_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/445334298_1_1793667617_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "휴민트 미개봉 포스터 아트카드 조인성 박정민 박해준 신세경 영화",
+    "price": 5000,
+    "url": "https://m.bunjang.co.kr/products/414278827",
+    "image": "https://media.bunjang.co.kr/product/414278827_1_1791689496_w160.jpg",
+    "postedAt": "2026-11-09T07:35:52.144Z",
+    "postedAtText": "3일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/414278827_1_1791689496_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "티파니 리턴 투 티파니 다이아 실버볼 팔찌 m",
+    "price": 310000,
+    "url": "https://m.bunjang.co.kr/products/446247431",
+    "image": "https://media.bunjang.co.kr/product/446247431_1_1793945688_w160.jpg",
+    "postedAt": "2026-11-11T07:35:52.987Z",
+    "postedAtText": "1일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/446247431_1_1793945688_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "비비안웨스트우드 여성맨투맨 로고무늬 후드티셔츠",
+    "price": 140000,
+    "url": "https://m.bunjang.co.kr/products/447623124",
+    "image": "https://media.bunjang.co.kr/product/447623124_1_1794363063_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/447623124_1_1794363063_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "[미개봉]최저가 제일복권 귀멸의칼날 교메이a상 피규어 팝니다",
+    "price": 730000,
+    "url": "https://m.bunjang.co.kr/products/445193014",
+    "image": "https://media.bunjang.co.kr/product/445193014_1_1793879163_w160.jpg",
+    "postedAt": "2026-11-10T07:35:53.858Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/445193014_1_1793879163_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "자라 가죽 와이드 팬츠 브라운 1110",
+    "price": 25000,
+    "url": "https://m.bunjang.co.kr/products/447442392",
+    "image": "https://media.bunjang.co.kr/product/447442392_1_1794298737_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/447442392_1_1794298737_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "토트넘 23-24 앤썸자켓 써드 해외 xl 택채 새거 팝니다",
+    "price": 115000,
+    "url": "https://m.bunjang.co.kr/products/258359796",
+    "image": "https://media.bunjang.co.kr/product/258359796_1_1791378994_w160.jpg",
+    "postedAt": "2026-11-11T07:35:54.708Z",
+    "postedAtText": "1일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/258359796_1_1791378994_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "와이드앵글 여성 골프 오리털 패딩팬츠 32인치 오일장",
+    "price": 31000,
+    "url": "https://m.bunjang.co.kr/products/446852649",
+    "image": "https://media.bunjang.co.kr/product/446852649_1_1794124224_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/446852649_1_1794124224_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "5080 컬러풀 화이트",
+    "price": 2850000,
+    "url": "https://m.bunjang.co.kr/products/446494477",
+    "image": "https://media.bunjang.co.kr/product/446494477_1_1794029643_w160.jpg",
+    "postedAt": "2026-11-07T07:35:55.596Z",
+    "postedAtText": "5일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/446494477_1_1794029643_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
+  },
+  {
+    "name": "콘스탄틴 디스페랄 픽시",
+    "price": 300000,
+    "url": "https://m.bunjang.co.kr/products/445419273",
+    "image": "https://media.bunjang.co.kr/product/445419273_1_1793686690_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/445419273_1_1793686690_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "Sony NEWS NWP-411a"
+    ],
+    "crawledAt": "2026-11-12T07:35:07.617Z"
   }
 ]
