@@ -243,7 +243,7 @@
       "https://img2.joongna.com/media/original/2026/11/03/1793660958650U1S_4jxhp.jpg",
       "https://img2.joongna.com/media/original/2026/11/03/17936609587538CG_JzVDE.jpg"
     ],
-    "postedAt": "2026-11-12T23:26:57.000Z",
+    "postedAt": "2026-11-14T09:08:58.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -319,7 +319,7 @@
       "https://img2.joongna.com/media/original/2026/11/02/1793613343572Diy_Epgmc.jpg",
       "https://img2.joongna.com/media/original/2026/11/02/1793613343699awE_buTSd.jpg"
     ],
-    "postedAt": "2026-11-13T13:49:49.000Z",
+    "postedAt": "2026-11-14T10:01:52.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2985,7 +2985,7 @@
     "url": "https://web.joongna.com/product/233844926",
     "image": "https://img2.joongna.com/media/original/2026/11/06/1793935910831Gz0_t2FMD.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/11/06/1793935910831Gz0_t2FMD.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/11/06/1793935910831Gz0_t2FMD.jpg"
     ],
     "postedAt": "2026-11-13T03:39:46.000Z",
     "market": "joongna",
@@ -3011,7 +3011,7 @@
       "https://img2.joongna.com/media/original/2026/11/06/1793968561921AGO_E7nKG.jpg",
       "https://img2.joongna.com/media/original/2026/11/06/1793968562047frk_zRruI.jpg"
     ],
-    "postedAt": "2026-11-13T13:49:46.000Z",
+    "postedAt": "2026-11-14T10:01:46.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3771,7 +3771,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/1794276818787ww9_eSYif.jpg"
     ],
-    "postedAt": "2026-11-13T00:54:09.000Z",
+    "postedAt": "2026-11-14T06:37:37.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3792,7 +3792,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/17942730303824qY_SnUBj.jpg"
     ],
-    "postedAt": "2026-11-13T00:54:13.000Z",
+    "postedAt": "2026-11-14T06:37:33.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4438,7 +4438,7 @@
       "https://img2.joongna.com/media/original/2026/11/11/17944007192615xC_Y4sqW.jpg",
       "https://img2.joongna.com/media/original/2026/11/11/1794400719384LiD_O0gYH.jpg"
     ],
-    "postedAt": "2026-11-13T13:49:56.000Z",
+    "postedAt": "2026-11-14T10:01:58.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4780,7 +4780,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/12/1794468649993ope_nPRBS.jpg"
     ],
-    "postedAt": "2026-11-12T22:48:42.000Z",
+    "postedAt": "2026-11-14T10:38:16.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4792,5 +4792,31 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-12T13:27:06.999Z"
+  },
+  {
+    "name": "REALFORCE R4 키보드 무선/유선 영어배열 화이트 45g 저소음팝니다.",
+    "price": 320000,
+    "url": "https://web.joongna.com/product/234069478",
+    "image": "https://img2.joongna.com/media/original/2026/11/14/1794656196935OWN_KwWnk.jpeg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/11/14/1794656196935OWN_KwWnk.jpeg",
+      "https://img2.joongna.com/media/original/2026/11/14/1794656196934Dgc_uxq4x.jpeg",
+      "https://img2.joongna.com/media/original/2026/11/14/1794656196899QLV_6gzv6.jpeg",
+      "https://img2.joongna.com/media/original/2026/11/14/1794656196934mj7_XTskC.jpeg",
+      "https://img2.joongna.com/media/original/2026/11/14/1794656196899iJf_FVAlI.jpeg",
+      "https://img2.joongna.com/media/original/2026/11/14/1794656196935Pci_0Dpbq.jpeg"
+    ],
+    "postedAt": "2026-11-14T11:38:25.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-14T11:51:23.670Z"
   }
 ]
