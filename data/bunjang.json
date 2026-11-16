@@ -436,10 +436,11 @@
     "price": 60000,
     "url": "https://m.bunjang.co.kr/products/445535918",
     "image": "https://media.bunjang.co.kr/product/445535918_1_1793708227_w160.jpg",
-    "postedAt": "2026-11-10T10:20:27.207Z",
-    "postedAtText": "1일 전",
+    "postedAt": "2026-11-10T16:15:06.967Z",
+    "postedAtText": "6일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/445535918_1_1793708227_w900.jpg"
+      "https://media.bunjang.co.kr/product/445535918_1_1793708227_w480.jpg",
+      "https://media.bunjang.co.kr/product/445535918_2_1793708227_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -452,7 +453,8 @@
       "abko kn03bt",
       "kn35bt",
       "ABKO KN03BT",
-      "kn03bt"
+      "kn03bt",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T06:52:10.326Z"
   },
@@ -988,10 +990,10 @@
     "price": 4000,
     "url": "https://m.bunjang.co.kr/products/445443765",
     "image": "https://media.bunjang.co.kr/product/445443765_1_1793691469_w160.jpg",
-    "postedAt": "2026-11-03T12:21:52.670Z",
-    "postedAtText": "6일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/445443765_1_1793691469_w900.jpg"
+      "https://media.bunjang.co.kr/product/445443765_1_1793691469_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -1002,7 +1004,8 @@
     "keywords": [
       "ABKO",
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T06:52:10.326Z"
   },
@@ -2128,10 +2131,10 @@
     "price": 15000,
     "url": "https://m.bunjang.co.kr/products/445243339",
     "image": "https://media.bunjang.co.kr/product/445243339_1_1793624248_w160.jpg",
-    "postedAt": "2026-11-03T12:21:44.050Z",
-    "postedAtText": "6일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/445243339_1_1793624248_w480.jpg"
+      "https://media.bunjang.co.kr/product/445243339_1_1793624248_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2141,7 +2144,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2150,10 +2154,10 @@
     "price": 10000,
     "url": "https://m.bunjang.co.kr/products/444170047",
     "image": "https://media.bunjang.co.kr/product/444170047_1_1793530502_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-10-29T16:15:02.405Z",
+    "postedAtText": "18일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/444170047_1_1793530502_w160.jpg"
+      "https://media.bunjang.co.kr/product/444170047_1_1793530502_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2163,7 +2167,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2195,11 +2200,10 @@
     "price": 4000,
     "url": "https://m.bunjang.co.kr/products/442272202",
     "image": "https://media.bunjang.co.kr/product/442272202_1_1792684643_w160.jpg",
-    "postedAt": "2026-10-23T12:21:46.874Z",
-    "postedAtText": "17일 전",
+    "postedAt": "2026-10-22T16:15:04.941Z",
+    "postedAtText": "25일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/442272202_1_1792684643_w480.jpg",
-      "https://media.bunjang.co.kr/product/442272202_2_1792684643_w480.jpg"
+      "https://media.bunjang.co.kr/product/442272202_1_1792684643_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2209,7 +2213,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2218,10 +2223,10 @@
     "price": 55000,
     "url": "https://m.bunjang.co.kr/products/441894915",
     "image": "https://media.bunjang.co.kr/product/441894915_1_1792569564_w160.jpg",
-    "postedAt": "2026-10-21T10:20:25.356Z",
-    "postedAtText": "21일 전",
+    "postedAt": "2026-10-21T16:15:04.093Z",
+    "postedAtText": "26일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/441894915_1_1792569564_w480.jpg"
+      "https://media.bunjang.co.kr/product/441894915_1_1792569564_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2233,19 +2238,20 @@
       "abko kn03bt",
       "kn35bt",
       "ABKO KN03BT",
-      "kn03bt"
+      "kn03bt",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
   {
     "name": "ABKO MK108 키보드",
-    "price": 25000,
+    "price": 20000,
     "url": "https://m.bunjang.co.kr/products/442816566",
-    "image": "https://media.bunjang.co.kr/product/442816566_1_1792857961_w160.jpg",
-    "postedAt": "2026-10-25T12:21:47.806Z",
-    "postedAtText": "15일 전",
+    "image": "https://media.bunjang.co.kr/product/442816566_1_1794450094_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/442816566_1_1792857961_w900.jpg"
+      "https://media.bunjang.co.kr/product/442816566_1_1794450094_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2255,7 +2261,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2277,7 +2284,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2329,10 +2337,10 @@
     "price": 25000,
     "url": "https://m.bunjang.co.kr/products/439286847",
     "image": "https://media.bunjang.co.kr/product/439286847_1_1791724912_w160.jpg",
-    "postedAt": "2026-10-12T12:21:50.937Z",
-    "postedAtText": "28일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/439286847_1_1791724912_w480.jpg"
+      "https://media.bunjang.co.kr/product/439286847_1_1791724912_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2342,7 +2350,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2351,8 +2360,8 @@
     "price": 22000,
     "url": "https://m.bunjang.co.kr/products/439768672",
     "image": "https://media.bunjang.co.kr/product/439768672_1_1791881789_w160.jpg",
-    "postedAt": "2026-10-13T12:21:51.332Z",
-    "postedAtText": "27일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
       "https://media.bunjang.co.kr/product/439768672_1_1791881789_w900.jpg"
     ],
@@ -2364,19 +2373,20 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
   {
-    "name": "ABKO AK84BT 무선 슬림 키보드",
-    "price": 43000,
+    "name": "ABKO AK84BT 무선 슬림 키보드 [미사용급]",
+    "price": 40000,
     "url": "https://m.bunjang.co.kr/products/440819409",
-    "image": "https://media.bunjang.co.kr/product/440819409_1_1794119901_w160.jpg",
-    "postedAt": "2026-10-17T12:21:51.794Z",
-    "postedAtText": "23일 전",
+    "image": "https://media.bunjang.co.kr/product/440819409_1_1794844901_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/440819409_1_1794119901_w900.jpg"
+      "https://media.bunjang.co.kr/product/440819409_1_1794844901_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2386,7 +2396,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2395,10 +2406,10 @@
     "price": 30000,
     "url": "https://m.bunjang.co.kr/products/445103025",
     "image": "https://media.bunjang.co.kr/product/445103025_1_1793592088_w160.jpg",
-    "postedAt": "2026-11-02T12:21:53.776Z",
-    "postedAtText": "7일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/445103025_1_1793592088_w480.jpg"
+      "https://media.bunjang.co.kr/product/445103025_1_1793592088_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2408,7 +2419,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2417,11 +2429,10 @@
     "price": 10000,
     "url": "https://m.bunjang.co.kr/products/438242825",
     "image": "https://media.bunjang.co.kr/product/438242825_1_1791433605_w160.jpg",
-    "postedAt": "2026-11-08T12:21:54.592Z",
-    "postedAtText": "1일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/438242825_1_1791433605_w480.jpg",
-      "https://media.bunjang.co.kr/product/438242825_2_1791433605_w480.jpg"
+      "https://media.bunjang.co.kr/product/438242825_1_1791433605_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2431,7 +2442,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2440,13 +2452,10 @@
     "price": 35000,
     "url": "https://m.bunjang.co.kr/products/440086144",
     "image": "https://media.bunjang.co.kr/product/440086144_1_1791981796_w160.jpg",
-    "postedAt": "2026-10-15T12:21:55.541Z",
-    "postedAtText": "25일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/440086144_1_1791981796_w480.jpg",
-      "https://media.bunjang.co.kr/product/440086144_2_1791981796_w480.jpg",
-      "https://media.bunjang.co.kr/product/440086144_3_1791981796_w480.jpg",
-      "https://media.bunjang.co.kr/product/440086144_4_1791981796_w480.jpg"
+      "https://media.bunjang.co.kr/product/440086144_1_1791981796_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2456,7 +2465,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2465,15 +2475,10 @@
     "price": 15000,
     "url": "https://m.bunjang.co.kr/products/442450438",
     "image": "https://media.bunjang.co.kr/product/442450438_1_1792753261_w160.jpg",
-    "postedAt": "2026-10-23T12:21:56.701Z",
-    "postedAtText": "17일 전",
+    "postedAt": "2026-10-23T16:15:11.489Z",
+    "postedAtText": "24일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/442450438_1_1792753261_w480.jpg",
-      "https://media.bunjang.co.kr/product/442450438_2_1792753261_w480.jpg",
-      "https://media.bunjang.co.kr/product/442450438_3_1792753261_w480.jpg",
-      "https://media.bunjang.co.kr/product/442450438_4_1792753261_w480.jpg",
-      "https://media.bunjang.co.kr/product/442450438_5_1792753261_w480.jpg",
-      "https://media.bunjang.co.kr/product/442450438_6_1792753261_w480.jpg"
+      "https://media.bunjang.co.kr/product/442450438_1_1792753261_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2483,7 +2488,8 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2535,31 +2541,10 @@
     "price": 30000,
     "url": "https://m.bunjang.co.kr/products/443097928",
     "image": "https://media.bunjang.co.kr/product/443097928_1_1792938049_w160.jpg",
-    "postedAt": "2026-10-26T08:34:34.000Z",
-    "postedAtText": "9일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/443097928_1_1792938049_w900.jpg"
-    ],
-    "market": "bunjang",
-    "marketName": "Bunjang",
-    "region": "korea",
-    "regionName": "Hàn Quốc",
-    "regionFlag": "🇰🇷",
-    "currency": "KRW",
-    "keywords": [
-      "abko kn03bt"
-    ],
-    "crawledAt": "2026-11-04T08:33:51.804Z"
-  },
-  {
-    "name": "ABKO앱코 무선 키보드 & 버티컬 마우스 세트",
-    "price": 65000,
-    "url": "https://m.bunjang.co.kr/products/438797218",
-    "image": "https://media.bunjang.co.kr/product/438797218_1_1792463266_w160.jpg",
-    "postedAt": "2026-11-06T12:21:58.788Z",
-    "postedAtText": "3일 전",
-    "images": [
-      "https://media.bunjang.co.kr/product/438797218_1_1792463266_w480.jpg"
+      "https://media.bunjang.co.kr/product/443097928_1_1792938049_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2569,7 +2554,30 @@
     "currency": "KRW",
     "keywords": [
       "abko kn03bt",
-      "ABKO KN03BT"
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-04T08:33:51.804Z"
+  },
+  {
+    "name": "ABKO앱코 무선 키보드 & 버티컬 마우스 세트",
+    "price": 65000,
+    "url": "https://m.bunjang.co.kr/products/438797218",
+    "image": "https://media.bunjang.co.kr/product/438797218_1_1792463266_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/438797218_1_1792463266_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "abko kn03bt",
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -5266,8 +5274,8 @@
     "price": 100000,
     "url": "https://m.bunjang.co.kr/products/386470991",
     "image": "https://media.bunjang.co.kr/product/386470991_1_1769997191_w160.jpg",
-    "postedAt": "2026-10-26T07:27:32.889Z",
-    "postedAtText": "11일 전",
+    "postedAt": "2026-10-28T16:15:00.361Z",
+    "postedAtText": "19일 전",
     "images": [
       "https://media.bunjang.co.kr/product/386470991_1_1769997191_w480.jpg",
       "https://media.bunjang.co.kr/product/386470991_2_1769997191_w900.jpg",
@@ -5280,7 +5288,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "kn35bt"
+      "kn35bt",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-06T07:26:58.860Z"
   },
@@ -7025,14 +7034,13 @@
   },
   {
     "name": "앱코 kn03bt 키보드",
-    "price": 50000,
+    "price": 45000,
     "url": "https://m.bunjang.co.kr/products/447155940",
     "image": "https://media.bunjang.co.kr/product/447155940_1_1794208033_w160.jpg",
-    "postedAt": "2026-11-09T10:20:23.765Z",
-    "postedAtText": "2일 전",
+    "postedAt": "2026-11-16T15:15:01.462Z",
+    "postedAtText": "1시간 전",
     "images": [
-      "https://media.bunjang.co.kr/product/447155940_1_1794208033_w480.jpg",
-      "https://media.bunjang.co.kr/product/447155940_2_1794208033_w900.jpg"
+      "https://media.bunjang.co.kr/product/447155940_1_1794208033_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7042,19 +7050,20 @@
     "currency": "KRW",
     "keywords": [
       "ABKO KN03BT",
-      "kn03bt"
+      "kn03bt",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
   {
     "name": "앱코 KN30BT 무접점 키보드 아이보리 색상",
-    "price": 69000,
+    "price": 66000,
     "url": "https://m.bunjang.co.kr/products/446514153",
-    "image": "https://media.bunjang.co.kr/product/446514153_1_1794225338_w160.jpg",
+    "image": "https://media.bunjang.co.kr/product/446514153_1_1794489776_w160.jpg",
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/446514153_1_1794225338_w160.jpg"
+      "https://media.bunjang.co.kr/product/446514153_1_1794489776_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7064,7 +7073,8 @@
     "currency": "KRW",
     "keywords": [
       "ABKO KN03BT",
-      "kn03bt"
+      "kn03bt",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -7073,10 +7083,10 @@
     "price": 30000,
     "url": "https://m.bunjang.co.kr/products/446342300",
     "image": "https://media.bunjang.co.kr/product/446342300_1_1793965571_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-11-06T16:15:08.689Z",
+    "postedAtText": "10일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/446342300_1_1793965571_w160.jpg"
+      "https://media.bunjang.co.kr/product/446342300_1_1793965571_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7085,7 +7095,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -7094,13 +7105,10 @@
     "price": 20000,
     "url": "https://m.bunjang.co.kr/products/445973125",
     "image": "https://media.bunjang.co.kr/product/445973125_1_1793860658_w160.jpg",
-    "postedAt": "2026-11-08T12:21:50.514Z",
-    "postedAtText": "1일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/445973125_1_1793860658_w480.jpg",
-      "https://media.bunjang.co.kr/product/445973125_2_1793860658_w480.jpg",
-      "https://media.bunjang.co.kr/product/445973125_3_1793860658_w480.jpg",
-      "https://media.bunjang.co.kr/product/445973125_4_1793860658_w480.jpg"
+      "https://media.bunjang.co.kr/product/445973125_1_1793860658_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7109,7 +7117,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "ABKO KN35BT"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -9979,5 +9988,201 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-16T13:14:14.094Z"
+  },
+  {
+    "name": "앱코 KN35BT 서울에디션 팝니다.",
+    "price": 100000,
+    "url": "https://m.bunjang.co.kr/products/447862516",
+    "image": "https://media.bunjang.co.kr/product/447862516_1_1794431837_w160.jpg",
+    "postedAt": "2026-11-16T13:15:00.556Z",
+    "postedAtText": "3시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/447862516_1_1794431837_w480.jpg",
+      "https://media.bunjang.co.kr/product/447862516_2_1794431837_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "ABKO KN30BT",
+    "price": 45000,
+    "url": "https://m.bunjang.co.kr/products/449409069",
+    "image": "https://media.bunjang.co.kr/product/449409069_1_1794813932_w160.jpg",
+    "postedAt": "2026-11-16T08:15:02.363Z",
+    "postedAtText": "8시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/449409069_1_1794813932_w480.jpg",
+      "https://media.bunjang.co.kr/product/449409069_2_1794813932_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "ABKO 키보드 K611",
+    "price": 12000,
+    "url": "https://m.bunjang.co.kr/products/448794237",
+    "image": "https://media.bunjang.co.kr/product/448794237_1_1794730326_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/448794237_1_1794730326_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "앱코 기계식 키보드",
+    "price": 8000,
+    "url": "https://m.bunjang.co.kr/products/447554533",
+    "image": "https://media.bunjang.co.kr/product/447554533_1_1794321385_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/447554533_1_1794321385_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "앱코 AP87W 키보드 풀박스",
+    "price": 37000,
+    "url": "https://m.bunjang.co.kr/products/447973069",
+    "image": "https://media.bunjang.co.kr/product/447973069_1_1794469430_w160.jpg",
+    "postedAt": "2026-11-12T16:15:09.817Z",
+    "postedAtText": "4일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/447973069_1_1794469430_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "앱코KN01C 텐키리스 무접점키보드",
+    "price": 35000,
+    "url": "https://m.bunjang.co.kr/products/449414871",
+    "image": "https://media.bunjang.co.kr/product/449414871_1_1794815223_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/449414871_1_1794815223_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "앱코 68키 무선 기계식 키보드 (풀박스)",
+    "price": 55000,
+    "url": "https://m.bunjang.co.kr/products/447742592",
+    "image": "https://media.bunjang.co.kr/product/447742592_1_1794391488_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/447742592_1_1794391488_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "앱코 K840S 적축 기계식 키보드 블랙",
+    "price": 21000,
+    "url": "https://m.bunjang.co.kr/products/448583445",
+    "image": "https://media.bunjang.co.kr/product/448583445_1_1794592635_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/448583445_1_1794592635_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
+  },
+  {
+    "name": "몽클레어 마르크 패딩 블랙 3사이즈",
+    "price": 1800000,
+    "url": "https://m.bunjang.co.kr/products/440806881",
+    "image": "https://media.bunjang.co.kr/product/440806881_1_1794839826_w160.jpg",
+    "postedAt": "2026-11-16T09:15:16.412Z",
+    "postedAtText": "7시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/440806881_1_1794839826_w480.jpg",
+      "https://media.bunjang.co.kr/product/440806881_2_1794839826_w480.jpg",
+      "https://media.bunjang.co.kr/product/440806881_3_1794839826_w480.jpg",
+      "https://media.bunjang.co.kr/product/440806881_4_1794839826_w480.jpg",
+      "https://media.bunjang.co.kr/product/440806881_5_1794839826_w480.jpg",
+      "https://media.bunjang.co.kr/product/440806881_6_1794839826_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "ABKO KN35BT"
+    ],
+    "crawledAt": "2026-11-16T16:14:41.265Z"
   }
 ]
