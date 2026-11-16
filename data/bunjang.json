@@ -436,7 +436,7 @@
     "price": 60000,
     "url": "https://m.bunjang.co.kr/products/445535918",
     "image": "https://media.bunjang.co.kr/product/445535918_1_1793708227_w160.jpg",
-    "postedAt": "2026-11-10T16:15:06.967Z",
+    "postedAt": "2026-11-10T16:41:42.563Z",
     "postedAtText": "6일 전",
     "images": [
       "https://media.bunjang.co.kr/product/445535918_1_1793708227_w480.jpg",
@@ -2223,7 +2223,7 @@
     "price": 55000,
     "url": "https://m.bunjang.co.kr/products/441894915",
     "image": "https://media.bunjang.co.kr/product/441894915_1_1792569564_w160.jpg",
-    "postedAt": "2026-10-21T16:15:04.093Z",
+    "postedAt": "2026-10-21T16:41:34.024Z",
     "postedAtText": "26일 전",
     "images": [
       "https://media.bunjang.co.kr/product/441894915_1_1792569564_w900.jpg"
@@ -5274,12 +5274,12 @@
     "price": 100000,
     "url": "https://m.bunjang.co.kr/products/386470991",
     "image": "https://media.bunjang.co.kr/product/386470991_1_1769997191_w160.jpg",
-    "postedAt": "2026-10-28T16:15:00.361Z",
-    "postedAtText": "19일 전",
+    "postedAt": "2026-11-06T16:41:30.659Z",
+    "postedAtText": "10일 전",
     "images": [
       "https://media.bunjang.co.kr/product/386470991_1_1769997191_w480.jpg",
-      "https://media.bunjang.co.kr/product/386470991_2_1769997191_w900.jpg",
-      "https://media.bunjang.co.kr/product/386470991_3_1769997191_w900.jpg"
+      "https://media.bunjang.co.kr/product/386470991_2_1769997191_w480.jpg",
+      "https://media.bunjang.co.kr/product/386470991_3_1769997191_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -5298,8 +5298,8 @@
     "price": 10000,
     "url": "https://m.bunjang.co.kr/products/446029943",
     "image": "https://media.bunjang.co.kr/product/446029943_1_1793872491_w160.jpg",
-    "postedAt": "2026-11-05T10:27:32.710Z",
-    "postedAtText": "21시간 전",
+    "postedAt": "2026-11-05T16:41:33.179Z",
+    "postedAtText": "11일 전",
     "images": [
       "https://media.bunjang.co.kr/product/446029943_1_1793872491_w480.jpg"
     ],
@@ -5319,10 +5319,10 @@
     "price": 8000,
     "url": "https://m.bunjang.co.kr/products/444794311",
     "image": "https://media.bunjang.co.kr/product/444794311_1_1793500115_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-11-01T16:41:34.909Z",
+    "postedAtText": "15일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/444794311_1_1793500115_w160.jpg"
+      "https://media.bunjang.co.kr/product/444794311_1_1793500115_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -5340,10 +5340,10 @@
     "price": 350000,
     "url": "https://m.bunjang.co.kr/products/439741721",
     "image": "https://media.bunjang.co.kr/product/439741721_1_1791875130_w160.jpg",
-    "postedAt": "2026-10-13T10:20:26.316Z",
-    "postedAtText": "29일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/439741721_1_1791875130_w480.jpg"
+      "https://media.bunjang.co.kr/product/439741721_1_1791875130_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -5405,10 +5405,10 @@
     "price": 25000,
     "url": "https://m.bunjang.co.kr/products/445698771",
     "image": "https://media.bunjang.co.kr/product/445698771_1_1793769659_w160.jpg",
-    "postedAt": "2026-11-10T22:20:28.136Z",
-    "postedAtText": "12시간 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/445698771_1_1793769659_w900.jpg"
+      "https://media.bunjang.co.kr/product/445698771_1_1793769659_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -5448,10 +5448,12 @@
     "price": 60000,
     "url": "https://m.bunjang.co.kr/products/441186793",
     "image": "https://media.bunjang.co.kr/product/441186793_1_1792326689_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-10-18T16:41:38.607Z",
+    "postedAtText": "29일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/441186793_1_1792326689_w160.jpg"
+      "https://media.bunjang.co.kr/product/441186793_1_1792326689_w480.jpg",
+      "https://media.bunjang.co.kr/product/441186793_2_1792326689_w480.jpg",
+      "https://media.bunjang.co.kr/product/441186793_3_1792326689_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -5532,8 +5534,8 @@
     "price": 9000,
     "url": "https://m.bunjang.co.kr/products/444612306",
     "image": "https://media.bunjang.co.kr/product/444612306_1_1793435400_w160.jpg",
-    "postedAt": "2026-11-01T07:27:38.383Z",
-    "postedAtText": "5일 전",
+    "postedAt": "2026-10-31T16:41:40.311Z",
+    "postedAtText": "16일 전",
     "images": [
       "https://media.bunjang.co.kr/product/444612306_1_1793435400_w900.jpg"
     ],
@@ -5553,8 +5555,8 @@
     "price": 1500000,
     "url": "https://m.bunjang.co.kr/products/443670335",
     "image": "https://media.bunjang.co.kr/product/443670335_1_1793106366_w160.jpg",
-    "postedAt": "2026-10-28T07:27:39.248Z",
-    "postedAtText": "9일 전",
+    "postedAt": "2026-10-27T16:41:40.789Z",
+    "postedAtText": "20일 전",
     "images": [
       "https://media.bunjang.co.kr/product/443670335_1_1793106366_w900.jpg"
     ],
@@ -5595,8 +5597,8 @@
     "price": 10000,
     "url": "https://m.bunjang.co.kr/products/440867858",
     "image": "https://media.bunjang.co.kr/product/440867858_1_1793008806_w160.jpg",
-    "postedAt": "2026-10-18T07:27:40.218Z",
-    "postedAtText": "19일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
       "https://media.bunjang.co.kr/product/440867858_1_1793008806_w900.jpg"
     ],
@@ -5616,10 +5618,11 @@
     "price": 4500,
     "url": "https://m.bunjang.co.kr/products/442482565",
     "image": "https://media.bunjang.co.kr/product/442482565_1_1792992365_w160.jpg",
-    "postedAt": "2026-10-24T07:27:41.130Z",
-    "postedAtText": "13일 전",
+    "postedAt": "2026-10-23T16:41:45.910Z",
+    "postedAtText": "24일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/442482565_1_1792992365_w900.jpg"
+      "https://media.bunjang.co.kr/product/442482565_1_1792992365_w480.jpg",
+      "https://media.bunjang.co.kr/product/442482565_2_1792992365_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7037,10 +7040,11 @@
     "price": 45000,
     "url": "https://m.bunjang.co.kr/products/447155940",
     "image": "https://media.bunjang.co.kr/product/447155940_1_1794208033_w160.jpg",
-    "postedAt": "2026-11-16T15:15:01.462Z",
-    "postedAtText": "1시간 전",
+    "postedAt": "2026-11-16T14:41:32.851Z",
+    "postedAtText": "2시간 전",
     "images": [
-      "https://media.bunjang.co.kr/product/447155940_1_1794208033_w900.jpg"
+      "https://media.bunjang.co.kr/product/447155940_1_1794208033_w480.jpg",
+      "https://media.bunjang.co.kr/product/447155940_2_1794208033_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7051,7 +7055,8 @@
     "keywords": [
       "ABKO KN03BT",
       "kn03bt",
-      "ABKO KN35BT"
+      "ABKO KN35BT",
+      "kn35bt"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -7060,10 +7065,10 @@
     "price": 66000,
     "url": "https://m.bunjang.co.kr/products/446514153",
     "image": "https://media.bunjang.co.kr/product/446514153_1_1794489776_w160.jpg",
-    "postedAt": "",
-    "postedAtText": "",
+    "postedAt": "2026-11-16T01:41:33.876Z",
+    "postedAtText": "15시간 전",
     "images": [
-      "https://media.bunjang.co.kr/product/446514153_1_1794489776_w160.jpg"
+      "https://media.bunjang.co.kr/product/446514153_1_1794489776_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7074,7 +7079,8 @@
     "keywords": [
       "ABKO KN03BT",
       "kn03bt",
-      "ABKO KN35BT"
+      "ABKO KN35BT",
+      "kn35bt"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -9994,11 +10000,11 @@
     "price": 100000,
     "url": "https://m.bunjang.co.kr/products/447862516",
     "image": "https://media.bunjang.co.kr/product/447862516_1_1794431837_w160.jpg",
-    "postedAt": "2026-11-16T13:15:00.556Z",
+    "postedAt": "2026-11-16T13:41:30.233Z",
     "postedAtText": "3시간 전",
     "images": [
       "https://media.bunjang.co.kr/product/447862516_1_1794431837_w480.jpg",
-      "https://media.bunjang.co.kr/product/447862516_2_1794431837_w480.jpg"
+      "https://media.bunjang.co.kr/product/447862516_2_1794431837_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -10007,7 +10013,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "ABKO KN35BT"
+      "ABKO KN35BT",
+      "kn35bt"
     ],
     "crawledAt": "2026-11-16T16:14:41.265Z"
   },
@@ -10016,11 +10023,10 @@
     "price": 45000,
     "url": "https://m.bunjang.co.kr/products/449409069",
     "image": "https://media.bunjang.co.kr/product/449409069_1_1794813932_w160.jpg",
-    "postedAt": "2026-11-16T08:15:02.363Z",
-    "postedAtText": "8시간 전",
+    "postedAt": "2026-11-16T07:41:31.093Z",
+    "postedAtText": "9시간 전",
     "images": [
-      "https://media.bunjang.co.kr/product/449409069_1_1794813932_w480.jpg",
-      "https://media.bunjang.co.kr/product/449409069_2_1794813932_w480.jpg"
+      "https://media.bunjang.co.kr/product/449409069_1_1794813932_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -10029,7 +10035,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "ABKO KN35BT"
+      "ABKO KN35BT",
+      "kn35bt"
     ],
     "crawledAt": "2026-11-16T16:14:41.265Z"
   },
@@ -10927,5 +10934,262 @@
       "KN01C"
     ],
     "crawledAt": "2026-11-16T16:38:29.984Z"
+  },
+  {
+    "name": "NMB RT8255C+ 빈티지 클릭 키보드",
+    "price": 150000,
+    "url": "https://m.bunjang.co.kr/products/448258879",
+    "image": "https://media.bunjang.co.kr/product/448258879_1_1794701365_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/448258879_1_1794701365_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "KT68 키보드 팝니다",
+    "price": 80000,
+    "url": "https://m.bunjang.co.kr/products/446998736",
+    "image": "https://media.bunjang.co.kr/product/446998736_1_1794152359_w160.jpg",
+    "postedAt": "2026-11-13T16:41:35.788Z",
+    "postedAtText": "3일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/446998736_1_1794152359_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "코지 무선 블루투스 키보드 KB3059BT (화이트)",
+    "price": 15000,
+    "url": "https://m.bunjang.co.kr/products/448774554",
+    "image": "https://media.bunjang.co.kr/product/448774554_1_1794645299_w160.jpg",
+    "postedAt": "2026-11-14T16:41:39.015Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/448774554_1_1794645299_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "[미개봉/새상품] JBL E35 온이어 유선 헤드폰 (블랙)",
+    "price": 45000,
+    "url": "https://m.bunjang.co.kr/products/447936227",
+    "image": "https://media.bunjang.co.kr/product/447936227_1_1794811528_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/447936227_1_1794811528_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "NX-502 헤드셋",
+    "price": 28000,
+    "url": "https://m.bunjang.co.kr/products/449175980",
+    "image": "https://media.bunjang.co.kr/product/449175980_1_1794750406_w160.jpg",
+    "postedAt": "2026-11-15T16:41:42.614Z",
+    "postedAtText": "1일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/449175980_1_1794750406_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "사운드코어 라이프 Q35 무선 노이즈 캔슬링 헤드폰",
+    "price": 43000,
+    "url": "https://m.bunjang.co.kr/products/449364176",
+    "image": "https://media.bunjang.co.kr/product/449364176_1_1794804998_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/449364176_1_1794804998_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "블루투스 무선 숫자 키패드 22키 노트북용 휴대용 숫자 키보드 사무용",
+    "price": 15500,
+    "url": "https://m.bunjang.co.kr/products/447893858",
+    "image": "https://media.bunjang.co.kr/product/447893858_1_1794448280_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/447893858_1_1794448280_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "엔하이픈 희승 2026 시즌그리팅 시그 포스터 증사 일러스트 EVAN 에반",
+    "price": 12000,
+    "url": "https://m.bunjang.co.kr/products/415243969",
+    "image": "https://media.bunjang.co.kr/product/415243969_1_1789857500_w160.jpg",
+    "postedAt": "2026-11-14T16:41:46.654Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/415243969_1_1789857500_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "미군 M65 야상자켓",
+    "price": 95000,
+    "url": "https://m.bunjang.co.kr/products/362579114",
+    "image": "https://media.bunjang.co.kr/product/362579114_1_1787310579_w160.jpg",
+    "postedAt": "2026-11-14T16:41:46.971Z",
+    "postedAtText": "2일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/362579114_1_1787310579_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "엔시티 위시 위시돌 헤어고정 패치 찍찍이 시오닝 쿠리 버블냥 댕트리버 룐룐 팡이",
+    "price": 2500,
+    "url": "https://m.bunjang.co.kr/products/448274616",
+    "image": "https://media.bunjang.co.kr/product/448274616_1_1794708459_w160.jpg",
+    "postedAt": "2026-11-16T12:41:48.677Z",
+    "postedAtText": "4시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/448274616_1_1794708459_w480.jpg",
+      "https://media.bunjang.co.kr/product/448274616_2_1794708459_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "미니 캐쥬얼 백",
+    "price": 15000,
+    "url": "https://m.bunjang.co.kr/products/442431093",
+    "image": "https://media.bunjang.co.kr/product/442431093_1_1792972481_w160.jpg",
+    "postedAt": "2026-11-11T16:41:49.258Z",
+    "postedAtText": "5일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/442431093_1_1792972481_w480.jpg",
+      "https://media.bunjang.co.kr/product/442431093_2_1792972481_w480.jpg",
+      "https://media.bunjang.co.kr/product/442431093_3_1792972481_w480.jpg",
+      "https://media.bunjang.co.kr/product/442431093_4_1792972481_w480.jpg",
+      "https://media.bunjang.co.kr/product/442431093_5_1792972481_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "무배)소니엔젤 벅스월드 애벌레",
+    "price": 145000,
+    "url": "https://m.bunjang.co.kr/products/445623602",
+    "image": "https://media.bunjang.co.kr/product/445623602_1_1794753463_w160.jpg",
+    "postedAt": "2026-11-16T10:41:49.696Z",
+    "postedAtText": "6시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/445623602_1_1794753463_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
   }
 ]

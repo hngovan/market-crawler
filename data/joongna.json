@@ -5160,5 +5160,30 @@
       "KN01C"
     ],
     "crawledAt": "2026-11-16T16:38:29.984Z"
+  },
+  {
+    "name": "앱코 KN35BT TKL 베른 45g 블루투스 무접점 키보드",
+    "price": 65000,
+    "url": "https://web.joongna.com/product/234045971",
+    "image": "https://img2.joongna.com/media/original/2026/11/13/1794572263064XBM_nxD5c.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/11/13/1794572263064XBM_nxD5c.jpg",
+      "https://img2.joongna.com/media/original/2026/11/13/17945722632399rW_Ooml8.jpg",
+      "https://img2.joongna.com/media/original/2026/11/13/17945722633725Ma_f9CdP.jpg",
+      "https://img2.joongna.com/media/original/2026/11/13/1794572263492D4q_niSS1.jpg",
+      "https://img2.joongna.com/media/original/2026/11/13/1794572263620Bsk_gTRW2.jpg",
+      "https://img2.joongna.com/media/original/2026/11/13/17945722637350SY_F9Ez7.jpg"
+    ],
+    "postedAt": "2026-11-13T12:17:43.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn35bt"
+    ],
+    "crawledAt": "2026-11-16T16:40:47.067Z"
   }
 ]

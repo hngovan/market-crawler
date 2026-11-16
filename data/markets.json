@@ -7,13 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 225,
+    "count": 226,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "KN01C",
+      "keyword": "kn35bt",
       "keywords": [
-        "KN01C",
+        "kn35bt",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -27,13 +27,13 @@
         "GK888B",
         "Archon E1 Pro",
         "E1 PRO",
-        "kn35bt",
         "nck87",
-        "Sony NEWS NWP-411a"
+        "Sony NEWS NWP-411a",
+        "KN01C"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:38:29.984Z"
+      "crawledAt": "2026-11-16T16:40:47.067Z"
     }
   },
   {
@@ -44,19 +44,18 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 499,
+    "count": 511,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "KN01C",
+      "keyword": "kn35bt",
       "keywords": [
-        "KN01C",
+        "kn35bt",
         "realforce",
         "리얼포스",
         "realforce r4",
         "ABKO",
         "abko kn03bt",
-        "kn35bt",
         "ABKO KN03BT",
         "kn03bt",
         "ABKO KN35BT",
@@ -68,11 +67,12 @@
         "E1 PRO",
         "nck87",
         "Sony NEWS NWP-411a",
-        "EDIUSV4KB"
+        "EDIUSV4KB",
+        "KN01C"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:38:29.984Z"
+      "crawledAt": "2026-11-16T16:40:47.067Z"
     }
   },
   {
@@ -82,14 +82,14 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "skipped",
+    "status": "success",
     "count": 332,
-    "error": "KN01C: Waiting for selector `a[href*=\"/offer/\"]` failed",
+    "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "KN01C",
+      "keyword": "kn35bt",
       "keywords": [
-        "KN01C",
+        "kn35bt",
         "리얼포스",
         "GK893B",
         "GK888B",
@@ -97,14 +97,13 @@
         "nck87",
         "Archon E1 Pro",
         "E1 PRO",
-        "kn35bt",
         "realforce",
         "realforce r4",
         "kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:38:29.984Z"
+      "crawledAt": "2026-11-16T16:40:47.067Z"
     }
   },
   {
