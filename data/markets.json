@@ -7,13 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 221,
+    "count": 225,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "ABKO KN35BT",
+      "keyword": "KN01C",
       "keywords": [
-        "ABKO KN35BT",
+        "KN01C",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -33,7 +33,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:14:41.265Z"
+      "crawledAt": "2026-11-16T16:38:29.984Z"
     }
   },
   {
@@ -44,13 +44,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 464,
+    "count": 499,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "ABKO KN35BT",
+      "keyword": "KN01C",
       "keywords": [
-        "ABKO KN35BT",
+        "KN01C",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -59,6 +59,7 @@
         "kn35bt",
         "ABKO KN03BT",
         "kn03bt",
+        "ABKO KN35BT",
         "GK893B",
         "gk893b sports",
         "GK888B",
@@ -71,7 +72,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:14:41.265Z"
+      "crawledAt": "2026-11-16T16:38:29.984Z"
     }
   },
   {
@@ -83,12 +84,12 @@
     "currency": "KRW",
     "status": "skipped",
     "count": 332,
-    "error": "ABKO KN35BT: Waiting for selector `a[href*=\"/offer/\"]` failed",
+    "error": "KN01C: Waiting for selector `a[href*=\"/offer/\"]` failed",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "ABKO KN35BT",
+      "keyword": "KN01C",
       "keywords": [
-        "ABKO KN35BT",
+        "KN01C",
         "리얼포스",
         "GK893B",
         "GK888B",
@@ -103,7 +104,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:14:41.265Z"
+      "crawledAt": "2026-11-16T16:38:29.984Z"
     }
   },
   {
