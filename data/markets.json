@@ -11,9 +11,9 @@
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "앱코 무접점키보드",
+      "keyword": "kn01bt",
       "keywords": [
-        "앱코 무접점키보드",
+        "kn01bt",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -29,12 +29,13 @@
         "E1 PRO",
         "kn35bt",
         "nck87",
+        "앱코 무접점키보드",
         "Sony NEWS NWP-411a",
         "KN01C"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:43:55.840Z"
+      "crawledAt": "2026-11-16T16:53:09.212Z"
     }
   },
   {
@@ -45,13 +46,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 530,
+    "count": 545,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "앱코 무접점키보드",
+      "keyword": "kn01bt",
       "keywords": [
-        "앱코 무접점키보드",
+        "kn01bt",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -61,6 +62,7 @@
         "ABKO KN03BT",
         "kn03bt",
         "ABKO KN35BT",
+        "앱코 무접점키보드",
         "GK893B",
         "gk893b sports",
         "GK888B",
@@ -74,7 +76,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:43:55.840Z"
+      "crawledAt": "2026-11-16T16:53:09.212Z"
     }
   },
   {
@@ -84,14 +86,14 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "skipped",
-    "count": 332,
-    "error": "앱코 무접점키보드: Waiting for selector `a[href*=\"/offer/\"]` failed",
+    "status": "success",
+    "count": 333,
+    "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "앱코 무접점키보드",
+      "keyword": "kn01bt",
       "keywords": [
-        "앱코 무접점키보드",
+        "kn01bt",
         "리얼포스",
         "GK893B",
         "GK888B",
@@ -106,7 +108,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:43:55.840Z"
+      "crawledAt": "2026-11-16T16:53:09.212Z"
     }
   },
   {

@@ -7342,5 +7342,30 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-14T02:48:15.348Z"
+  },
+  {
+    "name": "무선 맘패드",
+    "price": 160000,
+    "url": "https://guheyo.com/offer/%EB%AC%B4%EC%84%A0-%EB%A7%98%ED%8C%A8%EB%93%9C-CFFMbp6uSonVShHyw5QOr",
+    "image": "https://image.guheyo.com/guheyo/offer/202404/b1a3fa74-2d6b-45a2-8ca1-440fda22897f/IMG_2385.jpg",
+    "postedAt": "2023-11-16T16:54:29.136Z",
+    "postedAtText": "3년 전",
+    "images": [
+      "https://image.guheyo.com/guheyo/offer/202404/b1a3fa74-2d6b-45a2-8ca1-440fda22897f/IMG_6136.jpg",
+      "https://image.guheyo.com/guheyo/offer/202404/b1a3fa74-2d6b-45a2-8ca1-440fda22897f/IMG_6124.jpg",
+      "https://image.guheyo.com/guheyo/offer/202404/b1a3fa74-2d6b-45a2-8ca1-440fda22897f/IMG_6100.jpg",
+      "https://image.guheyo.com/guheyo/offer/202404/b1a3fa74-2d6b-45a2-8ca1-440fda22897f/IMG_6094.jpg",
+      "https://image.guheyo.com/guheyo/offer/202404/b1a3fa74-2d6b-45a2-8ca1-440fda22897f/IMG_2385.jpg"
+    ],
+    "market": "guheyo",
+    "marketName": "Guheyo",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "kn01bt"
+    ],
+    "crawledAt": "2026-11-16T16:53:09.212Z"
   }
 ]
