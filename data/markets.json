@@ -7,13 +7,13 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 226,
+    "count": 246,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "앱코 무접점키보드",
       "keywords": [
-        "kn35bt",
+        "앱코 무접점키보드",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -27,13 +27,14 @@
         "GK888B",
         "Archon E1 Pro",
         "E1 PRO",
+        "kn35bt",
         "nck87",
         "Sony NEWS NWP-411a",
         "KN01C"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:40:47.067Z"
+      "crawledAt": "2026-11-16T16:43:55.840Z"
     }
   },
   {
@@ -44,18 +45,19 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 511,
+    "count": 530,
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "앱코 무접점키보드",
       "keywords": [
-        "kn35bt",
+        "앱코 무접점키보드",
         "realforce",
         "리얼포스",
         "realforce r4",
         "ABKO",
         "abko kn03bt",
+        "kn35bt",
         "ABKO KN03BT",
         "kn03bt",
         "ABKO KN35BT",
@@ -72,7 +74,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:40:47.067Z"
+      "crawledAt": "2026-11-16T16:43:55.840Z"
     }
   },
   {
@@ -82,14 +84,14 @@
     "regionName": "Hàn Quốc",
     "regionFlag": "🇰🇷",
     "currency": "KRW",
-    "status": "success",
+    "status": "skipped",
     "count": 332,
-    "error": "",
+    "error": "앱코 무접점키보드: Waiting for selector `a[href*=\"/offer/\"]` failed",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "kn35bt",
+      "keyword": "앱코 무접점키보드",
       "keywords": [
-        "kn35bt",
+        "앱코 무접점키보드",
         "리얼포스",
         "GK893B",
         "GK888B",
@@ -97,13 +99,14 @@
         "nck87",
         "Archon E1 Pro",
         "E1 PRO",
+        "kn35bt",
         "realforce",
         "realforce r4",
         "kn03bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:40:47.067Z"
+      "crawledAt": "2026-11-16T16:43:55.840Z"
     }
   },
   {

@@ -436,11 +436,10 @@
     "price": 60000,
     "url": "https://m.bunjang.co.kr/products/445535918",
     "image": "https://media.bunjang.co.kr/product/445535918_1_1793708227_w160.jpg",
-    "postedAt": "2026-11-10T16:41:42.563Z",
-    "postedAtText": "6일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/445535918_1_1793708227_w480.jpg",
-      "https://media.bunjang.co.kr/product/445535918_2_1793708227_w480.jpg"
+      "https://media.bunjang.co.kr/product/445535918_1_1793708227_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -454,7 +453,8 @@
       "kn35bt",
       "ABKO KN03BT",
       "kn03bt",
-      "ABKO KN35BT"
+      "ABKO KN35BT",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-04T06:52:10.326Z"
   },
@@ -2102,16 +2102,13 @@
   },
   {
     "name": "(설명필독)앱코 KN03BT 텐키리스 무접점 키보드",
-    "price": 45000,
+    "price": 42000,
     "url": "https://m.bunjang.co.kr/products/432302128",
     "image": "https://media.bunjang.co.kr/product/432302128_1_1793858251_w160.jpg",
-    "postedAt": "2026-11-06T10:20:24.367Z",
-    "postedAtText": "5일 전",
+    "postedAt": "2026-11-12T16:45:04.420Z",
+    "postedAtText": "4일 전",
     "images": [
-      "https://media.bunjang.co.kr/product/432302128_1_1793858251_w480.jpg",
-      "https://media.bunjang.co.kr/product/432302128_2_1793858251_w480.jpg",
-      "https://media.bunjang.co.kr/product/432302128_3_1793858251_w480.jpg",
-      "https://media.bunjang.co.kr/product/432302128_4_1793858251_w900.jpg"
+      "https://media.bunjang.co.kr/product/432302128_1_1793858251_w480.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2122,7 +2119,8 @@
     "keywords": [
       "abko kn03bt",
       "ABKO KN03BT",
-      "kn03bt"
+      "kn03bt",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -2223,10 +2221,10 @@
     "price": 55000,
     "url": "https://m.bunjang.co.kr/products/441894915",
     "image": "https://media.bunjang.co.kr/product/441894915_1_1792569564_w160.jpg",
-    "postedAt": "2026-10-21T16:41:34.024Z",
-    "postedAtText": "26일 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/441894915_1_1792569564_w900.jpg"
+      "https://media.bunjang.co.kr/product/441894915_1_1792569564_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -2239,7 +2237,8 @@
       "kn35bt",
       "ABKO KN03BT",
       "kn03bt",
-      "ABKO KN35BT"
+      "ABKO KN35BT",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-04T08:33:51.804Z"
   },
@@ -7040,11 +7039,11 @@
     "price": 45000,
     "url": "https://m.bunjang.co.kr/products/447155940",
     "image": "https://media.bunjang.co.kr/product/447155940_1_1794208033_w160.jpg",
-    "postedAt": "2026-11-16T14:41:32.851Z",
+    "postedAt": "2026-11-16T14:45:01.337Z",
     "postedAtText": "2시간 전",
     "images": [
       "https://media.bunjang.co.kr/product/447155940_1_1794208033_w480.jpg",
-      "https://media.bunjang.co.kr/product/447155940_2_1794208033_w480.jpg"
+      "https://media.bunjang.co.kr/product/447155940_2_1794208033_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7056,7 +7055,8 @@
       "ABKO KN03BT",
       "kn03bt",
       "ABKO KN35BT",
-      "kn35bt"
+      "kn35bt",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -7065,7 +7065,7 @@
     "price": 66000,
     "url": "https://m.bunjang.co.kr/products/446514153",
     "image": "https://media.bunjang.co.kr/product/446514153_1_1794489776_w160.jpg",
-    "postedAt": "2026-11-16T01:41:33.876Z",
+    "postedAt": "2026-11-16T01:45:03.440Z",
     "postedAtText": "15시간 전",
     "images": [
       "https://media.bunjang.co.kr/product/446514153_1_1794489776_w900.jpg"
@@ -7080,7 +7080,8 @@
       "ABKO KN03BT",
       "kn03bt",
       "ABKO KN35BT",
-      "kn35bt"
+      "kn35bt",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -7151,20 +7152,13 @@
   },
   {
     "name": "앱코 해커 무접점 유선 키보드 (KN10). 저렴히 팝니다.",
-    "price": 35000,
+    "price": 32000,
     "url": "https://m.bunjang.co.kr/products/446650876",
-    "image": "https://media.bunjang.co.kr/product/446650876_1_1794143357_w160.jpg",
-    "postedAt": "2026-11-09T03:22:00.765Z",
-    "postedAtText": "9시간 전",
+    "image": "https://media.bunjang.co.kr/product/446650876_1_1794622525_w160.jpg",
+    "postedAt": "2026-11-16T01:45:03.240Z",
+    "postedAtText": "15시간 전",
     "images": [
-      "https://media.bunjang.co.kr/product/446650876_1_1794143357_w480.jpg",
-      "https://media.bunjang.co.kr/product/446650876_2_1794143357_w480.jpg",
-      "https://media.bunjang.co.kr/product/446650876_3_1794143357_w480.jpg",
-      "https://media.bunjang.co.kr/product/446650876_4_1794143357_w480.jpg",
-      "https://media.bunjang.co.kr/product/446650876_5_1794143357_w480.jpg",
-      "https://media.bunjang.co.kr/product/446650876_6_1794143357_w480.jpg",
-      "https://media.bunjang.co.kr/product/446650876_7_1794143357_w480.jpg",
-      "https://media.bunjang.co.kr/product/446650876_8_1794143357_w480.jpg"
+      "https://media.bunjang.co.kr/product/446650876_1_1794622525_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -7173,7 +7167,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "ABKO KN03BT"
+      "ABKO KN03BT",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-09T12:21:18.634Z"
   },
@@ -10000,11 +9995,10 @@
     "price": 100000,
     "url": "https://m.bunjang.co.kr/products/447862516",
     "image": "https://media.bunjang.co.kr/product/447862516_1_1794431837_w160.jpg",
-    "postedAt": "2026-11-16T13:41:30.233Z",
+    "postedAt": "2026-11-16T13:45:02.256Z",
     "postedAtText": "3시간 전",
     "images": [
-      "https://media.bunjang.co.kr/product/447862516_1_1794431837_w480.jpg",
-      "https://media.bunjang.co.kr/product/447862516_2_1794431837_w900.jpg"
+      "https://media.bunjang.co.kr/product/447862516_1_1794431837_w900.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -10014,7 +10008,8 @@
     "currency": "KRW",
     "keywords": [
       "ABKO KN35BT",
-      "kn35bt"
+      "kn35bt",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-16T16:14:41.265Z"
   },
@@ -10108,10 +10103,10 @@
     "price": 35000,
     "url": "https://m.bunjang.co.kr/products/449414871",
     "image": "https://media.bunjang.co.kr/product/449414871_1_1794815223_w160.jpg",
-    "postedAt": "2026-11-16T08:39:07.865Z",
-    "postedAtText": "8시간 전",
+    "postedAt": "",
+    "postedAtText": "",
     "images": [
-      "https://media.bunjang.co.kr/product/449414871_1_1794815223_w480.jpg"
+      "https://media.bunjang.co.kr/product/449414871_1_1794815223_w160.jpg"
     ],
     "market": "bunjang",
     "marketName": "Bunjang",
@@ -10121,7 +10116,8 @@
     "currency": "KRW",
     "keywords": [
       "ABKO KN35BT",
-      "KN01C"
+      "KN01C",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-16T16:14:41.265Z"
   },
@@ -10351,7 +10347,7 @@
     "price": 319140,
     "url": "https://m.bunjang.co.kr/products/365062695",
     "image": "https://media.bunjang.co.kr/product/365062695_1_1794380749_w160.jpg",
-    "postedAt": "2026-10-29T16:39:12.159Z",
+    "postedAt": "2026-10-29T16:45:07.185Z",
     "postedAtText": "18일 전",
     "images": [
       "https://media.bunjang.co.kr/product/365062695_1_1794380749_w900.jpg"
@@ -10363,7 +10359,8 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "keywords": [
-      "KN01C"
+      "KN01C",
+      "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-16T16:38:29.984Z"
   },
@@ -11191,5 +11188,409 @@
       "kn35bt"
     ],
     "crawledAt": "2026-11-16T16:40:47.067Z"
+  },
+  {
+    "name": "앱코 무접점 키보드",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/449510326",
+    "image": "https://media.bunjang.co.kr/product/449510326_1_1794833596_w160.jpg",
+    "postedAt": "2026-11-16T13:45:01.681Z",
+    "postedAtText": "3시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/449510326_1_1794833596_w480.jpg",
+      "https://media.bunjang.co.kr/product/449510326_2_1794833596_w480.jpg",
+      "https://media.bunjang.co.kr/product/449510326_3_1794833596_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 K990 V3 스카이문 완전방수 무접점 키보드",
+    "price": 45000,
+    "url": "https://m.bunjang.co.kr/products/449086905",
+    "image": "https://media.bunjang.co.kr/product/449086905_1_1794738213_w160.jpg",
+    "postedAt": "2026-11-15T16:45:04.220Z",
+    "postedAtText": "1일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/449086905_1_1794738213_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 해커 K995P 무접점 키보드 블랙",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/421472688",
+    "image": "https://media.bunjang.co.kr/product/421472688_1_1784715805_w160.jpg",
+    "postedAt": "2026-11-12T16:45:05.224Z",
+    "postedAtText": "4일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/421472688_1_1784715805_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 k995p 무접점 키보드",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/447266736",
+    "image": "https://media.bunjang.co.kr/product/447266736_1_1794229833_w160.jpg",
+    "postedAt": "2026-11-09T16:45:06.211Z",
+    "postedAtText": "7일 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/447266736_1_1794229833_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "ABKO 무접점 키보드 블랙",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/446711272",
+    "image": "https://media.bunjang.co.kr/product/446711272_1_1794075150_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/446711272_1_1794075150_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 CNK103 무접점 키보드",
+    "price": 65000,
+    "url": "https://m.bunjang.co.kr/products/441838717",
+    "image": "https://media.bunjang.co.kr/product/441838717_1_1792555018_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/441838717_1_1792555018_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 무접점 키보드 KN30BT",
+    "price": 70000,
+    "url": "https://m.bunjang.co.kr/products/433832136",
+    "image": "https://media.bunjang.co.kr/product/433832136_1_1791305758_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/433832136_1_1791305758_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 스카이문 무접점 키보드",
+    "price": 45000,
+    "url": "https://m.bunjang.co.kr/products/418194008",
+    "image": "https://media.bunjang.co.kr/product/418194008_1_1783262165_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/418194008_1_1783262165_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 무접점 PBT 생활방수 텐키리스 키보드 팔아요",
+    "price": 20000,
+    "url": "https://m.bunjang.co.kr/products/431903150",
+    "image": "https://media.bunjang.co.kr/product/431903150_1_1789467898_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/431903150_1_1789467898_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 무접점 키보드 KN02C 텐키리스 화이트",
+    "price": 120000,
+    "url": "https://m.bunjang.co.kr/products/428553562",
+    "image": "https://media.bunjang.co.kr/product/428553562_1_1788441109_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/428553562_1_1788441109_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 KN10 RGB 무접점 키보드",
+    "price": 35000,
+    "url": "https://m.bunjang.co.kr/products/423084796",
+    "image": "https://media.bunjang.co.kr/product/423084796_1_1793014642_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/423084796_1_1793014642_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 KN20C 무접점 키보드",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/402806357",
+    "image": "https://media.bunjang.co.kr/product/402806357_1_1784782534_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/402806357_1_1784782534_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 endeavour 무접점 기계식 키보드 판매합니다",
+    "price": 49000,
+    "url": "https://m.bunjang.co.kr/products/373201508",
+    "image": "https://media.bunjang.co.kr/product/373201508_1_1779434325_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/373201508_1_1779434325_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 EMPRESS 키보드",
+    "price": 100000,
+    "url": "https://m.bunjang.co.kr/products/413203155",
+    "image": "https://media.bunjang.co.kr/product/413203155_1_1780924244_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/413203155_1_1780924244_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 KN30BT 무접점 키보드",
+    "price": 75000,
+    "url": "https://m.bunjang.co.kr/products/357170439",
+    "image": "https://media.bunjang.co.kr/product/357170439_1_1774482048_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/357170439_1_1774482048_w160.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 무접점 키보드",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/386229773",
+    "image": "https://media.bunjang.co.kr/product/386229773_1_1773993973_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/386229773_1_1773993973_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 HACKER KN10BT 블루투스 무접점 키보드",
+    "price": 70000,
+    "url": "https://m.bunjang.co.kr/products/387886391",
+    "image": "https://media.bunjang.co.kr/product/387886391_1_1770532853_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/387886391_1_1770532853_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 K997P PBT 투톤 RGB 완전방수 무접점 키보드",
+    "price": 99000,
+    "url": "https://m.bunjang.co.kr/products/379495682",
+    "image": "https://media.bunjang.co.kr/product/379495682_1_1767231914_w160.jpg",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://media.bunjang.co.kr/product/379495682_1_1767231914_w900.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "앱코 K990 V3 스카이문 무접점 키보드",
+    "price": 50000,
+    "url": "https://m.bunjang.co.kr/products/376550513",
+    "image": "https://media.bunjang.co.kr/product/376550513_1_1765897572_w160.jpg",
+    "postedAt": "2026-11-16T03:45:15.157Z",
+    "postedAtText": "13시간 전",
+    "images": [
+      "https://media.bunjang.co.kr/product/376550513_1_1765897572_w480.jpg",
+      "https://media.bunjang.co.kr/product/376550513_2_1765897572_w480.jpg",
+      "https://media.bunjang.co.kr/product/376550513_3_1765897572_w480.jpg",
+      "https://media.bunjang.co.kr/product/376550513_4_1765897572_w480.jpg"
+    ],
+    "market": "bunjang",
+    "marketName": "Bunjang",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "앱코 무접점키보드"
+    ],
+    "crawledAt": "2026-11-16T16:43:55.840Z"
   }
 ]
