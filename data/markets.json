@@ -7,13 +7,12 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 246,
+    "count": 247,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
-      "keyword": "kn01bt",
+      "keyword": "realforce",
       "keywords": [
-        "kn01bt",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -35,7 +34,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:53:09.212Z"
+      "crawledAt": "2026-11-17T04:51:58.813Z"
     }
   },
   {
@@ -50,9 +49,8 @@
     "error": "",
     "dataFile": "data/bunjang.json",
     "crawl": {
-      "keyword": "kn01bt",
+      "keyword": "realforce",
       "keywords": [
-        "kn01bt",
         "realforce",
         "리얼포스",
         "realforce r4",
@@ -63,6 +61,7 @@
         "kn03bt",
         "ABKO KN35BT",
         "앱코 무접점키보드",
+        "kn01bt",
         "GK893B",
         "gk893b sports",
         "GK888B",
@@ -76,7 +75,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:53:09.212Z"
+      "crawledAt": "2026-11-17T04:51:58.813Z"
     }
   },
   {
@@ -91,9 +90,9 @@
     "error": "",
     "dataFile": "data/guheyo.json",
     "crawl": {
-      "keyword": "kn01bt",
+      "keyword": "realforce",
       "keywords": [
-        "kn01bt",
+        "realforce",
         "리얼포스",
         "GK893B",
         "GK888B",
@@ -102,13 +101,13 @@
         "Archon E1 Pro",
         "E1 PRO",
         "kn35bt",
-        "realforce",
         "realforce r4",
-        "kn03bt"
+        "kn03bt",
+        "kn01bt"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:53:09.212Z"
+      "crawledAt": "2026-11-17T04:51:58.813Z"
     }
   },
   {
@@ -119,21 +118,21 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 373,
+    "count": 376,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
-      "keyword": "ABKO KN35BT",
+      "keyword": "realforce",
       "keywords": [
-        "ABKO KN35BT",
         "realforce",
+        "리얼포스",
         "realforce r4",
         "E1 PRO",
         "EDIUSV4KB"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:14:41.265Z"
+      "crawledAt": "2026-11-17T04:51:58.813Z"
     }
   },
   {
@@ -144,17 +143,18 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 4,
+    "count": 50,
     "error": "",
     "dataFile": "data/yahoo-auctions.json",
     "crawl": {
-      "keyword": "ABKO KN35BT",
+      "keyword": "realforce",
       "keywords": [
-        "ABKO KN35BT"
+        "realforce",
+        "리얼포스"
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T16:14:41.265Z"
+      "crawledAt": "2026-11-17T04:51:58.813Z"
     }
   },
   {
@@ -176,7 +176,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-16T13:20:15.405Z"
+      "crawledAt": "2026-11-17T04:57:50.267Z"
     }
   }
 ]

@@ -2987,7 +2987,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/06/1793935910831Gz0_t2FMD.jpg"
     ],
-    "postedAt": "2026-11-16T01:55:38.000Z",
+    "postedAt": "2026-11-17T02:47:31.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3077,7 +3077,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/07/1794041436009lQH_YFky6.jpg"
     ],
-    "postedAt": "2026-11-16T01:56:03.000Z",
+    "postedAt": "2026-11-17T02:47:14.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3773,7 +3773,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/1794276818787ww9_eSYif.jpg"
     ],
-    "postedAt": "2026-11-15T22:16:44.000Z",
+    "postedAt": "2026-11-17T01:53:30.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3794,7 +3794,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/17942730303824qY_SnUBj.jpg"
     ],
-    "postedAt": "2026-11-15T22:16:52.000Z",
+    "postedAt": "2026-11-17T01:53:33.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4449,7 +4449,7 @@
       "https://img2.joongna.com/media/original/2026/11/11/17944007192615xC_Y4sqW.jpg",
       "https://img2.joongna.com/media/original/2026/11/11/1794400719384LiD_O0gYH.jpg"
     ],
-    "postedAt": "2026-11-16T12:24:49.000Z",
+    "postedAt": "2026-11-16T23:43:57.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5037,7 +5037,7 @@
       "https://img2.joongna.com/media/original/2026/11/15/1794751194041VBS_MJwq4.jpg",
       "https://img2.joongna.com/media/original/2026/11/15/179475119416322F_Crbqa.jpg"
     ],
-    "postedAt": "2026-11-16T00:41:55.000Z",
+    "postedAt": "2026-11-17T00:35:04.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5632,5 +5632,29 @@
       "앱코 무접점키보드"
     ],
     "crawledAt": "2026-11-16T16:43:55.840Z"
+  },
+  {
+    "name": "리얼포스 r4 텐키리스 45g 균등 그레이블루 + 포인트 키캡",
+    "price": 280000,
+    "url": "https://web.joongna.com/product/234131989",
+    "image": "https://img2.joongna.com/media/original/2026/11/17/1794879264323EWJ_3m6dW.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/11/17/1794879264323EWJ_3m6dW.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/1794879264544A0T_fNGyR.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/1794879264724lBu_W3Scz.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/17948792648988y9_cSm0H.jpg"
+    ],
+    "postedAt": "2026-11-17T01:34:25.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-17T04:51:58.813Z"
   }
 ]
