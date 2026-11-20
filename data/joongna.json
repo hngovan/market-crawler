@@ -1894,15 +1894,15 @@
     "crawledAt": "2026-11-04T12:39:41.470Z"
   },
   {
-    "name": "리얼포스 R3S 택포 20에 판매합니다",
-    "price": 200000,
+    "name": "리얼포스 R3S 16에 판매합니다",
+    "price": 160000,
     "url": "https://web.joongna.com/product/233807300",
     "image": "https://img2.joongna.com/media/original/2026/11/04/1793802871542kgx_F6U01.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/11/04/1793802871542kgx_F6U01.jpg",
       "https://img2.joongna.com/media/original/2026/11/04/1793802871658oGF_KEFnE.jpg"
     ],
-    "postedAt": "2026-11-16T11:22:05.000Z",
+    "postedAt": "2026-11-20T10:11:04.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4131,7 +4131,7 @@
       "https://img2.joongna.com/media/original/2026/09/14/17893730718705jJ_89dqp.jpg",
       "https://img2.joongna.com/media/original/2026/09/14/1789373071922VYr_v71rl.jpg"
     ],
-    "postedAt": "2026-11-14T16:11:36.000Z",
+    "postedAt": "2026-11-20T10:38:12.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4447,7 +4447,7 @@
       "https://img2.joongna.com/media/original/2026/11/11/17944007192615xC_Y4sqW.jpg",
       "https://img2.joongna.com/media/original/2026/11/11/1794400719384LiD_O0gYH.jpg"
     ],
-    "postedAt": "2026-11-19T12:54:59.000Z",
+    "postedAt": "2026-11-20T12:01:52.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -4862,7 +4862,7 @@
       "https://img2.joongna.com/media/original/2026/11/15/1794740265696bnf_sXltq.jpg",
       "https://img2.joongna.com/media/original/2026/11/15/17947402658176IN_89D4G.jpg"
     ],
-    "postedAt": "2026-11-19T12:55:06.000Z",
+    "postedAt": "2026-11-20T12:01:59.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5034,7 +5034,7 @@
       "https://img2.joongna.com/media/original/2026/11/15/1794751194041VBS_MJwq4.jpg",
       "https://img2.joongna.com/media/original/2026/11/15/179475119416322F_Crbqa.jpg"
     ],
-    "postedAt": "2026-11-19T05:22:58.000Z",
+    "postedAt": "2026-11-20T05:12:25.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5758,7 +5758,7 @@
       "https://img2.joongna.com/media/original/2026/11/19/17950744489820sG_LqmDn.jpg",
       "https://img2.joongna.com/media/original/2026/11/19/17950748615599Os_4XwYh.jpg"
     ],
-    "postedAt": "2026-11-19T17:19:27.000Z",
+    "postedAt": "2026-11-20T05:56:31.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -5770,5 +5770,29 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-19T14:00:16.298Z"
+  },
+  {
+    "name": "풀윤활 리얼포스R3 토프레 무접점 블랙 키보드 싸게 드려요",
+    "price": 220000,
+    "url": "https://web.joongna.com/product/234227524",
+    "image": "https://img2.joongna.com/media/original/2026/11/20/1795176207644eSE_tjECg.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/11/20/1795176207644eSE_tjECg.jpg",
+      "https://img2.joongna.com/media/original/2026/11/20/1795176207779tsm_kDWGZ.jpg",
+      "https://img2.joongna.com/media/original/2026/11/20/1795176207865RAm_BU5aA.jpg",
+      "https://img2.joongna.com/media/original/2026/11/20/1795176208015O44_XLYG1.jpg"
+    ],
+    "postedAt": "2026-11-20T12:03:28.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-20T13:43:00.443Z"
   }
 ]
