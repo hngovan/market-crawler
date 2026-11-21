@@ -7,7 +7,7 @@
     "regionFlag": "🇰🇷",
     "currency": "KRW",
     "status": "success",
-    "count": 253,
+    "count": 254,
     "error": "",
     "dataFile": "data/joongna.json",
     "crawl": {
@@ -34,7 +34,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-20T13:43:00.443Z"
+      "crawledAt": "2026-11-21T03:38:10.657Z"
     }
   },
   {
@@ -75,7 +75,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-20T13:43:00.443Z"
+      "crawledAt": "2026-11-21T03:38:10.657Z"
     }
   },
   {
@@ -107,7 +107,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-20T13:43:00.443Z"
+      "crawledAt": "2026-11-21T03:38:10.657Z"
     }
   },
   {
@@ -118,7 +118,7 @@
     "regionFlag": "🇯🇵",
     "currency": "JPY",
     "status": "success",
-    "count": 425,
+    "count": 430,
     "error": "",
     "dataFile": "data/mercari.json",
     "crawl": {
@@ -132,7 +132,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-20T13:43:00.443Z"
+      "crawledAt": "2026-11-21T03:38:10.657Z"
     }
   },
   {
@@ -154,7 +154,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-20T13:43:00.443Z"
+      "crawledAt": "2026-11-21T03:38:10.657Z"
     }
   },
   {
@@ -176,7 +176,7 @@
       ],
       "sort": "newest",
       "limit": 50,
-      "crawledAt": "2026-11-20T13:48:49.548Z"
+      "crawledAt": "2026-11-21T03:44:47.802Z"
     }
   }
 ]
