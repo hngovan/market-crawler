@@ -32,7 +32,7 @@
       "https://img2.joongna.com/media/original/2026/04/23/1776938169229bnk_7pjXw.jpg",
       "https://img2.joongna.com/media/original/2026/04/23/1776938259507t7c_XfK54.jpg"
     ],
-    "postedAt": "2026-11-18T06:51:46.000Z",
+    "postedAt": "2026-11-23T09:14:41.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -677,13 +677,13 @@
   },
   {
     "name": "리얼포스r3 hb11 키보드 팝니다",
-    "price": 200000,
+    "price": 150000,
     "url": "https://web.joongna.com/product/233944924",
     "image": "https://img2.joongna.com/media/original/2026/11/10/1794267040250Exv_mR8lL.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/1794267040250Exv_mR8lL.jpg"
     ],
-    "postedAt": "2026-11-17T08:40:31.000Z",
+    "postedAt": "2026-11-23T09:48:17.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1268,7 +1268,7 @@
       "https://img2.joongna.com/media/original/2026/11/11/17944007192615xC_Y4sqW.jpg",
       "https://img2.joongna.com/media/original/2026/11/11/1794400719384LiD_O0gYH.jpg"
     ],
-    "postedAt": "2026-11-22T10:43:28.000Z",
+    "postedAt": "2026-11-23T13:09:34.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1683,7 +1683,7 @@
       "https://img2.joongna.com/media/original/2026/11/15/1794740265696bnf_sXltq.jpg",
       "https://img2.joongna.com/media/original/2026/11/15/17947402658176IN_89D4G.jpg"
     ],
-    "postedAt": "2026-11-22T10:43:34.000Z",
+    "postedAt": "2026-11-23T13:09:41.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2504,15 +2504,9 @@
     "url": "https://web.joongna.com/product/234138340",
     "image": "https://img2.joongna.com/media/original/2026/11/17/17948946446751bs_oj5oL.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/11/17/17948946446751bs_oj5oL.jpg",
-      "https://img2.joongna.com/media/original/2026/11/17/1794894644675fDR_41yEx.png",
-      "https://img2.joongna.com/media/original/2026/11/17/1794894644677W5X_0iXhK.jpg",
-      "https://img2.joongna.com/media/original/2026/11/17/1794894644678M6m_QLY8M.jpg",
-      "https://img2.joongna.com/media/original/2026/11/17/1794894644678reT_WCgqu.jpg",
-      "https://img2.joongna.com/media/original/2026/11/17/1794894644679Qmd_Cx8U5.jpg",
-      "https://img2.joongna.com/media/original/2026/11/17/17948946446790Jm_RVfIa.jpg"
+      "https://img2.joongna.com/media/original/2026/11/17/17948946446751bs_oj5oL.jpg?impolicy=thumb&size=150"
     ],
-    "postedAt": "2026-11-19T07:59:21.000Z",
+    "postedAt": "2026-11-23T08:09:57.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2580,7 +2574,7 @@
       "https://img2.joongna.com/media/original/2026/11/19/17950744489820sG_LqmDn.jpg",
       "https://img2.joongna.com/media/original/2026/11/19/17950748615599Os_4XwYh.jpg"
     ],
-    "postedAt": "2026-11-22T21:22:53.000Z",
+    "postedAt": "2026-11-23T14:20:14.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2801,7 +2795,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/06/1793935910831Gz0_t2FMD.jpg"
     ],
-    "postedAt": "2026-11-22T07:00:07.000Z",
+    "postedAt": "2026-11-23T04:24:28.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2822,7 +2816,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/07/1794041436009lQH_YFky6.jpg"
     ],
-    "postedAt": "2026-11-22T06:59:58.000Z",
+    "postedAt": "2026-11-23T04:24:32.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3049,5 +3043,28 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-23T03:21:30.955Z"
+  },
+  {
+    "name": "리얼포스 RC1 컴팩트 C1HK23 영어배열 30g 화이트 + 키보드아크릴커버",
+    "price": 270000,
+    "url": "https://web.joongna.com/product/231741722",
+    "image": "https://img2.joongna.com/media/original/2026/08/21/1787307830221ePG_sKBPT.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/08/21/1787307830221ePG_sKBPT.jpg",
+      "https://img2.joongna.com/media/original/2026/08/21/17873078303342qQ_0HS22.jpg",
+      "https://img2.joongna.com/media/original/2026/08/21/1787307830448hbC_mfSmo.jpg"
+    ],
+    "postedAt": "2026-11-23T08:21:03.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-23T15:31:04.207Z"
   }
 ]
