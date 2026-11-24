@@ -26,7 +26,7 @@
     "price": 50000,
     "url": "https://guheyo.com/offer/topre-%EC%9E%94%EC%97%AC%EB%AC%BC%ED%92%88-%ED%8C%90%EB%A7%A4-t8i0IQHSzJBiySZqA7IS",
     "image": "https://image.guheyo.com/guheyo/offer/202610/c0133fe0-b85d-4c8a-a405-06cc59503b29/thumb-640-q78/960de100-c88b-476d-91fd-516ac0424a3b.webp",
-    "postedAt": "2026-10-23T15:35:42.973Z",
+    "postedAt": "2026-10-24T06:38:56.995Z",
     "postedAtText": "한 달 전",
     "images": [
       "https://image.guheyo.com/guheyo/offer/202610/c0133fe0-b85d-4c8a-a405-06cc59503b29/display-1600-q82/960de100-c88b-476d-91fd-516ac0424a3b.webp"
@@ -1396,8 +1396,8 @@
     "price": 60000,
     "url": "https://guheyo.com/offer/topre-stuff-left-9TQWHQLRojdXkJPxadS9",
     "image": "https://image.guheyo.com/guheyo/offer/202611/c0133fe0-b85d-4c8a-a405-06cc59503b29/thumb-640-q78/d88397b4-9358-44c0-898a-23ab66a91aab.webp",
-    "postedAt": "2026-11-13T15:35:41.625Z",
-    "postedAtText": "10일 전",
+    "postedAt": "2026-11-13T06:38:55.647Z",
+    "postedAtText": "11일 전",
     "images": [
       "https://image.guheyo.com/guheyo/offer/202611/c0133fe0-b85d-4c8a-a405-06cc59503b29/display-1600-q82/d88397b4-9358-44c0-898a-23ab66a91aab.webp",
       "https://image.guheyo.com/guheyo/offer/202611/c0133fe0-b85d-4c8a-a405-06cc59503b29/display-1600-q82/1385e63c-449f-412c-ae92-18c2f5d00516.webp",
@@ -2396,7 +2396,7 @@
     "postedAt": "",
     "postedAtText": "",
     "images": [
-      "https://image.guheyo.com/guheyo/offer/202609/e9285fdf-2be8-46e9-9b8a-51835e516eee/thumb-640-q78/65bf8077-3f57-4924-b674-0a1b494dd0b9.webp"
+      "https://image.guheyo.com/guheyo/offer/202609/e9285fdf-2be8-46e9-9b8a-51835e516eee/display-1600-q82/65bf8077-3f57-4924-b674-0a1b494dd0b9.webp"
     ],
     "market": "guheyo",
     "marketName": "Guheyo",
@@ -3966,5 +3966,47 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-23T03:21:30.955Z"
+  },
+  {
+    "name": "Neo65Cu Purple",
+    "price": 320000,
+    "url": "https://guheyo.com/offer/Neo65Cu-Purple-NlsX2RQHts0F5a70G5xhD",
+    "image": "https://image.guheyo.com/guheyo/offer/202609/b177d9cb-244e-4f2c-a146-b050710ddc4f/thumb-640-q78/e14e444b-163b-4ef9-a9a6-8dc3d0248cb6.webp",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://image.guheyo.com/guheyo/offer/202609/b177d9cb-244e-4f2c-a146-b050710ddc4f/thumb-640-q78/e14e444b-163b-4ef9-a9a6-8dc3d0248cb6.webp"
+    ],
+    "market": "guheyo",
+    "marketName": "Guheyo",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce"
+    ],
+    "crawledAt": "2026-11-24T06:35:25.265Z"
+  },
+  {
+    "name": "토이캡 브레그 유이(yui)",
+    "price": 120000,
+    "url": "https://guheyo.com/offer/%ED%86%A0%EC%9D%B4%EC%BA%A1-%EB%B8%8C%EB%A0%88%EA%B7%B8-%EC%9C%A0%EC%9D%B4yui-A4NVk-fTyThVFaFFJWnZ0",
+    "image": "https://image.guheyo.com/guheyo/offer/202610/889d07b3-5735-4a9f-aa2b-f70eb161f4c6/thumb-640-q78/f505e79a-ad49-41fe-8665-e2a9a3b62f84.webp",
+    "postedAt": "",
+    "postedAtText": "",
+    "images": [
+      "https://image.guheyo.com/guheyo/offer/202610/889d07b3-5735-4a9f-aa2b-f70eb161f4c6/thumb-640-q78/f505e79a-ad49-41fe-8665-e2a9a3b62f84.webp"
+    ],
+    "market": "guheyo",
+    "marketName": "Guheyo",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-24T06:35:25.265Z"
   }
 ]

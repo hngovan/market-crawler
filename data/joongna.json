@@ -593,7 +593,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/1794276818787ww9_eSYif.jpg"
     ],
-    "postedAt": "2026-11-23T03:16:29.000Z",
+    "postedAt": "2026-11-24T06:21:20.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -614,7 +614,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/17942730303824qY_SnUBj.jpg"
     ],
-    "postedAt": "2026-11-23T03:16:35.000Z",
+    "postedAt": "2026-11-24T06:21:16.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1834,7 +1834,7 @@
       "https://img2.joongna.com/media/original/2026/11/15/1794712944503CbL_knoqV.jpg",
       "https://img2.joongna.com/media/original/2026/11/15/1794712944612Gtw_XXUHv.jpg"
     ],
-    "postedAt": "2026-11-15T03:22:24.000Z",
+    "postedAt": "2026-11-24T04:56:44.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1849,14 +1849,14 @@
   },
   {
     "name": "리얼포스 87u 일반 차등 키보드",
-    "price": 70000,
+    "price": 65000,
     "url": "https://web.joongna.com/product/234097485",
     "image": "https://img2.joongna.com/media/original/2026/11/15/1794751194041VBS_MJwq4.jpg?impolicy=thumb&size=150",
     "images": [
       "https://img2.joongna.com/media/original/2026/11/15/1794751194041VBS_MJwq4.jpg",
       "https://img2.joongna.com/media/original/2026/11/15/179475119416322F_Crbqa.jpg"
     ],
-    "postedAt": "2026-11-20T05:12:25.000Z",
+    "postedAt": "2026-11-23T21:58:09.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2504,7 +2504,13 @@
     "url": "https://web.joongna.com/product/234138340",
     "image": "https://img2.joongna.com/media/original/2026/11/17/17948946446751bs_oj5oL.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/11/17/17948946446751bs_oj5oL.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/11/17/17948946446751bs_oj5oL.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/1794894644675fDR_41yEx.png",
+      "https://img2.joongna.com/media/original/2026/11/17/1794894644677W5X_0iXhK.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/1794894644678M6m_QLY8M.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/1794894644678reT_WCgqu.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/1794894644679Qmd_Cx8U5.jpg",
+      "https://img2.joongna.com/media/original/2026/11/17/17948946446790Jm_RVfIa.jpg"
     ],
     "postedAt": "2026-11-23T08:09:57.000Z",
     "market": "joongna",
@@ -3066,5 +3072,28 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-23T15:31:04.207Z"
+  },
+  {
+    "name": "리얼포스 R2 저소음 30g",
+    "price": 200000,
+    "url": "https://web.joongna.com/product/234315274",
+    "image": "https://img2.joongna.com/media/original/2026/11/24/1795487164062E2y_LkPzN.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/11/24/1795487164062E2y_LkPzN.jpg",
+      "https://img2.joongna.com/media/original/2026/11/24/1795487164246pvs_QBJNt.jpg",
+      "https://img2.joongna.com/media/original/2026/11/24/1795487164376pXK_CMDlK.jpg"
+    ],
+    "postedAt": "2026-11-24T02:26:04.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-24T06:35:25.265Z"
   }
 ]
