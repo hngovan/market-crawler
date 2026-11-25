@@ -593,7 +593,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/1794276818787ww9_eSYif.jpg"
     ],
-    "postedAt": "2026-11-24T06:21:20.000Z",
+    "postedAt": "2026-11-25T04:18:08.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -614,7 +614,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/17942730303824qY_SnUBj.jpg"
     ],
-    "postedAt": "2026-11-24T06:21:16.000Z",
+    "postedAt": "2026-11-25T04:18:12.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -683,7 +683,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/10/1794267040250Exv_mR8lL.jpg"
     ],
-    "postedAt": "2026-11-23T09:48:17.000Z",
+    "postedAt": "2026-11-25T03:46:37.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1031,7 +1031,7 @@
       "https://img2.joongna.com/media/original/2026/09/04/1788494268302M36_IzhY3.jpg",
       "https://img2.joongna.com/media/original/2026/09/04/1788494268354sTG_0sFV6.jpg"
     ],
-    "postedAt": "2026-11-21T01:05:00.000Z",
+    "postedAt": "2026-11-25T02:39:16.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -1610,7 +1610,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/12/1794468649993ope_nPRBS.jpg"
     ],
-    "postedAt": "2026-11-18T02:22:37.000Z",
+    "postedAt": "2026-11-25T04:17:06.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2580,7 +2580,7 @@
       "https://img2.joongna.com/media/original/2026/11/19/17950744489820sG_LqmDn.jpg",
       "https://img2.joongna.com/media/original/2026/11/19/17950748615599Os_4XwYh.jpg"
     ],
-    "postedAt": "2026-11-23T14:20:14.000Z",
+    "postedAt": "2026-11-25T04:03:07.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2677,7 +2677,7 @@
       "https://img2.joongna.com/media/original/2026/11/22/1795327729094s73_GiDc8.jpg",
       "https://img2.joongna.com/media/original/2026/11/22/1795326025649oR5_CrHUM.jpg"
     ],
-    "postedAt": "2026-11-23T02:44:51.000Z",
+    "postedAt": "2026-11-25T02:39:48.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2731,7 +2731,7 @@
       "https://img2.joongna.com/media/original/2026/11/22/17953260259740TL_ovzTl.jpg",
       "https://img2.joongna.com/media/original/2026/11/22/1795327728802ESU_h0FxN.jpg"
     ],
-    "postedAt": "2026-11-23T02:44:57.000Z",
+    "postedAt": "2026-11-25T02:39:51.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2801,7 +2801,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/06/1793935910831Gz0_t2FMD.jpg"
     ],
-    "postedAt": "2026-11-24T10:48:01.000Z",
+    "postedAt": "2026-11-25T04:00:34.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2822,7 +2822,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/07/1794041436009lQH_YFky6.jpg"
     ],
-    "postedAt": "2026-11-24T10:48:45.000Z",
+    "postedAt": "2026-11-25T04:01:15.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3119,5 +3119,27 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-24T21:42:26.858Z"
+  },
+  {
+    "name": "리얼포스R2 TKL 45g 저소음",
+    "price": 150000,
+    "url": "https://web.joongna.com/product/217345973",
+    "image": "https://img2.joongna.com/cafe-article-data/live/2025/08/12/1114193064/1754963502562_000_5uTa9_main.jpeg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/cafe-article-data/live/2025/08/12/1114193064/1754963502562_000_5uTa9_main.jpeg",
+      "https://img2.joongna.com/cafe-article-data/live/2025/08/12/1114193064/1754963502562_001_phQhN.jpeg"
+    ],
+    "postedAt": "2026-11-25T01:23:43.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-25T05:08:38.858Z"
   }
 ]
