@@ -143,7 +143,7 @@
   },
   {
     "name": "리얼포스 RC1 화이트 30g 영문배열 키보드",
-    "price": 208000,
+    "price": 207000,
     "url": "https://web.joongna.com/product/226294176",
     "image": "https://img2.joongna.com/media/original/2026/03/14/1773472496171z47_WhHhi.jpg?impolicy=thumb&size=150",
     "images": [
@@ -151,7 +151,7 @@
       "https://img2.joongna.com/media/original/2026/03/14/1773472496350opN_cdTUu.jpg",
       "https://img2.joongna.com/media/original/2026/03/14/1773472496474J9j_iq6ng.jpg"
     ],
-    "postedAt": "2026-11-21T00:38:14.000Z",
+    "postedAt": "2026-11-26T08:35:38.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -680,7 +680,7 @@
     "url": "https://web.joongna.com/product/233944924",
     "image": "https://img2.joongna.com/media/original/2026/11/10/1794267040250Exv_mR8lL.jpg?impolicy=thumb&size=150",
     "images": [
-      "https://img2.joongna.com/media/original/2026/11/10/1794267040250Exv_mR8lL.jpg?impolicy=thumb&size=150"
+      "https://img2.joongna.com/media/original/2026/11/10/1794267040250Exv_mR8lL.jpg"
     ],
     "postedAt": "2026-11-25T03:46:37.000Z",
     "market": "joongna",
@@ -2533,7 +2533,7 @@
       "https://img2.joongna.com/media/original/2026/11/17/1794893216629KdK_vEDLD.jpg",
       "https://img2.joongna.com/media/original/2026/11/17/1794893216817CA6_v70jk.jpg"
     ],
-    "postedAt": "2026-11-19T04:48:43.000Z",
+    "postedAt": "2026-11-26T09:52:28.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2602,7 +2602,7 @@
       "https://img2.joongna.com/media/original/2026/11/20/1795176207865RAm_BU5aA.jpg",
       "https://img2.joongna.com/media/original/2026/11/20/1795176208015O44_XLYG1.jpg"
     ],
-    "postedAt": "2026-11-25T23:35:44.000Z",
+    "postedAt": "2026-11-26T12:00:16.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2842,7 +2842,7 @@
       "https://img2.joongna.com/media/original/2026/11/04/1793802871542kgx_F6U01.jpg",
       "https://img2.joongna.com/media/original/2026/11/04/1793802871658oGF_KEFnE.jpg"
     ],
-    "postedAt": "2026-11-22T02:35:32.000Z",
+    "postedAt": "2026-11-26T05:15:40.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3096,7 +3096,7 @@
   },
   {
     "name": "리얼포스R2 TKL 풀윤활 토프레 무접점 키보드 싸게 드려요",
-    "price": 200000,
+    "price": 190000,
     "url": "https://web.joongna.com/product/234326367",
     "image": "https://img2.joongna.com/media/original/2026/11/24/17955112272003wa_4JWHB.jpg?impolicy=thumb&size=150",
     "images": [
@@ -3105,7 +3105,7 @@
       "https://img2.joongna.com/media/original/2026/11/24/1795511227479mwp_H6eiU.jpg",
       "https://img2.joongna.com/media/original/2026/11/24/1795511227600pa8_1L2VV.jpg"
     ],
-    "postedAt": "2026-11-25T23:35:54.000Z",
+    "postedAt": "2026-11-26T12:00:28.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3139,5 +3139,29 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-25T05:08:38.858Z"
+  },
+  {
+    "name": "풀윤활 리얼포스R2 TKL 저소음 토프레 무접점 블루그레이 키보드 싸게 드려요",
+    "price": 185000,
+    "url": "https://web.joongna.com/product/234385302",
+    "image": "https://img2.joongna.com/media/original/2026/11/26/1795694533809a5A_rjYke.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/11/26/1795694533809a5A_rjYke.jpg",
+      "https://img2.joongna.com/media/original/2026/11/26/1795694533980s8B_WxDHu.jpg",
+      "https://img2.joongna.com/media/original/2026/11/26/1795694534098yUs_Ow95t.jpg",
+      "https://img2.joongna.com/media/original/2026/11/26/1795694534243KpX_0Nmh5.jpg"
+    ],
+    "postedAt": "2026-11-26T12:02:14.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-26T14:35:32.243Z"
   }
 ]
