@@ -1609,7 +1609,7 @@
     "images": [
       "https://img2.joongna.com/media/original/2026/11/12/1794468649993ope_nPRBS.jpg"
     ],
-    "postedAt": "2026-11-25T04:17:06.000Z",
+    "postedAt": "2026-11-27T05:08:44.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2569,7 +2569,7 @@
   },
   {
     "name": "리얼포스 rc1",
-    "price": 220000,
+    "price": 210000,
     "url": "https://web.joongna.com/product/234194709",
     "image": "https://img2.joongna.com/media/original/2026/11/19/1795074448685eC5_k5jbQ.jpg?impolicy=thumb&size=150",
     "images": [
@@ -2578,7 +2578,7 @@
       "https://img2.joongna.com/media/original/2026/11/19/17950744489820sG_LqmDn.jpg",
       "https://img2.joongna.com/media/original/2026/11/19/17950748615599Os_4XwYh.jpg"
     ],
-    "postedAt": "2026-11-25T04:03:07.000Z",
+    "postedAt": "2026-11-27T05:51:44.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -2602,7 +2602,7 @@
       "https://img2.joongna.com/media/original/2026/11/20/1795176207865RAm_BU5aA.jpg",
       "https://img2.joongna.com/media/original/2026/11/20/1795176208015O44_XLYG1.jpg"
     ],
-    "postedAt": "2026-11-26T12:00:16.000Z",
+    "postedAt": "2026-11-27T12:24:50.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3104,7 +3104,7 @@
       "https://img2.joongna.com/media/original/2026/11/24/1795511227479mwp_H6eiU.jpg",
       "https://img2.joongna.com/media/original/2026/11/24/1795511227600pa8_1L2VV.jpg"
     ],
-    "postedAt": "2026-11-26T12:00:28.000Z",
+    "postedAt": "2026-11-27T12:24:54.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3150,7 +3150,7 @@
       "https://img2.joongna.com/media/original/2026/11/26/1795694534098yUs_Ow95t.jpg",
       "https://img2.joongna.com/media/original/2026/11/26/1795694534243KpX_0Nmh5.jpg"
     ],
-    "postedAt": "2026-11-26T12:02:14.000Z",
+    "postedAt": "2026-11-27T12:25:01.000Z",
     "market": "joongna",
     "marketName": "Joongna",
     "region": "korea",
@@ -3228,5 +3228,26 @@
       "리얼포스"
     ],
     "crawledAt": "2026-11-27T04:38:58.685Z"
+  },
+  {
+    "name": "리얼포스 r4 블루투스 풀배열 영문각인",
+    "price": 300000,
+    "url": "https://web.joongna.com/product/234406209",
+    "image": "https://img2.joongna.com/media/original/2026/11/27/1795768394392yB1_8quZg.jpg?impolicy=thumb&size=150",
+    "images": [
+      "https://img2.joongna.com/media/original/2026/11/27/1795768394392yB1_8quZg.jpg"
+    ],
+    "postedAt": "2026-11-27T08:33:14.000Z",
+    "market": "joongna",
+    "marketName": "Joongna",
+    "region": "korea",
+    "regionName": "Hàn Quốc",
+    "regionFlag": "🇰🇷",
+    "currency": "KRW",
+    "keywords": [
+      "realforce",
+      "리얼포스"
+    ],
+    "crawledAt": "2026-11-27T14:29:58.821Z"
   }
 ]
